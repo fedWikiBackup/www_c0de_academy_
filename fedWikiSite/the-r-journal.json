@@ -1,0 +1,274 @@
+{
+  "title": "The R Journal",
+  "journal": [
+    {
+      "date": 1545394820482,
+      "type": "create",
+      "item": {
+        "story": "",
+        "title": "The R Journal"
+      }
+    },
+    {
+      "type": "remove",
+      "id": "9d50e0fc-b0f4-4495-9642-a76dcc4f8ad3",
+      "date": 1545394845342,
+      "error": {
+        "type": "error",
+        "msg": "Not Found",
+        "response": "Page not found"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1545394937660
+    },
+    {
+      "type": "edit",
+      "id": "5b7e6fde-d467-47ba-be84-50504884faeb",
+      "item": {
+        "type": "markdown",
+        "id": "5b7e6fde-d467-47ba-be84-50504884faeb",
+        "text": "# News and Notes\nThe journal includes a ''News and Notes'' section that supersedes the ''R News'' newsletter, which was published from 2001 to 2008."
+      },
+      "date": 1545394964967
+    },
+    {
+      "type": "move",
+      "order": [
+        "8531dfb5-86c6-448f-a59a-d4308777ad25",
+        "381b4190-beae-4c76-ae33-4fb343d736c4",
+        "a2a37899-4591-44c7-ad8b-44c992593805",
+        "5b7e6fde-d467-47ba-be84-50504884faeb",
+        "a570d693-87dc-445a-94c6-110bb6c36391",
+        "d93dbd79-09e6-4340-9bae-6c38df517bea",
+        "65d9e1df-015a-452e-bb13-c68fc6394122",
+        "bdb6cd3f-41a5-49f4-b808-412b815bb23a",
+        "e6c90b51-71b9-4f1a-b9dc-62e91cf39f7e",
+        "17859353-a3c8-4fe3-9f36-05d41e61ed91",
+        "46d1b8dd-c85d-4dcd-a0db-587388dd176b",
+        "d1819090-577b-4d66-88b4-57d3d8db3df3",
+        "be64795b-a976-4cfd-8f0c-4e3c299738bd",
+        "c53d22ea-fee0-435b-ad59-5670905163e2",
+        "8bc56974-f9da-4951-b7cd-cf25d28cf8bd",
+        "a322dc71-64e3-4a89-a335-d1175472eee3"
+      ],
+      "id": "a2a37899-4591-44c7-ad8b-44c992593805",
+      "date": 1545394971928
+    },
+    {
+      "type": "remove",
+      "id": "a570d693-87dc-445a-94c6-110bb6c36391",
+      "date": 1545394982384
+    },
+    {
+      "type": "edit",
+      "id": "5b7e6fde-d467-47ba-be84-50504884faeb",
+      "item": {
+        "type": "markdown",
+        "id": "5b7e6fde-d467-47ba-be84-50504884faeb",
+        "text": "# News and Notes\n\nThe journal includes a ''News and Notes'' section that supersedes the ''R News'' newsletter, which was published from 2001 to 2008. It also published articles fore-shadowing new development directions for R."
+      },
+      "date": 1545394985855
+    },
+    {
+      "type": "edit",
+      "id": "d93dbd79-09e6-4340-9bae-6c38df517bea",
+      "item": {
+        "type": "markdown",
+        "id": "d93dbd79-09e6-4340-9bae-6c38df517bea",
+        "text": "# Features\n\n- The R Journal publishes short to medium length research articles."
+      },
+      "date": 1545395015788
+    },
+    {
+      "type": "remove",
+      "id": "65d9e1df-015a-452e-bb13-c68fc6394122",
+      "date": 1545395017897
+    },
+    {
+      "type": "edit",
+      "id": "d93dbd79-09e6-4340-9bae-6c38df517bea",
+      "item": {
+        "type": "markdown",
+        "id": "d93dbd79-09e6-4340-9bae-6c38df517bea",
+        "text": "# Features\n\n- The R Journal publishes short to medium length research articles.\n- Articles may describe innovations in the R system itself, new R software packages or statistical computing theory implemented in R."
+      },
+      "date": 1545395021128
+    },
+    {
+      "type": "remove",
+      "id": "bdb6cd3f-41a5-49f4-b808-412b815bb23a",
+      "date": 1545395022113
+    },
+    {
+      "type": "edit",
+      "id": "d93dbd79-09e6-4340-9bae-6c38df517bea",
+      "item": {
+        "type": "markdown",
+        "id": "d93dbd79-09e6-4340-9bae-6c38df517bea",
+        "text": "# Features\n\n- The R Journal publishes short to medium length research articles.\n- Articles may describe innovations in the R system itself, new R software packages or statistical computing theory implemented in R.\n- Articles in ''The R Journal'' are often the primary references for the associated packages, for example for the core grid graphics packages or for parallel processing."
+      },
+      "date": 1545395024922
+    },
+    {
+      "type": "remove",
+      "id": "e6c90b51-71b9-4f1a-b9dc-62e91cf39f7e",
+      "date": 1545395026018
+    },
+    {
+      "type": "edit",
+      "id": "d93dbd79-09e6-4340-9bae-6c38df517bea",
+      "item": {
+        "type": "markdown",
+        "id": "d93dbd79-09e6-4340-9bae-6c38df517bea",
+        "text": "# Features\n\n- The R Journal publishes short to medium length research articles.\n- Articles may describe innovations in the R system itself, new R software packages or statistical computing theory implemented in R.\n- Articles in ''The R Journal'' are often the primary references for the associated packages, for example for the core grid graphics packages or for parallel processing.\n- The journal also publishes articles on best-practice and innovation in modelling, for example in multivariate statistics or multi-level modelling."
+      },
+      "date": 1545395034593
+    },
+    {
+      "type": "remove",
+      "id": "17859353-a3c8-4fe3-9f36-05d41e61ed91",
+      "date": 1545395036474
+    },
+    {
+      "type": "edit",
+      "id": "d93dbd79-09e6-4340-9bae-6c38df517bea",
+      "item": {
+        "type": "markdown",
+        "id": "d93dbd79-09e6-4340-9bae-6c38df517bea",
+        "text": "# Features\n\n- The R Journal publishes short to medium length research articles.\n- Articles may describe innovations in the R system itself, new R software packages or statistical computing theory implemented in R.\n- Articles in ''The R Journal'' are often the primary references for the associated packages, for example for the core grid graphics packages or for parallel processing.\n- The journal also publishes articles on best-practice and innovation in modelling, for example in multivariate statistics or multi-level modelling.\n- A feature of the journal is the inclusion in articles of complete code by which readers can reproduce results and examples."
+      },
+      "date": 1545395054080
+    },
+    {
+      "type": "edit",
+      "id": "46d1b8dd-c85d-4dcd-a0db-587388dd176b",
+      "item": {
+        "type": "markdown",
+        "id": "46d1b8dd-c85d-4dcd-a0db-587388dd176b",
+        "text": "# Success\nThe journal is indexed in the [[ISI Web of Knowledge]]."
+      },
+      "date": 1545395060233
+    },
+    {
+      "type": "edit",
+      "id": "be64795b-a976-4cfd-8f0c-4e3c299738bd",
+      "item": {
+        "type": "markdown",
+        "id": "be64795b-a976-4cfd-8f0c-4e3c299738bd",
+        "text": "# Editorial\nThe editors of the Journal are appointed by the board of the R Foundation. Each editor in chief generally serves for one year and two issues."
+      },
+      "date": 1545395070593
+    },
+    {
+      "type": "remove",
+      "id": "8bc56974-f9da-4951-b7cd-cf25d28cf8bd",
+      "date": 1545395075201
+    },
+    {
+      "type": "remove",
+      "id": "a322dc71-64e3-4a89-a335-d1175472eee3",
+      "date": 1545395077080
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "046cded9-b560-449c-aa46-11817f07cd2c",
+        "text": "# See also"
+      },
+      "after": "c53d22ea-fee0-435b-ad59-5670905163e2",
+      "id": "046cded9-b560-449c-aa46-11817f07cd2c",
+      "date": 1545395087663
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "408ce77e-01db-41dc-9a16-5f75ee7549c9",
+        "text": "- [[Comparison of numerical analysis software]]\n- [[Comparison of statistical packages]]\n- [[List of numerical analysis software]]\n- [[List of statistical packages]]\n- [[Rmetrics]]\n- [[RStudio]]\n- [[Statcheck]]"
+      },
+      "after": "046cded9-b560-449c-aa46-11817f07cd2c",
+      "id": "408ce77e-01db-41dc-9a16-5f75ee7549c9",
+      "date": 1545395090093
+    },
+    {
+      "type": "edit",
+      "id": "408ce77e-01db-41dc-9a16-5f75ee7549c9",
+      "item": {
+        "type": "markdown",
+        "id": "408ce77e-01db-41dc-9a16-5f75ee7549c9",
+        "text": "- [[Rmetrics]]\n- [[RStudio]]\n- [[Statcheck]]"
+      },
+      "date": 1545395098593
+    },
+    {
+      "type": "edit",
+      "id": "408ce77e-01db-41dc-9a16-5f75ee7549c9",
+      "item": {
+        "type": "markdown",
+        "id": "408ce77e-01db-41dc-9a16-5f75ee7549c9",
+        "text": "- [[Rmetrics]]\n- [[RStudio]]\n- [[Statcheck]]\n- [[R (programming language)]]"
+      },
+      "date": 1545395116165
+    }
+  ],
+  "story": [
+    {
+      "type": "markdown",
+      "id": "8531dfb5-86c6-448f-a59a-d4308777ad25",
+      "text": "__''The R Journal__'' is an online, open-access, refereed journal published by The R Foundation since 2009 - [https://en.wikipedia.org/wiki/The_R_Journal wikipedia]"
+    },
+    {
+      "type": "markdown",
+      "id": "381b4190-beae-4c76-ae33-4fb343d736c4",
+      "text": "The journal publishes research articles in statistical computing that are of interest to users of the [[R (programming language)]]. The journal is entirely free: it does not charge authors for publication nor are there fees for subscription."
+    },
+    {
+      "type": "markdown",
+      "id": "a2a37899-4591-44c7-ad8b-44c992593805",
+      "text": "The journal serves a dual role as a research journal in statistical computing and as the official newsletter of the R Project. It publishes regular news updates about The R Foundation, the [[R (programming language)]] repository system and the [[Bioconductor]] project."
+    },
+    {
+      "type": "markdown",
+      "id": "5b7e6fde-d467-47ba-be84-50504884faeb",
+      "text": "# News and Notes\n\nThe journal includes a ''News and Notes'' section that supersedes the ''R News'' newsletter, which was published from 2001 to 2008. It also published articles fore-shadowing new development directions for R."
+    },
+    {
+      "type": "markdown",
+      "id": "d93dbd79-09e6-4340-9bae-6c38df517bea",
+      "text": "# Features\n\n- The R Journal publishes short to medium length research articles.\n- Articles may describe innovations in the R system itself, new R software packages or statistical computing theory implemented in R.\n- Articles in ''The R Journal'' are often the primary references for the associated packages, for example for the core grid graphics packages or for parallel processing.\n- The journal also publishes articles on best-practice and innovation in modelling, for example in multivariate statistics or multi-level modelling.\n- A feature of the journal is the inclusion in articles of complete code by which readers can reproduce results and examples."
+    },
+    {
+      "type": "markdown",
+      "id": "46d1b8dd-c85d-4dcd-a0db-587388dd176b",
+      "text": "# Success\nThe journal is indexed in the [[ISI Web of Knowledge]]."
+    },
+    {
+      "type": "markdown",
+      "id": "d1819090-577b-4d66-88b4-57d3d8db3df3",
+      "text": "Despite including many non-citable news articles, it had a 2016 [[impact factor]] of 1.075 and a 5-year IF of 2.114. In 2017 the journal was ranked 79th out of 105 journals in computer science and 55th out of 124 journals in statistics and probability. Google Scholar Metrics give the R Journal an h5-index of 18 and an h5-median of 38."
+    },
+    {
+      "type": "markdown",
+      "id": "be64795b-a976-4cfd-8f0c-4e3c299738bd",
+      "text": "# Editorial\nThe editors of the Journal are appointed by the board of the R Foundation. Each editor in chief generally serves for one year and two issues."
+    },
+    {
+      "type": "markdown",
+      "id": "c53d22ea-fee0-435b-ad59-5670905163e2",
+      "text": "Editors-in-chief have been Vince Carey (2009), Peter Dalgaard (2010), Heather Turner (2011), Martyn Plummer (2012), [[Hadley Wickham]] (2013), Deepayan Sarkar (2014), Bettina Grün (2015), Michael Lawrence (2016), Roger Bivand (2017) and John Verzani (2018)."
+    },
+    {
+      "type": "markdown",
+      "id": "046cded9-b560-449c-aa46-11817f07cd2c",
+      "text": "# See also"
+    },
+    {
+      "type": "markdown",
+      "id": "408ce77e-01db-41dc-9a16-5f75ee7549c9",
+      "text": "- [[Rmetrics]]\n- [[RStudio]]\n- [[Statcheck]]\n- [[R (programming language)]]"
+    }
+  ]
+}
