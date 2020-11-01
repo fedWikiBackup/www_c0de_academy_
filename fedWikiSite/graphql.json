@@ -1,0 +1,84 @@
+{
+  "title": "GraphQL",
+  "journal": [
+    {
+      "date": 1545388092029,
+      "type": "create",
+      "item": {
+        "story": "",
+        "title": "GraphQL"
+      }
+    },
+    {
+      "type": "remove",
+      "id": "399dabbc-a73b-4003-bbfb-8f2a401acf3a",
+      "date": 1545387996931,
+      "error": {
+        "type": "error",
+        "msg": "Not Found",
+        "response": "Page not found"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1545387998088
+    }
+  ],
+  "story": [
+    {
+      "type": "markdown",
+      "id": "00393d25-d05d-4975-8ff6-aded62cfab01",
+      "text": "__GraphQL__ is an open-source data [[query language]] and [[data manipulation language]] language for [[Application programming interface]], and a runtime for fulfilling queries with existing data. GraphQL was developed internally by [[Facebook]] in 2012 before being publicly released in 2015.  On 7 November 2018, the GraphQL project was moved from Facebook to the newly-established GraphQL foundation, hosted by the non-profit [[Linux Foundation]] - [https://en.wikipedia.org/wiki/GraphQL wikipedia]"
+    },
+    {
+      "type": "html",
+      "id": "51750f32-e63a-4e33-953f-d1d2805dc28b",
+      "text": "<div style='padding: 12px; background:#eee; width:96%; align=centered;'>\n<a href='https://commons.wikimedia.org/wiki/File:Visual_GraphQL_Editor.gif' target='_blank'>\n<img style='display:block; margin:auto; width:100%;'\nsrc='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Visual_GraphQL_Editor.gif/420px-Visual_GraphQL_Editor.gif'>\n</a>\n\n<p class=caption>\nnone\n- [https://commons.wikimedia.org/wiki/File:Visual_GraphQL_Editor.gif wikimedia.org]\n</p></div>"
+    },
+    {
+      "type": "markdown",
+      "id": "e60f2494-f32f-41b3-8f6b-4b951050e4aa",
+      "text": "It provides an efficient, powerful and flexible approach to developing web APIs, and has been compared and contrasted with [[REST]] and other [[web service]] architectures. It allows clients to define the structure of the data required, and exactly the same structure of the data is returned from the server, therefore preventing excessively large amounts of data from being returned, but this has implications for how effective [[Web cache]] of query results can be. The flexibility and richness of the query language also adds complexity that may not be worthwhile for simple APIs."
+    },
+    {
+      "type": "markdown",
+      "id": "e3a9efaa-84d4-42fa-89cf-8988ec1c2be2",
+      "text": "GraphQL supports reading, writing (mutating) and subscribing to changes to data (realtime updates)."
+    },
+    {
+      "type": "markdown",
+      "id": "a3194f69-96f5-4bef-a16c-0fc035fbe117",
+      "text": "Major GraphQL clients include Apollo Client and Relay. GraphQL servers are available for multiple languages, including Haskell, JavaScript, Python, Ruby, Java, C#, Scala, Go, Elixir, Erlang, PHP, R, and Clojure."
+    },
+    {
+      "type": "markdown",
+      "id": "ac8729ef-cf52-40dc-985d-1bf40f15276b",
+      "text": "GraphQL is easy to learn and strongly-typed query language. That allows developers and business managers to visualize their schemas using open source Visual GraphQL Editor."
+    },
+    {
+      "type": "markdown",
+      "id": "b9eeb014-c352-4670-a4bb-d0d4befb1b68",
+      "text": "On 9 February 2018, the GraphQL Schema Definition Language (SDL) was made part of the specification."
+    },
+    {
+      "type": "markdown",
+      "id": "65395f99-a743-456d-90a4-e9464e5b6036",
+      "text": "# Tools\n\nSearch for [[free culture]] images for this page on [https://www.google.com/search?as_st=y&tbm=isch&as_q=GraphQL&as_epq=&as_oq=&as_eq=&cr=&as_sitesearch=&safe=images&tbs=sur:fmc&gws_rd=ssl google]"
+    },
+    {
+      "type": "transport",
+      "id": "56e694e7-d385-461e-adb1-dfeee67128d9",
+      "text": "POST https://rest.livecode.world/imagine"
+    },
+    {
+      "type": "markdown",
+      "id": "e1b0b528-05d3-4d68-b97f-b63335dd95ee",
+      "text": "# See also"
+    },
+    {
+      "type": "markdown",
+      "id": "016b7d3d-5394-481c-ad0b-3e93b8c03f1e",
+      "text": "- [[Query by Example]]"
+    }
+  ]
+}
