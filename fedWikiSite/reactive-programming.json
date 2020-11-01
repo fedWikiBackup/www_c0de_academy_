@@ -1,0 +1,847 @@
+{
+  "title": "Reactive programming",
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "story": "",
+        "title": "Reactive programming"
+      },
+      "date": 1469871257414,
+      "source": {
+        "pageTitle": "Reactive programming",
+        "pageSlug": "Reactive programming",
+        "url": "https://en.wikipedia.org/wiki/Reactive_programming",
+        "date": 1469871257414,
+        "link_dictionary": {
+          "wiki_links": {
+            "See also": {
+              "section_number": 12,
+              "section_level": 2,
+              "dot_number": 3
+            },
+            "Approaches": {
+              "section_number": 8,
+              "section_level": 2,
+              "dot_number": 2
+            },
+            "External links": {
+              "section_number": 14,
+              "section_level": 2,
+              "dot_number": 5
+            },
+            "References": {
+              "section_number": 13,
+              "section_level": 2,
+              "dot_number": 4
+            },
+            "Concepts": {
+              "section_number": 1,
+              "section_level": 2,
+              "dot_number": 1
+            }
+          },
+          "default": {
+            "transport": "https://livecode.world/mediawiki/importSection"
+          }
+        },
+        "transport": "https://livecode.world/mediawiki/transportAgain",
+        "rev": 729141839,
+        "repo": "https://github.com/LiveCodeWorld/lib_MediaWiki"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1469871266985
+    },
+    {
+      "type": "remove",
+      "id": "c7ae58bb-8bbc-4478-a575-97e705313f03",
+      "date": 1469871278441
+    },
+    {
+      "type": "remove",
+      "id": "b481e3ff-f116-4636-b18a-fcfc916ad3fd",
+      "date": 1469871283665
+    },
+    {
+      "type": "remove",
+      "id": "80f01bf7-4e02-4ad4-99dc-1987cad6e527",
+      "date": 1469871286193
+    },
+    {
+      "type": "remove",
+      "id": "d7c061e2-3269-4676-af5c-4c78ac24c2c5",
+      "date": 1469871288625
+    },
+    {
+      "type": "remove",
+      "id": "6d84a076-60bc-48b7-9bb7-29719d52a2cb",
+      "date": 1469871290858
+    },
+    {
+      "type": "remove",
+      "id": "4f85a69c-448d-4c1f-9094-cb1e6847b5c1",
+      "date": 1469871293338
+    },
+    {
+      "type": "remove",
+      "id": "321abff8-13cd-456e-8bfe-316f03819f07",
+      "date": 1469871296346
+    },
+    {
+      "type": "remove",
+      "id": "f1adf003-484c-4fb6-b7a0-4d9a30c18266",
+      "date": 1469871298761
+    },
+    {
+      "type": "remove",
+      "id": "f8a63d67-9074-4b4c-8ba7-25a0cbaa41c2",
+      "date": 1469871301466
+    },
+    {
+      "type": "remove",
+      "id": "86799441-ebf4-4881-8da4-2c798946212a",
+      "date": 1469871306355
+    },
+    {
+      "type": "remove",
+      "id": "e5c0f390-695a-4800-a042-10bf7823a5fe",
+      "date": 1469871308994
+    },
+    {
+      "type": "remove",
+      "id": "56dffb96-5cab-49e8-9bec-5b39879a7bfd",
+      "date": 1469871310730
+    },
+    {
+      "type": "remove",
+      "id": "7862c312-5c4f-442a-abfa-fedd155194e6",
+      "date": 1469871312722
+    },
+    {
+      "type": "remove",
+      "id": "525c20f1-9014-43e3-8af7-d4cb0c8c08db",
+      "date": 1469871315034
+    },
+    {
+      "type": "remove",
+      "id": "98285198-f7b4-4326-b2be-c515645dd5b3",
+      "date": 1469871317523
+    },
+    {
+      "type": "remove",
+      "id": "c0e7c34d-9a57-47dc-bf7b-406950093292",
+      "date": 1469871319651
+    },
+    {
+      "type": "remove",
+      "id": "3b65a6eb-2cb3-4126-8292-c9c860a2221c",
+      "date": 1469871321418
+    },
+    {
+      "type": "remove",
+      "id": "7007156b-e1e6-4c9c-91c9-a333a82ddcf0",
+      "date": 1469871323227
+    },
+    {
+      "type": "remove",
+      "id": "5f5f1ceb-bea1-4467-915c-d4f5d43ae21e",
+      "date": 1469871324908
+    },
+    {
+      "type": "remove",
+      "id": "6cca5b9d-8af4-4d23-ba17-ea65c0086c31",
+      "date": 1469871326619
+    },
+    {
+      "type": "remove",
+      "id": "a6e4bee6-5bd9-4c72-9f6e-fe9da79c69fa",
+      "date": 1469871328883
+    },
+    {
+      "type": "remove",
+      "id": "621e8f93-581c-4b5a-ac49-954500c7ee54",
+      "date": 1469871330507
+    },
+    {
+      "type": "remove",
+      "id": "9072f6bb-bb25-48c4-80ac-e267d02c6202",
+      "date": 1469871332147
+    },
+    {
+      "type": "remove",
+      "id": "f9314de7-a93f-43ff-b71e-8030fb9c4a99",
+      "date": 1469871333979
+    },
+    {
+      "type": "remove",
+      "id": "595f79e3-345b-4f52-9c48-b67f0fc7c995",
+      "date": 1469871335947
+    },
+    {
+      "type": "remove",
+      "id": "d0b63aa4-d8fe-4465-b954-7d5992a52dac",
+      "date": 1469871337963
+    },
+    {
+      "type": "remove",
+      "id": "f578e623-61d3-412c-bee9-15ab7c7e0b49",
+      "date": 1469871339723
+    },
+    {
+      "type": "remove",
+      "id": "17957a73-3196-4897-917e-06033b39d3fd",
+      "date": 1469871341451
+    },
+    {
+      "type": "remove",
+      "id": "aec02c7f-3c42-4122-8d60-17f77360aad8",
+      "date": 1469871343507
+    },
+    {
+      "type": "edit",
+      "id": "66838022-e795-451a-a031-9c210e99fda7",
+      "item": {
+        "type": "markdown",
+        "id": "66838022-e795-451a-a031-9c210e99fda7",
+        "text": "# See also\n\n* [[Concepts]]\n* [[Approaches]]\n* [[See also]]\n* [[References]]\n* [[External links]]\n* Introduction to Reactive Programming"
+      },
+      "date": 1469871435700
+    },
+    {
+      "type": "edit",
+      "id": "66838022-e795-451a-a031-9c210e99fda7",
+      "item": {
+        "type": "markdown",
+        "id": "66838022-e795-451a-a031-9c210e99fda7",
+        "text": "# See also\n\n* [[Concepts]]\n* [[Approaches]]\n* [[See also]]\n* [[References]]\n* [[External links]]\n* Introduction to Reactive Programming - [https://gist.github.com/staltz/868e7e9bc2a7b8c1f754 github]"
+      },
+      "date": 1469871452378
+    },
+    {
+      "type": "edit",
+      "id": "66838022-e795-451a-a031-9c210e99fda7",
+      "item": {
+        "type": "markdown",
+        "id": "66838022-e795-451a-a031-9c210e99fda7",
+        "text": "# See also\n\n* [[Concepts]]\n* [[Approaches]]\n* [[See also]]\n* [[References]]\n* [[External links]]\n* Introduction to Reactive Programming - [https://gist.github.com/staltz/868e7e9bc2a7b8c1f754 github]\n* [http://reactivex.io/ reactivex.io]"
+      },
+      "date": 1469871496628
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "27c293bd4727d01b"
+      },
+      "id": "27c293bd4727d01b",
+      "type": "add",
+      "after": "66838022-e795-451a-a031-9c210e99fda7",
+      "date": 1469871946606
+    },
+    {
+      "type": "edit",
+      "id": "27c293bd4727d01b",
+      "item": {
+        "type": "reference",
+        "id": "27c293bd4727d01b",
+        "site": "wiki.parliamentofthings.org",
+        "slug": "bret-victor",
+        "title": "Bret Victor",
+        "text": "Bret Victor worked at Apple (2007-2010) as a member of the “HID Proto” future-interface prototyping team, designing UI concepts for experimental hardware platforms."
+      },
+      "date": 1469871963728
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "a10ffeb8-44cd-4428-8b22-cfb61efd3cda",
+        "text": "# See also\n\n\n"
+      },
+      "after": "27c293bd4727d01b",
+      "id": "a10ffeb8-44cd-4428-8b22-cfb61efd3cda",
+      "date": 1550998703670
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "184098f494286c76",
+        "text": "- [[Imperative programming]]\n- [[Procedural programming]]\n- [[Object-oriented programming]]\n- [[Declarative programming]]\n- [[Functional programming]]\n- [[Reactive programming]]\n- [[Logic programming]]\n- [[Programming paradigm]]\n\n"
+      },
+      "after": "a10ffeb8-44cd-4428-8b22-cfb61efd3cda",
+      "id": "184098f494286c76",
+      "date": 1550998711944
+    },
+    {
+      "type": "edit",
+      "id": "66838022-e795-451a-a031-9c210e99fda7",
+      "item": {
+        "type": "markdown",
+        "id": "66838022-e795-451a-a031-9c210e99fda7",
+        "text": "- Introduction to Reactive Programming - [https://gist.github.com/staltz/868e7e9bc2a7b8c1f754 github]\n- [http://reactivex.io/ reactivex.io]"
+      },
+      "date": 1550998728777
+    },
+    {
+      "type": "move",
+      "order": [
+        "62c497df-f2e0-4f29-babf-0622cfd0f6cb",
+        "e1f1e6fc-70e5-4887-9b16-f23cd876b4ed",
+        "7bc391b2-f370-4866-a2f6-80e2a85268b1",
+        "a4b8c420-91d7-4003-804e-455fa7724918",
+        "1a11aed0-e059-4a27-add3-534aafd697aa",
+        "66838022-e795-451a-a031-9c210e99fda7",
+        "a10ffeb8-44cd-4428-8b22-cfb61efd3cda",
+        "27c293bd4727d01b",
+        "76ee1fb082fc81aa"
+      ],
+      "id": "27c293bd4727d01b",
+      "date": 1550998731189,
+      "error": {
+        "type": "error",
+        "msg": "Internal Server Error",
+        "response": "Server Ignoring move. Try reload."
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1550998733172
+    },
+    {
+      "type": "move",
+      "order": [
+        "62c497df-f2e0-4f29-babf-0622cfd0f6cb",
+        "e1f1e6fc-70e5-4887-9b16-f23cd876b4ed",
+        "7bc391b2-f370-4866-a2f6-80e2a85268b1",
+        "a4b8c420-91d7-4003-804e-455fa7724918",
+        "1a11aed0-e059-4a27-add3-534aafd697aa",
+        "a10ffeb8-44cd-4428-8b22-cfb61efd3cda",
+        "27c293bd4727d01b",
+        "66838022-e795-451a-a031-9c210e99fda7",
+        "76ee1fb082fc81aa"
+      ],
+      "id": "66838022-e795-451a-a031-9c210e99fda7",
+      "date": 1550998736818,
+      "error": {
+        "type": "error",
+        "msg": "Internal Server Error",
+        "response": "Server Ignoring move. Try reload."
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1550998738683
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "48c23315-f186-4dcd-9a92-f8d904e8c3ca",
+        "text": "Another example is a [[hardware description language]] such as [[Verilog]], where reactive programming enables changes to be modeled as they propagate through circuits."
+      },
+      "after": "7bc391b2-f370-4866-a2f6-80e2a85268b1",
+      "id": "48c23315-f186-4dcd-9a92-f8d904e8c3ca",
+      "date": 1550998791569
+    },
+    {
+      "type": "remove",
+      "id": "7bc391b2-f370-4866-a2f6-80e2a85268b1",
+      "date": 1550998794005
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "ded2adec-96ef-4b0c-9f12-b94b1cb0390c",
+        "text": "For example, in a [[model–view–controller]] (MVC) architecture, reactive programming can facilitate changes in an underlying ''model'' that are reflected automatically in an associated ''view''."
+      },
+      "after": "a4b8c420-91d7-4003-804e-455fa7724918",
+      "id": "ded2adec-96ef-4b0c-9f12-b94b1cb0390c",
+      "date": 1550998800438
+    },
+    {
+      "type": "remove",
+      "id": "1a11aed0-e059-4a27-add3-534aafd697aa",
+      "date": 1550998803118
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "9e42a218-47ab-4711-8593-757a643c2d2c",
+        "text": "# Sections"
+      },
+      "after": "ded2adec-96ef-4b0c-9f12-b94b1cb0390c",
+      "id": "9e42a218-47ab-4711-8593-757a643c2d2c",
+      "date": 1550998815645
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "html",
+        "id": "a3dd6a05-5cac-4b8a-b02e-12933a527644",
+        "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Approaches to creating reactive programming languages'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Reactive programming&action=edit&section=1'>\n<input type=submit value=create></form>"
+      },
+      "after": "9e42a218-47ab-4711-8593-757a643c2d2c",
+      "id": "a3dd6a05-5cac-4b8a-b02e-12933a527644",
+      "date": 1550998823524
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "html",
+        "id": "fdc42eaa-1160-4714-a114-0c1415871fde",
+        "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Programming models and semantics'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Reactive programming&action=edit&section=2'>\n<input type=submit value=create></form>"
+      },
+      "after": "a3dd6a05-5cac-4b8a-b02e-12933a527644",
+      "id": "fdc42eaa-1160-4714-a114-0c1415871fde",
+      "date": 1550998832669
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "html",
+        "id": "b3335341-825d-44f9-9448-64881f8de09c",
+        "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Implementation techniques and challenges'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Reactive programming&action=edit&section=3'>\n<input type=submit value=create></form>"
+      },
+      "after": "fdc42eaa-1160-4714-a114-0c1415871fde",
+      "id": "b3335341-825d-44f9-9448-64881f8de09c",
+      "date": 1550998836334
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "html",
+        "id": "7fbd79ae-ae13-41f2-b6b7-1fe7ef45d14f",
+        "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Concepts'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Reactive programming&action=edit&section=12'>\n<input type=submit value=create></form>"
+      },
+      "after": "b3335341-825d-44f9-9448-64881f8de09c",
+      "id": "7fbd79ae-ae13-41f2-b6b7-1fe7ef45d14f",
+      "date": 1550998841535
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "html",
+        "id": "5a6b24c7-f55a-4a78-9acd-3921373229ed",
+        "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Approaches'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Reactive programming&action=edit&section=19'>\n<input type=submit value=create></form>"
+      },
+      "after": "7fbd79ae-ae13-41f2-b6b7-1fe7ef45d14f",
+      "id": "5a6b24c7-f55a-4a78-9acd-3921373229ed",
+      "date": 1550998847861
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "html",
+        "id": "3ec19661-e25d-4412-a445-9cb30603b4f3",
+        "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Examples'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Reactive programming&action=edit&section=23'>\n<input type=submit value=create></form>"
+      },
+      "after": "5a6b24c7-f55a-4a78-9acd-3921373229ed",
+      "id": "3ec19661-e25d-4412-a445-9cb30603b4f3",
+      "date": 1550998850744
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "7b99cbb1-0201-42bd-906e-0b6f3f516474",
+        "text": "# Spreadsheets"
+      },
+      "after": "ded2adec-96ef-4b0c-9f12-b94b1cb0390c",
+      "id": "7b99cbb1-0201-42bd-906e-0b6f3f516474",
+      "date": 1550998895691
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "6edccbc1-4009-4570-9f8d-ea02de586b83",
+        "text": "A modern [[spreadsheet]] is often cited as an example of reactive programming. This is problematic because the unqualified term \"spreadsheet\" may refer to either - [https://en.wikipedia.org/wiki/Reactive_programming#Spreadsheets wikipedia]"
+      },
+      "after": "7b99cbb1-0201-42bd-906e-0b6f3f516474",
+      "id": "6edccbc1-4009-4570-9f8d-ea02de586b83",
+      "date": 1550998898243
+    },
+    {
+      "type": "remove",
+      "id": "3ec19661-e25d-4412-a445-9cb30603b4f3",
+      "date": 1550998914149
+    },
+    {
+      "type": "remove",
+      "id": "6edccbc1-4009-4570-9f8d-ea02de586b83",
+      "date": 1550998945518
+    },
+    {
+      "type": "remove",
+      "id": "7b99cbb1-0201-42bd-906e-0b6f3f516474",
+      "date": 1550998947542
+    },
+    {
+      "type": "edit",
+      "id": "e1f1e6fc-70e5-4887-9b16-f23cd876b4ed",
+      "item": {
+        "type": "paragraph",
+        "id": "e1f1e6fc-70e5-4887-9b16-f23cd876b4ed",
+        "text": "A modern [[spreadsheet]] program is an example of reactive programming. Spreadsheet cells can contain literal values, or formulas such as \"=B1+C1\" that are evaluated based on the current value of other cells. Whenever the value of the other cells change, the value of the cell containing the formula is automatically updated."
+      },
+      "date": 1550998955943
+    },
+    {
+      "type": "remove",
+      "id": "5a6b24c7-f55a-4a78-9acd-3921373229ed",
+      "date": 1550999023608
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "cc5b391f-b280-47ca-a642-dfd34b792df0",
+        "text": "# Degrees of explicitness"
+      },
+      "after": "ded2adec-96ef-4b0c-9f12-b94b1cb0390c",
+      "id": "cc5b391f-b280-47ca-a642-dfd34b792df0",
+      "date": 1550999055555
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "353c0ffe-1c10-4f5e-8383-4c2ccab36e6c",
+        "text": "Reactive programming languages can range from very explicit ones where data flows are set up by using arrows, to implicit where the data flows are derived from language constructs that look similar to those of imperative or functional programming. For example, in implicitly lifted [[functional reactive programming]] (FRP) a function call might implicitly cause a node in a data flow graph to be constructed.  Reactive programming libraries for dynamic languages (such as the Lisp \"Cells\" and Python \"Trellis\" libraries) can construct a dependency graph from runtime analysis of the values read during a function's execution, allowing data flow specifications to be both implicit and dynamic - [https://en.wikipedia.org/wiki/Reactive_programming#Degrees_of_explicitness wikipedia]"
+      },
+      "after": "cc5b391f-b280-47ca-a642-dfd34b792df0",
+      "id": "353c0ffe-1c10-4f5e-8383-4c2ccab36e6c",
+      "date": 1550999062575
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "7972717a-a8c4-44d4-a849-5725b32c6f2f",
+        "text": "Sometimes the term ''reactive programming'' refers to the architectural level of software engineering, where individual nodes in the data flow graph are ordinary programs that communicate with each other."
+      },
+      "after": "353c0ffe-1c10-4f5e-8383-4c2ccab36e6c",
+      "id": "7972717a-a8c4-44d4-a849-5725b32c6f2f",
+      "date": 1550999065999
+    },
+    {
+      "type": "edit",
+      "id": "353c0ffe-1c10-4f5e-8383-4c2ccab36e6c",
+      "item": {
+        "type": "markdown",
+        "id": "353c0ffe-1c10-4f5e-8383-4c2ccab36e6c",
+        "text": "Reactive programming languages can range from very explicit ones where data flows are set up by using arrows, to implicit where the data flows are derived from language constructs that look similar to those of imperative or functional programming. \n"
+      },
+      "date": 1550999077786
+    },
+    {
+      "type": "add",
+      "id": "d4eab7e8b75e60d6",
+      "item": {
+        "type": "markdown",
+        "id": "d4eab7e8b75e60d6",
+        "text": "For example, in implicitly lifted [[functional reactive programming]] (FRP) a function call might implicitly cause a node in a data flow graph to be constructed.  \n"
+      },
+      "after": "353c0ffe-1c10-4f5e-8383-4c2ccab36e6c",
+      "date": 1550999089020
+    },
+    {
+      "type": "add",
+      "id": "334ec987e4ee23c6",
+      "item": {
+        "type": "markdown",
+        "id": "334ec987e4ee23c6",
+        "text": "Reactive programming libraries for dynamic languages (such as the Lisp \"Cells\" and Python \"Trellis\" libraries) can construct a dependency graph from runtime analysis of the values read during a function's execution, allowing data flow specifications to be both implicit and dynamic - [https://en.wikipedia.org/wiki/Reactive_programming#Degrees_of_explicitness wikipedia]"
+      },
+      "after": "d4eab7e8b75e60d6",
+      "date": 1550999102488
+    },
+    {
+      "type": "remove",
+      "id": "7972717a-a8c4-44d4-a849-5725b32c6f2f",
+      "date": 1550999108710
+    },
+    {
+      "type": "remove",
+      "id": "7fbd79ae-ae13-41f2-b6b7-1fe7ef45d14f",
+      "date": 1550999176632
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "3d20dd18-c779-4eac-847f-c302c76f6232",
+        "text": "# Essence of implementations"
+      },
+      "after": "334ec987e4ee23c6",
+      "id": "3d20dd18-c779-4eac-847f-c302c76f6232",
+      "date": 1550999205408
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "5c8e21eb-6b0f-4cca-8d24-af3436d29369",
+        "text": "Reactive programming language runtimes are represented by a graph which identifies the dependencies among the involved reactive values. In such a graph, ''nodes'' represent the act of computing and ''edges'' model dependency relationships. Such a runtime employs said graph, to help it keep track of the various computations, which must be executed anew, once an involved input changes value - [https://en.wikipedia.org/wiki/Reactive_programming#Essence_of_implementations wikipedia]"
+      },
+      "after": "334ec987e4ee23c6",
+      "id": "5c8e21eb-6b0f-4cca-8d24-af3436d29369",
+      "date": 1550999208707
+    },
+    {
+      "type": "move",
+      "order": [
+        "62c497df-f2e0-4f29-babf-0622cfd0f6cb",
+        "e1f1e6fc-70e5-4887-9b16-f23cd876b4ed",
+        "48c23315-f186-4dcd-9a92-f8d904e8c3ca",
+        "a4b8c420-91d7-4003-804e-455fa7724918",
+        "ded2adec-96ef-4b0c-9f12-b94b1cb0390c",
+        "cc5b391f-b280-47ca-a642-dfd34b792df0",
+        "353c0ffe-1c10-4f5e-8383-4c2ccab36e6c",
+        "d4eab7e8b75e60d6",
+        "334ec987e4ee23c6",
+        "3d20dd18-c779-4eac-847f-c302c76f6232",
+        "5c8e21eb-6b0f-4cca-8d24-af3436d29369",
+        "9e42a218-47ab-4711-8593-757a643c2d2c",
+        "a3dd6a05-5cac-4b8a-b02e-12933a527644",
+        "fdc42eaa-1160-4714-a114-0c1415871fde",
+        "b3335341-825d-44f9-9448-64881f8de09c",
+        "a10ffeb8-44cd-4428-8b22-cfb61efd3cda",
+        "27c293bd4727d01b",
+        "66838022-e795-451a-a031-9c210e99fda7",
+        "184098f494286c76"
+      ],
+      "id": "3d20dd18-c779-4eac-847f-c302c76f6232",
+      "date": 1550999210585
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "html",
+        "id": "ddb49ee2-82f3-42c0-8caa-9f0d8e9a13e6",
+        "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Change propagation algorithms'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Reactive programming&action=edit&section=5'>\n<input type=submit value=create></form>"
+      },
+      "after": "5c8e21eb-6b0f-4cca-8d24-af3436d29369",
+      "id": "ddb49ee2-82f3-42c0-8caa-9f0d8e9a13e6",
+      "date": 1550999213807
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "html",
+        "id": "0adc749e-753d-4ad0-a4c8-805dd98edfd1",
+        "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='What to push?'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Reactive programming&action=edit&section=6'>\n<input type=submit value=create></form>"
+      },
+      "after": "ddb49ee2-82f3-42c0-8caa-9f0d8e9a13e6",
+      "id": "0adc749e-753d-4ad0-a4c8-805dd98edfd1",
+      "date": 1550999217348
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "html",
+        "id": "e781f93d-e0a3-4ef4-b26b-bdec8051bccd",
+        "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Implementation challenges in reactive programming'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Reactive programming&action=edit&section=7'>\n<input type=submit value=create></form>"
+      },
+      "after": "0adc749e-753d-4ad0-a4c8-805dd98edfd1",
+      "id": "e781f93d-e0a3-4ef4-b26b-bdec8051bccd",
+      "date": 1550999234699
+    },
+    {
+      "type": "remove",
+      "id": "b3335341-825d-44f9-9448-64881f8de09c",
+      "date": 1550999245610
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "2f41f9d9-b95c-4b4b-b8cf-e61e93eecb58",
+        "text": "# Programming models and semantics"
+      },
+      "after": "334ec987e4ee23c6",
+      "id": "2f41f9d9-b95c-4b4b-b8cf-e61e93eecb58",
+      "date": 1550999260671
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "0f39cdff-8542-4104-86f7-f1fe85c8df7f",
+        "text": "A variety of models and semantics govern the family of reactive programming. We can loosely split them along the following dimensions - [https://en.wikipedia.org/wiki/Reactive_programming#Programming_models_and_semantics wikipedia]"
+      },
+      "after": "2f41f9d9-b95c-4b4b-b8cf-e61e93eecb58",
+      "id": "0f39cdff-8542-4104-86f7-f1fe85c8df7f",
+      "date": 1550999262366
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "e6878067-10ec-4aee-b100-cd50e8963881",
+        "text": "-  Synchrony: is the underlying model of time synchronous versus asynchronous?\n-  Determinism: Deterministic versus non-deterministic in both evaluation process and results\n-  Update process: callbacks versus dataflow versus actors"
+      },
+      "after": "0f39cdff-8542-4104-86f7-f1fe85c8df7f",
+      "id": "e6878067-10ec-4aee-b100-cd50e8963881",
+      "date": 1550999264468
+    },
+    {
+      "type": "remove",
+      "id": "fdc42eaa-1160-4714-a114-0c1415871fde",
+      "date": 1550999273516
+    },
+    {
+      "type": "remove",
+      "id": "9e42a218-47ab-4711-8593-757a643c2d2c",
+      "date": 1550999327665
+    },
+    {
+      "type": "move",
+      "order": [
+        "62c497df-f2e0-4f29-babf-0622cfd0f6cb",
+        "e1f1e6fc-70e5-4887-9b16-f23cd876b4ed",
+        "48c23315-f186-4dcd-9a92-f8d904e8c3ca",
+        "a4b8c420-91d7-4003-804e-455fa7724918",
+        "ded2adec-96ef-4b0c-9f12-b94b1cb0390c",
+        "cc5b391f-b280-47ca-a642-dfd34b792df0",
+        "353c0ffe-1c10-4f5e-8383-4c2ccab36e6c",
+        "d4eab7e8b75e60d6",
+        "334ec987e4ee23c6",
+        "2f41f9d9-b95c-4b4b-b8cf-e61e93eecb58",
+        "0f39cdff-8542-4104-86f7-f1fe85c8df7f",
+        "e6878067-10ec-4aee-b100-cd50e8963881",
+        "3d20dd18-c779-4eac-847f-c302c76f6232",
+        "5c8e21eb-6b0f-4cca-8d24-af3436d29369",
+        "a3dd6a05-5cac-4b8a-b02e-12933a527644",
+        "ddb49ee2-82f3-42c0-8caa-9f0d8e9a13e6",
+        "0adc749e-753d-4ad0-a4c8-805dd98edfd1",
+        "e781f93d-e0a3-4ef4-b26b-bdec8051bccd",
+        "a10ffeb8-44cd-4428-8b22-cfb61efd3cda",
+        "27c293bd4727d01b",
+        "66838022-e795-451a-a031-9c210e99fda7",
+        "184098f494286c76"
+      ],
+      "id": "a3dd6a05-5cac-4b8a-b02e-12933a527644",
+      "date": 1550999330536
+    }
+  ],
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "62c497df-f2e0-4f29-babf-0622cfd0f6cb",
+      "text": "In computing, reactive programming is a programming paradigm oriented around data flows and the propagation of change. This means that it should be possible to express static or dynamic data flows with ease in the programming languages used, and that the underlying execution model will automatically propagate changes through the data flow - [https://en.wikipedia.org/wiki/Reactive_programming wikipedia]"
+    },
+    {
+      "type": "paragraph",
+      "id": "e1f1e6fc-70e5-4887-9b16-f23cd876b4ed",
+      "text": "A modern [[spreadsheet]] program is an example of reactive programming. Spreadsheet cells can contain literal values, or formulas such as \"=B1+C1\" that are evaluated based on the current value of other cells. Whenever the value of the other cells change, the value of the cell containing the formula is automatically updated."
+    },
+    {
+      "type": "markdown",
+      "id": "48c23315-f186-4dcd-9a92-f8d904e8c3ca",
+      "text": "Another example is a [[hardware description language]] such as [[Verilog]], where reactive programming enables changes to be modeled as they propagate through circuits."
+    },
+    {
+      "type": "paragraph",
+      "id": "a4b8c420-91d7-4003-804e-455fa7724918",
+      "text": "Reactive programming has foremost been proposed as a way to simplify the creation of interactive user interfaces, animations in real time systems, but is essentially a general programming paradigm."
+    },
+    {
+      "type": "markdown",
+      "id": "ded2adec-96ef-4b0c-9f12-b94b1cb0390c",
+      "text": "For example, in a [[model–view–controller]] (MVC) architecture, reactive programming can facilitate changes in an underlying ''model'' that are reflected automatically in an associated ''view''."
+    },
+    {
+      "type": "markdown",
+      "id": "cc5b391f-b280-47ca-a642-dfd34b792df0",
+      "text": "# Degrees of explicitness"
+    },
+    {
+      "type": "markdown",
+      "id": "353c0ffe-1c10-4f5e-8383-4c2ccab36e6c",
+      "text": "Reactive programming languages can range from very explicit ones where data flows are set up by using arrows, to implicit where the data flows are derived from language constructs that look similar to those of imperative or functional programming. \n"
+    },
+    {
+      "type": "markdown",
+      "id": "d4eab7e8b75e60d6",
+      "text": "For example, in implicitly lifted [[functional reactive programming]] (FRP) a function call might implicitly cause a node in a data flow graph to be constructed.  \n"
+    },
+    {
+      "type": "markdown",
+      "id": "334ec987e4ee23c6",
+      "text": "Reactive programming libraries for dynamic languages (such as the Lisp \"Cells\" and Python \"Trellis\" libraries) can construct a dependency graph from runtime analysis of the values read during a function's execution, allowing data flow specifications to be both implicit and dynamic - [https://en.wikipedia.org/wiki/Reactive_programming#Degrees_of_explicitness wikipedia]"
+    },
+    {
+      "type": "markdown",
+      "id": "2f41f9d9-b95c-4b4b-b8cf-e61e93eecb58",
+      "text": "# Programming models and semantics"
+    },
+    {
+      "type": "markdown",
+      "id": "0f39cdff-8542-4104-86f7-f1fe85c8df7f",
+      "text": "A variety of models and semantics govern the family of reactive programming. We can loosely split them along the following dimensions - [https://en.wikipedia.org/wiki/Reactive_programming#Programming_models_and_semantics wikipedia]"
+    },
+    {
+      "type": "markdown",
+      "id": "e6878067-10ec-4aee-b100-cd50e8963881",
+      "text": "-  Synchrony: is the underlying model of time synchronous versus asynchronous?\n-  Determinism: Deterministic versus non-deterministic in both evaluation process and results\n-  Update process: callbacks versus dataflow versus actors"
+    },
+    {
+      "type": "markdown",
+      "id": "3d20dd18-c779-4eac-847f-c302c76f6232",
+      "text": "# Essence of implementations"
+    },
+    {
+      "type": "markdown",
+      "id": "5c8e21eb-6b0f-4cca-8d24-af3436d29369",
+      "text": "Reactive programming language runtimes are represented by a graph which identifies the dependencies among the involved reactive values. In such a graph, ''nodes'' represent the act of computing and ''edges'' model dependency relationships. Such a runtime employs said graph, to help it keep track of the various computations, which must be executed anew, once an involved input changes value - [https://en.wikipedia.org/wiki/Reactive_programming#Essence_of_implementations wikipedia]"
+    },
+    {
+      "type": "html",
+      "id": "a3dd6a05-5cac-4b8a-b02e-12933a527644",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Approaches to creating reactive programming languages'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Reactive programming&action=edit&section=1'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "ddb49ee2-82f3-42c0-8caa-9f0d8e9a13e6",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Change propagation algorithms'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Reactive programming&action=edit&section=5'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "0adc749e-753d-4ad0-a4c8-805dd98edfd1",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='What to push?'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Reactive programming&action=edit&section=6'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "e781f93d-e0a3-4ef4-b26b-bdec8051bccd",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Implementation challenges in reactive programming'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Reactive programming&action=edit&section=7'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "markdown",
+      "id": "a10ffeb8-44cd-4428-8b22-cfb61efd3cda",
+      "text": "# See also\n\n\n"
+    },
+    {
+      "type": "reference",
+      "id": "27c293bd4727d01b",
+      "site": "wiki.parliamentofthings.org",
+      "slug": "bret-victor",
+      "title": "Bret Victor",
+      "text": "Bret Victor worked at Apple (2007-2010) as a member of the “HID Proto” future-interface prototyping team, designing UI concepts for experimental hardware platforms."
+    },
+    {
+      "type": "markdown",
+      "id": "66838022-e795-451a-a031-9c210e99fda7",
+      "text": "- Introduction to Reactive Programming - [https://gist.github.com/staltz/868e7e9bc2a7b8c1f754 github]\n- [http://reactivex.io/ reactivex.io]"
+    },
+    {
+      "type": "markdown",
+      "id": "184098f494286c76",
+      "text": "- [[Imperative programming]]\n- [[Procedural programming]]\n- [[Object-oriented programming]]\n- [[Declarative programming]]\n- [[Functional programming]]\n- [[Reactive programming]]\n- [[Logic programming]]\n- [[Programming paradigm]]\n\n"
+    }
+  ]
+}
