@@ -1,0 +1,219 @@
+{
+  "title": "DNS root",
+  "story": [
+    {
+      "type": "markdown",
+      "id": "92fa25b6-3340-42ab-9077-a3315cdfca99",
+      "text": "Domain names are organized in subordinate levels (subdomains) of the [[DNS root]] domain, which is nameless.\n"
+    },
+    {
+      "type": "html",
+      "id": "7a062f82-2a8f-4bde-a1f5-4d5ed1b5ce3c",
+      "text": "<div style='padding: 12px; background:#eee; width:96%; align=centered;'>\n<a href='https://commons.wikimedia.org/wiki/File:DNS_schema.svg' target='_blank'>\n<img style='display:block; margin:auto; width:100%;'\nsrc='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/DNS_schema.svg/420px-DNS_schema.svg.png'>\n</a>\n\n<p class=caption>\n350px\n- [https://commons.wikimedia.org/wiki/File:DNS_schema.svg wikimedia]\n</p></div>"
+    },
+    {
+      "type": "markdown",
+      "id": "896565b1-8eb4-4fca-a0ad-36d1197bf0b0",
+      "text": "The DNS root domain is unnamed which is expressed by having an empty label in the DNS hierarchy, resulting in a fully qualified domain name ending with the top-level domain. However, in some cases the full stop (period) character is required at the end of the fully qualified domain name."
+    },
+    {
+      "type": "markdown",
+      "id": "15a3d31c-1103-4047-b11d-ff5e5e09b1bb",
+      "text": "The DNS root is essentially equivalent to the [[DNS root zone]], which is served by thirteen root server clusters which are authoritative for queries to the [[top-level domain]]s of the Internet. \n"
+    },
+    {
+      "type": "markdown",
+      "id": "5e80cded1e11625d",
+      "text": "Thus, every name resolution either starts with a query to a root server or uses information that was once obtained from a root server, which is therefore essential for the functioning of the entire DNS system - [https://en.wikipedia.org/wiki/DNS_root_zone#Initialization_of_DNS_service wikipedia]"
+    },
+    {
+      "type": "markdown",
+      "id": "b1358e1051e094a7",
+      "text": "The first-level set of domain names are the [[top-level domain]]s (TLDs), including the [[generic top-level domain]]s (gTLDs), such as the prominent domains [[.com]], [[.info]], [[.net]], [[.edu]], and [[.org]], and the [[country code top-level domain]]s (ccTLDs). \n"
+    },
+    {
+      "type": "markdown",
+      "id": "ba3e7285-0913-4af5-878b-fae3c77780dc",
+      "text": "# See also"
+    },
+    {
+      "type": "markdown",
+      "id": "7055bea1309029f1",
+      "text": "- [[Domain name]]\n- [[DNS zone]]\n- [[DNS root zone]]\n- [[Domain propagation]]\n- [[Domain Name System]]\n- [[Domain Name Tools]]\n"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "DNS root",
+        "story": []
+      },
+      "date": 1550655838510
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "92fa25b6-3340-42ab-9077-a3315cdfca99",
+        "text": "Domain names are organized in subordinate levels (subdomains) of the [[DNS root]] domain, which is nameless. The first-level set of domain names are the [[top-level domain]]s (TLDs), including the [[generic top-level domain]]s (gTLDs), such as the prominent domains [[.com]], [[.info]], [[.net]], [[.edu]], and [[.org]], and the [[country code top-level domain]]s (ccTLDs). \n"
+      },
+      "id": "92fa25b6-3340-42ab-9077-a3315cdfca99",
+      "date": 1550655861038
+    },
+    {
+      "type": "edit",
+      "id": "92fa25b6-3340-42ab-9077-a3315cdfca99",
+      "item": {
+        "type": "markdown",
+        "id": "92fa25b6-3340-42ab-9077-a3315cdfca99",
+        "text": "Domain names are organized in subordinate levels (subdomains) of the [[DNS root]] domain, which is nameless. \n"
+      },
+      "date": 1550655872067
+    },
+    {
+      "type": "add",
+      "id": "b1358e1051e094a7",
+      "item": {
+        "type": "markdown",
+        "id": "b1358e1051e094a7",
+        "text": "The first-level set of domain names are the [[top-level domain]]s (TLDs), including the [[generic top-level domain]]s (gTLDs), such as the prominent domains [[.com]], [[.info]], [[.net]], [[.edu]], and [[.org]], and the [[country code top-level domain]]s (ccTLDs). \n"
+      },
+      "after": "92fa25b6-3340-42ab-9077-a3315cdfca99",
+      "date": 1550655882078
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "html",
+        "id": "7a062f82-2a8f-4bde-a1f5-4d5ed1b5ce3c",
+        "text": "<div style='padding: 12px; background:#eee; width:96%; align=centered;'>\n<a href='https://commons.wikimedia.org/wiki/File:DNS_schema.svg' target='_blank'>\n<img style='display:block; margin:auto; width:100%;'\nsrc='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/DNS_schema.svg/420px-DNS_schema.svg.png'>\n</a>\n\n<p class=caption>\n350px\n- [https://commons.wikimedia.org/wiki/File:DNS_schema.svg wikimedia]\n</p></div>"
+      },
+      "after": "92fa25b6-3340-42ab-9077-a3315cdfca99",
+      "id": "7a062f82-2a8f-4bde-a1f5-4d5ed1b5ce3c",
+      "date": 1550655887351
+    },
+    {
+      "type": "edit",
+      "id": "92fa25b6-3340-42ab-9077-a3315cdfca99",
+      "item": {
+        "type": "markdown",
+        "id": "92fa25b6-3340-42ab-9077-a3315cdfca99",
+        "text": "Domain names are organized in subordinate levels (subdomains) of the [[DNS root]] domain, which is nameless.\n"
+      },
+      "date": 1550655902252
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "15a3d31c-1103-4047-b11d-ff5e5e09b1bb",
+        "text": "The DNS root zone is served by thirteen root server clusters which are authoritative for queries to the [[top-level domain]]s of the Internet. Thus, every name resolution either starts with a query to a root server or uses information that was once obtained from a root server - [https://en.wikipedia.org/wiki/DNS_root_zone#Initialization_of_DNS_service wikipedia]"
+      },
+      "after": "92fa25b6-3340-42ab-9077-a3315cdfca99",
+      "id": "15a3d31c-1103-4047-b11d-ff5e5e09b1bb",
+      "date": 1550655949295
+    },
+    {
+      "type": "edit",
+      "id": "15a3d31c-1103-4047-b11d-ff5e5e09b1bb",
+      "item": {
+        "type": "markdown",
+        "id": "15a3d31c-1103-4047-b11d-ff5e5e09b1bb",
+        "text": "The DNS root is essentially equivalent to the [[DNS root zone]], which is served by thirteen root server clusters which are authoritative for queries to the [[top-level domain]]s of the Internet. Thus, every name resolution either starts with a query to a root server or uses information that was once obtained from a root server, which is therefore essential for the functioning of the entire DNS system - [https://en.wikipedia.org/wiki/DNS_root_zone#Initialization_of_DNS_service wikipedia]"
+      },
+      "date": 1550656000115
+    },
+    {
+      "type": "edit",
+      "id": "15a3d31c-1103-4047-b11d-ff5e5e09b1bb",
+      "item": {
+        "type": "markdown",
+        "id": "15a3d31c-1103-4047-b11d-ff5e5e09b1bb",
+        "text": "The DNS root is essentially equivalent to the [[DNS root zone]], which is served by thirteen root server clusters which are authoritative for queries to the [[top-level domain]]s of the Internet. \n"
+      },
+      "date": 1550656005289
+    },
+    {
+      "type": "add",
+      "id": "5e80cded1e11625d",
+      "item": {
+        "type": "markdown",
+        "id": "5e80cded1e11625d",
+        "text": "Thus, every name resolution either starts with a query to a root server or uses information that was once obtained from a root server, which is therefore essential for the functioning of the entire DNS system - [https://en.wikipedia.org/wiki/DNS_root_zone#Initialization_of_DNS_service wikipedia]"
+      },
+      "after": "15a3d31c-1103-4047-b11d-ff5e5e09b1bb",
+      "date": 1550656005714
+    },
+    {
+      "type": "move",
+      "order": [
+        "92fa25b6-3340-42ab-9077-a3315cdfca99",
+        "7a062f82-2a8f-4bde-a1f5-4d5ed1b5ce3c",
+        "15a3d31c-1103-4047-b11d-ff5e5e09b1bb",
+        "5e80cded1e11625d",
+        "b1358e1051e094a7"
+      ],
+      "id": "7a062f82-2a8f-4bde-a1f5-4d5ed1b5ce3c",
+      "date": 1550656008819
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "ba3e7285-0913-4af5-878b-fae3c77780dc",
+        "text": "# See also"
+      },
+      "after": "b1358e1051e094a7",
+      "id": "ba3e7285-0913-4af5-878b-fae3c77780dc",
+      "date": 1550656014331
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "7055bea1309029f1",
+        "text": "- [[Domain name]]\n- [[DNS zone]]\n- [[DNS root zone]]\n- [[Domain propagation]]\n- [[Domain Name System]]\n- [[Domain Name Tools]]\n"
+      },
+      "after": "ba3e7285-0913-4af5-878b-fae3c77780dc",
+      "id": "7055bea1309029f1",
+      "date": 1550656018613
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "896565b1-8eb4-4fca-a0ad-36d1197bf0b0",
+        "text": "The DNS [[root domain]] is unnamed which is expressed by having an empty label in the DNS hierarchy, resulting in a fully qualified domain name ending with the top-level domain. However, in some cases the full stop (period) character is required at the end of the fully qualified domain name."
+      },
+      "after": "15a3d31c-1103-4047-b11d-ff5e5e09b1bb",
+      "id": "896565b1-8eb4-4fca-a0ad-36d1197bf0b0",
+      "date": 1550656576990
+    },
+    {
+      "type": "move",
+      "order": [
+        "92fa25b6-3340-42ab-9077-a3315cdfca99",
+        "7a062f82-2a8f-4bde-a1f5-4d5ed1b5ce3c",
+        "896565b1-8eb4-4fca-a0ad-36d1197bf0b0",
+        "15a3d31c-1103-4047-b11d-ff5e5e09b1bb",
+        "5e80cded1e11625d",
+        "b1358e1051e094a7",
+        "ba3e7285-0913-4af5-878b-fae3c77780dc",
+        "7055bea1309029f1"
+      ],
+      "id": "896565b1-8eb4-4fca-a0ad-36d1197bf0b0",
+      "date": 1550656591712
+    },
+    {
+      "type": "edit",
+      "id": "896565b1-8eb4-4fca-a0ad-36d1197bf0b0",
+      "item": {
+        "type": "markdown",
+        "id": "896565b1-8eb4-4fca-a0ad-36d1197bf0b0",
+        "text": "The DNS root domain is unnamed which is expressed by having an empty label in the DNS hierarchy, resulting in a fully qualified domain name ending with the top-level domain. However, in some cases the full stop (period) character is required at the end of the fully qualified domain name."
+      },
+      "date": 1550656616544
+    }
+  ]
+}
