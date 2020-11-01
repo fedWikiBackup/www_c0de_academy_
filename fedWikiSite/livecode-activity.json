@@ -1,0 +1,272 @@
+{
+  "title": "Livecode Activity",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "2581edca1c3a105d",
+      "text": "Here we list all the sites we know of in the federation that concentrate mainly on [[LiveCode Sites]]. We also provide other views of activity that you might find useful:"
+    },
+    {
+      "type": "markdown",
+      "id": "f2e58789948ca8a6",
+      "text": "- [[Livecode Index]]\n- [[All Livecode Activity]]\n"
+    },
+    {
+      "type": "markdown",
+      "id": "248583e6ef513c7d",
+      "text": "# Activity in the previous 4 weeks"
+    },
+    {
+      "type": "activity",
+      "id": "e9e9f102158e1382",
+      "text": "ROSTER Livecode Sites\nCONVERSATION\nSINCE 4 weeks"
+    },
+    {
+      "type": "markdown",
+      "id": "f2a49f9a13b9cf30",
+      "text": "# Roster"
+    },
+    {
+      "type": "roster",
+      "id": "1bea8572d71395ba",
+      "text": "Livecode Sites\n\nROSTER rest.livecode.world/livecode"
+    },
+    {
+      "type": "markdown",
+      "id": "33b93ba133b346b1",
+      "text": "- [[C0de Activity]]\n- [[Livecode Activity]]\n- [[Fedwiki Activity]]\n\n"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Livecode Activity",
+        "story": []
+      },
+      "date": 1547722988507
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "2581edca1c3a105d",
+        "text": "Here we list all the sites we know of in the federation that concentrate mainly on [[LiveCode Sites]]:"
+      },
+      "id": "2581edca1c3a105d",
+      "date": 1547722993116
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "activity",
+        "id": "e9e9f102158e1382",
+        "text": "ROSTER Livecode Sites\nCONVERSATION "
+      },
+      "id": "e9e9f102158e1382",
+      "date": 1547722999847
+    },
+    {
+      "type": "edit",
+      "id": "e9e9f102158e1382",
+      "item": {
+        "type": "activity",
+        "id": "e9e9f102158e1382",
+        "text": "ROSTER Livecode Sites\nCONVERSATION\nSINCE 4 weeks"
+      },
+      "date": 1547723072077
+    },
+    {
+      "type": "move",
+      "order": [
+        "2581edca1c3a105d",
+        "e9e9f102158e1382"
+      ],
+      "id": "2581edca1c3a105d",
+      "date": 1547723083703
+    },
+    {
+      "type": "edit",
+      "id": "2581edca1c3a105d",
+      "item": {
+        "type": "paragraph",
+        "id": "2581edca1c3a105d",
+        "text": "Here we list all the sites we know of in the federation that concentrate mainly on [[LiveCode Sites]]. We also provide other views of activity that you might find useful:"
+      },
+      "date": 1547723160287
+    },
+    {
+      "type": "add",
+      "id": "f2e58789948ca8a6",
+      "item": {
+        "type": "paragraph",
+        "id": "f2e58789948ca8a6",
+        "text": "- [[Livecode Index]]"
+      },
+      "after": "2581edca1c3a105d",
+      "date": 1547723179713
+    },
+    {
+      "type": "edit",
+      "id": "f2e58789948ca8a6",
+      "item": {
+        "type": "markdown",
+        "id": "f2e58789948ca8a6",
+        "text": "- [[Livecode Index]]"
+      },
+      "date": 1547723181064
+    },
+    {
+      "type": "edit",
+      "id": "f2e58789948ca8a6",
+      "item": {
+        "type": "markdown",
+        "id": "f2e58789948ca8a6",
+        "text": "- [[Livecode Index]]\n- [[All Livecode Activity]]"
+      },
+      "date": 1547723219251
+    },
+    {
+      "type": "edit",
+      "id": "f2e58789948ca8a6",
+      "item": {
+        "type": "markdown",
+        "id": "f2e58789948ca8a6",
+        "text": "- [[Livecode Index]]\n- [[All Livecode Activity]]\n"
+      },
+      "date": 1547723227767
+    },
+    {
+      "type": "add",
+      "id": "248583e6ef513c7d",
+      "item": {
+        "type": "markdown",
+        "id": "248583e6ef513c7d",
+        "text": "Below is teh activity for the last 4 weeks:"
+      },
+      "after": "f2e58789948ca8a6",
+      "date": 1547723236437
+    },
+    {
+      "type": "edit",
+      "id": "248583e6ef513c7d",
+      "item": {
+        "type": "markdown",
+        "id": "248583e6ef513c7d",
+        "text": "# Last 4 weeks"
+      },
+      "date": 1547723248485
+    },
+    {
+      "type": "edit",
+      "id": "248583e6ef513c7d",
+      "item": {
+        "type": "markdown",
+        "id": "248583e6ef513c7d",
+        "text": "# Activity in the previous 4 weeks"
+      },
+      "date": 1547723263932
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "roster",
+        "id": "1bea8572d71395ba",
+        "text": "Livecode Sites\n\nROSTER rest.livecode.world/livecode"
+      },
+      "after": "e9e9f102158e1382",
+      "id": "1bea8572d71395ba",
+      "date": 1547768229149
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "f2a49f9a13b9cf30"
+      },
+      "id": "f2a49f9a13b9cf30",
+      "type": "add",
+      "after": "3e6bf1601567c11f",
+      "date": 1547768232667
+    },
+    {
+      "type": "edit",
+      "id": "f2a49f9a13b9cf30",
+      "item": {
+        "type": "markdown",
+        "id": "f2a49f9a13b9cf30",
+        "text": "# Roster"
+      },
+      "date": 1547768240862
+    },
+    {
+      "type": "move",
+      "order": [
+        "2581edca1c3a105d",
+        "f2e58789948ca8a6",
+        "248583e6ef513c7d",
+        "e9e9f102158e1382",
+        "f2a49f9a13b9cf30",
+        "1bea8572d71395ba"
+      ],
+      "id": "f2a49f9a13b9cf30",
+      "date": 1547768243296
+    },
+    {
+      "type": "fork",
+      "site": "livecode.world",
+      "date": 1547903613593
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "0e2cc856c8560663"
+      },
+      "id": "0e2cc856c8560663",
+      "type": "add",
+      "after": "1bea8572d71395ba",
+      "date": 1547903674491
+    },
+    {
+      "type": "edit",
+      "id": "0e2cc856c8560663",
+      "item": {
+        "type": "markdown",
+        "id": "0e2cc856c8560663",
+        "text": "# See also\n"
+      },
+      "date": 1547903685280
+    },
+    {
+      "type": "add",
+      "id": "741f5cb21287dfbe",
+      "item": {
+        "type": "markdown",
+        "id": "741f5cb21287dfbe",
+        "text": "- [[C0de Activity]]"
+      },
+      "after": "0e2cc856c8560663",
+      "date": 1547903692486
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "33b93ba133b346b1",
+        "text": "- [[C0de Activity]]\n- [[Livecode Activity]]\n- [[Fedwiki Activity]]\n\n"
+      },
+      "after": "0e2cc856c8560663",
+      "id": "33b93ba133b346b1",
+      "date": 1547903855486
+    },
+    {
+      "type": "remove",
+      "id": "741f5cb21287dfbe",
+      "date": 1547903859029
+    },
+    {
+      "type": "remove",
+      "id": "0e2cc856c8560663",
+      "date": 1547903871084
+    }
+  ]
+}
