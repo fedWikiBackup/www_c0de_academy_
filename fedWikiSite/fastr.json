@@ -1,0 +1,372 @@
+{
+  "title": "FastR",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "16dae34b214c62de",
+      "text": "[[FastR]] is a [[GraalVM]] based implementation of the [[R (programming language)]] that provides significant improvements in the performance of R code, the embedding of the R execution engine into [[Java]] applications, and the ability to interface with other GraalVM and [[JVM]] languages including [[Python]], [[Java]], and [[Scala]]. FastR is also able to utilize the tooling support provided by the GraalVM ecosystem - [https://medium.com/graalvm/faster-r-with-fastr-4b8db0e0dceb medium]"
+    },
+    {
+      "type": "markdown",
+      "id": "4788be0ebbbcd18a",
+      "text": "- FastR on [https://github.com/oracle/fastr github]"
+    },
+    {
+      "type": "video",
+      "id": "7a2e5bd9-bda3-4af4-9681-46978e3c6636",
+      "text": "YOUTUBE ONNRWOTvtgw\nThe 2018 talk will present interesting ways how R and Python can be combined into a polyglot application running on GraalVM, for example using R package from Python or vice versa, and briefly explain how this interoperability works on the technical level."
+    },
+    {
+      "type": "paragraph",
+      "id": "4c31fcf9-e782-40a2-a092-5ee40edec790",
+      "text": "GraalVM is a multi-language runtime that allows to run and combine multiple programming languages in one process and operating on the same data without the need to copy the data when crossing language boundaries. Moreover, the dynamic just-in-time compiler included in GraalVM is capable of applying optimizations across the languages boundaries. "
+    },
+    {
+      "type": "paragraph",
+      "id": "b17abebe6b9ac1cf",
+      "text": "The languages implemented on top of GraalVM include FastR, an alternative R implementation, C, Ruby, JavaScript, and GraalPython."
+    },
+    {
+      "type": "markdown",
+      "id": "9fb2f3b13b86a645",
+      "text": "FastR currently works with many of the popular R packages, such as\n\n- ggplot2\n- jsonlite\n- testthat\n- assertthat\n- knitr\n- Shiny\n- Rcpp\n- rJava\n- quantmod\n- and more…"
+    },
+    {
+      "type": "markdown",
+      "id": "ca982e615ccae2ca",
+      "text": "# Compatibility with GNU-R\n"
+    },
+    {
+      "type": "markdown",
+      "id": "0ef1288f6c7c4287",
+      "text": "The goal of FastR is to be a drop-in replacement for GNU-R, the reference implementation of the R language. So far, FastR is capable of running binary R packages built for GNU-R as long as those packages properly use the R extensions C API. \n"
+    },
+    {
+      "type": "html",
+      "id": "9e7cb55b-c76b-40f2-af42-172a060c53cf",
+      "text": "<div style='padding: 12px; background:#eee; width:96%; align=centered;'>\n<a href='https://cdn-images-1.medium.com/max/800/1*qB7Fkmy_bTn50tNCTqQGHg.png' target='_blank'>\n<img style='display:block; margin:auto; width:100%;'\nsrc='https://cdn-images-1.medium.com/max/800/1*qB7Fkmy_bTn50tNCTqQGHg.png'>\n</a>\n\n<p class=caption>\nThis is an image\n- [https://cdn-images-1.medium.com/max/800/1*qB7Fkmy_bTn50tNCTqQGHg.png medium.com]\n</p></div>"
+    },
+    {
+      "type": "markdown",
+      "id": "3c58bdb29737d2ba",
+      "text": "However, for best results, it is recommended to install R packages from source. FastR supports R graphics via the grid package and packages based on grid (lattice and ggplot2). We are currently working towards support for the base graphics package.\n"
+    },
+    {
+      "type": "markdown",
+      "id": "5505e037-901c-42c3-8032-efe61b6349f4",
+      "text": "# See also"
+    },
+    {
+      "type": "markdown",
+      "id": "76127eaf44610493",
+      "text": "- [[GraalVM]]\n- [[WebAssembly]]\n- [[Polyglot Virtual Machine]]\n- [[Polyglot programming]]\n- [[Polyglot (computing)]]\n- [[Polyglot Webservice Hosting]]\n- [[Transpiler]]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "FastR",
+        "story": []
+      },
+      "date": 1545414998996
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "ca982e615ccae2ca"
+      },
+      "id": "ca982e615ccae2ca",
+      "type": "add",
+      "date": 1545415000240
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "16dae34b214c62de",
+        "text": "[[FastR]] is a [[GraalVM]] based implementation of the [[R (programming language)]] that provides significant improvements in the performance of R code, the embedding of the R execution engine into [[Java]] applications, and the ability to interface with other GraalVM and [[JVM]] languages including [[Python]], [[Java]], and [[Scala]]. FastR is also able to utilize the tooling support provided by the GraalVM ecosystem - [https://medium.com/graalvm/faster-r-with-fastr-4b8db0e0dceb medium]"
+      },
+      "id": "16dae34b214c62de",
+      "date": 1545415033386
+    },
+    {
+      "type": "edit",
+      "id": "ca982e615ccae2ca",
+      "item": {
+        "type": "markdown",
+        "id": "ca982e615ccae2ca",
+        "text": "# Compatibility with GNU-R\n"
+      },
+      "date": 1545415075354
+    },
+    {
+      "type": "add",
+      "id": "0ef1288f6c7c4287",
+      "item": {
+        "type": "markdown",
+        "id": "0ef1288f6c7c4287",
+        "text": "The goal of FastR is to be a drop-in replacement for GNU-R, the reference implementation of the R language. So far, FastR is capable of running binary R packages built for GNU-R as long as those packages properly use the R extensions C API. However, for best results, it is recommended to install R packages from source. FastR supports R graphics via the grid package and packages based on grid (lattice and ggplot2). We are currently working towards support for the base graphics package.\n"
+      },
+      "after": "ca982e615ccae2ca",
+      "date": 1545415090505
+    },
+    {
+      "type": "add",
+      "id": "9fb2f3b13b86a645",
+      "item": {
+        "type": "markdown",
+        "id": "9fb2f3b13b86a645",
+        "text": "FastR currently works with many of the popular R packages, such as\n\n- ggplot2\n- jsonlite\n- testthat\n- assertthat\n- knitr\n- Shiny\n- Rcpp\n- rJava\n- quantmod\n- and more…"
+      },
+      "after": "0ef1288f6c7c4287",
+      "date": 1545415120607
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "html",
+        "id": "9e7cb55b-c76b-40f2-af42-172a060c53cf",
+        "text": "<div style='padding: 12px; background:#eee; width:96%; align=centered;'>\n<a href='https://cdn-images-1.medium.com/max/800/1*qB7Fkmy_bTn50tNCTqQGHg.png' target='_blank'>\n<img style='display:block; margin:auto; width:100%;'\nsrc='https://cdn-images-1.medium.com/max/800/1*qB7Fkmy_bTn50tNCTqQGHg.png'>\n</a>\n\n<p class=caption>\nThis is an image\n- [https://cdn-images-1.medium.com/max/800/1*qB7Fkmy_bTn50tNCTqQGHg.png medium.com]\n</p></div>"
+      },
+      "after": "16dae34b214c62de",
+      "id": "9e7cb55b-c76b-40f2-af42-172a060c53cf",
+      "date": 1545415253387
+    },
+    {
+      "type": "move",
+      "order": [
+        "16dae34b214c62de",
+        "ca982e615ccae2ca",
+        "0ef1288f6c7c4287",
+        "9e7cb55b-c76b-40f2-af42-172a060c53cf",
+        "9fb2f3b13b86a645"
+      ],
+      "id": "9e7cb55b-c76b-40f2-af42-172a060c53cf",
+      "date": 1545415287522
+    },
+    {
+      "type": "move",
+      "order": [
+        "16dae34b214c62de",
+        "9fb2f3b13b86a645",
+        "ca982e615ccae2ca",
+        "0ef1288f6c7c4287",
+        "9e7cb55b-c76b-40f2-af42-172a060c53cf"
+      ],
+      "id": "9fb2f3b13b86a645",
+      "date": 1545415294759
+    },
+    {
+      "type": "edit",
+      "id": "0ef1288f6c7c4287",
+      "item": {
+        "type": "markdown",
+        "id": "0ef1288f6c7c4287",
+        "text": "The goal of FastR is to be a drop-in replacement for GNU-R, the reference implementation of the R language. So far, FastR is capable of running binary R packages built for GNU-R as long as those packages properly use the R extensions C API. \n"
+      },
+      "date": 1545415311549
+    },
+    {
+      "type": "add",
+      "id": "3c58bdb29737d2ba",
+      "item": {
+        "type": "markdown",
+        "id": "3c58bdb29737d2ba",
+        "text": "However, for best results, it is recommended to install R packages from source. FastR supports R graphics via the grid package and packages based on grid (lattice and ggplot2). We are currently working towards support for the base graphics package.\n"
+      },
+      "after": "0ef1288f6c7c4287",
+      "date": 1545415312808
+    },
+    {
+      "type": "move",
+      "order": [
+        "16dae34b214c62de",
+        "9fb2f3b13b86a645",
+        "ca982e615ccae2ca",
+        "0ef1288f6c7c4287",
+        "9e7cb55b-c76b-40f2-af42-172a060c53cf",
+        "3c58bdb29737d2ba"
+      ],
+      "id": "3c58bdb29737d2ba",
+      "date": 1545415315570
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "5505e037-901c-42c3-8032-efe61b6349f4",
+        "text": "# See also"
+      },
+      "after": "3c58bdb29737d2ba",
+      "id": "5505e037-901c-42c3-8032-efe61b6349f4",
+      "date": 1545415330359
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "76127eaf44610493",
+        "text": "- [[GraalVM]]\n- GraalVM code on [https://github.com/oracle/graal github]\n- Polyglot VM - [https://www.graalvm.org/docs/reference-manual/polyglot/ graalvm.org]\n- Embed languages - [https://www.graalvm.org/docs/graalvm-as-a-platform/embed/#build-a-shell-for-many-languages graalvm.org]\n- Graalvm on [https://twitter.com/graalvm?lang=en twitter]"
+      },
+      "after": "3c58bdb29737d2ba",
+      "id": "76127eaf44610493",
+      "date": 1545415335479
+    },
+    {
+      "type": "move",
+      "order": [
+        "16dae34b214c62de",
+        "9fb2f3b13b86a645",
+        "ca982e615ccae2ca",
+        "0ef1288f6c7c4287",
+        "9e7cb55b-c76b-40f2-af42-172a060c53cf",
+        "3c58bdb29737d2ba",
+        "5505e037-901c-42c3-8032-efe61b6349f4",
+        "76127eaf44610493"
+      ],
+      "id": "5505e037-901c-42c3-8032-efe61b6349f4",
+      "date": 1545415337197
+    },
+    {
+      "type": "edit",
+      "id": "76127eaf44610493",
+      "item": {
+        "type": "markdown",
+        "id": "76127eaf44610493",
+        "text": "- [[GraalVM]]"
+      },
+      "date": 1545415346423
+    },
+    {
+      "type": "edit",
+      "id": "76127eaf44610493",
+      "item": {
+        "type": "markdown",
+        "id": "76127eaf44610493",
+        "text": "- [[GraalVM]]\n- [[Polyglot Virtual Machine]]"
+      },
+      "date": 1545415378860
+    },
+    {
+      "type": "edit",
+      "id": "76127eaf44610493",
+      "item": {
+        "type": "markdown",
+        "id": "76127eaf44610493",
+        "text": "- [[GraalVM]]\n- [[Polyglot Virtual Machine]]\n- [[WebAssembly]]"
+      },
+      "date": 1545415390779
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "629dc45fb39168cf",
+        "text": "- [[Polyglot programming]]\n- [[Polyglot (computing)]]\n- [[Polyglot Webservice Hosting]]\n- [[polyglot.fed.wiki.org]]\n- [[Vert.x]]\n- [[Transpiler]]"
+      },
+      "after": "76127eaf44610493",
+      "id": "629dc45fb39168cf",
+      "date": 1545415397969
+    },
+    {
+      "type": "remove",
+      "id": "629dc45fb39168cf",
+      "date": 1545415427709
+    },
+    {
+      "type": "edit",
+      "id": "76127eaf44610493",
+      "item": {
+        "type": "markdown",
+        "id": "76127eaf44610493",
+        "text": "- [[GraalVM]]\n- [[WebAssembly]]\n- [[Polyglot Virtual Machine]]\n- [[Polyglot programming]]\n- [[Polyglot (computing)]]\n- [[Polyglot Webservice Hosting]]\n- [[Transpiler]]"
+      },
+      "date": 1545415436679
+    },
+    {
+      "type": "add",
+      "id": "4788be0ebbbcd18a",
+      "item": {
+        "type": "paragraph",
+        "id": "4788be0ebbbcd18a",
+        "text": "- [https://github.com/oracle/fastr github]"
+      },
+      "after": "16dae34b214c62de",
+      "date": 1545415518189
+    },
+    {
+      "type": "edit",
+      "id": "4788be0ebbbcd18a",
+      "item": {
+        "type": "paragraph",
+        "id": "4788be0ebbbcd18a",
+        "text": "- FastR on [https://github.com/oracle/fastr github]"
+      },
+      "date": 1545415525575
+    },
+    {
+      "type": "edit",
+      "id": "4788be0ebbbcd18a",
+      "item": {
+        "type": "markdown",
+        "id": "4788be0ebbbcd18a",
+        "text": "- FastR on [https://github.com/oracle/fastr github]"
+      },
+      "date": 1545415526704
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "video",
+        "id": "7a2e5bd9-bda3-4af4-9681-46978e3c6636",
+        "text": "YOUTUBE ONNRWOTvtgw\n[[Combining R and Python with GraalVM]]. Broadcast on 14 Jul 2018."
+      },
+      "after": "4788be0ebbbcd18a",
+      "id": "7a2e5bd9-bda3-4af4-9681-46978e3c6636",
+      "date": 1551549499112
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "4c31fcf9-e782-40a2-a092-5ee40edec790",
+        "text": "GraalVM is a multi-language runtime that allows to run and combine multiple programming languages in one process and operating on the same data without the need to copy the data when crossing language boundaries. Moreover, the dynamic just-in-time compiler included in GraalVM is capable of applying optimizations across the languages boundaries. The languages implemented on top of GraalVM include FastR, an alternative R implementation, C, Ruby, JavaScript, and recently added GraalPython.The talk will present interesting ways how R and Python can be combined into a polyglot application running on GraalVM, for example using R package from Python or vice versa, and briefly explain how this interoperability works on the technical level. One of the most important parts of a language ecosystem is tooling and especially interactive debugger. The talk will also present how one can debug multiple GraalVM languages at the same time in the Google Chrome Dev Tools, for instance stepping from R into C code."
+      },
+      "after": "7a2e5bd9-bda3-4af4-9681-46978e3c6636",
+      "id": "4c31fcf9-e782-40a2-a092-5ee40edec790",
+      "date": 1551549516761
+    },
+    {
+      "type": "edit",
+      "id": "4c31fcf9-e782-40a2-a092-5ee40edec790",
+      "item": {
+        "type": "paragraph",
+        "id": "4c31fcf9-e782-40a2-a092-5ee40edec790",
+        "text": "GraalVM is a multi-language runtime that allows to run and combine multiple programming languages in one process and operating on the same data without the need to copy the data when crossing language boundaries. Moreover, the dynamic just-in-time compiler included in GraalVM is capable of applying optimizations across the languages boundaries. "
+      },
+      "date": 1551549539249
+    },
+    {
+      "type": "add",
+      "id": "b17abebe6b9ac1cf",
+      "item": {
+        "type": "paragraph",
+        "id": "b17abebe6b9ac1cf",
+        "text": "The languages implemented on top of GraalVM include FastR, an alternative R implementation, C, Ruby, JavaScript, and GraalPython."
+      },
+      "after": "4c31fcf9-e782-40a2-a092-5ee40edec790",
+      "date": 1551549557944
+    },
+    {
+      "type": "edit",
+      "id": "7a2e5bd9-bda3-4af4-9681-46978e3c6636",
+      "item": {
+        "type": "video",
+        "id": "7a2e5bd9-bda3-4af4-9681-46978e3c6636",
+        "text": "YOUTUBE ONNRWOTvtgw\nThe 2018 talk will present interesting ways how R and Python can be combined into a polyglot application running on GraalVM, for example using R package from Python or vice versa, and briefly explain how this interoperability works on the technical level."
+      },
+      "date": 1551549599868
+    }
+  ]
+}
