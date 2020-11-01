@@ -1,0 +1,134 @@
+{
+  "title": "JSON Minefield",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "5ad337c27297bc08",
+      "text": "JSON is the de facto standard for exchanging data in web and mobile programming. But how well do we really know it? I'll show that it is not the easy, idealised format as many do believe. Indeed, I did not find two libraries that exhibit the same behaviour. [http://seriot.ch/parsing_json.php post]"
+    },
+    {
+      "type": "html",
+      "id": "280a96d8708b4c53",
+      "text": "<img width=100% src=http://seriot.ch/json/json_business_card.png>"
+    },
+    {
+      "type": "paragraph",
+      "id": "8cea62a3aa043416",
+      "text": "\"Discovered\" in 2001 by Douglas Crockford, JSON specification is so short and simple that he created business cards with the whole grammar on their back."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "JSON Minefield",
+        "story": []
+      },
+      "date": 1524434632048
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "5ad337c27297bc08"
+      },
+      "id": "5ad337c27297bc08",
+      "type": "add",
+      "date": 1524434660246
+    },
+    {
+      "type": "edit",
+      "id": "5ad337c27297bc08",
+      "item": {
+        "type": "paragraph",
+        "id": "5ad337c27297bc08",
+        "text": "JSON is the de facto standard when it comes to exchanging data in web and mobile programming. But how well do you really know JSON? We'll test common JSON libraries against test cases. I'll show that JSON is not the easy, idealised format as many do believe. Indeed, I did not find two libraries that exhibit the very same behaviour."
+      },
+      "date": 1524434749657
+    },
+    {
+      "type": "edit",
+      "id": "5ad337c27297bc08",
+      "item": {
+        "type": "paragraph",
+        "id": "5ad337c27297bc08",
+        "text": "JSON is the de facto standard when it comes to exchanging data in web and mobile programming. But how well do you really know JSON? I'll show that it is not the easy, idealised format as many do believe. Indeed, I did not find two libraries that exhibit the very same behaviour."
+      },
+      "date": 1524434782739
+    },
+    {
+      "type": "edit",
+      "id": "5ad337c27297bc08",
+      "item": {
+        "type": "paragraph",
+        "id": "5ad337c27297bc08",
+        "text": "JSON is the de facto standard when it comes to exchanging data in web and mobile programming. But how well do you really know JSON? I'll show that it is not the easy, idealised format as many do believe. Indeed, I did not find two libraries that exhibit the same behaviour."
+      },
+      "date": 1524434793779
+    },
+    {
+      "type": "edit",
+      "id": "5ad337c27297bc08",
+      "item": {
+        "type": "paragraph",
+        "id": "5ad337c27297bc08",
+        "text": "JSON is the de facto standard for exchanging data in web and mobile programming. But how well do we really know it? I'll show that it is not the easy, idealised format as many do believe. Indeed, I did not find two libraries that exhibit the same behaviour."
+      },
+      "date": 1524434827656
+    },
+    {
+      "type": "edit",
+      "id": "5ad337c27297bc08",
+      "item": {
+        "type": "paragraph",
+        "id": "5ad337c27297bc08",
+        "text": "JSON is the de facto standard for exchanging data in web and mobile programming. But how well do we really know it? I'll show that it is not the easy, idealised format as many do believe. Indeed, I did not find two libraries that exhibit the same behaviour. [http://seriot.ch/parsing_json.php post]"
+      },
+      "date": 1524434848967
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "280a96d8708b4c53"
+      },
+      "id": "280a96d8708b4c53",
+      "type": "add",
+      "after": "5ad337c27297bc08",
+      "date": 1524434913484
+    },
+    {
+      "type": "edit",
+      "id": "280a96d8708b4c53",
+      "item": {
+        "type": "html",
+        "id": "280a96d8708b4c53",
+        "text": "<img width=100% src=http://seriot.ch/json/json_business_card.png>"
+      },
+      "date": 1524434929990
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "8cea62a3aa043416"
+      },
+      "id": "8cea62a3aa043416",
+      "type": "add",
+      "after": "280a96d8708b4c53",
+      "date": 1524434976209
+    },
+    {
+      "type": "edit",
+      "id": "8cea62a3aa043416",
+      "item": {
+        "type": "paragraph",
+        "id": "8cea62a3aa043416",
+        "text": "\"Discovered\" in 2001 by Douglas Crockford, JSON specification is so short and simple that he created business cards with the whole grammar on their back."
+      },
+      "date": 1524435001962
+    },
+    {
+      "type": "fork",
+      "site": "found.ward.bay.wiki.org",
+      "date": 1550075288069
+    }
+  ]
+}
