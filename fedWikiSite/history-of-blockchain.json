@@ -1,0 +1,140 @@
+{
+  "title": "History of Blockchain",
+  "journal": [
+    {
+      "date": 1545515511996,
+      "type": "create",
+      "item": {
+        "story": "",
+        "title": "History"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1545515405966
+    },
+    {
+      "type": "remove",
+      "id": "3533ec79-dc1e-4f6a-8826-c14bb0c2538c",
+      "date": 1545515412535
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "video",
+        "id": "59a761903b1d2762",
+        "text": "YOUTUBE 7Y3fWXA6d5k\nNick Szabo explains history of Blockchain"
+      },
+      "after": "74f35662-8b4f-4f7f-92a2-b58052fc5a3a",
+      "id": "59a761903b1d2762",
+      "date": 1545515435334
+    },
+    {
+      "type": "move",
+      "order": [
+        "74f35662-8b4f-4f7f-92a2-b58052fc5a3a",
+        "59a761903b1d2762",
+        "c4e26e64-ffc1-43b4-ab85-2f1a591ba10a",
+        "3134a001-964b-49c8-a4fd-8187ba93aca3",
+        "0515bc6a-45f2-45ea-9ca7-efc153e295a6",
+        "cade6de1-cef3-4362-91d9-c259240e3f7d",
+        "8610ea16-32f5-4245-95b1-7845c64a70c2",
+        "12fe9e5d-5f1c-4213-9000-824667b9ebc9",
+        "62958c1c-133c-4264-b231-aa1fb3bc4083",
+        "5566b172-b76b-40ce-94ce-65a8f2c99f16",
+        "7da39247-dc51-45e8-919c-408912213c30",
+        "5e724a7c-5ecb-4011-b762-05f6fa182bd9",
+        "bf80d867-dc56-44ce-9129-5bdbe5634bfe"
+      ],
+      "id": "c4e26e64-ffc1-43b4-ab85-2f1a591ba10a",
+      "date": 1545515439318
+    },
+    {
+      "type": "move",
+      "order": [
+        "74f35662-8b4f-4f7f-92a2-b58052fc5a3a",
+        "59a761903b1d2762",
+        "c4e26e64-ffc1-43b4-ab85-2f1a591ba10a",
+        "0515bc6a-45f2-45ea-9ca7-efc153e295a6",
+        "3134a001-964b-49c8-a4fd-8187ba93aca3",
+        "cade6de1-cef3-4362-91d9-c259240e3f7d",
+        "8610ea16-32f5-4245-95b1-7845c64a70c2",
+        "12fe9e5d-5f1c-4213-9000-824667b9ebc9",
+        "62958c1c-133c-4264-b231-aa1fb3bc4083",
+        "5566b172-b76b-40ce-94ce-65a8f2c99f16",
+        "7da39247-dc51-45e8-919c-408912213c30",
+        "5e724a7c-5ecb-4011-b762-05f6fa182bd9",
+        "bf80d867-dc56-44ce-9129-5bdbe5634bfe"
+      ],
+      "id": "0515bc6a-45f2-45ea-9ca7-efc153e295a6",
+      "date": 1545515443028
+    }
+  ],
+  "story": [
+    {
+      "type": "markdown",
+      "id": "74f35662-8b4f-4f7f-92a2-b58052fc5a3a",
+      "text": "The first work on a cryptographically secured chain of blocks was described in 1991 by Stuart Haber and W. Scott Stornetta. They wanted to implement a system where document timestamps could not be tampered with. In 1992, Bayer, Haber and Stornetta incorporated [[Merkle tree]]s to the design, which improved its efficiency by allowing several document certificates to be collected into one block - [https://en.wikipedia.org/wiki/Blockchain#History wikipedia]"
+    },
+    {
+      "type": "video",
+      "id": "59a761903b1d2762",
+      "text": "YOUTUBE 7Y3fWXA6d5k\nNick Szabo explains history of Blockchain"
+    },
+    {
+      "type": "markdown",
+      "id": "c4e26e64-ffc1-43b4-ab85-2f1a591ba10a",
+      "text": "The first blockchain was conceptualized by a person (or group of people) known as [[Satoshi Nakamoto]] in 2008. Nakamoto improved the design in an important way using a [[Hashcash]]-like method to add blocks to the chain without requiring them to be signed by a trusted party."
+    },
+    {
+      "type": "markdown",
+      "id": "0515bc6a-45f2-45ea-9ca7-efc153e295a6",
+      "text": "In August 2014, the bitcoin blockchain file size, containing records of all transactions that have occurred on the network, reached 20GB ([[gigabyte]]s). In January 2015, the size had grown to almost 30GB, and from January 2016 to January 2017, the bitcoin blockchain grew from 50GB to 100GB in size."
+    },
+    {
+      "type": "html",
+      "id": "3134a001-964b-49c8-a4fd-8187ba93aca3",
+      "text": "<div style='padding: 12px; background:#eee; width:96%; align=centered;'>\n<a href='https://commons.wikimedia.org/wiki/File:Confirmed_Transactions_Per_Day.png' target='_blank'>\n<img style='display:block; margin:auto; width:100%;'\nsrc='https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Confirmed_Transactions_Per_Day.png/420px-Confirmed_Transactions_Per_Day.png'>\n</a>\n\n<p class=caption>\nBitcoin transactions (January 2009 – September 2017)\n- [https://commons.wikimedia.org/wiki/File:Confirmed_Transactions_Per_Day.png wikimedia.org]\n</p></div>"
+    },
+    {
+      "type": "markdown",
+      "id": "cade6de1-cef3-4362-91d9-c259240e3f7d",
+      "text": "The words ''block'' and ''chain'' were used separately in Satoshi Nakamoto's original paper, but were eventually popularized as a single word, ''blockchain,'' by 2016.  The term ''blockchain 2.0'' refers to new applications of the distributed blockchain database, first emerging in 2014. ''[[The Economist]]'' described one implementation of this second-generation programmable blockchain as coming with \"a programming language that allows users to write more sophisticated smart contracts, thus creating invoices that pay themselves when a shipment arrives or share certificates which automatically send their owners dividends if profits reach a certain level.\""
+    },
+    {
+      "type": "markdown",
+      "id": "8610ea16-32f5-4245-95b1-7845c64a70c2",
+      "text": "IBM opened a blockchain innovation research center in Singapore in July 2016. A working group for the [[World Economic Forum]] met in November 2016 to discuss the development of [[Multistakeholder governance model]] related to blockchain."
+    },
+    {
+      "type": "markdown",
+      "id": "12fe9e5d-5f1c-4213-9000-824667b9ebc9",
+      "text": "According to [[Accenture]], an application of the [[diffusion of innovations]] theory suggests that blockchains attained a 13.5% adoption rate within financial services in 2016, therefore reaching the [[early adopter]]s phase. Industry trade groups joined to create the Global Blockchain Forum in 2016, an initiative of the [[Chamber of Digital Commerce]]."
+    },
+    {
+      "type": "markdown",
+      "id": "62958c1c-133c-4264-b231-aa1fb3bc4083",
+      "text": "In May 2018, [[Gartner]] found that only 1% of CIOs indicated any kind of blockchain adoption within their organisations, and only 8% of CIOs were in the short-term ‘planning or [looking at] active experimentation with blockchain’."
+    },
+    {
+      "type": "markdown",
+      "id": "5566b172-b76b-40ce-94ce-65a8f2c99f16",
+      "text": "In November 2018, Conservative MEP Emma McClarkin’s plan to utilise blockchain technology to boost trade was backed by the European Parliament’s Trade Committee."
+    },
+    {
+      "type": "markdown",
+      "id": "7da39247-dc51-45e8-919c-408912213c30",
+      "text": "# Tools\n\nSearch for [[free culture]] images for this page on [https://www.google.com/search?as_st=y&tbm=isch&as_q=Blockchain+History&as_epq=&as_oq=&as_eq=&cr=&as_sitesearch=&safe=images&tbs=sur:fmc&gws_rd=ssl google]"
+    },
+    {
+      "type": "transport",
+      "id": "5e724a7c-5ecb-4011-b762-05f6fa182bd9",
+      "text": "POST https://rest.livecode.world/imagine"
+    },
+    {
+      "type": "markdown",
+      "id": "bf80d867-dc56-44ce-9129-5bdbe5634bfe",
+      "text": "# History"
+    }
+  ]
+}
