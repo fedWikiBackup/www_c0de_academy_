@@ -1,0 +1,93 @@
+{
+  "title": "TruffleRuby",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "1890dfa8-9d7c-471c-9100-82d708c0ec6d",
+      "text": "Array and Hash are used in every Ruby program. Yet, current implementations either prevent the use of them in parallel (the global interpreter lock in MRI) or lack thread-safety guarantees (JRuby raises an exception on concurrent Array#). Concurrent::Array from concurrent-ruby is thread-safe but prevents parallel access."
+    },
+    {
+      "type": "paragraph",
+      "id": "393e16ce-33ea-4b2a-9378-51873ddbad7e",
+      "text": "This talk shows a technique to make Array and Hash thread-safe while enabling parallel access, with no penalty on single-threaded performance. In short, we keep the most important thread-safety guarantees of the global lock while allowing Ruby to scale up to tens of cores!\n\nRubyKaigi 2018 https://rubykaigi.org/2018/presentations/eregontp"
+    },
+    {
+      "type": "video",
+      "id": "f041db36-9092-4026-ae6d-ad73ff79e311",
+      "text": "YOUTUBE mRKjWrNJ8DI\nParallel and Thread-Safe Ruby at High-Speed with [[TruffleRuby]] (Jun 2018)"
+    },
+    {
+      "type": "markdown",
+      "id": "7fcbdd88ab11fa39",
+      "text": "# See also\n\n\n"
+    },
+    {
+      "type": "markdown",
+      "id": "fb558518f4014a07",
+      "text": "- [[GraalVM]]\n- [[Kubeless]]\n- [[GitLab Serverless]] and [[Knative]]\n- [[Polyglot Webservice Hosting]]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "TruffleRuby",
+        "story": []
+      },
+      "date": 1551549899331
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "video",
+        "id": "f041db36-9092-4026-ae6d-ad73ff79e311",
+        "text": "YOUTUBE mRKjWrNJ8DI\nParallel and Thread-Safe Ruby at High-Speed with [[TruffleRuby]] (Jun 2018)"
+      },
+      "id": "f041db36-9092-4026-ae6d-ad73ff79e311",
+      "date": 1551549905011
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "7fcbdd88ab11fa39",
+        "text": "# See also\n\n\n"
+      },
+      "after": "f041db36-9092-4026-ae6d-ad73ff79e311",
+      "id": "7fcbdd88ab11fa39",
+      "date": 1551549916013
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "fb558518f4014a07",
+        "text": "- [[GraalVM]]\n- [[Kubeless]]\n- [[GitLab Serverless]] and [[Knative]]\n- [[Polyglot Webservice Hosting]]"
+      },
+      "after": "7fcbdd88ab11fa39",
+      "id": "fb558518f4014a07",
+      "date": 1551549918489
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "1890dfa8-9d7c-471c-9100-82d708c0ec6d",
+        "text": "Array and Hash are used in every Ruby program. Yet, current implementations either prevent the use of them in parallel (the global interpreter lock in MRI) or lack thread-safety guarantees (JRuby raises an exception on concurrent Array#). Concurrent::Array from concurrent-ruby is thread-safe but prevents parallel access."
+      },
+      "id": "1890dfa8-9d7c-471c-9100-82d708c0ec6d",
+      "date": 1551549920645
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "393e16ce-33ea-4b2a-9378-51873ddbad7e",
+        "text": "This talk shows a technique to make Array and Hash thread-safe while enabling parallel access, with no penalty on single-threaded performance. In short, we keep the most important thread-safety guarantees of the global lock while allowing Ruby to scale up to tens of cores!\n\nRubyKaigi 2018 https://rubykaigi.org/2018/presentations/eregontp"
+      },
+      "after": "1890dfa8-9d7c-471c-9100-82d708c0ec6d",
+      "id": "393e16ce-33ea-4b2a-9378-51873ddbad7e",
+      "date": 1551549922394
+    }
+  ]
+}
