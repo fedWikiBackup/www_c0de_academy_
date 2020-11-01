@@ -1,0 +1,105 @@
+{
+  "title": "Truffle",
+  "journal": [
+    {
+      "date": 1545414292413,
+      "type": "create",
+      "item": {
+        "story": "",
+        "title": "Truffle"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1545414189488
+    },
+    {
+      "type": "remove",
+      "id": "cc6c5969-9f7b-4ee1-a9cd-770ad47f1d0b",
+      "date": 1545414193325
+    },
+    {
+      "type": "remove",
+      "id": "2bd89f58-d664-4a19-9e4e-eee770204352",
+      "date": 1563260877045
+    },
+    {
+      "type": "remove",
+      "id": "8d6c03e1-53ea-46d5-8a4b-fb7c5f2758f8",
+      "date": 1563260879121
+    },
+    {
+      "type": "edit",
+      "id": "7d9bfa6b-6d33-42fe-a4f7-a7d335d7211f",
+      "item": {
+        "type": "markdown",
+        "id": "7d9bfa6b-6d33-42fe-a4f7-a7d335d7211f",
+        "text": "# See also\n"
+      },
+      "date": 1563260885591
+    },
+    {
+      "type": "add",
+      "id": "83acd0b81b82c829",
+      "item": {
+        "type": "markdown",
+        "id": "83acd0b81b82c829",
+        "text": "- [[Graal]]"
+      },
+      "after": "7d9bfa6b-6d33-42fe-a4f7-a7d335d7211f",
+      "date": 1563260892790
+    },
+    {
+      "type": "edit",
+      "id": "83acd0b81b82c829",
+      "item": {
+        "type": "markdown",
+        "id": "83acd0b81b82c829",
+        "text": "- [[GraalVM]]"
+      },
+      "date": 1563260903197
+    },
+    {
+      "type": "edit",
+      "id": "83acd0b81b82c829",
+      "item": {
+        "type": "markdown",
+        "id": "83acd0b81b82c829",
+        "text": "- [[GraalVM]]\n- [[Ahead-of-Time Compilation]]"
+      },
+      "date": 1563260928680
+    },
+    {
+      "type": "edit",
+      "id": "83acd0b81b82c829",
+      "item": {
+        "type": "markdown",
+        "id": "83acd0b81b82c829",
+        "text": "- [[GraalVM]]\n- [[Ahead-of-Time Compilation]]\n- [[Micronaut]]"
+      },
+      "date": 1563260938085
+    }
+  ],
+  "story": [
+    {
+      "type": "markdown",
+      "id": "a02a0e41-416a-4976-b001-172eac978bf3",
+      "text": "In association with GraalVM, Oracle developed a language [[abstract syntax tree]] interpreter called Truffle which would allow it to implement languages on top of the Graal framework - [https://en.wikipedia.org/wiki/GraalVM#Truffle wikipedia]"
+    },
+    {
+      "type": "markdown",
+      "id": "d72a18e6-dea3-4074-a60d-eba7c6fb5161",
+      "text": "The Truffle framework was released under [[GNU General Public License]] with the [[classpath exception]] to encourage use of the framework for projects which do not want to be bound by the [[viral license]], [[copyleft]] nature of the GPL, while the Graal compiler remains under GPLv2 only."
+    },
+    {
+      "type": "markdown",
+      "id": "7d9bfa6b-6d33-42fe-a4f7-a7d335d7211f",
+      "text": "# See also\n"
+    },
+    {
+      "type": "markdown",
+      "id": "83acd0b81b82c829",
+      "text": "- [[GraalVM]]\n- [[Ahead-of-Time Compilation]]\n- [[Micronaut]]"
+    }
+  ]
+}
