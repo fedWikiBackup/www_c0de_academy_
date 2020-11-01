@@ -1,0 +1,1272 @@
+{
+  "journal": [
+    {
+      "date": 1420938191608,
+      "type": "create",
+      "item": {
+        "story": "",
+        "title": "Welcome Visitors"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1491984794430
+    },
+    {
+      "type": "edit",
+      "id": "2f2970d549e2510f",
+      "item": {
+        "text": "Here are some tasks that i am currently working on:\n\n- [[Geocoding API]]\n- [[Alternative Gmail Address]]\n- [[Nginx]]",
+        "id": "2f2970d549e2510f",
+        "type": "markdown"
+      },
+      "date": 1492342117034
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "activity",
+        "id": "e9e9f102158e1382",
+        "text": "NEIGHBORHOOD no\nNARRATIVE "
+      },
+      "after": "7b56f22a4b9ee974",
+      "id": "e9e9f102158e1382",
+      "date": 1492535988377
+    },
+    {
+      "type": "edit",
+      "id": "e9e9f102158e1382",
+      "item": {
+        "type": "activity",
+        "id": "e9e9f102158e1382",
+        "text": "NEIGHBORHOOD no\nNARRATIVE\nSINCE 5 days"
+      },
+      "date": 1492536016990
+    },
+    {
+      "type": "move",
+      "order": [
+        "7b56f22a4b9ee974",
+        "2f2970d549e2510f",
+        "e9e9f102158e1382",
+        "821827c99b90cfd1",
+        "e75d4240948342f1",
+        "dba19c1c3fb4d842",
+        "fdb3503fde556952",
+        "3ed8300ba0e9b15a",
+        "c48d283135233f15",
+        "09d10f89ddc298f4",
+        "3b0f24cf29300269",
+        "88e833a2d4b4d2da",
+        "300ef234d127b96a",
+        "4295c1eb86190bfd",
+        "41539361b8005c94",
+        "ee416d431ebf4fb4",
+        "1bea8572d71395ba",
+        "e5106cd23556ddb9",
+        "30d9909c309a6054",
+        "b1be1b176a46e0ad",
+        "347db6adffb4cd63",
+        "10d969f49052c186",
+        "375aba158e116930",
+        "35a928d8f7bf31f4"
+      ],
+      "id": "e9e9f102158e1382",
+      "date": 1492536055491
+    },
+    {
+      "type": "edit",
+      "id": "2f2970d549e2510f",
+      "item": {
+        "text": "Here are some tasks that i am currently working on:\n\n- [[Geocoding API]]\n- [[Alternative Gmail Address]]\n- [[Nginx]]\n- [[Immutable Data]]",
+        "id": "2f2970d549e2510f",
+        "type": "markdown"
+      },
+      "date": 1493474923777
+    },
+    {
+      "type": "edit",
+      "id": "2f2970d549e2510f",
+      "item": {
+        "text": "Here are some tasks that i am currently working on:\n\n- [[Ascii Cinema]]\n- [[Geocoding API]]\n- [[Alternative Gmail Address]]\n- [[Nginx]]\n- [[Immutable Data]]",
+        "id": "2f2970d549e2510f",
+        "type": "markdown"
+      },
+      "date": 1497887251847
+    },
+    {
+      "type": "edit",
+      "id": "2f2970d549e2510f",
+      "item": {
+        "text": "Here are some tasks that i am currently working on:\n\n- [[asciinema]]\n- [[Geocoding API]]\n- [[Alternative Gmail Address]]\n- [[Nginx]]\n- [[Immutable Data]]",
+        "id": "2f2970d549e2510f",
+        "type": "markdown"
+      },
+      "date": 1497887281617
+    },
+    {
+      "type": "edit",
+      "id": "2f2970d549e2510f",
+      "item": {
+        "text": "Here are some tasks that i am currently working on:\n\n- [[Asciinema]]\n- [[Geocoding API]]\n- [[Alternative Gmail Address]]\n- [[Nginx]]\n- [[Immutable Data]]",
+        "id": "2f2970d549e2510f",
+        "type": "markdown"
+      },
+      "date": 1497887309091
+    },
+    {
+      "type": "edit",
+      "id": "2f2970d549e2510f",
+      "item": {
+        "text": "Here are some tasks that i am currently working on:\n\n- [[ASCII Cinema]]\n- [[Geocoding API]]\n- [[Alternative Gmail Address]]\n- [[Nginx]]\n- [[Immutable Data]]",
+        "id": "2f2970d549e2510f",
+        "type": "markdown"
+      },
+      "date": 1497887330512
+    },
+    {
+      "type": "edit",
+      "id": "300ef234d127b96a",
+      "item": {
+        "text": "POST https://rest.livecode.world/mediawiki",
+        "id": "300ef234d127b96a",
+        "type": "transport"
+      },
+      "date": 1498944355036
+    },
+    {
+      "type": "remove",
+      "id": "41539361b8005c94",
+      "date": 1498944357512
+    },
+    {
+      "type": "remove",
+      "id": "4295c1eb86190bfd",
+      "date": 1498944359944
+    },
+    {
+      "type": "edit",
+      "id": "2f2970d549e2510f",
+      "item": {
+        "text": "Here are some tasks that i am currently working on:\n\n- [[Telegram API]]\n- [[ASCII Cinema]]\n- [[Geocoding API]]\n- [[Alternative Gmail Address]]\n- [[Nginx]]\n- [[Immutable Data]]",
+        "id": "2f2970d549e2510f",
+        "type": "markdown"
+      },
+      "date": 1501751137341
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "338de958d0c8ab92",
+        "text": "# Changes"
+      },
+      "after": "2f2970d549e2510f",
+      "id": "338de958d0c8ab92",
+      "date": 1502227152507
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "9a9d695c43ce7199",
+        "text": "Here are some [[Fedwiki Tools]] to see what we are [[Currently Working On]]:\n\n- [[Changes to this Site]]\n- [[Changes to Livecode Sites]]\n- [[Research Group Activity]]\n- [[Recent Changes]]\n- [[Local Changes]]"
+      },
+      "after": "2f2970d549e2510f",
+      "id": "9a9d695c43ce7199",
+      "date": 1502227172917
+    },
+    {
+      "type": "remove",
+      "id": "2f2970d549e2510f",
+      "date": 1502227343615
+    },
+    {
+      "type": "edit",
+      "id": "7b56f22a4b9ee974",
+      "item": {
+        "type": "paragraph",
+        "id": "7b56f22a4b9ee974",
+        "text": "Welcome to a [[Federated Wiki]] site for the [[C0de Academy]], where we write about code and programming."
+      },
+      "date": 1502227382644
+    },
+    {
+      "type": "edit",
+      "id": "9a9d695c43ce7199",
+      "item": {
+        "type": "markdown",
+        "id": "9a9d695c43ce7199",
+        "text": "Here are some [[Fedwiki Tools]] to see what we are [[Currently Working On]]:\n\n- [[Changes to this Site]]\n- [[Changes to Coding Sites]]\n- [[Research Group Activity]]\n- [[Recent Changes]]\n- [[Local Changes]]"
+      },
+      "date": 1502227387737
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "html",
+        "id": "335e52504cb68de2",
+        "text": "<h3>Create New Page</h3>\n\n<form action=\"http://new_page/\" style=\"background-color:#eee; padding:15px;\"><center>\nNew:&nbsp;<input name=title size=40 placeholder=\"New Page Title\"><input type=submit value=create></center></form>\n\n<br>\n\n<form action=\"https://rest.livecode.world/mediawiki\"\n  style=\"background-color:#eee; padding:15px;\">\n<center>\n\nCreate:&nbsp;<input name=text size=40 value=\"Wikipedia\">\n<input name=html type=hidden value=\"\">\n<input type=submit value=submit></center></form>\n"
+      },
+      "after": "9a9d695c43ce7199",
+      "id": "335e52504cb68de2",
+      "date": 1511524065564
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "transport",
+        "id": "10ea2af363e51a5f",
+        "text": "POST https://rest.livecode.world/imagine"
+      },
+      "after": "335e52504cb68de2",
+      "id": "10ea2af363e51a5f",
+      "date": 1511528154434
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "2337e593fa7a7966",
+        "text": "Drop any web page on the transporter below to bring content into the [[federation]] with appropriate [[accreditation]]."
+      },
+      "after": "335e52504cb68de2",
+      "id": "2337e593fa7a7966",
+      "date": 1511893423639
+    },
+    {
+      "type": "edit",
+      "id": "335e52504cb68de2",
+      "item": {
+        "type": "html",
+        "id": "335e52504cb68de2",
+        "text": "<h3>Create New Page</h3>\n\n<form action=\"http://new_page/\" style=\"background-color:#eee; padding:15px;\"><center>\nNew:&nbsp;<input name=title size=40 placeholder=\"New Page Title\"><input type=submit value=create></center></form>\n\n<br>\n\n<form action=\"https://rest.livecode.world/mediawiki\"\n  style=\"background-color:#eee; padding:15px;\">\n<center>\n\nCreate:&nbsp;<input name=text size=40 placeholder=\"Wikipedia\">\n<input name=html type=hidden value=\"\">\n<input type=submit value=submit></center></form>\n"
+      },
+      "date": 1511893443935
+    },
+    {
+      "type": "remove",
+      "id": "300ef234d127b96a",
+      "date": 1511964059143
+    },
+    {
+      "type": "remove",
+      "id": "88e833a2d4b4d2da",
+      "date": 1511964061550
+    },
+    {
+      "type": "move",
+      "order": [
+        "7b56f22a4b9ee974",
+        "9a9d695c43ce7199",
+        "335e52504cb68de2",
+        "2337e593fa7a7966",
+        "10ea2af363e51a5f",
+        "338de958d0c8ab92",
+        "e9e9f102158e1382",
+        "821827c99b90cfd1",
+        "e75d4240948342f1",
+        "3b0f24cf29300269",
+        "dba19c1c3fb4d842",
+        "fdb3503fde556952",
+        "3ed8300ba0e9b15a",
+        "c48d283135233f15",
+        "09d10f89ddc298f4",
+        "ee416d431ebf4fb4",
+        "1bea8572d71395ba",
+        "e5106cd23556ddb9",
+        "30d9909c309a6054",
+        "b1be1b176a46e0ad",
+        "347db6adffb4cd63",
+        "10d969f49052c186",
+        "375aba158e116930",
+        "35a928d8f7bf31f4"
+      ],
+      "id": "3b0f24cf29300269",
+      "date": 1511965081504
+    },
+    {
+      "type": "edit",
+      "id": "3b0f24cf29300269",
+      "item": {
+        "text": "# Pages of interest",
+        "id": "3b0f24cf29300269",
+        "type": "markdown"
+      },
+      "date": 1511965090004
+    },
+    {
+      "type": "remove",
+      "id": "dba19c1c3fb4d842",
+      "date": 1511965091925
+    },
+    {
+      "type": "edit",
+      "id": "3b0f24cf29300269",
+      "item": {
+        "text": "# Pages of interest\n\nHere are some pages about that may be of interest:",
+        "id": "3b0f24cf29300269",
+        "type": "markdown"
+      },
+      "date": 1511965095071
+    },
+    {
+      "type": "edit",
+      "id": "9a9d695c43ce7199",
+      "item": {
+        "type": "markdown",
+        "id": "9a9d695c43ce7199",
+        "text": "Here are some [[Fedwiki Tools]] to see what we are [[Currently Working On]]:\n\n- [[Changes to this Site]]\n- [[Changes to Coding Sites]]\n- [[Research Group Activity]]\n- [[Recent Changes]]\n- [[Local Changes]]\n- [[Recycled pages]]"
+      },
+      "date": 1512208851685
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "ac5a3caf324ddf17",
+        "text": "# Topics\n\n- [[Anthropological Archive]]\n- [[Identity]]\n- [[Permanent Web]]\n- [[Garden Metaphor]]\n- [[Thought Soup]]\n- [[Legacy and Immortality]]\n"
+      },
+      "after": "7b56f22a4b9ee974",
+      "id": "ac5a3caf324ddf17",
+      "date": 1512213388058
+    },
+    {
+      "type": "remove",
+      "id": "9a9d695c43ce7199",
+      "date": 1512213391000
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "35ed918f82059083",
+        "text": "# Activity\n\nYou can contact us below to see what we are [[currently working on]]:\n \n- Text chat - [https://vector.im/beta/#/room/#fedwiki:matrix.org vector.im]\n- Face chat - [https://appear.in/fedwiki https://appear.in/fedwiki appear.in]\n \nOr check out [[Recent Activity]] below:\n  \n- [[Changes to this Site]]\n- [[Local Changes]]\n- [[Recent Changes]]\n- [[Recycled pages]]"
+      },
+      "after": "6c0d1810b204d03b",
+      "id": "35ed918f82059083",
+      "date": 1512213399563
+    },
+    {
+      "type": "remove",
+      "id": "2337e593fa7a7966",
+      "date": 1512213404145
+    },
+    {
+      "type": "remove",
+      "id": "335e52504cb68de2",
+      "date": 1512213409393
+    },
+    {
+      "type": "move",
+      "order": [
+        "7b56f22a4b9ee974",
+        "ac5a3caf324ddf17",
+        "35ed918f82059083",
+        "e9e9f102158e1382",
+        "10ea2af363e51a5f",
+        "338de958d0c8ab92",
+        "821827c99b90cfd1",
+        "e75d4240948342f1",
+        "3b0f24cf29300269",
+        "fdb3503fde556952",
+        "3ed8300ba0e9b15a",
+        "c48d283135233f15",
+        "09d10f89ddc298f4",
+        "ee416d431ebf4fb4",
+        "1bea8572d71395ba",
+        "e5106cd23556ddb9",
+        "30d9909c309a6054",
+        "b1be1b176a46e0ad",
+        "347db6adffb4cd63",
+        "10d969f49052c186",
+        "375aba158e116930",
+        "35a928d8f7bf31f4"
+      ],
+      "id": "e9e9f102158e1382",
+      "date": 1512213417426
+    },
+    {
+      "type": "remove",
+      "id": "338de958d0c8ab92",
+      "date": 1512213433121
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "html",
+        "id": "335e52504cb68de2",
+        "text": "<h3>Authoring Tools</h3>\n\nBelow are a number of [[Fedwiki Tools]] that assist you in creating new [[Content]] for the [[Permanent Web]]:\n<p>\n<form action=\"http://new_page/\" style=\"background-color:#eee; padding:15px;\"><center>\nNew:&nbsp;<input name=title size=40 placeholder=\"New Page Title\"><input type=submit value=create></center></form>\n\n<br>\n\n<form action=\"https://rest.livecode.world/mediawiki\"\n  style=\"background-color:#eee; padding:15px;\">\n<center>\n\nCreate:&nbsp;<input name=text size=40 value=\"Wikipedia\">\n<input name=html type=hidden value=\"\">\n<input type=submit value=submit></center></form>\n<p>\n\nDrop any web page on the transporter below to bring content into the [[federation]] with appropriate [[accreditation]]."
+      },
+      "after": "10ea2af363e51a5f",
+      "id": "335e52504cb68de2",
+      "date": 1512213447497
+    },
+    {
+      "type": "move",
+      "order": [
+        "7b56f22a4b9ee974",
+        "ac5a3caf324ddf17",
+        "35ed918f82059083",
+        "e9e9f102158e1382",
+        "335e52504cb68de2",
+        "10ea2af363e51a5f",
+        "821827c99b90cfd1",
+        "e75d4240948342f1",
+        "3b0f24cf29300269",
+        "fdb3503fde556952",
+        "3ed8300ba0e9b15a",
+        "c48d283135233f15",
+        "09d10f89ddc298f4",
+        "ee416d431ebf4fb4",
+        "1bea8572d71395ba",
+        "e5106cd23556ddb9",
+        "30d9909c309a6054",
+        "b1be1b176a46e0ad",
+        "347db6adffb4cd63",
+        "10d969f49052c186",
+        "375aba158e116930",
+        "35a928d8f7bf31f4"
+      ],
+      "id": "10ea2af363e51a5f",
+      "date": 1512213451837
+    },
+    {
+      "type": "remove",
+      "id": "ac5a3caf324ddf17",
+      "date": 1512640161129
+    },
+    {
+      "type": "remove",
+      "id": "35ed918f82059083",
+      "date": 1512640166448
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "ac5a3caf324ddf17",
+        "text": "# Topics\n\n- [[Pretty Wiki]]\n\n# Drop in\n\n- To our chat - [https://vector.im/beta/#/room/#fedwiki:matrix.org vector.im]\n- Face chat - [https://appear.in/fedwiki https://appear.in/fedwiki appear.in]\n\n# Activity\n\nSee the activity on this site for the past few days, or follow links for our [[Research Activity]] below:\n  \n- [[Changes to this Site]]\n- [[Local Changes]]\n- [[Recent Changes]]\n- [[Recycled pages]]\n \n- Create content with [[Fedwiki Tools]]"
+      },
+      "after": "7b56f22a4b9ee974",
+      "id": "ac5a3caf324ddf17",
+      "date": 1512640169918
+    },
+    {
+      "type": "edit",
+      "id": "4a7b121c2ac65efb",
+      "item": {
+        "type": "markdown",
+        "id": "4a7b121c2ac65efb",
+        "text": "# Drop in\n\n- To our chat - [https://vector.im/beta/#/room/#fedwiki:matrix.org vector.im]\n- Face chat - [https://appear.in/fedwiki https://appear.in/fedwiki appear.in]\n\n# Activity\n\nSee the activity on this site for the past few days, or follow links for our [[Research Activity]] below:\n  \n- [[Changes to this Site]]\n- [[Local Changes]]\n- [[Recent Changes]]\n- [[Recycled pages]]\n \n- Create content with [[Fedwiki Tools]]",
+        "alias": "ac5a3caf324ddf17"
+      },
+      "date": 1512640206947
+    },
+    {
+      "type": "edit",
+      "id": "ac5a3caf324ddf17",
+      "item": {
+        "type": "markdown",
+        "id": "ac5a3caf324ddf17",
+        "text": "# Topics\n\n- [[Pretty Wiki]]\n- [[About Plugmatic Plugin]]\n\n# Drop in\n\n- To our chat - [https://vector.im/beta/#/room/#fedwiki:matrix.org vector.im]\n- Face chat - [https://appear.in/fedwiki https://appear.in/fedwiki appear.in]\n\n# Activity\n\nSee the activity on this site for the past few days, or follow links for our [[Research Activity]] below:\n  \n- [[Changes to this Site]]\n- [[Local Changes]]\n- [[Recent Changes]]\n- [[Recycled pages]]\n \n- Create content with [[Fedwiki Tools]]"
+      },
+      "date": 1518091732719
+    },
+    {
+      "type": "edit",
+      "id": "ac5a3caf324ddf17",
+      "item": {
+        "type": "markdown",
+        "id": "ac5a3caf324ddf17",
+        "text": "# Topics\n\n- [[About Plugmatic Plugin]]\n\n# Drop in\n\n- To our chat - [https://vector.im/beta/#/room/#fedwiki:matrix.org vector.im]\n- Face chat - [https://appear.in/fedwiki https://appear.in/fedwiki appear.in]\n\n# Activity\n\nSee the activity on this site for the past few days, or follow links for our [[Research Activity]] below:\n  \n- [[Changes to this Site]]\n- [[Local Changes]]\n- [[Recent Changes]]\n- [[Recycled pages]]\n \n- Create content with [[Fedwiki Tools]]"
+      },
+      "date": 1518884932014
+    },
+    {
+      "type": "remove",
+      "id": "ac5a3caf324ddf17",
+      "date": 1518885024799
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "ac5a3caf324ddf17",
+        "text": "# Topics\n\n- [[Anthropological Archive]]\n- [[Decentralised Media Commons]]\n- [[Permanent Activity]]\n- [[Permanent Web Sites]]\n- [[DreamFactory]]\n\n# Drop in\n\n- To our chat - [https://vector.im/beta/#/room/#fedwiki:matrix.org vector.im]\n- Face chat - [https://appear.in/fedwiki https://appear.in/fedwiki appear.in]\n\n# Activity\n\nBelow you can see the activity on this site for the past few days: \n \nOr check out [[Research Activity]] below:\n  \n- [[Changes to this Site]]\n- [[Local Changes]]\n- [[Recent Changes]]\n- [[Recycled pages]]\n- Create content with [[Fedwiki Tools]]"
+      },
+      "after": "7b56f22a4b9ee974",
+      "id": "ac5a3caf324ddf17",
+      "date": 1518885033181
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "html",
+        "id": "67e0f9f8ed289d39",
+        "text": "<h3>Authoring Tools</h3>\n\nBelow are a number of [[Fedwiki Tools]] that assist you in creating new [[Content]] for the [[Permanent Web]]:\n<p>\n<form action=\"http://new_page/\" style=\"background-color:#eee; padding:15px;\"><center>\nNew:&nbsp;<input name=title size=40 placeholder=\"New Page Title\"><input type=submit value=create></center></form>\n\n<br>\n\n<form action=\"https://rest.livecode.world/mediawiki\"\n  style=\"background-color:#eee; padding:15px;\">\n<center>\n\nCreate:&nbsp;<input name=text size=40 value=\"Wikipedia\">\n<input name=html type=hidden value=\"\">\n<input type=submit value=submit></center></form>\n<p>\n\nDrop any web page on the transporter below to bring content into the [[federation]] with appropriate [[accreditation]].",
+        "alias": "335e52504cb68de2"
+      },
+      "after": "e9e9f102158e1382",
+      "id": "67e0f9f8ed289d39",
+      "date": 1518885045476
+    },
+    {
+      "type": "remove",
+      "id": "335e52504cb68de2",
+      "date": 1518885049111
+    },
+    {
+      "type": "edit",
+      "id": "ac5a3caf324ddf17",
+      "item": {
+        "type": "markdown",
+        "id": "ac5a3caf324ddf17",
+        "text": "# Topics\n\n- [[JSON Web Token]]\n\n# Drop in\n\n- To our chat - [https://vector.im/beta/#/room/#fedwiki:matrix.org vector.im]\n- Face chat - [https://appear.in/fedwiki https://appear.in/fedwiki appear.in]\n\n# Activity\n\nBelow you can see the activity on this site for the past few days: \n \nOr check out [[Research Activity]] below:\n  \n- [[Changes to this Site]]\n- [[Local Changes]]\n- [[Recent Changes]]\n- [[Recycled pages]]\n- Create content with [[Fedwiki Tools]]"
+      },
+      "date": 1518885129492
+    },
+    {
+      "type": "edit",
+      "id": "ac5a3caf324ddf17",
+      "item": {
+        "type": "markdown",
+        "id": "ac5a3caf324ddf17",
+        "text": "# Topics\n\n- [[JSON Web Token]]\n- [[HTML Form]]\n\n# Drop in\n\n- To our chat - [https://vector.im/beta/#/room/#fedwiki:matrix.org vector.im]\n- Face chat - [https://appear.in/fedwiki https://appear.in/fedwiki appear.in]\n\n# Activity\n\nBelow you can see the activity on this site for the past few days: \n \nOr check out [[Research Activity]] below:\n  \n- [[Changes to this Site]]\n- [[Local Changes]]\n- [[Recent Changes]]\n- [[Recycled pages]]\n- Create content with [[Fedwiki Tools]]"
+      },
+      "date": 1518887456583
+    },
+    {
+      "type": "edit",
+      "id": "ac5a3caf324ddf17",
+      "item": {
+        "type": "markdown",
+        "id": "ac5a3caf324ddf17",
+        "text": "# Topics\n\n- [[JSON Web Token]]\n- [[HTML Form]]\n- [[pandoc]]\n\n# Drop in\n\n- To our chat - [https://vector.im/beta/#/room/#fedwiki:matrix.org vector.im]\n- Face chat - [https://appear.in/fedwiki https://appear.in/fedwiki appear.in]\n\n# Activity\n\nBelow you can see the activity on this site for the past few days: \n \nOr check out [[Research Activity]] below:\n  \n- [[Changes to this Site]]\n- [[Local Changes]]\n- [[Recent Changes]]\n- [[Recycled pages]]\n- Create content with [[Fedwiki Tools]]"
+      },
+      "date": 1518887486390
+    },
+    {
+      "type": "remove",
+      "id": "09d10f89ddc298f4",
+      "date": 1519512033752
+    },
+    {
+      "type": "edit",
+      "id": "ac5a3caf324ddf17",
+      "item": {
+        "type": "markdown",
+        "id": "ac5a3caf324ddf17",
+        "text": "# Topics\n\n- [[JSON Web Token]]\n- [[HTML Form]]\n- [[pandoc]]\n- [[Changes to Technology Sites]]\n"
+      },
+      "date": 1519650602546
+    },
+    {
+      "type": "add",
+      "id": "124f2242fb0531a1",
+      "item": {
+        "type": "markdown",
+        "id": "124f2242fb0531a1",
+        "text": "# Drop in\n\n- To our chat - [https://vector.im/beta/#/room/#fedwiki:matrix.org vector.im]\n- Face chat - [https://appear.in/fedwiki https://appear.in/fedwiki appear.in]\n\n\n"
+      },
+      "after": "ac5a3caf324ddf17",
+      "date": 1519650608862
+    },
+    {
+      "type": "add",
+      "id": "2b32f510646792dd",
+      "item": {
+        "type": "markdown",
+        "id": "2b32f510646792dd",
+        "text": "# Activity\n\nBelow you can see the activity on this site for the past few days: \n \nOr check out [[Research Activity]] below:\n  \n- [[Changes to this Site]]\n- [[Local Changes]]\n- [[Recent Changes]]\n- [[Recycled pages]]\n- Create content with [[Fedwiki Tools]]"
+      },
+      "after": "124f2242fb0531a1",
+      "date": 1519650609888
+    },
+    {
+      "type": "move",
+      "order": [
+        "7b56f22a4b9ee974",
+        "124f2242fb0531a1",
+        "ac5a3caf324ddf17",
+        "2b32f510646792dd",
+        "e9e9f102158e1382",
+        "67e0f9f8ed289d39",
+        "10ea2af363e51a5f",
+        "821827c99b90cfd1",
+        "e75d4240948342f1",
+        "3b0f24cf29300269",
+        "fdb3503fde556952",
+        "3ed8300ba0e9b15a",
+        "c48d283135233f15",
+        "ee416d431ebf4fb4",
+        "1bea8572d71395ba",
+        "e5106cd23556ddb9",
+        "30d9909c309a6054",
+        "b1be1b176a46e0ad",
+        "347db6adffb4cd63",
+        "10d969f49052c186",
+        "375aba158e116930",
+        "35a928d8f7bf31f4"
+      ],
+      "id": "124f2242fb0531a1",
+      "date": 1519650613836
+    },
+    {
+      "type": "remove",
+      "id": "1bea8572d71395ba",
+      "date": 1519650640041
+    },
+    {
+      "type": "edit",
+      "id": "7b56f22a4b9ee974",
+      "item": {
+        "type": "paragraph",
+        "id": "7b56f22a4b9ee974",
+        "text": "Welcome to a [[Federated Wiki]] site for the [[c0de Academy]], where we write about code and programming."
+      },
+      "date": 1520432098489
+    },
+    {
+      "type": "edit",
+      "id": "ac5a3caf324ddf17",
+      "item": {
+        "type": "markdown",
+        "id": "ac5a3caf324ddf17",
+        "text": "# Topics\n\n- [[Gcloud]]\n- [[JSON Web Token]]\n- [[HTML Form]]\n- [[pandoc]]\n- [[Changes to Technology Sites]]\n"
+      },
+      "date": 1520800785492
+    },
+    {
+      "type": "edit",
+      "id": "ac5a3caf324ddf17",
+      "item": {
+        "type": "markdown",
+        "id": "ac5a3caf324ddf17",
+        "text": "# Topics\n\n- [[Gcloud]]\n- [[Google Custom Search]]\n- [[JSON Web Token]]\n- [[HTML Form]]\n- [[pandoc]]\n- [[Changes to Technology Sites]]\n"
+      },
+      "date": 1520800837974
+    },
+    {
+      "type": "remove",
+      "id": "124f2242fb0531a1",
+      "date": 1520935968408
+    },
+    {
+      "type": "remove",
+      "id": "67e0f9f8ed289d39",
+      "date": 1520935974231
+    },
+    {
+      "type": "remove",
+      "id": "10ea2af363e51a5f",
+      "date": 1520935976216
+    },
+    {
+      "type": "remove",
+      "id": "e75d4240948342f1",
+      "date": 1520935978504
+    },
+    {
+      "type": "remove",
+      "id": "821827c99b90cfd1",
+      "date": 1520935980928
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "971509b5b95ef4d2",
+        "text": "# Drop in\n\n- [[Voz]] chat - [https://riot.im/app/#/room/#voz:matrix.org riot.im]\n- Liquid Wiki chat - [https://riot.im/app/#/room/#liquidwiki:matrix.org riot.im]\n- Video chat - [https://appear.in/fedwiki https://appear.in/fedwiki appear.in]\n- Fedwiki chat - [https://vector.im/beta/#/room/#fedwiki:matrix.org vector.im]\n",
+        "alias": "ac5a3caf324ddf17"
+      },
+      "after": "7b56f22a4b9ee974",
+      "id": "971509b5b95ef4d2",
+      "date": 1520935986465
+    },
+    {
+      "type": "remove",
+      "id": "2b32f510646792dd",
+      "date": 1520935992017
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "cd31962ab61abbe3",
+        "text": "# Activity\n\nBelow you can see the activity on this site for the past few days: \n \nOr check out [[Research Activity]] below:\n  \n- [[Changes to this Site]]\n- [[Local Changes]]\n- [[Recent Changes]]\n- [[Recycled pages]]\n"
+      },
+      "after": "ac5a3caf324ddf17",
+      "id": "cd31962ab61abbe3",
+      "date": 1520935995634
+    },
+    {
+      "type": "move",
+      "order": [
+        "7b56f22a4b9ee974",
+        "ac5a3caf324ddf17",
+        "971509b5b95ef4d2",
+        "cd31962ab61abbe3",
+        "e9e9f102158e1382",
+        "3b0f24cf29300269",
+        "fdb3503fde556952",
+        "3ed8300ba0e9b15a",
+        "c48d283135233f15",
+        "ee416d431ebf4fb4",
+        "e5106cd23556ddb9",
+        "30d9909c309a6054",
+        "b1be1b176a46e0ad",
+        "347db6adffb4cd63",
+        "10d969f49052c186",
+        "375aba158e116930",
+        "35a928d8f7bf31f4"
+      ],
+      "id": "ac5a3caf324ddf17",
+      "date": 1520936046057
+    },
+    {
+      "type": "edit",
+      "id": "cd31962ab61abbe3",
+      "item": {
+        "type": "markdown",
+        "id": "cd31962ab61abbe3",
+        "text": "# Activity\n \nCheck out [[Research Activity]] below:\n  \n- [[Changes to this Site]]\n- [[Local Changes]]\n- [[Recent Changes]]\n- [[Recycled pages]]\n\nBelow you can see the activity on this site for the past few days: "
+      },
+      "date": 1520936076082
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "2a4e58e69ac96383",
+        "text": "# Drop in\n\n- To our chat - [https://vector.im/beta/#/room/#fedwiki:matrix.org vector.im]\n- Face chat - [https://appear.in/fedwiki https://appear.in/fedwiki appear.in]\n\n# Activity\n\nBelow you can see the activity on this site for the past few days: \n \nOr check out [[Research Activity]] below:\n  \n- [[Changes to this Site]]\n- [[Local Changes]]\n- [[Recent Changes]]\n- [[Recycled pages]]\n- Create content with [[Fedwiki Tools]]"
+      },
+      "after": "971509b5b95ef4d2",
+      "id": "2a4e58e69ac96383",
+      "date": 1520936088473
+    },
+    {
+      "type": "remove",
+      "id": "cd31962ab61abbe3",
+      "date": 1520936095725
+    },
+    {
+      "type": "edit",
+      "id": "2a4e58e69ac96383",
+      "item": {
+        "type": "markdown",
+        "id": "2a4e58e69ac96383",
+        "text": "# Drop in\n\n- To our chat - [https://vector.im/beta/#/room/#fedwiki:matrix.org vector.im]\n- Face chat - [https://appear.in/fedwiki https://appear.in/fedwiki appear.in]\n\n# Activity\n\nCheck out [[Research Activity]] below:\n  \n- [[Changes to this Site]]\n- [[Local Changes]]\n- [[Recent Changes]]\n- [[Recycled pages]]\n- Create content with [[Fedwiki Tools]]\n\nBelow you can see the activity on this site for the past few days: "
+      },
+      "date": 1520936115295
+    },
+    {
+      "type": "edit",
+      "id": "2a4e58e69ac96383",
+      "item": {
+        "type": "markdown",
+        "id": "2a4e58e69ac96383",
+        "text": "# Drop in\n\n- To our chat - [https://vector.im/beta/#/room/#fedwiki:matrix.org vector.im]\n- Face chat - [https://appear.in/fedwiki https://appear.in/fedwiki appear.in]\n\n# Activity\n  \n- [[Changes to this Site]]\n- [[Local Changes]]\n- [[Recent Changes]]\n- [[Recycled pages]]\n- [[Research Activity]]\n- Create content with [[Fedwiki Tools]]\n\nBelow you can see the activity on this site for the past few days: "
+      },
+      "date": 1520936553292
+    },
+    {
+      "type": "edit",
+      "id": "2a4e58e69ac96383",
+      "item": {
+        "type": "markdown",
+        "id": "2a4e58e69ac96383",
+        "text": "# Drop in\n\n- To our chat - [https://vector.im/beta/#/room/#fedwiki:matrix.org vector.im]\n- Face chat - [https://appear.in/fedwiki https://appear.in/fedwiki appear.in]\n\n# Activity\n  \n- [[Changes to this Site]]\n- [[Research Activity]]\n- Create content with [[Fedwiki Tools]]\n- [[Local Changes]]\n- [[Recent Changes]]\n- [[Recycled pages]]\n\nBelow you can see the activity on this site for the past few days: "
+      },
+      "date": 1520936586388
+    },
+    {
+      "type": "edit",
+      "id": "2a4e58e69ac96383",
+      "item": {
+        "type": "markdown",
+        "id": "2a4e58e69ac96383",
+        "text": "# Drop in\n\n- To our chat - [https://vector.im/beta/#/room/#fedwiki:matrix.org vector.im]\n- Face chat - [https://appear.in/fedwiki https://appear.in/fedwiki appear.in]\n\n# Activity\n  \n- [[Changes to this Site]]\n- [[Research Activity]]\n- [[Local Changes]]\n- [[Recent Changes]]\n- [[Recycled pages]]\n- Create content with [[Fedwiki Tools]]\n\nBelow you can see the activity on this site for the past few days: "
+      },
+      "date": 1520936605614
+    },
+    {
+      "type": "edit",
+      "id": "2a4e58e69ac96383",
+      "item": {
+        "type": "markdown",
+        "id": "2a4e58e69ac96383",
+        "text": "# Activity\n  \n- [[Changes to this Site]]\n- [[Research Activity]]\n- [[Local Changes]]\n- [[Recent Changes]]\n- [[Recycled pages]]\n- Create content with [[Fedwiki Tools]]\n\nBelow you can see the activity on this site for the past few days: "
+      },
+      "date": 1520936621478
+    },
+    {
+      "type": "move",
+      "order": [
+        "7b56f22a4b9ee974",
+        "971509b5b95ef4d2",
+        "ac5a3caf324ddf17",
+        "2a4e58e69ac96383",
+        "e9e9f102158e1382",
+        "3b0f24cf29300269",
+        "fdb3503fde556952",
+        "3ed8300ba0e9b15a",
+        "c48d283135233f15",
+        "ee416d431ebf4fb4",
+        "e5106cd23556ddb9",
+        "30d9909c309a6054",
+        "b1be1b176a46e0ad",
+        "347db6adffb4cd63",
+        "10d969f49052c186",
+        "375aba158e116930",
+        "35a928d8f7bf31f4"
+      ],
+      "id": "971509b5b95ef4d2",
+      "date": 1520937043151
+    },
+    {
+      "type": "edit",
+      "id": "ac5a3caf324ddf17",
+      "item": {
+        "type": "markdown",
+        "id": "ac5a3caf324ddf17",
+        "text": "# Topics\n\n\n"
+      },
+      "date": 1545130894401
+    },
+    {
+      "type": "add",
+      "id": "1a8462bc43762e49",
+      "item": {
+        "type": "markdown",
+        "id": "1a8462bc43762e49",
+        "text": "- [[Postman]]\n- [[Gcloud]]\n- [[Google Custom Search]]\n- [[JSON Web Token]]\n- [[HTML Form]]\n- [[pandoc]]\n- [[Changes to Technology Sites]]\n"
+      },
+      "after": "ac5a3caf324ddf17",
+      "date": 1545130899656
+    },
+    {
+      "type": "edit",
+      "id": "1a8462bc43762e49",
+      "item": {
+        "type": "markdown",
+        "id": "1a8462bc43762e49",
+        "text": "- [[TIOBE index]]\n- [[Postman]]\n- [[Gcloud]]\n- [[Google Custom Search]]\n- [[JSON Web Token]]\n- [[HTML Form]]\n- [[pandoc]]\n- [[Changes to Technology Sites]]\n"
+      },
+      "date": 1545394448342
+    },
+    {
+      "type": "edit",
+      "id": "1a8462bc43762e49",
+      "item": {
+        "type": "markdown",
+        "id": "1a8462bc43762e49",
+        "text": "- [[TIOBE index]]\n- [[How standards proliferate]]\n\n- [[Postman]]\n- [[Gcloud]]\n- [[Google Custom Search]]\n- [[JSON Web Token]]\n- [[HTML Form]]\n- [[pandoc]]\n- [[Changes to Technology Sites]]\n"
+      },
+      "date": 1545411211916
+    },
+    {
+      "type": "edit",
+      "id": "1a8462bc43762e49",
+      "item": {
+        "type": "markdown",
+        "id": "1a8462bc43762e49",
+        "text": "- [[TIOBE index]]\n- [[How standards proliferate]]\n- [[Postman]]\n- [[Gcloud]]\n- [[Google Custom Search]]\n- [[JSON Web Token]]\n- [[HTML Form]]\n- [[pandoc]]\n- [[Changes to Technology Sites]]\n"
+      },
+      "date": 1545411215650
+    },
+    {
+      "type": "edit",
+      "id": "1a8462bc43762e49",
+      "item": {
+        "type": "markdown",
+        "id": "1a8462bc43762e49",
+        "text": "- [[GraalVM]]\n- [[TIOBE index]]\n- [[How standards proliferate]]\n- [[Postman]]\n- [[Gcloud]]\n- [[Google Custom Search]]\n- [[JSON Web Token]]\n- [[HTML Form]]\n- [[pandoc]]\n- [[Changes to Technology Sites]]\n"
+      },
+      "date": 1545415216553
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "roster",
+        "id": "1bea8572d71395ba",
+        "text": "C0de Sites\n\nROSTER rest.livecode.world/c0de"
+      },
+      "after": "3b0f24cf29300269",
+      "id": "1bea8572d71395ba",
+      "date": 1547903301500
+    },
+    {
+      "type": "remove",
+      "id": "fdb3503fde556952",
+      "date": 1547903305911
+    },
+    {
+      "type": "remove",
+      "id": "3ed8300ba0e9b15a",
+      "date": 1547903308209
+    },
+    {
+      "type": "remove",
+      "id": "c48d283135233f15",
+      "date": 1547903310466
+    },
+    {
+      "type": "remove",
+      "id": "e5106cd23556ddb9",
+      "date": 1547903312945
+    },
+    {
+      "type": "remove",
+      "id": "30d9909c309a6054",
+      "date": 1547903314874
+    },
+    {
+      "type": "remove",
+      "id": "b1be1b176a46e0ad",
+      "date": 1547903316841
+    },
+    {
+      "type": "remove",
+      "id": "347db6adffb4cd63",
+      "date": 1547903318850
+    },
+    {
+      "type": "remove",
+      "id": "10d969f49052c186",
+      "date": 1547903320906
+    },
+    {
+      "type": "remove",
+      "id": "375aba158e116930",
+      "date": 1547903322881
+    },
+    {
+      "type": "remove",
+      "id": "35a928d8f7bf31f4",
+      "date": 1547903324889
+    },
+    {
+      "type": "edit",
+      "id": "3b0f24cf29300269",
+      "item": {
+        "text": "# Rosters\n\nHere are some rosters that help us connect and navigate to related sites:",
+        "id": "3b0f24cf29300269",
+        "type": "markdown"
+      },
+      "date": 1547903351820
+    },
+    {
+      "type": "remove",
+      "id": "ee416d431ebf4fb4",
+      "date": 1547903356178
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "7f6459b61d485407",
+        "text": "# Activity\n\nExplore [[recent activity]] in [[the federation]] over the past few days, by exploring the links below:\n  \n- [[Changes to this Site]]\n- [[Research Group Activity]]\n- [[Drop in]] to our Fedwiki chat - [https://riot.im/app/#/room/#fedwiki:matrix.org riot.im]\n- Create content with [[Fedwiki Tools]]\n"
+      },
+      "after": "1a8462bc43762e49",
+      "id": "7f6459b61d485407",
+      "date": 1547903393452
+    },
+    {
+      "type": "remove",
+      "id": "2a4e58e69ac96383",
+      "date": 1547903396091
+    },
+    {
+      "type": "remove",
+      "id": "971509b5b95ef4d2",
+      "date": 1547903399612
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "roster",
+        "id": "cc2b5f51eaad0c92",
+        "text": "Livecode Sites\n\nROSTER rest.livecode.world/livecode",
+        "alias": "1bea8572d71395ba"
+      },
+      "after": "1bea8572d71395ba",
+      "id": "cc2b5f51eaad0c92",
+      "date": 1547903498489
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "roster",
+        "id": "741a0fcdd3ff76b2",
+        "text": "Fedwiki Sites\n\nROSTER rest.livecode.world/roster"
+      },
+      "after": "1bea8572d71395ba",
+      "id": "741a0fcdd3ff76b2",
+      "date": 1547903508028
+    },
+    {
+      "type": "edit",
+      "id": "1a8462bc43762e49",
+      "item": {
+        "type": "markdown",
+        "id": "1a8462bc43762e49",
+        "text": "- [[GraalVM]]\n- [[TIOBE index]]\n- [[How standards proliferate]]\n- [[Postman]]\n- [[Gcloud]]\n- [[JSON Web Token]]\n- [[pandoc]]"
+      },
+      "date": 1547903533933
+    },
+    {
+      "type": "edit",
+      "id": "1a8462bc43762e49",
+      "item": {
+        "type": "markdown",
+        "id": "1a8462bc43762e49",
+        "text": "- [[C0de Activity]]\n"
+      },
+      "date": 1547903750649
+    },
+    {
+      "type": "add",
+      "id": "efc99880afc3772e",
+      "item": {
+        "type": "markdown",
+        "id": "efc99880afc3772e",
+        "text": "- [[GraalVM]]\n- [[TIOBE index]]\n- [[How standards proliferate]]\n- [[Postman]]\n- [[Gcloud]]\n- [[JSON Web Token]]\n- [[pandoc]]"
+      },
+      "after": "1a8462bc43762e49",
+      "date": 1547903751341
+    },
+    {
+      "type": "edit",
+      "id": "1a8462bc43762e49",
+      "item": {
+        "type": "markdown",
+        "id": "1a8462bc43762e49",
+        "text": "- [[C0de Activity]]\n- [[Livecode Activity]]\n- [[Fedwiki Activity]]\n\n"
+      },
+      "date": 1547903769556
+    },
+    {
+      "type": "move",
+      "order": [
+        "7b56f22a4b9ee974",
+        "ac5a3caf324ddf17",
+        "efc99880afc3772e",
+        "1a8462bc43762e49",
+        "7f6459b61d485407",
+        "e9e9f102158e1382",
+        "3b0f24cf29300269",
+        "1bea8572d71395ba",
+        "741a0fcdd3ff76b2",
+        "cc2b5f51eaad0c92"
+      ],
+      "id": "1a8462bc43762e49",
+      "date": 1547903773129
+    },
+    {
+      "type": "edit",
+      "id": "1a8462bc43762e49",
+      "item": {
+        "type": "markdown",
+        "id": "1a8462bc43762e49",
+        "text": "# Check\n"
+      },
+      "date": 1547903792044
+    },
+    {
+      "type": "add",
+      "id": "33b93ba133b346b1",
+      "item": {
+        "type": "markdown",
+        "id": "33b93ba133b346b1",
+        "text": "- [[C0de Activity]]\n- [[Livecode Activity]]\n- [[Fedwiki Activity]]\n\n"
+      },
+      "after": "1a8462bc43762e49",
+      "date": 1547903792507
+    },
+    {
+      "type": "edit",
+      "id": "1a8462bc43762e49",
+      "item": {
+        "type": "markdown",
+        "id": "1a8462bc43762e49",
+        "text": "# View\n"
+      },
+      "date": 1547903807499
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "79f7792ab090dd89",
+        "text": "# Activity\n\nExplore [[recent changes]] in [[the federation]] over the past few days, by exploring the links below:\n  \n- [[Federation Activity]]\n- [[Drop in]] to our Fedwiki chat - [https://riot.im/app/#/room/#fedwiki:matrix.org riot.im]",
+        "alias": "7f6459b61d485407"
+      },
+      "after": "33b93ba133b346b1",
+      "id": "79f7792ab090dd89",
+      "date": 1550654827437,
+      "error": {
+        "type": "error",
+        "msg": ""
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1550654841980
+    },
+    {
+      "type": "remove",
+      "id": "741a0fcdd3ff76b2",
+      "date": 1550654859237
+    },
+    {
+      "type": "remove",
+      "id": "cc2b5f51eaad0c92",
+      "date": 1550654868204
+    },
+    {
+      "type": "add",
+      "item": {
+        "text": "POST https://rest.livecode.world/imagine",
+        "id": "10ea2af363e51a5f",
+        "type": "transport"
+      },
+      "after": "7b56f22a4b9ee974",
+      "id": "10ea2af363e51a5f",
+      "date": 1551993322700
+    },
+    {
+      "type": "add",
+      "item": {
+        "id": "af41a911fdacd814",
+        "type": "transport",
+        "text": "POST https://rest.livecode.world/imagine",
+        "alias": "10ea2af363e51a5f"
+      },
+      "after": "10ea2af363e51a5f",
+      "id": "af41a911fdacd814",
+      "date": 1551993328092
+    },
+    {
+      "type": "edit",
+      "id": "af41a911fdacd814",
+      "item": {
+        "id": "af41a911fdacd814",
+        "type": "transport",
+        "text": "POST https://rest.livecode.world/mediawiki",
+        "alias": "10ea2af363e51a5f"
+      },
+      "date": 1551993335012
+    },
+    {
+      "type": "remove",
+      "id": "10ea2af363e51a5f",
+      "date": 1551996408903
+    },
+    {
+      "type": "remove",
+      "id": "af41a911fdacd814",
+      "date": 1551996410614
+    },
+    {
+      "type": "edit",
+      "id": "efc99880afc3772e",
+      "item": {
+        "type": "markdown",
+        "id": "efc99880afc3772e",
+        "text": "- [[GraalVM]]\n- [[TIOBE index]]\n- [[How standards proliferate]]\n- [[Postman]]\n- [[Gcloud]]\n- [[JSON Web Token]]\n- [[pandoc]]\n- [[HTTP_REFERER]]"
+      },
+      "date": 1552049097090
+    },
+    {
+      "type": "edit",
+      "id": "efc99880afc3772e",
+      "item": {
+        "type": "markdown",
+        "id": "efc99880afc3772e",
+        "text": "- [[GraalVM]]\n- [[Object Orientation Revisited]]\n- [[TIOBE index]]\n- [[How standards proliferate]]\n- [[Postman]]\n- [[Gcloud]]\n- [[JSON Web Token]]\n- [[pandoc]]\n- [[HTTP_REFERER]]"
+      },
+      "date": 1560867972616
+    },
+    {
+      "type": "edit",
+      "id": "efc99880afc3772e",
+      "item": {
+        "type": "markdown",
+        "id": "efc99880afc3772e",
+        "text": "- [[Functional Specification]]\n"
+      },
+      "date": 1564659014032
+    },
+    {
+      "type": "add",
+      "id": "b36d71b89aa46534",
+      "item": {
+        "type": "markdown",
+        "id": "b36d71b89aa46534",
+        "text": "- [[GraalVM]]\n- [[Object Orientation Revisited]]\n- [[TIOBE index]]\n- [[How standards proliferate]]\n- [[Postman]]\n- [[Gcloud]]\n- [[JSON Web Token]]\n- [[pandoc]]\n- [[HTTP_REFERER]]"
+      },
+      "after": "efc99880afc3772e",
+      "date": 1564659021440
+    }
+  ],
+  "title": "Welcome Visitors",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "7b56f22a4b9ee974",
+      "text": "Welcome to a [[Federated Wiki]] site for the [[c0de Academy]], where we write about code and programming."
+    },
+    {
+      "type": "markdown",
+      "id": "ac5a3caf324ddf17",
+      "text": "# Topics\n\n\n"
+    },
+    {
+      "type": "markdown",
+      "id": "efc99880afc3772e",
+      "text": "- [[Functional Specification]]\n"
+    },
+    {
+      "type": "markdown",
+      "id": "b36d71b89aa46534",
+      "text": "- [[GraalVM]]\n- [[Object Orientation Revisited]]\n- [[TIOBE index]]\n- [[How standards proliferate]]\n- [[Postman]]\n- [[Gcloud]]\n- [[JSON Web Token]]\n- [[pandoc]]\n- [[HTTP_REFERER]]"
+    },
+    {
+      "type": "markdown",
+      "id": "1a8462bc43762e49",
+      "text": "# View\n"
+    },
+    {
+      "type": "markdown",
+      "id": "33b93ba133b346b1",
+      "text": "- [[C0de Activity]]\n- [[Livecode Activity]]\n- [[Fedwiki Activity]]\n\n"
+    },
+    {
+      "type": "markdown",
+      "id": "79f7792ab090dd89",
+      "text": "# Activity\n\nExplore [[recent changes]] in [[the federation]] over the past few days, by exploring the links below:\n  \n- [[Federation Activity]]\n- [[Drop in]] to our Fedwiki chat - [https://riot.im/app/#/room/#fedwiki:matrix.org riot.im]",
+      "alias": "7f6459b61d485407"
+    },
+    {
+      "type": "markdown",
+      "id": "7f6459b61d485407",
+      "text": ""
+    },
+    {
+      "type": "activity",
+      "id": "e9e9f102158e1382",
+      "text": "NEIGHBORHOOD no\nNARRATIVE\nSINCE 5 days"
+    },
+    {
+      "text": "# Rosters\n\nHere are some rosters that help us connect and navigate to related sites:",
+      "id": "3b0f24cf29300269",
+      "type": "markdown"
+    },
+    {
+      "type": "roster",
+      "id": "1bea8572d71395ba",
+      "text": "C0de Sites\n\nROSTER rest.livecode.world/c0de"
+    }
+  ]
+}
