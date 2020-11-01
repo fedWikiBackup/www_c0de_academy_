@@ -1,0 +1,187 @@
+{
+  "title": "HTML Imports",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "63de13aa-c875-41fa-a2e4-c3a4c3dbc797",
+      "text": "HTML import is a tool to include [[HTML]] documents and web components from external sources without using ([[Ajax (programming)]]) requests - [https://www.w3.org/TR/html-imports/ w3.org]"
+    },
+    {
+      "type": "paragraph",
+      "id": "3e1eecdb-6922-4070-8ef2-23e0ab69f23c",
+      "text": "The syntax for doing an HTML import looks like this:"
+    },
+    {
+      "type": "code",
+      "id": "744835559c86109b",
+      "text": "<link rel=\"import\" href=\"mydocument.html\">"
+    },
+    {
+      "type": "html",
+      "id": "e9a9cd2c-e974-43c3-b01e-65df76e88f30",
+      "text": "</syntaxhighlight>To avoid loading and executing scripts twice that are introduced through imports, HTML import skips loading and executing files that have previously been loaded -\n [http://webcomponents.org/articles/introduction-to-html-imports/ webcomponents.org]"
+    },
+    {
+      "type": "paragraph",
+      "id": "50465b2d-65ca-4ff6-9360-80b4edc7f6cc",
+      "text": "Mozilla Firefox ([[Firefox]]) has no support for HTML import and does not intend to implement it -\n [https://developer.mozilla.org/en-US/docs/Web/Web_Components/HTML_Imports mozilla.org]"
+    },
+    {
+      "type": "paragraph",
+      "id": "08dd7403-9fc5-4af9-afbe-eb1eac1967f4",
+      "text": "HTML Import is also related to an early idea in the development of hypertext called [[Transclusion]], where all or part of an document is inserted into another by reference."
+    },
+    {
+      "type": "markdown",
+      "id": "b1fe1de13a97118a",
+      "text": "# See also\n"
+    },
+    {
+      "type": "markdown",
+      "id": "27a845057518f96c",
+      "text": "- [[Web Components]]\n- [[Custom Elements]]\n- [[Shadow DOM]]\n- [[HTML Imports]]\n- [[HTML Templates]]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "HTML Imports",
+        "story": []
+      },
+      "date": 1547826502374
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "63de13aa-c875-41fa-a2e4-c3a4c3dbc797",
+        "text": "HTML import is a tool to include [[HTML]] documents and web components from external sources without using AJAX ([[Ajax (programming)]]) requests and similar methods - [https://www.w3.org/TR/html-imports/ w3.org]"
+      },
+      "id": "63de13aa-c875-41fa-a2e4-c3a4c3dbc797",
+      "date": 1547826510396
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "3e1eecdb-6922-4070-8ef2-23e0ab69f23c",
+        "text": "The syntax for doing an HTML import looks like this:"
+      },
+      "after": "63de13aa-c875-41fa-a2e4-c3a4c3dbc797",
+      "id": "3e1eecdb-6922-4070-8ef2-23e0ab69f23c",
+      "date": 1547826512678
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "code",
+        "id": "744835559c86109b",
+        "text": "<link rel=\"import\" href=\"mydocument.html\">"
+      },
+      "after": "3e1eecdb-6922-4070-8ef2-23e0ab69f23c",
+      "id": "744835559c86109b",
+      "date": 1547826515102
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "html",
+        "id": "e9a9cd2c-e974-43c3-b01e-65df76e88f30",
+        "text": "</syntaxhighlight>To avoid loading and executing scripts twice that are introduced through imports, HTML import skips loading and executing files that have previously been loaded -\n [http://webcomponents.org/articles/introduction-to-html-imports/ webcomponents.org]"
+      },
+      "after": "3e1eecdb-6922-4070-8ef2-23e0ab69f23c",
+      "id": "e9a9cd2c-e974-43c3-b01e-65df76e88f30",
+      "date": 1547826517304
+    },
+    {
+      "type": "move",
+      "order": [
+        "63de13aa-c875-41fa-a2e4-c3a4c3dbc797",
+        "3e1eecdb-6922-4070-8ef2-23e0ab69f23c",
+        "744835559c86109b",
+        "e9a9cd2c-e974-43c3-b01e-65df76e88f30"
+      ],
+      "id": "744835559c86109b",
+      "date": 1547826519274
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "50465b2d-65ca-4ff6-9360-80b4edc7f6cc",
+        "text": "Mozilla Firefox ([[Firefox]]) has no support for HTML import and does not intend to implement it -\n [https://developer.mozilla.org/en-US/docs/Web/Web_Components/HTML_Imports mozilla.org]"
+      },
+      "after": "e9a9cd2c-e974-43c3-b01e-65df76e88f30",
+      "id": "50465b2d-65ca-4ff6-9360-80b4edc7f6cc",
+      "date": 1547826522027
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "08dd7403-9fc5-4af9-afbe-eb1eac1967f4",
+        "text": "HTML Import is also related to an early idea in the development of hypertext called [[Transclusion]], where all or part of an document is inserted into another by reference."
+      },
+      "after": "50465b2d-65ca-4ff6-9360-80b4edc7f6cc",
+      "id": "08dd7403-9fc5-4af9-afbe-eb1eac1967f4",
+      "date": 1547826525008
+    },
+    {
+      "type": "edit",
+      "id": "63de13aa-c875-41fa-a2e4-c3a4c3dbc797",
+      "item": {
+        "type": "paragraph",
+        "id": "63de13aa-c875-41fa-a2e4-c3a4c3dbc797",
+        "text": "HTML import is a tool to include [[HTML]] documents and web components from external sources without using ([[Ajax (programming)]]) requests and similar methods - [https://www.w3.org/TR/html-imports/ w3.org]"
+      },
+      "date": 1547826533980
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "b1fe1de13a97118a"
+      },
+      "id": "b1fe1de13a97118a",
+      "type": "add",
+      "after": "08dd7403-9fc5-4af9-afbe-eb1eac1967f4",
+      "date": 1547826557314
+    },
+    {
+      "type": "edit",
+      "id": "b1fe1de13a97118a",
+      "item": {
+        "type": "markdown",
+        "id": "b1fe1de13a97118a",
+        "text": "# See also\n"
+      },
+      "date": 1547826562832
+    },
+    {
+      "type": "add",
+      "id": "27a845057518f96c",
+      "item": {
+        "type": "markdown",
+        "id": "27a845057518f96c",
+        "text": "- [[Web Components]]\n- [[Custom Elements]]\n- [[Shadow DOM]]\n- [[HTML Imports]]\n- [[HTML Templates]]"
+      },
+      "after": "b1fe1de13a97118a",
+      "date": 1547826603032
+    },
+    {
+      "type": "fork",
+      "site": "future.fedwiki.org",
+      "date": 1547826618481
+    },
+    {
+      "type": "edit",
+      "id": "63de13aa-c875-41fa-a2e4-c3a4c3dbc797",
+      "item": {
+        "type": "paragraph",
+        "id": "63de13aa-c875-41fa-a2e4-c3a4c3dbc797",
+        "text": "HTML import is a tool to include [[HTML]] documents and web components from external sources without using ([[Ajax (programming)]]) requests - [https://www.w3.org/TR/html-imports/ w3.org]"
+      },
+      "date": 1547826651856
+    }
+  ]
+}
