@@ -1,0 +1,455 @@
+{
+  "title": "Imperative programming",
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "story": "",
+        "title": "Imperative programming"
+      },
+      "date": 1491999308113,
+      "source": {
+        "pageTitle": "Imperative programming",
+        "pageSlug": "Imperative programming",
+        "url": "https://en.wikipedia.org/wiki/Imperative_programming",
+        "date": 1491999308113,
+        "link_dictionary": {
+          "wiki_links": {
+            "Rationale and foundations of imperative programming": {
+              "section_number": 2,
+              "section_level": 2,
+              "dot_number": 2
+            },
+            "Imperative and procedural programming": {
+              "section_number": 1,
+              "section_level": 2,
+              "dot_number": 1
+            },
+            "See also": {
+              "section_number": 4,
+              "section_level": 2,
+              "dot_number": 4
+            },
+            "References": {
+              "section_number": 6,
+              "section_level": 2,
+              "dot_number": 6
+            },
+            "Notes": {
+              "section_number": 5,
+              "section_level": 2,
+              "dot_number": 5
+            },
+            "History of imperative and object-oriented languages": {
+              "section_number": 3,
+              "section_level": 2,
+              "dot_number": 3
+            }
+          },
+          "default": {
+            "transport": "https://livecode.world/mediawiki/importSection"
+          }
+        },
+        "transport": "https://livecode.world/mediawiki/transportAgain",
+        "rev": 771962142,
+        "repo": "https://github.com/LiveCodeWorld/lib_MediaWiki"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1491999308656
+    },
+    {
+      "type": "edit",
+      "id": "c4ddf42f-e1d7-4fe4-9550-f8dfc92b462e",
+      "item": {
+        "type": "paragraph",
+        "id": "c4ddf42f-e1d7-4fe4-9550-f8dfc92b462e",
+        "text": "In computer science, imperative programming is a programming paradigm that uses statements that change a program's state - [https://en.wikipedia.org/wiki/Imperative_programming wikipedia]"
+      },
+      "date": 1491999343188
+    },
+    {
+      "type": "add",
+      "id": "f58edb1374f4f8bd",
+      "item": {
+        "type": "paragraph",
+        "id": "f58edb1374f4f8bd",
+        "text": "In much the same way that the imperative mood in natural languages expresses commands, an imperative program consists of commands for the computer to perform. Imperative programming focuses on describing how a program operates."
+      },
+      "after": "c4ddf42f-e1d7-4fe4-9550-f8dfc92b462e",
+      "date": 1491999343781
+    },
+    {
+      "type": "edit",
+      "id": "35666cd0-9219-4e44-a26e-cba224d2d86f",
+      "item": {
+        "type": "markdown",
+        "id": "35666cd0-9219-4e44-a26e-cba224d2d86f",
+        "text": "# See also\n\n- [[Imperative and procedural programming]]\n- [[Rationale and foundations of imperative programming]]\n- [[History of imperative and object-oriented languages]]\n- [[Declarative programming]]"
+      },
+      "date": 1491999455137
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "c4ddf42f-e1d7-4fe4-9550-f8dfc92b462e",
+        "text": "In computer science, imperative programming is a programming paradigm that uses statements that change a program's state - [https://en.wikipedia.org/wiki/Imperative_programming wikipedia]"
+      },
+      "id": "c4ddf42f-e1d7-4fe4-9550-f8dfc92b462e",
+      "date": 1550997385531
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "f4144490ddd44a91",
+        "text": "In computer science, imperative programming is a programming paradigm that uses statements that change a program's state - [https://en.wikipedia.org/wiki/Imperative_programming wikipedia]",
+        "alias": "c4ddf42f-e1d7-4fe4-9550-f8dfc92b462e"
+      },
+      "id": "f4144490ddd44a91",
+      "date": 1550997389300
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "ccc460b3-e9f4-4906-a5c9-8c7fbd902df8",
+        "text": "The term is often used in contrast to [[declarative programming]], which focuses on ''what'' the program should accomplish without specifying ''how'' the program should achieve the result - [https://en.wikipedia.org/wiki/Imperative_programming wikipedia]"
+      },
+      "after": "5450ad50-ec2c-48b5-b41c-3b6e32cb20b4",
+      "id": "ccc460b3-e9f4-4906-a5c9-8c7fbd902df8",
+      "date": 1550997408743
+    },
+    {
+      "type": "remove",
+      "id": "5450ad50-ec2c-48b5-b41c-3b6e32cb20b4",
+      "date": 1550997411498
+    },
+    {
+      "type": "edit",
+      "id": "ccc460b3-e9f4-4906-a5c9-8c7fbd902df8",
+      "item": {
+        "type": "markdown",
+        "id": "ccc460b3-e9f4-4906-a5c9-8c7fbd902df8",
+        "text": "The term is often used in contrast to [[declarative programming]], which focuses on ''what'' the program should accomplish without specifying ''how'' the program should achieve the result."
+      },
+      "date": 1550997416861
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "392e8119-b067-4739-8402-cf86e9c051dc",
+        "text": "- [[Functional programming]]\n- [[Comparison of programming paradigms]]\n- [[Reactive programming]]\n- [[History of programming languages]]\n- [[List of imperative programming languages]]"
+      },
+      "after": "35666cd0-9219-4e44-a26e-cba224d2d86f",
+      "id": "392e8119-b067-4739-8402-cf86e9c051dc",
+      "date": 1550997428894
+    },
+    {
+      "type": "edit",
+      "id": "35666cd0-9219-4e44-a26e-cba224d2d86f",
+      "item": {
+        "type": "markdown",
+        "id": "35666cd0-9219-4e44-a26e-cba224d2d86f",
+        "text": "# See also\n\n\n"
+      },
+      "date": 1550997455412
+    },
+    {
+      "type": "add",
+      "id": "a7341229a18c9285",
+      "item": {
+        "type": "markdown",
+        "id": "a7341229a18c9285",
+        "text": "- [[Declarative programming]]"
+      },
+      "after": "35666cd0-9219-4e44-a26e-cba224d2d86f",
+      "date": 1550997456004
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "01b06c81-28e3-4950-ab55-d738b296f328",
+        "text": "# Imperative and procedural programming"
+      },
+      "after": "ccc460b3-e9f4-4906-a5c9-8c7fbd902df8",
+      "id": "01b06c81-28e3-4950-ab55-d738b296f328",
+      "date": 1550997467485
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "ea4898dd-e069-4091-a6b1-29153c22fe29",
+        "text": "[[Procedural programming]] is a type of imperative programming in which the program is built from one or more procedures (also termed [[subroutine]]s or functions). The terms are often used as synonyms, but the use of procedures has a dramatic effect on how imperative programs appear and how they are constructed. Heavily-procedural programming, in which [[State (computer science)]] changes are localized to procedures or restricted to explicit arguments and returns from procedures, is a form of [[structured programming]]. From the 1960s onwards, structured programming and [[modular programming]] in general have been promoted as techniques to improve the [[maintainability]] and overall quality of imperative programs. The concepts behind [[object-oriented programming]] attempt to extend this approach - [https://en.wikipedia.org/wiki/Imperative_programming#Imperative_and_procedural_programming wikipedia]"
+      },
+      "after": "ccc460b3-e9f4-4906-a5c9-8c7fbd902df8",
+      "id": "ea4898dd-e069-4091-a6b1-29153c22fe29",
+      "date": 1550997471002
+    },
+    {
+      "type": "move",
+      "order": [
+        "f4144490ddd44a91",
+        "f58edb1374f4f8bd",
+        "ccc460b3-e9f4-4906-a5c9-8c7fbd902df8",
+        "01b06c81-28e3-4950-ab55-d738b296f328",
+        "ea4898dd-e069-4091-a6b1-29153c22fe29",
+        "35666cd0-9219-4e44-a26e-cba224d2d86f",
+        "a7341229a18c9285",
+        "392e8119-b067-4739-8402-cf86e9c051dc"
+      ],
+      "id": "01b06c81-28e3-4950-ab55-d738b296f328",
+      "date": 1550997472607
+    },
+    {
+      "type": "edit",
+      "id": "ea4898dd-e069-4091-a6b1-29153c22fe29",
+      "item": {
+        "type": "markdown",
+        "id": "ea4898dd-e069-4091-a6b1-29153c22fe29",
+        "text": "[[Procedural programming]] is a type of imperative programming in which the program is built from one or more procedures (also termed [[subroutine]]s or functions). \n"
+      },
+      "date": 1550997483210
+    },
+    {
+      "type": "add",
+      "id": "2b94d9d4a7875d08",
+      "item": {
+        "type": "markdown",
+        "id": "2b94d9d4a7875d08",
+        "text": "The terms are often used as synonyms, but the use of procedures has a dramatic effect on how imperative programs appear and how they are constructed. \n"
+      },
+      "after": "ea4898dd-e069-4091-a6b1-29153c22fe29",
+      "date": 1550997492957
+    },
+    {
+      "type": "add",
+      "id": "844ec80dcd7776c0",
+      "item": {
+        "type": "markdown",
+        "id": "844ec80dcd7776c0",
+        "text": "Heavily-procedural programming, in which [[State (computer science)]] changes are localized to procedures or restricted to explicit arguments and returns from procedures, is a form of [[structured programming]]. \n"
+      },
+      "after": "2b94d9d4a7875d08",
+      "date": 1550997511099
+    },
+    {
+      "type": "add",
+      "id": "5f2ab6a282e697e8",
+      "item": {
+        "type": "markdown",
+        "id": "5f2ab6a282e697e8",
+        "text": "From the 1960s onwards, structured programming and [[modular programming]] in general have been promoted as techniques to improve the [[maintainability]] and overall quality of imperative programs. \n"
+      },
+      "after": "844ec80dcd7776c0",
+      "date": 1550997518090
+    },
+    {
+      "type": "add",
+      "id": "fa0b76d7d41ad51e",
+      "item": {
+        "type": "markdown",
+        "id": "fa0b76d7d41ad51e",
+        "text": "The concepts behind [[object-oriented programming]] attempt to extend this approach - [https://en.wikipedia.org/wiki/Imperative_programming#Imperative_and_procedural_programming wikipedia]"
+      },
+      "after": "5f2ab6a282e697e8",
+      "date": 1550997522064
+    },
+    {
+      "type": "remove",
+      "id": "fa0b76d7d41ad51e",
+      "date": 1550997525089
+    },
+    {
+      "type": "edit",
+      "id": "5f2ab6a282e697e8",
+      "item": {
+        "type": "markdown",
+        "id": "5f2ab6a282e697e8",
+        "text": "From the 1960s onwards, structured programming and [[modular programming]] in general have been promoted as techniques to improve the [[maintainability]] and overall quality of imperative programs. The concepts behind [[object-oriented programming]] attempt to extend this approach - [https://en.wikipedia.org/wiki/Imperative_programming#Imperative_and_procedural_programming wikipedia]"
+      },
+      "date": 1550997526203
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "387d2fec-8488-446c-8cce-8e8cc6564cce",
+        "text": "Procedural programming could be considered a step towards declarative programming. A programmer can often tell, simply by looking at the names, arguments, and return types of procedures (and related comments), what a particular procedure is supposed to do, without necessarily looking at the details of how it achieves its result. At the same time, a complete program is still imperative since it ''fixes'' the statements to be executed and their order of execution to a large extent."
+      },
+      "after": "5f2ab6a282e697e8",
+      "id": "387d2fec-8488-446c-8cce-8e8cc6564cce",
+      "date": 1550997533465
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "html",
+        "id": "d2ad5550-7621-47a8-8e34-788238019502",
+        "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Rationale and foundations of imperative programming'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Imperative programming&action=edit&section=2'>\n<input type=submit value=create></form>"
+      },
+      "after": "387d2fec-8488-446c-8cce-8e8cc6564cce",
+      "id": "d2ad5550-7621-47a8-8e34-788238019502",
+      "date": 1550997584254
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "html",
+        "id": "36c882be-29ce-42ee-81d8-04d2cad1ff71",
+        "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='History of imperative and object-oriented languages'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Imperative programming&action=edit&section=3'>\n<input type=submit value=create></form>"
+      },
+      "after": "d2ad5550-7621-47a8-8e34-788238019502",
+      "id": "36c882be-29ce-42ee-81d8-04d2cad1ff71",
+      "date": 1550997592016
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "ba872747-0c9c-4a71-82b7-05dfadfc1bed",
+        "text": "# Sections"
+      },
+      "after": "387d2fec-8488-446c-8cce-8e8cc6564cce",
+      "id": "ba872747-0c9c-4a71-82b7-05dfadfc1bed",
+      "date": 1550997594562
+    },
+    {
+      "type": "edit",
+      "id": "392e8119-b067-4739-8402-cf86e9c051dc",
+      "item": {
+        "type": "markdown",
+        "id": "392e8119-b067-4739-8402-cf86e9c051dc",
+        "text": "- [[Comparison of programming paradigms]]\n- [[Reactive programming]]\n- [[History of programming languages]]\n- [[List of imperative programming languages]]"
+      },
+      "date": 1550998501370
+    },
+    {
+      "type": "edit",
+      "id": "392e8119-b067-4739-8402-cf86e9c051dc",
+      "item": {
+        "type": "markdown",
+        "id": "392e8119-b067-4739-8402-cf86e9c051dc",
+        "text": "- [[Comparison of programming paradigms]]\n- [[History of programming languages]]\n- [[List of imperative programming languages]]"
+      },
+      "date": 1550998509920
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "184098f494286c76",
+        "text": "- [[Imperative programming]]\n- [[Procedural programming]]\n- [[Declarative programming]]\n- [[Functional programming]]\n- [[Reactive programming]]\n- [[Programming paradigm]]\n\n"
+      },
+      "after": "a7341229a18c9285",
+      "id": "184098f494286c76",
+      "date": 1550998598028
+    },
+    {
+      "type": "remove",
+      "id": "a7341229a18c9285",
+      "date": 1550998601098
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "264f5b5f84fcac74",
+        "text": "- [[Imperative programming]]\n- [[Procedural programming]]\n- [[Object-oriented programming]]\n- [[Declarative programming]]\n- [[Functional programming]]\n- [[Reactive programming]]\n- [[Logic programming]]\n- [[Programming paradigm]]\n\n",
+        "alias": "184098f494286c76"
+      },
+      "after": "184098f494286c76",
+      "id": "264f5b5f84fcac74",
+      "date": 1550998654056
+    },
+    {
+      "type": "remove",
+      "id": "184098f494286c76",
+      "date": 1550998656613
+    }
+  ],
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "f4144490ddd44a91",
+      "text": "In computer science, imperative programming is a programming paradigm that uses statements that change a program's state - [https://en.wikipedia.org/wiki/Imperative_programming wikipedia]",
+      "alias": "c4ddf42f-e1d7-4fe4-9550-f8dfc92b462e"
+    },
+    {
+      "type": "paragraph",
+      "id": "f58edb1374f4f8bd",
+      "text": "In much the same way that the imperative mood in natural languages expresses commands, an imperative program consists of commands for the computer to perform. Imperative programming focuses on describing how a program operates."
+    },
+    {
+      "type": "markdown",
+      "id": "ccc460b3-e9f4-4906-a5c9-8c7fbd902df8",
+      "text": "The term is often used in contrast to [[declarative programming]], which focuses on ''what'' the program should accomplish without specifying ''how'' the program should achieve the result."
+    },
+    {
+      "type": "markdown",
+      "id": "01b06c81-28e3-4950-ab55-d738b296f328",
+      "text": "# Imperative and procedural programming"
+    },
+    {
+      "type": "markdown",
+      "id": "ea4898dd-e069-4091-a6b1-29153c22fe29",
+      "text": "[[Procedural programming]] is a type of imperative programming in which the program is built from one or more procedures (also termed [[subroutine]]s or functions). \n"
+    },
+    {
+      "type": "markdown",
+      "id": "2b94d9d4a7875d08",
+      "text": "The terms are often used as synonyms, but the use of procedures has a dramatic effect on how imperative programs appear and how they are constructed. \n"
+    },
+    {
+      "type": "markdown",
+      "id": "844ec80dcd7776c0",
+      "text": "Heavily-procedural programming, in which [[State (computer science)]] changes are localized to procedures or restricted to explicit arguments and returns from procedures, is a form of [[structured programming]]. \n"
+    },
+    {
+      "type": "markdown",
+      "id": "5f2ab6a282e697e8",
+      "text": "From the 1960s onwards, structured programming and [[modular programming]] in general have been promoted as techniques to improve the [[maintainability]] and overall quality of imperative programs. The concepts behind [[object-oriented programming]] attempt to extend this approach - [https://en.wikipedia.org/wiki/Imperative_programming#Imperative_and_procedural_programming wikipedia]"
+    },
+    {
+      "type": "markdown",
+      "id": "387d2fec-8488-446c-8cce-8e8cc6564cce",
+      "text": "Procedural programming could be considered a step towards declarative programming. A programmer can often tell, simply by looking at the names, arguments, and return types of procedures (and related comments), what a particular procedure is supposed to do, without necessarily looking at the details of how it achieves its result. At the same time, a complete program is still imperative since it ''fixes'' the statements to be executed and their order of execution to a large extent."
+    },
+    {
+      "type": "markdown",
+      "id": "ba872747-0c9c-4a71-82b7-05dfadfc1bed",
+      "text": "# Sections"
+    },
+    {
+      "type": "html",
+      "id": "d2ad5550-7621-47a8-8e34-788238019502",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Rationale and foundations of imperative programming'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Imperative programming&action=edit&section=2'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "36c882be-29ce-42ee-81d8-04d2cad1ff71",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='History of imperative and object-oriented languages'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Imperative programming&action=edit&section=3'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "markdown",
+      "id": "35666cd0-9219-4e44-a26e-cba224d2d86f",
+      "text": "# See also\n\n\n"
+    },
+    {
+      "type": "markdown",
+      "id": "264f5b5f84fcac74",
+      "text": "- [[Imperative programming]]\n- [[Procedural programming]]\n- [[Object-oriented programming]]\n- [[Declarative programming]]\n- [[Functional programming]]\n- [[Reactive programming]]\n- [[Logic programming]]\n- [[Programming paradigm]]\n\n",
+      "alias": "184098f494286c76"
+    },
+    {
+      "type": "markdown",
+      "id": "392e8119-b067-4739-8402-cf86e9c051dc",
+      "text": "- [[Comparison of programming paradigms]]\n- [[History of programming languages]]\n- [[List of imperative programming languages]]"
+    }
+  ]
+}
