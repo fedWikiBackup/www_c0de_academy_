@@ -1,0 +1,234 @@
+{
+  "title": "C (programming language)",
+  "journal": [
+    {
+      "date": 1551882758073,
+      "type": "create",
+      "item": {
+        "story": "",
+        "title": "C (programming language)"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1551882662302
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "7349e262-cee1-4cdd-8389-87459e6a01e8",
+        "text": "[[C]] is a general-purpose, imperative computer programming language, supporting structured programming, lexical variable scope and recursion, while a static type system prevents many unintended operations. "
+      },
+      "id": "7349e262-cee1-4cdd-8389-87459e6a01e8",
+      "date": 1551882666967
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "e81e1a515fff7c98",
+        "text": "By design, C provides constructs that map efficiently to typical machine instructions, and therefore it has found lasting use in applications that had formerly been coded in assembly language, including operating systems, as well as various application software for computers ranging from supercomputers to embedded systems - [https://en.wikipedia.org/wiki/C_(programming_language) wikipedia]"
+      },
+      "after": "7349e262-cee1-4cdd-8389-87459e6a01e8",
+      "id": "e81e1a515fff7c98",
+      "date": 1551882672410
+    },
+    {
+      "type": "remove",
+      "id": "87c666cf-d6da-4df9-ac76-8b7d1fd1242d",
+      "date": 1551882676016
+    },
+    {
+      "type": "remove",
+      "id": "d4086ee3-b7fc-4d9b-a903-fe98dbd3139b",
+      "date": 1551882678630
+    },
+    {
+      "type": "edit",
+      "id": "c4b91b65-ea3e-4e96-b8ea-ac3a7759abdd",
+      "item": {
+        "type": "markdown",
+        "id": "c4b91b65-ea3e-4e96-b8ea-ac3a7759abdd",
+        "text": "C is an [[imperative programming]] [[procedural programming]] language.  It was designed to be compiled using a relatively straightforward [[compiler]], to provide [[Low-level programming language]] access to [[Computer memory]], to provide language constructs that map efficiently to [[Machine code]], and to require minimal [[Runtime system]].  \n"
+      },
+      "date": 1551882734648
+    },
+    {
+      "type": "add",
+      "id": "3448fc5c5eff4293",
+      "item": {
+        "type": "markdown",
+        "id": "3448fc5c5eff4293",
+        "text": "Despite its low-level capabilities, the language was designed to encourage [[Cross-platform software]] programming.  A [[Specification (technical standard)]]-compliant C program that is written with [[porting]] in mind can be compiled for a very wide variety of computer platforms and operating systems with few changes to its source code.  The language has become available on a very wide range of platforms, from embedded [[microcontroller]]s to [[supercomputer]]s."
+      },
+      "after": "c4b91b65-ea3e-4e96-b8ea-ac3a7759abdd",
+      "date": 1551882735410
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "9613c66f-ccba-42ae-92a8-ed2550656bd7",
+        "text": "# See also"
+      },
+      "after": "19045cca-f174-4de8-b161-b61d064f9540",
+      "id": "9613c66f-ccba-42ae-92a8-ed2550656bd7",
+      "date": 1551882746512
+    },
+    {
+      "type": "edit",
+      "id": "9613c66f-ccba-42ae-92a8-ed2550656bd7",
+      "item": {
+        "type": "markdown",
+        "id": "9613c66f-ccba-42ae-92a8-ed2550656bd7",
+        "text": "# See also\n"
+      },
+      "date": 1551882777688
+    },
+    {
+      "type": "add",
+      "id": "de278ba2ee6bb421",
+      "item": {
+        "type": "markdown",
+        "id": "de278ba2ee6bb421",
+        "text": "- [[Imperative programming]]"
+      },
+      "after": "9613c66f-ccba-42ae-92a8-ed2550656bd7",
+      "date": 1551882780154
+    },
+    {
+      "type": "edit",
+      "id": "de278ba2ee6bb421",
+      "item": {
+        "type": "markdown",
+        "id": "de278ba2ee6bb421",
+        "text": "- [[Imperative programming]]\n- [[Procedural programming]]"
+      },
+      "date": 1551882791859
+    },
+    {
+      "type": "edit",
+      "id": "a4b4c58d-255b-4876-b1b1-90e2a49b6c89",
+      "item": {
+        "type": "markdown",
+        "id": "a4b4c58d-255b-4876-b1b1-90e2a49b6c89",
+        "text": "C was originally developed by [[Dennis Ritchie]] between 1972 and 1973 at [[Bell Labs]]. It was created to make utilities running on Unix. Later, it was applied to re-implementing the kernel of the [[Unix]] operating system. Through 1980s, C gradually gained popularity. \n"
+      },
+      "date": 1551882817002
+    },
+    {
+      "type": "add",
+      "id": "8e3e9d33ed073797",
+      "item": {
+        "type": "markdown",
+        "id": "8e3e9d33ed073797",
+        "text": "Nowadays, it is one of the [[Measuring programming language popularity]] with C [[compiler]]s from various vendors available for the majority of existing [[computer architecture]]s and operating systems.  C has been standardized by the [[American National Standards Institute]] (ANSI) since 1989 (see [[ANSI C]]) and subsequently by the [[International Organization for Standardization]] (ISO)."
+      },
+      "after": "a4b4c58d-255b-4876-b1b1-90e2a49b6c89",
+      "date": 1551882820804
+    }
+  ],
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "7349e262-cee1-4cdd-8389-87459e6a01e8",
+      "text": "[[C]] is a general-purpose, imperative computer programming language, supporting structured programming, lexical variable scope and recursion, while a static type system prevents many unintended operations. "
+    },
+    {
+      "type": "paragraph",
+      "id": "e81e1a515fff7c98",
+      "text": "By design, C provides constructs that map efficiently to typical machine instructions, and therefore it has found lasting use in applications that had formerly been coded in assembly language, including operating systems, as well as various application software for computers ranging from supercomputers to embedded systems - [https://en.wikipedia.org/wiki/C_(programming_language) wikipedia]"
+    },
+    {
+      "type": "markdown",
+      "id": "a4b4c58d-255b-4876-b1b1-90e2a49b6c89",
+      "text": "C was originally developed by [[Dennis Ritchie]] between 1972 and 1973 at [[Bell Labs]]. It was created to make utilities running on Unix. Later, it was applied to re-implementing the kernel of the [[Unix]] operating system. Through 1980s, C gradually gained popularity. \n"
+    },
+    {
+      "type": "markdown",
+      "id": "8e3e9d33ed073797",
+      "text": "Nowadays, it is one of the [[Measuring programming language popularity]] with C [[compiler]]s from various vendors available for the majority of existing [[computer architecture]]s and operating systems.  C has been standardized by the [[American National Standards Institute]] (ANSI) since 1989 (see [[ANSI C]]) and subsequently by the [[International Organization for Standardization]] (ISO)."
+    },
+    {
+      "type": "markdown",
+      "id": "c4b91b65-ea3e-4e96-b8ea-ac3a7759abdd",
+      "text": "C is an [[imperative programming]] [[procedural programming]] language.  It was designed to be compiled using a relatively straightforward [[compiler]], to provide [[Low-level programming language]] access to [[Computer memory]], to provide language constructs that map efficiently to [[Machine code]], and to require minimal [[Runtime system]].  \n"
+    },
+    {
+      "type": "markdown",
+      "id": "3448fc5c5eff4293",
+      "text": "Despite its low-level capabilities, the language was designed to encourage [[Cross-platform software]] programming.  A [[Specification (technical standard)]]-compliant C program that is written with [[porting]] in mind can be compiled for a very wide variety of computer platforms and operating systems with few changes to its source code.  The language has become available on a very wide range of platforms, from embedded [[microcontroller]]s to [[supercomputer]]s."
+    },
+    {
+      "type": "markdown",
+      "id": "4cea7642-6667-4ac0-b8f3-df1a0b522982",
+      "text": "# Sections"
+    },
+    {
+      "type": "html",
+      "id": "0235ecd7-1312-4f2c-b467-323d50fe2190",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Overview'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=C (programming language)&action=edit&section=1'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "aa371ddc-1ebc-42aa-b2b4-bd3d37644bac",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='History'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=C (programming language)&action=edit&section=3'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "8f8f17b4-ff83-43f2-b781-ba8ebb674e9c",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Syntax'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=C (programming language)&action=edit&section=11'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "503b4e5c-63b4-4639-9c59-a427710c7cc4",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='\"Hello, world\" example'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=C (programming language)&action=edit&section=15'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "c9e7de67-c730-47d2-b251-f6321ae4d40b",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Data types'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=C (programming language)&action=edit&section=16'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "fb0d5707-ef4e-49b0-a0c5-c88262915e88",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Memory management'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=C (programming language)&action=edit&section=20'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "0cf1c653-9510-4e12-b80f-8c1c490cc08d",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Libraries'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=C (programming language)&action=edit&section=21'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "304c0957-b6fc-48d3-a784-e88715d0a706",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Language tools'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=C (programming language)&action=edit&section=23'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "687c17e5-1a65-4ca2-a790-4665caf1533a",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Uses'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=C (programming language)&action=edit&section=24'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "4919a0ed-23fb-4b5e-af03-33415d87e5d1",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Related languages'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=C (programming language)&action=edit&section=25'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "19045cca-f174-4de8-b161-b61d064f9540",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Sources'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=C (programming language)&action=edit&section=29'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "markdown",
+      "id": "9613c66f-ccba-42ae-92a8-ed2550656bd7",
+      "text": "# See also\n"
+    },
+    {
+      "type": "markdown",
+      "id": "de278ba2ee6bb421",
+      "text": "- [[Imperative programming]]\n- [[Procedural programming]]"
+    }
+  ]
+}
