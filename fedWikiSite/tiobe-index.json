@@ -1,0 +1,228 @@
+{
+  "title": "TIOBE index",
+  "journal": [
+    {
+      "date": 1545393843259,
+      "type": "create",
+      "item": {
+        "story": "",
+        "title": "TIOBE index"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1545393737215
+    },
+    {
+      "type": "edit",
+      "id": "f6a15edb-11d9-4daa-b3e4-9e9d904f5c65",
+      "item": {
+        "type": "markdown",
+        "id": "f6a15edb-11d9-4daa-b3e4-9e9d904f5c65",
+        "text": "__TIOBE programming community index__ is a measure of [[popularity of programming language]]s, created and maintained by the TIOBE Company based in [[Eindhoven]], the [[Netherlands]]. \n"
+      },
+      "date": 1545393746818
+    },
+    {
+      "type": "add",
+      "id": "d652ff352f63c601",
+      "item": {
+        "type": "markdown",
+        "id": "d652ff352f63c601",
+        "text": "TIOBE stands for ''[[The Importance of Being Earnest]]'', the title of a comedy play by [[Oscar Wilde]] that was first performed in 1895. \n"
+      },
+      "after": "f6a15edb-11d9-4daa-b3e4-9e9d904f5c65",
+      "date": 1545393750393
+    },
+    {
+      "type": "add",
+      "id": "7b0b2c4fbd601df9",
+      "item": {
+        "type": "markdown",
+        "id": "7b0b2c4fbd601df9",
+        "text": "The index is calculated from the number of [[search engine]] results for queries containing the name of the language. The index covers searches in [[Google]], Google Blogs, [[MSN]], [[Yahoo!]], [[Baidu]], Wikipedia and [[YouTube]]. \n"
+      },
+      "after": "d652ff352f63c601",
+      "date": 1545393758972
+    },
+    {
+      "type": "add",
+      "id": "1c5813229e1f960a",
+      "item": {
+        "type": "markdown",
+        "id": "1c5813229e1f960a",
+        "text": "The index is updated once a month. The current information is free but the long term statistics over many years of observation is for sale. The index authors think that it may be valuable when accepting various strategic decisions. \n"
+      },
+      "after": "7b0b2c4fbd601df9",
+      "date": 1545393770026
+    },
+    {
+      "type": "add",
+      "id": "e2d33f97f4873131",
+      "item": {
+        "type": "markdown",
+        "id": "e2d33f97f4873131",
+        "text": "TIOBE focuses on [[Turing complete]] languages, so it does not provide information about the popularity of, for instance, [[HTML]] - [https://en.wikipedia.org/wiki/TIOBE_index wikipedia]"
+      },
+      "after": "1c5813229e1f960a",
+      "date": 1545393773710
+    },
+    {
+      "type": "move",
+      "order": [
+        "f6a15edb-11d9-4daa-b3e4-9e9d904f5c65",
+        "afa9b070-3dd8-4fbf-ba99-b8ec2795eb6c",
+        "d652ff352f63c601",
+        "7b0b2c4fbd601df9",
+        "1c5813229e1f960a",
+        "e2d33f97f4873131",
+        "713b1b6f-e0f2-4cdd-9ca7-1ef646760bb6",
+        "5b4ff891-7fa3-49bc-9d96-2f9f640f8f23",
+        "4b05fd1a-21f8-4c33-8119-60b35522cdcb",
+        "641b44cd-c802-4297-8d45-1283c907ef5e",
+        "0b385922-3d89-4383-9243-e9ceb50a6a4c"
+      ],
+      "id": "afa9b070-3dd8-4fbf-ba99-b8ec2795eb6c",
+      "date": 1545393778476
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "html",
+        "id": "27116f97-895f-4641-a4d5-e93492b84667",
+        "text": "<div style='padding: 12px; background:#eee; width:96%; align=centered;'>\n<a href='https://commons.wikimedia.org/wiki/File:Tiobeindex.png' target='_blank'>\n<img style='display:block; margin:auto; width:100%;'\nsrc='https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Tiobeindex.png/420px-Tiobeindex.png'>\n</a>\n\n<p class=caption>\nTIOBE programming community index 2002-2014\n- [https://commons.wikimedia.org/wiki/File:Tiobeindex.png wikimedia.org]\n</p></div>"
+      },
+      "after": "f6a15edb-11d9-4daa-b3e4-9e9d904f5c65",
+      "id": "27116f97-895f-4641-a4d5-e93492b84667",
+      "date": 1545394367654
+    },
+    {
+      "type": "edit",
+      "id": "f6a15edb-11d9-4daa-b3e4-9e9d904f5c65",
+      "item": {
+        "type": "markdown",
+        "id": "f6a15edb-11d9-4daa-b3e4-9e9d904f5c65",
+        "text": "__TIOBE programming community index__ is a measure of [[popularity of programming language]]s, created and maintained by the TIOBE Company based in [[Eindhoven]], the [[Netherlands]].\n"
+      },
+      "date": 1545395636623
+    },
+    {
+      "type": "add",
+      "id": "29e2c16e9a1adc55",
+      "item": {
+        "type": "markdown",
+        "id": "29e2c16e9a1adc55",
+        "text": "- https://www.tiobe.com/tiobe-index/"
+      },
+      "after": "f6a15edb-11d9-4daa-b3e4-9e9d904f5c65",
+      "date": 1545395638748
+    },
+    {
+      "type": "move",
+      "order": [
+        "f6a15edb-11d9-4daa-b3e4-9e9d904f5c65",
+        "29e2c16e9a1adc55",
+        "afa9b070-3dd8-4fbf-ba99-b8ec2795eb6c",
+        "27116f97-895f-4641-a4d5-e93492b84667",
+        "d652ff352f63c601",
+        "7b0b2c4fbd601df9",
+        "1c5813229e1f960a",
+        "e2d33f97f4873131",
+        "713b1b6f-e0f2-4cdd-9ca7-1ef646760bb6",
+        "5b4ff891-7fa3-49bc-9d96-2f9f640f8f23",
+        "4b05fd1a-21f8-4c33-8119-60b35522cdcb",
+        "641b44cd-c802-4297-8d45-1283c907ef5e",
+        "0b385922-3d89-4383-9243-e9ceb50a6a4c"
+      ],
+      "id": "afa9b070-3dd8-4fbf-ba99-b8ec2795eb6c",
+      "date": 1545395643076
+    },
+    {
+      "type": "edit",
+      "id": "e2d33f97f4873131",
+      "item": {
+        "type": "markdown",
+        "id": "e2d33f97f4873131",
+        "text": "TIOBE focuses on [[Turing complete]] languages, so it does not provide information about the popularity of, for instance, [[HTML]]."
+      },
+      "date": 1545395650426
+    },
+    {
+      "type": "edit",
+      "id": "f6a15edb-11d9-4daa-b3e4-9e9d904f5c65",
+      "item": {
+        "type": "markdown",
+        "id": "f6a15edb-11d9-4daa-b3e4-9e9d904f5c65",
+        "text": "__TIOBE programming community index__ is a measure of [[popularity of programming language]]s, created and maintained by the TIOBE Company based in [[Eindhoven]], the [[Netherlands]] - [https://en.wikipedia.org/wiki/TIOBE_index wikipedia]\n"
+      },
+      "date": 1545395654299
+    }
+  ],
+  "story": [
+    {
+      "type": "markdown",
+      "id": "f6a15edb-11d9-4daa-b3e4-9e9d904f5c65",
+      "text": "__TIOBE programming community index__ is a measure of [[popularity of programming language]]s, created and maintained by the TIOBE Company based in [[Eindhoven]], the [[Netherlands]] - [https://en.wikipedia.org/wiki/TIOBE_index wikipedia]\n"
+    },
+    {
+      "type": "markdown",
+      "id": "29e2c16e9a1adc55",
+      "text": "- https://www.tiobe.com/tiobe-index/"
+    },
+    {
+      "type": "markdown",
+      "id": "afa9b070-3dd8-4fbf-ba99-b8ec2795eb6c",
+      "text": "According to the site, TIOBE index is \"not about the ''best'' programming language or the language in which ''most lines of code'' have been written\". However the site does claim that the number of web pages may reflect the number of skilled engineers, courses and jobs worldwide."
+    },
+    {
+      "type": "html",
+      "id": "27116f97-895f-4641-a4d5-e93492b84667",
+      "text": "<div style='padding: 12px; background:#eee; width:96%; align=centered;'>\n<a href='https://commons.wikimedia.org/wiki/File:Tiobeindex.png' target='_blank'>\n<img style='display:block; margin:auto; width:100%;'\nsrc='https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Tiobeindex.png/420px-Tiobeindex.png'>\n</a>\n\n<p class=caption>\nTIOBE programming community index 2002-2014\n- [https://commons.wikimedia.org/wiki/File:Tiobeindex.png wikimedia.org]\n</p></div>"
+    },
+    {
+      "type": "markdown",
+      "id": "d652ff352f63c601",
+      "text": "TIOBE stands for ''[[The Importance of Being Earnest]]'', the title of a comedy play by [[Oscar Wilde]] that was first performed in 1895. \n"
+    },
+    {
+      "type": "markdown",
+      "id": "7b0b2c4fbd601df9",
+      "text": "The index is calculated from the number of [[search engine]] results for queries containing the name of the language. The index covers searches in [[Google]], Google Blogs, [[MSN]], [[Yahoo!]], [[Baidu]], Wikipedia and [[YouTube]]. \n"
+    },
+    {
+      "type": "markdown",
+      "id": "1c5813229e1f960a",
+      "text": "The index is updated once a month. The current information is free but the long term statistics over many years of observation is for sale. The index authors think that it may be valuable when accepting various strategic decisions. \n"
+    },
+    {
+      "type": "markdown",
+      "id": "e2d33f97f4873131",
+      "text": "TIOBE focuses on [[Turing complete]] languages, so it does not provide information about the popularity of, for instance, [[HTML]]."
+    },
+    {
+      "type": "markdown",
+      "id": "713b1b6f-e0f2-4cdd-9ca7-1ef646760bb6",
+      "text": "# Tools\n\nSearch for [[free culture]] images for this page on [https://www.google.com/search?as_st=y&tbm=isch&as_q=TIOBE+index&as_epq=&as_oq=&as_eq=&cr=&as_sitesearch=&safe=images&tbs=sur:fmc&gws_rd=ssl google]"
+    },
+    {
+      "type": "transport",
+      "id": "5b4ff891-7fa3-49bc-9d96-2f9f640f8f23",
+      "text": "POST https://rest.livecode.world/imagine"
+    },
+    {
+      "type": "markdown",
+      "id": "4b05fd1a-21f8-4c33-8119-60b35522cdcb",
+      "text": "# Sections"
+    },
+    {
+      "type": "html",
+      "id": "641b44cd-c802-4297-8d45-1283c907ef5e",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='History'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=TIOBE index&action=edit&section=1'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "0b385922-3d89-4383-9243-e9ceb50a6a4c",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Criticism'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=TIOBE index&action=edit&section=2'>\n<input type=submit value=create></form>"
+    }
+  ]
+}
