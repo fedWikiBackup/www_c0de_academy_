@@ -1,0 +1,396 @@
+{
+  "journal": [
+    {
+      "date": 1551017821434,
+      "type": "create",
+      "item": {
+        "story": "",
+        "title": "Protocol"
+      }
+    },
+    {
+      "id": "c1c79f74-f7d4-4918-856f-4b9b02b4dd34",
+      "type": "add",
+      "item": {
+        "text": "# Science and technology",
+        "type": "markdown",
+        "id": "c1c79f74-f7d4-4918-856f-4b9b02b4dd34"
+      },
+      "after": "5e9b6a96-b8d2-4e19-ac88-39ebc1a35109",
+      "date": 1551017709247,
+      "error": {
+        "response": "Page not found",
+        "type": "error",
+        "msg": "Not Found"
+      }
+    },
+    {
+      "date": 1551017711081,
+      "type": "fork"
+    },
+    {
+      "id": "f3758aea-585b-44e1-9c22-5583a95fe030",
+      "type": "add",
+      "item": {
+        "text": "- [[Protocol (object-oriented programming)]], a common means for unrelated objects to communicate with each other (sometimes also called ''interfaces''; related to duck typing)\n-  [[Protocol (science)]], a predefined written procedural method of conducting experiments\n-  [[Communication protocol]], a defined set of rules and regulations that determine how data is transmitted in telecommunications and computer networking\n- * [[Cryptographic protocol]], a protocol for encrypting messages\n-  [[Medical protocol (disambiguation)]] - [https://en.wikipedia.org/wiki/Protocol#Science_and_technology wikipedia]",
+        "type": "markdown",
+        "id": "f3758aea-585b-44e1-9c22-5583a95fe030"
+      },
+      "after": "c1c79f74-f7d4-4918-856f-4b9b02b4dd34",
+      "date": 1551017715006
+    },
+    {
+      "id": "ac05c7fc-c370-41aa-9ab1-b39d7b6c8a22",
+      "type": "add",
+      "item": {
+        "text": "- [[Protocol (diplomacy)]], the etiquette of diplomacy and affairs of state\n-  [[Protocol (politics)]], a formal agreement between nation states\n-  [[Etiquette]], a code of behavior\n-  [[Minutes]], also known as protocols, the written record of a meeting - [https://en.wikipedia.org/wiki/Protocol#Society wikipedia]",
+        "type": "markdown",
+        "id": "ac05c7fc-c370-41aa-9ab1-b39d7b6c8a22"
+      },
+      "after": "f3758aea-585b-44e1-9c22-5583a95fe030",
+      "date": 1551017726400
+    },
+    {
+      "id": "01cc548e-fa4a-4ba9-b526-359288d2fb6b",
+      "type": "add",
+      "item": {
+        "text": "# Society",
+        "type": "markdown",
+        "id": "01cc548e-fa4a-4ba9-b526-359288d2fb6b"
+      },
+      "after": "f3758aea-585b-44e1-9c22-5583a95fe030",
+      "date": 1551017728379
+    },
+    {
+      "site": "literate.wiki",
+      "type": "fork",
+      "date": 1551017825107
+    },
+    {
+      "id": "5e9b6a96-b8d2-4e19-ac88-39ebc1a35109",
+      "type": "edit",
+      "item": {
+        "text": "Scary word __Protocol__ - designed to impress. All it means is a list of rules (typically implemented as software) , that describes precisely the [[interactive dialogue]] between two or more entities in a system.",
+        "type": "markdown",
+        "id": "5e9b6a96-b8d2-4e19-ac88-39ebc1a35109"
+      },
+      "date": 1551018026887
+    },
+    {
+      "id": "5e9b6a96-b8d2-4e19-ac88-39ebc1a35109",
+      "type": "edit",
+      "item": {
+        "text": "Scary word __Protocol__ - designed to impress. All it means is a list of rules (typically implemented as software) , that describes precisely the [[interactive dialogue]] between two or more entities in a system. As developes we are usually referring to ",
+        "type": "markdown",
+        "id": "5e9b6a96-b8d2-4e19-ac88-39ebc1a35109"
+      },
+      "date": 1551018057015
+    },
+    {
+      "id": "5e9b6a96-b8d2-4e19-ac88-39ebc1a35109",
+      "type": "edit",
+      "item": {
+        "text": "Scary word __Protocol__ - designed to impress. All it means is a list of rules (typically implemented as software) , that describes precisely the [[interactive dialogue]] between two or more entities in a system. As developers we are usually referring to some form of [[communication protocol]].",
+        "type": "markdown",
+        "id": "5e9b6a96-b8d2-4e19-ac88-39ebc1a35109"
+      },
+      "date": 1551018078596
+    },
+    {
+      "date": 1551018120233,
+      "id": "26fe4181-7adb-4689-b6fa-89002fccbcd3",
+      "type": "remove"
+    },
+    {
+      "date": 1551018538275,
+      "id": "83bea0ec-fa03-4385-b47c-de3081301742",
+      "type": "remove"
+    },
+    {
+      "date": 1551018540836,
+      "id": "307c1499-7ed3-443c-9bfb-7a96d6d6336b",
+      "type": "remove"
+    },
+    {
+      "date": 1551018542507,
+      "id": "25e4d55d-bdf2-4cd6-beb0-1b9fd856e3a7",
+      "type": "remove"
+    },
+    {
+      "date": 1551018544955,
+      "id": "0e34e510-fd78-4a2d-a9fd-84c60646939e",
+      "type": "remove"
+    },
+    {
+      "site": "c0de.academy",
+      "type": "fork",
+      "date": 1551018565603
+    },
+    {
+      "type": "add",
+      "id": "a9a8a2eab23fc06a",
+      "item": {
+        "type": "factory",
+        "id": "a9a8a2eab23fc06a"
+      },
+      "after": "23235ad6-8623-46c0-bc0c-2f4dac1eb53c",
+      "date": 1551018581125
+    },
+    {
+      "id": "a9a8a2eab23fc06a",
+      "type": "edit",
+      "item": {
+        "type": "reference",
+        "id": "a9a8a2eab23fc06a",
+        "slug": "wiki-as-a-protocol",
+        "site": "rosewiki.federated.wiki",
+        "title": "Wiki as a Protocol",
+        "text": "Though not explicitely defined, wiki bears resemblance to a protocol for exchanging and collecting discreet information within a page 'story'"
+      },
+      "date": 1551018584686
+    },
+    {
+      "type": "add",
+      "id": "4339d551c975ab7e",
+      "item": {
+        "type": "factory",
+        "id": "4339d551c975ab7e"
+      },
+      "after": "a9a8a2eab23fc06a",
+      "date": 1551018586931
+    },
+    {
+      "id": "4339d551c975ab7e",
+      "type": "edit",
+      "item": {
+        "type": "reference",
+        "id": "4339d551c975ab7e",
+        "slug": "protocol-wars",
+        "site": "wiki.freedombone.net",
+        "title": "Protocol Wars",
+        "text": "[[Mastodon's Advisory Privacy]]"
+      },
+      "date": 1551018590393
+    },
+    {
+      "type": "add",
+      "id": "0946650c7ef2746e",
+      "item": {
+        "type": "factory",
+        "id": "0946650c7ef2746e"
+      },
+      "after": "4339d551c975ab7e",
+      "date": 1551018592480
+    },
+    {
+      "id": "0946650c7ef2746e",
+      "type": "edit",
+      "item": {
+        "type": "reference",
+        "id": "0946650c7ef2746e",
+        "slug": "protocol-governance",
+        "site": "governance.platform.earth",
+        "title": "Protocol governance",
+        "text": "Standards bodies"
+      },
+      "date": 1551018596909
+    },
+    {
+      "type": "add",
+      "id": "d55a563d63fc91c4",
+      "item": {
+        "type": "factory",
+        "id": "d55a563d63fc91c4"
+      },
+      "after": "0946650c7ef2746e",
+      "date": 1551018604116
+    },
+    {
+      "id": "d55a563d63fc91c4",
+      "type": "edit",
+      "item": {
+        "type": "reference",
+        "id": "d55a563d63fc91c4",
+        "slug": "open-data-protocol",
+        "site": "data.sfw.c2.com",
+        "title": "Open Data Protocol",
+        "text": "The [[Open Data Protocol]] (OData) enables the creation of HTTP-based data services, which allow resources identified using Uniform Resource Identifiers (URIs) and defined in an abstract data model, to be published and edited by Web clients using simple HTTP messages. OData is intended to be used to expose and access information from a variety of sources including, but not limited to, relational databases, file systems, content management systems, and traditional Web sites."
+      },
+      "date": 1551018610991
+    },
+    {
+      "type": "add",
+      "id": "8a5d9cf88ccfa89c",
+      "item": {
+        "type": "factory",
+        "id": "8a5d9cf88ccfa89c"
+      },
+      "after": "d55a563d63fc91c4",
+      "date": 1551018620267
+    },
+    {
+      "id": "8a5d9cf88ccfa89c",
+      "type": "edit",
+      "item": {
+        "type": "reference",
+        "id": "8a5d9cf88ccfa89c",
+        "slug": "tinc-protocol",
+        "site": "bilbao.commons.world",
+        "title": "Tinc (protocol)",
+        "text": "Tinc is an open-source, self-routing, mesh networking protocol, used for compressed, encrypted, virtual private networks. It was started in 1998 by Guus Sliepen, Ivo Timmermans, and Wessel Dankers, and released as a GPL-licensed project - [https://en.wikipedia.org/wiki/Tinc_(protocol) wikipedia]"
+      },
+      "date": 1551018625950
+    },
+    {
+      "type": "add",
+      "id": "16be142f0af17b8c",
+      "item": {
+        "type": "factory",
+        "id": "16be142f0af17b8c"
+      },
+      "after": "8a5d9cf88ccfa89c",
+      "date": 1551018627540
+    },
+    {
+      "id": "16be142f0af17b8c",
+      "type": "edit",
+      "item": {
+        "type": "reference",
+        "id": "16be142f0af17b8c",
+        "slug": "stateless-protocol",
+        "site": "c0de.academy",
+        "title": "Stateless protocol",
+        "text": "In computing, a stateless protocol is a communications protocol in which no information is retained by either sender or receiver. The sender transmits a packet to the receiver and does not expect an acknowledgment of receipt. A UDP connection-oriented session is a stateless connection because neither systems maintains information about the session during its life - [https://en.wikipedia.org/wiki/Stateless_protocol wikipedia]"
+      },
+      "date": 1551018636019
+    },
+    {
+      "type": "add",
+      "id": "0979bbcbebcc26a5",
+      "item": {
+        "type": "factory",
+        "id": "0979bbcbebcc26a5"
+      },
+      "after": "16be142f0af17b8c",
+      "date": 1551018648486
+    },
+    {
+      "id": "0979bbcbebcc26a5",
+      "type": "edit",
+      "item": {
+        "type": "reference",
+        "id": "0979bbcbebcc26a5",
+        "slug": "ceph-protocol",
+        "site": "ceph.federated.wiki",
+        "title": "Ceph Protocol",
+        "text": "Ceph Clients use the native protocol for interacting with the Ceph Storage Cluster."
+      },
+      "date": 1551018651725
+    },
+    {
+      "type": "fork",
+      "date": 1551018718089
+    },
+    {
+      "type": "edit",
+      "id": "e4e8757e-a627-4bc7-a4a5-283a8595c040",
+      "item": {
+        "type": "markdown",
+        "id": "e4e8757e-a627-4bc7-a4a5-283a8595c040",
+        "text": "- [[Wiki as a Protocol]]\n- [[Protocol Wars]]\n- [[Protocol governance]]\n- [[Open Data Protocol]]\n- [[Stateless protocol]]\n"
+      },
+      "date": 1551018732901
+    },
+    {
+      "type": "add",
+      "id": "48228dae02a14fd4",
+      "item": {
+        "type": "markdown",
+        "id": "48228dae02a14fd4",
+        "text": "- [[Tinc (protocol)]]\n- [[Ceph Protocol]]"
+      },
+      "after": "e4e8757e-a627-4bc7-a4a5-283a8595c040",
+      "date": 1551018733580
+    },
+    {
+      "type": "move",
+      "order": [
+        "5e9b6a96-b8d2-4e19-ac88-39ebc1a35109",
+        "c1c79f74-f7d4-4918-856f-4b9b02b4dd34",
+        "f3758aea-585b-44e1-9c22-5583a95fe030",
+        "01cc548e-fa4a-4ba9-b526-359288d2fb6b",
+        "ac05c7fc-c370-41aa-9ab1-b39d7b6c8a22",
+        "4b803d12-0cee-4e3c-aa13-e0fd041d30ef",
+        "e4e8757e-a627-4bc7-a4a5-283a8595c040",
+        "23235ad6-8623-46c0-bc0c-2f4dac1eb53c",
+        "48228dae02a14fd4"
+      ],
+      "id": "e4e8757e-a627-4bc7-a4a5-283a8595c040",
+      "date": 1551018739531
+    },
+    {
+      "type": "move",
+      "order": [
+        "5e9b6a96-b8d2-4e19-ac88-39ebc1a35109",
+        "c1c79f74-f7d4-4918-856f-4b9b02b4dd34",
+        "f3758aea-585b-44e1-9c22-5583a95fe030",
+        "01cc548e-fa4a-4ba9-b526-359288d2fb6b",
+        "ac05c7fc-c370-41aa-9ab1-b39d7b6c8a22",
+        "4b803d12-0cee-4e3c-aa13-e0fd041d30ef",
+        "e4e8757e-a627-4bc7-a4a5-283a8595c040",
+        "48228dae02a14fd4",
+        "23235ad6-8623-46c0-bc0c-2f4dac1eb53c"
+      ],
+      "id": "48228dae02a14fd4",
+      "date": 1551018742372
+    }
+  ],
+  "title": "Protocol",
+  "story": [
+    {
+      "text": "Scary word __Protocol__ - designed to impress. All it means is a list of rules (typically implemented as software) , that describes precisely the [[interactive dialogue]] between two or more entities in a system. As developers we are usually referring to some form of [[communication protocol]].",
+      "id": "5e9b6a96-b8d2-4e19-ac88-39ebc1a35109",
+      "type": "markdown"
+    },
+    {
+      "text": "# Science and technology",
+      "id": "c1c79f74-f7d4-4918-856f-4b9b02b4dd34",
+      "type": "markdown"
+    },
+    {
+      "text": "- [[Protocol (object-oriented programming)]], a common means for unrelated objects to communicate with each other (sometimes also called ''interfaces''; related to duck typing)\n-  [[Protocol (science)]], a predefined written procedural method of conducting experiments\n-  [[Communication protocol]], a defined set of rules and regulations that determine how data is transmitted in telecommunications and computer networking\n- * [[Cryptographic protocol]], a protocol for encrypting messages\n-  [[Medical protocol (disambiguation)]] - [https://en.wikipedia.org/wiki/Protocol#Science_and_technology wikipedia]",
+      "id": "f3758aea-585b-44e1-9c22-5583a95fe030",
+      "type": "markdown"
+    },
+    {
+      "text": "# Society",
+      "id": "01cc548e-fa4a-4ba9-b526-359288d2fb6b",
+      "type": "markdown"
+    },
+    {
+      "text": "- [[Protocol (diplomacy)]], the etiquette of diplomacy and affairs of state\n-  [[Protocol (politics)]], a formal agreement between nation states\n-  [[Etiquette]], a code of behavior\n-  [[Minutes]], also known as protocols, the written record of a meeting - [https://en.wikipedia.org/wiki/Protocol#Society wikipedia]",
+      "id": "ac05c7fc-c370-41aa-9ab1-b39d7b6c8a22",
+      "type": "markdown"
+    },
+    {
+      "text": "# See also",
+      "id": "4b803d12-0cee-4e3c-aa13-e0fd041d30ef",
+      "type": "markdown"
+    },
+    {
+      "type": "markdown",
+      "id": "e4e8757e-a627-4bc7-a4a5-283a8595c040",
+      "text": "- [[Wiki as a Protocol]]\n- [[Protocol Wars]]\n- [[Protocol governance]]\n- [[Open Data Protocol]]\n- [[Stateless protocol]]\n"
+    },
+    {
+      "type": "markdown",
+      "id": "48228dae02a14fd4",
+      "text": "- [[Tinc (protocol)]]\n- [[Ceph Protocol]]"
+    },
+    {
+      "text": "- [[Proprietary protocol]]\n- [[Proto (disambiguation)]]\n- [[Quantum cryptography protocol]]\n- [[The Protocols of the Elders of Zion]]",
+      "id": "23235ad6-8623-46c0-bc0c-2f4dac1eb53c",
+      "type": "markdown"
+    }
+  ]
+}
