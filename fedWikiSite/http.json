@@ -1,0 +1,39 @@
+{
+  "title": "HTTP",
+  "story": [
+    {
+      "type": "markdown",
+      "id": "3a6bd508151ba36d",
+      "text": "See [[Hypertext Transfer Protocol]]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "HTTP",
+        "story": []
+      },
+      "date": 1552049944503
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "3a6bd508151ba36d"
+      },
+      "id": "3a6bd508151ba36d",
+      "type": "add",
+      "date": 1552049946524
+    },
+    {
+      "type": "edit",
+      "id": "3a6bd508151ba36d",
+      "item": {
+        "type": "markdown",
+        "id": "3a6bd508151ba36d",
+        "text": "See [[Hypertext Transfer Protocol]]"
+      },
+      "date": 1552049951669
+    }
+  ]
+}
