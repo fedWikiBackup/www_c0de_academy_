@@ -1,0 +1,190 @@
+{
+  "title": "Search Terminal history",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "14ed484b415936cf",
+      "text": "In the OSX you can use Ctrl + R for searching a command from history in Terminal - [http://www.chriswrites.com/search-terminal-history/ chriswrites.com]\n\n"
+    },
+    {
+      "type": "paragraph",
+      "id": "3f21027814a352e1",
+      "text": "(reverse-i-search)`': \n"
+    },
+    {
+      "type": "paragraph",
+      "id": "e9cc4444f4ca3720",
+      "text": "Type any substring of the command you want to search e.g. grep\n\n"
+    },
+    {
+      "type": "paragraph",
+      "id": "70fdb49ee2623399",
+      "text": "(reverse-i-search)`grep': grep \"XYZ\" abc.txt\n"
+    },
+    {
+      "type": "paragraph",
+      "id": "af1d627f0d3c78b2",
+      "text": "It will return the latest command that matches your input. \n\n"
+    },
+    {
+      "type": "markdown",
+      "id": "4d7ee0556590dcac",
+      "text": "- If that is not the command you were searching for, keep pressing Ctrl + R for next match until you find your command.\n- Once you found your command press Return to execute it.\n- If you want to exit without running any command, press Ctrl + G"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Search Terminal history",
+        "story": []
+      },
+      "date": 1545130662335
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "14ed484b415936cf"
+      },
+      "id": "14ed484b415936cf",
+      "type": "add",
+      "date": 1545130663353
+    },
+    {
+      "type": "edit",
+      "id": "14ed484b415936cf",
+      "item": {
+        "type": "paragraph",
+        "id": "14ed484b415936cf",
+        "text": "In the OSX you can use Ctrl + R for searching a command from history in Terminal.\n\n(reverse-i-search)`': \nType any substring of the command you want to search e.g. grep\n\n(reverse-i-search)`grep': grep \"XYZ\" abc.txt\nIt will return the latest command that matches your input. If that is not the command you were searching for, keep pressing Ctrl + R for next match until you find your command.\n\nOnce you found your command press Return to execute it.\n\nIf you want to exit without running any command, press Ctrl + G\n\nPS: This answer is same as suggested by Inian, just giving more details for easy usage."
+      },
+      "date": 1545130714051
+    },
+    {
+      "type": "edit",
+      "id": "14ed484b415936cf",
+      "item": {
+        "type": "paragraph",
+        "id": "14ed484b415936cf",
+        "text": "In the OSX you can use Ctrl + R for searching a command from history in Terminal.\n\n("
+      },
+      "date": 1545130743485
+    },
+    {
+      "type": "edit",
+      "id": "14ed484b415936cf",
+      "item": {
+        "type": "paragraph",
+        "id": "14ed484b415936cf",
+        "text": "In the OSX you can use Ctrl + R for searching a command from history in Terminal.\n\n"
+      },
+      "date": 1545130746868
+    },
+    {
+      "type": "add",
+      "id": "3f21027814a352e1",
+      "item": {
+        "type": "paragraph",
+        "id": "3f21027814a352e1",
+        "text": "(reverse-i-search)`': \n"
+      },
+      "after": "14ed484b415936cf",
+      "date": 1545130749237
+    },
+    {
+      "type": "add",
+      "id": "e9cc4444f4ca3720",
+      "item": {
+        "type": "paragraph",
+        "id": "e9cc4444f4ca3720",
+        "text": "Type any substring of the command you want to search e.g. grep\n\n"
+      },
+      "after": "3f21027814a352e1",
+      "date": 1545130752292
+    },
+    {
+      "type": "add",
+      "id": "70fdb49ee2623399",
+      "item": {
+        "type": "paragraph",
+        "id": "70fdb49ee2623399",
+        "text": "(reverse-i-search)`grep': grep \"XYZ\" abc.txt\n"
+      },
+      "after": "e9cc4444f4ca3720",
+      "date": 1545130757253
+    },
+    {
+      "type": "add",
+      "id": "af1d627f0d3c78b2",
+      "item": {
+        "type": "paragraph",
+        "id": "af1d627f0d3c78b2",
+        "text": "It will return the latest command that matches your input. If that is not the command you were searching for, keep pressing Ctrl + R for next match until you find your command.\n\n"
+      },
+      "after": "70fdb49ee2623399",
+      "date": 1545130766237
+    },
+    {
+      "type": "add",
+      "id": "dc292e2271806344",
+      "item": {
+        "type": "paragraph",
+        "id": "dc292e2271806344",
+        "text": "Once you found your command press Return to execute it.\n\n"
+      },
+      "after": "af1d627f0d3c78b2",
+      "date": 1545130769519
+    },
+    {
+      "type": "remove",
+      "id": "dc292e2271806344",
+      "date": 1545130786301
+    },
+    {
+      "type": "add",
+      "id": "4d7ee0556590dcac",
+      "item": {
+        "type": "factory",
+        "id": "4d7ee0556590dcac",
+        "text": "- Once you found your command press Return to execute it.\n- If you want to exit without running any command, press Ctrl + G"
+      },
+      "after": "af1d627f0d3c78b2",
+      "date": 1545130791712
+    },
+    {
+      "type": "edit",
+      "id": "af1d627f0d3c78b2",
+      "item": {
+        "type": "paragraph",
+        "id": "af1d627f0d3c78b2",
+        "text": "It will return the latest command that matches your input. \n\n"
+      },
+      "date": 1545130823881
+    },
+    {
+      "type": "edit",
+      "id": "4d7ee0556590dcac",
+      "item": {
+        "type": "markdown",
+        "id": "4d7ee0556590dcac",
+        "text": "- If that is not the command you were searching for, keep pressing Ctrl + R for next match until you find your command.\n- Once you found your command press Return to execute it.\n- If you want to exit without running any command, press Ctrl + G"
+      },
+      "date": 1545130827030
+    },
+    {
+      "type": "edit",
+      "id": "14ed484b415936cf",
+      "item": {
+        "type": "paragraph",
+        "id": "14ed484b415936cf",
+        "text": "In the OSX you can use Ctrl + R for searching a command from history in Terminal - [http://www.chriswrites.com/search-terminal-history/ chriswrites.com]\n\n"
+      },
+      "date": 1545130852766
+    },
+    {
+      "type": "fork",
+      "site": "cli.livecode.world",
+      "date": 1545130872070
+    }
+  ]
+}
