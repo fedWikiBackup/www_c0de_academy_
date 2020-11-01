@@ -1,0 +1,131 @@
+{
+  "title": "Procedural programming",
+  "journal": [
+    {
+      "date": 1550997318713,
+      "type": "create",
+      "item": {
+        "story": "",
+        "title": "Procedural programming"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1550997200100
+    },
+    {
+      "type": "edit",
+      "id": "c958c700-90c2-48a6-a13b-19ccf21de811",
+      "item": {
+        "type": "markdown",
+        "id": "c958c700-90c2-48a6-a13b-19ccf21de811",
+        "text": "__Procedural programming__ is a [[programming paradigm]], derived from [[structured programming]], based upon the concept of the ''procedure call''.  Procedures, also known as routines, [[subroutine]]s, or [[functional programming]], simply contain a series of computational steps to be carried out.  \n"
+      },
+      "date": 1550997207034
+    },
+    {
+      "type": "add",
+      "id": "8c9a4bfc05f9183a",
+      "item": {
+        "type": "markdown",
+        "id": "8c9a4bfc05f9183a",
+        "text": "Any given procedure might be called at any point during a program's execution, including by other procedures or itself. The first major procedural programming languages first appeared circa 1960, including [[Fortran]], [[ALGOL]], [[COBOL]] and [[BASIC]].  [[Pascal (programming language)]] and [[C (programming language)]] were published closer to the 1970s - [https://en.wikipedia.org/wiki/Procedural_programming wikipedia]"
+      },
+      "after": "c958c700-90c2-48a6-a13b-19ccf21de811",
+      "date": 1550997207925
+    },
+    {
+      "type": "edit",
+      "id": "36fed4bf-b8ae-4606-9fb4-1ca2811c208c",
+      "item": {
+        "type": "markdown",
+        "id": "36fed4bf-b8ae-4606-9fb4-1ca2811c208c",
+        "text": "[[Central processing unit]] provide hardware support for procedural programming through a [[stack register]] and instructions for calling proceedures and returning from them. Hardware support for other types of programming is possible, but no attempt was commercially successful (for example [[Lisp machines]] or [[Java processor]]s)."
+      },
+      "date": 1550997278166
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "184098f494286c76",
+        "text": "- [[Imperative programming]]\n- [[Procedural programming]]\n- [[Declarative programming]]\n- [[Functional programming]]\n- [[Reactive programming]]\n- [[Programming paradigm]]\n\n"
+      },
+      "after": "9613c66f-ccba-42ae-92a8-ed2550656bd7",
+      "id": "184098f494286c76",
+      "date": 1550998610591
+    },
+    {
+      "type": "edit",
+      "id": "84ed2303-e78e-4696-887b-6549bd38d464",
+      "item": {
+        "type": "markdown",
+        "id": "84ed2303-e78e-4696-887b-6549bd38d464",
+        "text": "- [[Comparison of programming paradigms]]\n- [[Programming language]]\n- [[Structured programming]]\n- [[SQL procedural extensions]]"
+      },
+      "date": 1550998623453
+    },
+    {
+      "type": "edit",
+      "id": "184098f494286c76",
+      "item": {
+        "type": "markdown",
+        "id": "184098f494286c76",
+        "text": "- [[Imperative programming]]\n- [[Procedural programming]]\n- [[Object-oriented programming]]\n- [[Declarative programming]]\n- [[Functional programming]]\n- [[Reactive programming]]\n- [[Logic programming]]\n- [[Programming paradigm]]\n\n"
+      },
+      "date": 1550998642257
+    }
+  ],
+  "story": [
+    {
+      "type": "markdown",
+      "id": "c958c700-90c2-48a6-a13b-19ccf21de811",
+      "text": "__Procedural programming__ is a [[programming paradigm]], derived from [[structured programming]], based upon the concept of the ''procedure call''.  Procedures, also known as routines, [[subroutine]]s, or [[functional programming]], simply contain a series of computational steps to be carried out.  \n"
+    },
+    {
+      "type": "markdown",
+      "id": "8c9a4bfc05f9183a",
+      "text": "Any given procedure might be called at any point during a program's execution, including by other procedures or itself. The first major procedural programming languages first appeared circa 1960, including [[Fortran]], [[ALGOL]], [[COBOL]] and [[BASIC]].  [[Pascal (programming language)]] and [[C (programming language)]] were published closer to the 1970s - [https://en.wikipedia.org/wiki/Procedural_programming wikipedia]"
+    },
+    {
+      "type": "markdown",
+      "id": "36fed4bf-b8ae-4606-9fb4-1ca2811c208c",
+      "text": "[[Central processing unit]] provide hardware support for procedural programming through a [[stack register]] and instructions for calling proceedures and returning from them. Hardware support for other types of programming is possible, but no attempt was commercially successful (for example [[Lisp machines]] or [[Java processor]]s)."
+    },
+    {
+      "type": "markdown",
+      "id": "55111cf5-378e-4b65-ac8b-304b1caca62c",
+      "text": "# Tools\n\nSearch for [[free culture]] images for this page on [https://www.google.com/search?as_st=y&tbm=isch&as_q=Procedural+programming&as_epq=&as_oq=&as_eq=&cr=&as_sitesearch=&safe=images&tbs=sur:fmc&gws_rd=ssl google]"
+    },
+    {
+      "type": "markdown",
+      "id": "ded1241d-ae3a-462b-aad1-8af62765f808",
+      "text": "# Sections"
+    },
+    {
+      "type": "html",
+      "id": "9c8c6e91-872b-4c88-ac27-9d357545509e",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Procedures and modularity'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Procedural programming&action=edit&section=1'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "1d61e2d5-80f0-4141-96dc-8c320933253f",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Comparison with other programming paradigms'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Procedural programming&action=edit&section=2'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "markdown",
+      "id": "9613c66f-ccba-42ae-92a8-ed2550656bd7",
+      "text": "# See also"
+    },
+    {
+      "type": "markdown",
+      "id": "184098f494286c76",
+      "text": "- [[Imperative programming]]\n- [[Procedural programming]]\n- [[Object-oriented programming]]\n- [[Declarative programming]]\n- [[Functional programming]]\n- [[Reactive programming]]\n- [[Logic programming]]\n- [[Programming paradigm]]\n\n"
+    },
+    {
+      "type": "markdown",
+      "id": "84ed2303-e78e-4696-887b-6549bd38d464",
+      "text": "- [[Comparison of programming paradigms]]\n- [[Programming language]]\n- [[Structured programming]]\n- [[SQL procedural extensions]]"
+    }
+  ]
+}

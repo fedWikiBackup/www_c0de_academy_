@@ -1,0 +1,157 @@
+{
+  "title": "Communication protocol",
+  "journal": [
+    {
+      "date": 1551017911898,
+      "type": "create",
+      "item": {
+        "story": "",
+        "title": "Communication protocol"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1551017782977
+    },
+    {
+      "type": "fork",
+      "site": "literate.wiki",
+      "date": 1551017831141
+    },
+    {
+      "type": "edit",
+      "id": "f5ef35b0-8868-403a-b75d-c77dc5fdddde",
+      "item": {
+        "type": "markdown",
+        "id": "f5ef35b0-8868-403a-b75d-c77dc5fdddde",
+        "text": "Communicating systems use well-defined formats for exchanging various messages. Each message has an exact meaning intended to elicit a response from a range of possible responses pre-determined for that particular situation. The specified behavior is typically independent of how it is to be [[Implementation]]. \n"
+      },
+      "date": 1551018449510
+    },
+    {
+      "type": "add",
+      "id": "ec03d41b9523e9ae",
+      "item": {
+        "type": "markdown",
+        "id": "ec03d41b9523e9ae",
+        "text": "Communication protocols have to be agreed upon by the parties involved. To reach an agreement, a protocol may be developed into a [[technical standard]]. \n"
+      },
+      "after": "f5ef35b0-8868-403a-b75d-c77dc5fdddde",
+      "date": 1551018462094
+    },
+    {
+      "type": "add",
+      "id": "724e9474a338bc87",
+      "item": {
+        "type": "markdown",
+        "id": "724e9474a338bc87",
+        "text": "A [[programming language]] describes the same for computations, so there is a close analogy between protocols and programming languages: \n\n> protocols are to communication what programming languages are to computations."
+      },
+      "after": "ec03d41b9523e9ae",
+      "date": 1551018484913
+    },
+    {
+      "type": "edit",
+      "id": "9c07e12f-6706-4fb9-b6bb-37f4f14d78bf",
+      "item": {
+        "type": "markdown",
+        "id": "9c07e12f-6706-4fb9-b6bb-37f4f14d78bf",
+        "text": "In [[telecommunication]], a __communication protocol__ is a system of rules that allow two or more entities of a [[communications system]] to transmit [[information]] via any kind of variation of a [[physical quantity]]. \n"
+      },
+      "date": 1551018525472
+    },
+    {
+      "type": "add",
+      "id": "bc4575cc0ad97218",
+      "item": {
+        "type": "markdown",
+        "id": "bc4575cc0ad97218",
+        "text": "The protocol defines the rules, [[syntax]], [[semantic]]s and [[synchronization]] of [[communication]] and possible [[Error detection and correction]]. Protocols may be implemented by [[Computer hardware]], [[software]], or a combination of both - [https://en.wikipedia.org/wiki/Communication_protocol wikipedia]"
+      },
+      "after": "9c07e12f-6706-4fb9-b6bb-37f4f14d78bf",
+      "date": 1551018525928
+    }
+  ],
+  "story": [
+    {
+      "type": "markdown",
+      "id": "9c07e12f-6706-4fb9-b6bb-37f4f14d78bf",
+      "text": "In [[telecommunication]], a __communication protocol__ is a system of rules that allow two or more entities of a [[communications system]] to transmit [[information]] via any kind of variation of a [[physical quantity]]. \n"
+    },
+    {
+      "type": "markdown",
+      "id": "bc4575cc0ad97218",
+      "text": "The protocol defines the rules, [[syntax]], [[semantic]]s and [[synchronization]] of [[communication]] and possible [[Error detection and correction]]. Protocols may be implemented by [[Computer hardware]], [[software]], or a combination of both - [https://en.wikipedia.org/wiki/Communication_protocol wikipedia]"
+    },
+    {
+      "type": "markdown",
+      "id": "f5ef35b0-8868-403a-b75d-c77dc5fdddde",
+      "text": "Communicating systems use well-defined formats for exchanging various messages. Each message has an exact meaning intended to elicit a response from a range of possible responses pre-determined for that particular situation. The specified behavior is typically independent of how it is to be [[Implementation]]. \n"
+    },
+    {
+      "type": "markdown",
+      "id": "ec03d41b9523e9ae",
+      "text": "Communication protocols have to be agreed upon by the parties involved. To reach an agreement, a protocol may be developed into a [[technical standard]]. \n"
+    },
+    {
+      "type": "markdown",
+      "id": "724e9474a338bc87",
+      "text": "A [[programming language]] describes the same for computations, so there is a close analogy between protocols and programming languages: \n\n> protocols are to communication what programming languages are to computations."
+    },
+    {
+      "type": "markdown",
+      "id": "76e91e71-3fcc-4e75-b90f-d094421ad8b8",
+      "text": "Multiple protocols often describe different aspects of a single communication.  A group of protocols designed to work together are known as a protocol suite; when implemented in software they are a [[protocol stack]]."
+    },
+    {
+      "type": "markdown",
+      "id": "bfdd1c0d-81df-4f6a-bccf-8ffd26193671",
+      "text": "Internet communication protocols are published by the [[Internet Engineering Task Force]] (IETF). The [[IEEE]] handles wired and wireless networking, and the [[International Organization for Standardization]] (ISO) handles other types. The [[ITU-T]] handles telecommunication protocols and formats for the [[public switched telephone network]] (PSTN). As the PSTN and Internet [[Technological convergence]], the standards are also being driven towards convergence."
+    },
+    {
+      "type": "markdown",
+      "id": "fb430757-0e4b-42d2-8332-e3f42a2eddfe",
+      "text": "# Tools\n\nSearch for [[free culture]] images for this page on [https://www.google.com/search?as_st=y&tbm=isch&as_q=Communication+protocol&as_epq=&as_oq=&as_eq=&cr=&as_sitesearch=&safe=images&tbs=sur:fmc&gws_rd=ssl google]"
+    },
+    {
+      "type": "markdown",
+      "id": "44a43a4b-ebc0-4dcf-8f58-0f9318cb55e7",
+      "text": "# Sections"
+    },
+    {
+      "type": "html",
+      "id": "a2c31eff-e942-4b3a-9ceb-df88ba6fde28",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Communicating systems'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Communication protocol&action=edit&section=1'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "dbb351e9-98fe-4d67-897a-6f5e4aaf7797",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Basic requirements'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Communication protocol&action=edit&section=2'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "455dae5c-555d-418c-9779-9105be2b9664",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Protocol design'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Communication protocol&action=edit&section=3'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "ac7a57e2-294a-4217-8ddd-fad834ec26ef",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Protocol development'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Communication protocol&action=edit&section=11'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "9b16f35c-b343-43d0-861b-bfbbd97ed796",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Taxonomies'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Communication protocol&action=edit&section=16'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "markdown",
+      "id": "c40716f8-e403-4836-afa5-2fb30ce4da30",
+      "text": "# See also"
+    },
+    {
+      "type": "markdown",
+      "id": "18d5dc45-377d-4609-89b2-7d0cf1d398c4",
+      "text": "- [[Lists of network protocols]]\n- [[Application programming interface]]"
+    }
+  ]
+}

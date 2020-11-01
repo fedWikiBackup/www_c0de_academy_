@@ -1,0 +1,44 @@
+{
+  "title": "R Journal",
+  "journal": [
+    {
+      "date": 1545394571729,
+      "type": "create",
+      "item": {
+        "story": "",
+        "title": "R Journal"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1545394476918
+    },
+    {
+      "type": "remove",
+      "id": "c9a9fb8f-6694-40b7-89a9-dfbdf5db4a19",
+      "date": 1545394481872
+    },
+    {
+      "type": "remove",
+      "id": "83e2a300-6a23-4909-ac4f-da43d4bb313f",
+      "date": 1545394816911
+    },
+    {
+      "type": "remove",
+      "id": "aa747b8e-ab3a-4fef-8ef1-d898adfb422b",
+      "date": 1545394819564
+    }
+  ],
+  "story": [
+    {
+      "type": "markdown",
+      "id": "8a8d8a28-4784-4dc0-a1f2-e82a7c01a100",
+      "text": "# Tools\n\nSearch for [[free culture]] images for this page on [https://www.google.com/search?as_st=y&tbm=isch&as_q=R+%28programming+language%29+R+Journal&as_epq=&as_oq=&as_eq=&cr=&as_sitesearch=&safe=images&tbs=sur:fmc&gws_rd=ssl google]"
+    },
+    {
+      "type": "transport",
+      "id": "fe2772af-070c-446d-891e-1545069eca5c",
+      "text": "POST https://rest.livecode.world/imagine"
+    }
+  ]
+}

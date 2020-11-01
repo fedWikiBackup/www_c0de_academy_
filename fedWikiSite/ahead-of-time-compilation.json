@@ -1,0 +1,85 @@
+{
+  "title": "Ahead-of-Time Compilation",
+  "journal": [
+    {
+      "date": 1545414312104,
+      "type": "create",
+      "item": {
+        "story": "",
+        "title": "Ahead-of-Time Compilation"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1545414205755
+    },
+    {
+      "type": "remove",
+      "id": "3fe70357-a377-4d8f-b696-8a85a571b131",
+      "date": 1545414215428
+    },
+    {
+      "type": "remove",
+      "id": "6949a0f5-f48a-4a6c-87c7-5cd879763762",
+      "date": 1563260904419
+    },
+    {
+      "type": "remove",
+      "id": "0b8fabce-767e-4a9d-92b6-7c8d6b19498b",
+      "date": 1563260906022
+    },
+    {
+      "type": "edit",
+      "id": "648842ff-a725-45e2-a76c-34bb30fe7e7f",
+      "item": {
+        "type": "markdown",
+        "id": "648842ff-a725-45e2-a76c-34bb30fe7e7f",
+        "text": "# See also"
+      },
+      "date": 1563260911856
+    },
+    {
+      "type": "edit",
+      "id": "648842ff-a725-45e2-a76c-34bb30fe7e7f",
+      "item": {
+        "type": "markdown",
+        "id": "648842ff-a725-45e2-a76c-34bb30fe7e7f",
+        "text": "# See also\n"
+      },
+      "date": 1563260953811
+    },
+    {
+      "type": "add",
+      "id": "bd44c4068c9e3a03",
+      "item": {
+        "type": "markdown",
+        "id": "bd44c4068c9e3a03",
+        "text": "- [[GraalVM]]\n- [[Ahead-of-Time Compilation]]\n- [[Micronaut]]"
+      },
+      "after": "648842ff-a725-45e2-a76c-34bb30fe7e7f",
+      "date": 1563260954553
+    }
+  ],
+  "story": [
+    {
+      "type": "markdown",
+      "id": "eac96a6f-d08a-4508-86ff-97d0c6573215",
+      "text": "In September 2016, Oracle detailed plans to add [[ahead-of-time compilation]] to the OpenJDK using the Graal compiler for [[Java version history#Java SE 9]]. This proposal, tracked by the [[JDK Enhancement Proposal]] 295: Ahead-of-Time Compilation, was included in Java 9 - [https://en.wikipedia.org/wiki/GraalVM#Ahead-of-Time_Compilation wikipedia]"
+    },
+    {
+      "type": "markdown",
+      "id": "b978e35c-0ad5-4e7f-bba6-5163931bf6f1",
+      "text": "The experimental use of Graal as a [[Just-in-time compilation]] was added for the [[Linux]] [[x86-64]] platform for [[Java 10]]."
+    },
+    {
+      "type": "markdown",
+      "id": "648842ff-a725-45e2-a76c-34bb30fe7e7f",
+      "text": "# See also\n"
+    },
+    {
+      "type": "markdown",
+      "id": "bd44c4068c9e3a03",
+      "text": "- [[GraalVM]]\n- [[Ahead-of-Time Compilation]]\n- [[Micronaut]]"
+    }
+  ]
+}

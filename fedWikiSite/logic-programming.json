@@ -1,0 +1,129 @@
+{
+  "title": "Logic programming",
+  "journal": [
+    {
+      "date": 1550998147778,
+      "type": "create",
+      "item": {
+        "story": "",
+        "title": "Logic programming"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1550998022307
+    },
+    {
+      "type": "remove",
+      "id": "41bd35e4-0e63-4af9-9ecd-2a05b2b4505d",
+      "date": 1550998031092
+    },
+    {
+      "type": "remove",
+      "id": "5b49aca0-4624-404d-90ed-955885605a09",
+      "date": 1550998035773
+    },
+    {
+      "type": "remove",
+      "id": "1c77efc2-78f1-4eed-995d-711eeaa4c8a8",
+      "date": 1550998038460
+    },
+    {
+      "type": "remove",
+      "id": "3d3e9122-2f02-4e7d-8b28-07b82cf9bb36",
+      "date": 1550998041356
+    },
+    {
+      "type": "remove",
+      "id": "0b3d7701-e4a2-4142-bfc4-a917d6480001",
+      "date": 1550998047517
+    },
+    {
+      "type": "remove",
+      "id": "6ce0a566-7199-44e6-88af-1a04b9bd682a",
+      "date": 1550998069997
+    },
+    {
+      "type": "remove",
+      "id": "0e246a4a-2b62-4fdb-8f64-b630f97b375b",
+      "date": 1550998075190
+    },
+    {
+      "type": "remove",
+      "id": "1ecab102-f182-4c06-ac9c-7a696d2367c2",
+      "date": 1550998077309
+    },
+    {
+      "type": "remove",
+      "id": "c77ae698-3668-424c-915d-2032282b33b6",
+      "date": 1550998079837
+    },
+    {
+      "type": "remove",
+      "id": "927cff82-f47a-405e-ae19-ec61a7ec17d1",
+      "date": 1550998081925
+    },
+    {
+      "type": "remove",
+      "id": "36b1e166-e9c6-41eb-96c2-0d68ea366521",
+      "date": 1550998084108
+    },
+    {
+      "type": "remove",
+      "id": "07bf2ffe-34a1-4012-a940-f40315419a3a",
+      "date": 1550998086909
+    },
+    {
+      "type": "remove",
+      "id": "5f14ddd8-cda9-4cc5-97bb-1cba7eb8ce08",
+      "date": 1550998089286
+    },
+    {
+      "type": "remove",
+      "id": "60eb7079-e4b4-44ac-8ee3-d5da723984e6",
+      "date": 1550998129840
+    }
+  ],
+  "story": [
+    {
+      "type": "markdown",
+      "id": "e7534745-caa0-4080-bef8-0c341ed81806",
+      "text": "__Logic programming__ is a type of [[programming paradigm]] which is largely based on [[formal logic]]. Any program written in a logic [[programming language]] is a set of sentences in logical form, expressing facts and rules about some problem domain.  Major logic programming language families include [[Prolog]], [[Answer set programming]] (ASP) and [[Datalog]]. In all of these languages, rules are written in the form of ''clauses'' - [https://en.wikipedia.org/wiki/Logic_programming wikipedia]"
+    },
+    {
+      "type": "markdown",
+      "id": "6ea7f96a-97d1-4966-afd9-a4c42c9148bf",
+      "text": "The declarative reading of logic programs can be used by a programmer to verify their correctness. Moreover, logic-based [[program transformation]] techniques can also be used to transform logic programs into logically equivalent programs that are more efficient. In the Prolog family of logic programming languages, the programmer can also use the known problem-solving behaviour of the execution mechanism to improve the efficiency of programs."
+    },
+    {
+      "type": "markdown",
+      "id": "de22ea43-ffd0-42ca-bc91-f44df24b9041",
+      "text": "# Sections"
+    },
+    {
+      "type": "html",
+      "id": "5fbcf660-85bf-4480-b420-57f9f88e0e52",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='History'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Logic programming&action=edit&section=1'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "98ce4d72-64fb-4e99-8206-b007717af432",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Concepts'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Logic programming&action=edit&section=2'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "107f8ea6-f00a-49b7-86ad-9c033f47e12e",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Variants and extensions'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Logic programming&action=edit&section=7'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "markdown",
+      "id": "292e97e2-b86b-43a4-85f7-73c6f3197cc2",
+      "text": "# See also"
+    },
+    {
+      "type": "markdown",
+      "id": "8464990d-43bf-4aba-9840-91f00c14f757",
+      "text": "- [[Automated theorem proving]]\n- [[Boolean satisfiability problem]]\n- [[Constraint logic programming]]\n- [[Datalog]]\n- [[Fril]]\n- [[Functional programming]]\n- [[Fuzzy logic]]\n- [[Inductive logic programming]]\n- [[Logic in computer science]]\n- [[Logic programming languages]]\n- [[Programming paradigm]]\n- [[R++]]\n- [[Reasoning system]]\n- [[Rule-based machine learning]]\n- [[Satisfiability]]"
+    }
+  ]
+}

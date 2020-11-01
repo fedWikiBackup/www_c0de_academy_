@@ -1,0 +1,281 @@
+{
+  "title": "YAML",
+  "journal": [
+    {
+      "date": 1551791642225,
+      "type": "create",
+      "item": {
+        "story": "",
+        "title": "YAML"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1551791508911
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "7e398564a3f41d33"
+      },
+      "id": "7e398564a3f41d33",
+      "type": "add",
+      "after": "c5399d72-2834-486e-a8c1-05cec74703d1",
+      "date": 1551791608529
+    },
+    {
+      "type": "edit",
+      "id": "7e398564a3f41d33",
+      "item": {
+        "type": "code",
+        "id": "7e398564a3f41d33",
+        "text": "# sequencer protocols for Laser eye surgery\n---\n- step:  &id001                  # defines anchor label &id001\n    instrument:      Lasik 2000\n    pulseEnergy:     5.4\n    pulseDuration:   12\n    repetition:      1000\n    spotSize:        1mm\n\n- step: &id002\n    instrument:      Lasik 2000\n    pulseEnergy:     5.0\n    pulseDuration:   10\n    repetition:      500\n    spotSize:        2mm\n- step: *id001                   # refers to the first step (with anchor &id001)\n- step: *id002                   # refers to the second step\n- step:\n    <<: *id001\n    spotSize: 2mm                # redefines just this key, refers rest from &id001\n- step: *id002"
+      },
+      "date": 1551791610744
+    },
+    {
+      "type": "move",
+      "order": [
+        "6ea72077-1f24-4775-bf9a-815d31de981c",
+        "7e398564a3f41d33",
+        "64a974cd-43e6-4309-9e23-0f18f5263ef8",
+        "1b75d40b-b5c2-459a-8087-96065b7a5dac",
+        "a681e76a-87c5-4459-a594-8814137e92e6",
+        "e1b5d5ea-3863-4ab2-a3a9-8e07cbe3e63f",
+        "e0d91d24-d8bd-4f6a-8465-87b848fa1032",
+        "89099465-7f43-4688-b571-8bde0fc43695",
+        "0012923c-3254-4656-a17b-7ae027d22984",
+        "78f05263-e1a5-4cec-b981-fe15b55c6a5e",
+        "5fb72dac-b9a7-4957-9f6b-af190048b2c0",
+        "b82fab88-fbee-420c-9285-0b8a4af3eee9",
+        "c5399d72-2834-486e-a8c1-05cec74703d1"
+      ],
+      "id": "7e398564a3f41d33",
+      "date": 1551791618226
+    },
+    {
+      "type": "edit",
+      "id": "6ea72077-1f24-4775-bf9a-815d31de981c",
+      "item": {
+        "type": "markdown",
+        "id": "6ea72077-1f24-4775-bf9a-815d31de981c",
+        "text": "__YAML__ (''YAML Ain't Markup Language'') is a [[human-readable]] [[data serialization language]].  It is commonly used for [[configuration file]]s, but could be used in many applications where data is being stored (e.g. debugging output) or transmitted (e.g. document headers).  \n"
+      },
+      "date": 1551791626409
+    },
+    {
+      "type": "add",
+      "id": "5b65a9aa6777edbd",
+      "item": {
+        "type": "markdown",
+        "id": "5b65a9aa6777edbd",
+        "text": "YAML targets many of the same communications applications as [[Extensible Markup Language]] but has a minimal syntax which intentionally breaks compatibility with [[SGML]]. It uses both [[Python (programming language)]]-style indentation to indicate nesting, and a more compact format that uses `[]` for lists and `{}` for maps making YAML 1.2 a [[subset]] of [[JSON]] - [pWikipediaURL wikipedia]"
+      },
+      "after": "6ea72077-1f24-4775-bf9a-815d31de981c",
+      "date": 1551791678699
+    },
+    {
+      "type": "edit",
+      "id": "5b65a9aa6777edbd",
+      "item": {
+        "type": "markdown",
+        "id": "5b65a9aa6777edbd",
+        "text": "YAML targets many of the same communications applications as [[Extensible Markup Language]] but has a minimal syntax which intentionally breaks compatibility with [[SGML]]. It uses both [[Python (programming language)]]-style indentation to indicate nesting, and a more compact format that uses `[]` for lists and `{}` for maps making YAML 1.2 a [[subset]] of [[JSON]]."
+      },
+      "date": 1551791693268
+    },
+    {
+      "type": "edit",
+      "id": "6ea72077-1f24-4775-bf9a-815d31de981c",
+      "item": {
+        "type": "markdown",
+        "id": "6ea72077-1f24-4775-bf9a-815d31de981c",
+        "text": "__YAML__ (''YAML Ain't Markup Language'') is a [[human-readable]] [[data serialization language]].  It is commonly used for [[configuration file]]s, but could be used in many applications where data is being stored or transmitted (e.g. document headers) - [https://en.wikipedia.org/wiki/YAML#Design wikipedia]\n"
+      },
+      "date": 1551791734045
+    },
+    {
+      "type": "edit",
+      "id": "7e398564a3f41d33",
+      "item": {
+        "type": "code",
+        "id": "7e398564a3f41d33",
+        "text": "# sequencer protocols for Laser eye surgery\n---\n- step:  &id001\n    instrument:      Lasik 2000\n    pulseEnergy:     5.4\n    pulseDuration:   12\n    repetition:      1000\n    spotSize:        1mm\n\n- step: &id002\n    instrument:      Lasik 2000\n    pulseEnergy:     5.0\n    pulseDuration:   10\n    repetition:      500\n    spotSize:        2mm\n- step: *id001\n- step: *id002                   # refers to the second step\n- step:\n    <<: *id001\n    spotSize: 2mm                # redefines just this key, refers rest from &id001\n- step: *id002"
+      },
+      "date": 1551791761472
+    },
+    {
+      "type": "edit",
+      "id": "7e398564a3f41d33",
+      "item": {
+        "type": "code",
+        "id": "7e398564a3f41d33",
+        "text": "# sequencer protocols for Laser eye surgery\n---\n- step:  &id001\n    instrument:      Lasik 2000\n    pulseEnergy:     5.4\n    pulseDuration:   12\n    repetition:      1000\n    spotSize:        1mm\n\n- step: &id002\n    instrument:      Lasik 2000\n    pulseEnergy:     5.0\n    pulseDuration:   10\n    repetition:      500\n    spotSize:        2mm\n- step: *id001\n- step: *id002  # refers to the second step\n- step:\n    <<: *id001\n    spotSize: 2mm\n- step: *id002"
+      },
+      "date": 1551791778766
+    },
+    {
+      "type": "edit",
+      "id": "7e398564a3f41d33",
+      "item": {
+        "type": "code",
+        "id": "7e398564a3f41d33",
+        "text": "# sequencer protocols for Laser eye surgery\n---\n- step:  &id001\n    instrument:      Lasik 2000\n    pulseEnergy:     5.4\n    pulseDuration:   12\n    repetition:      1000\n    spotSize:        1mm\n\n- step: &id002\n    instrument:      Lasik 2000\n    pulseEnergy:     5.0\n    pulseDuration:   10\n    repetition:      500\n    spotSize:        2mm\n- step: *id001\n- step: *id002        # refers to the second step\n- step:\n    <<: *id001\n    spotSize: 2mm\n- step: *id002"
+      },
+      "date": 1551791794608
+    },
+    {
+      "type": "edit",
+      "id": "7e398564a3f41d33",
+      "item": {
+        "type": "code",
+        "id": "7e398564a3f41d33",
+        "text": "# sequencer protocols for Laser eye surgery\n---\n- step:  &id001\n    instrument:      Lasik 2000\n    pulseEnergy:     5.4\n    pulseDuration:   12\n    repetition:      1000\n    spotSize:        1mm\n\n- step: &id002\n    instrument:      Lasik 2000\n    pulseEnergy:     5.0\n    pulseDuration:   10\n    repetition:      500\n    spotSize:        2mm\n- step: *id001\n- step: *id002       # refers to the second step\n- step:\n    <<: *id001\n    spotSize: 2mm\n- step: *id002"
+      },
+      "date": 1551791801385
+    },
+    {
+      "type": "edit",
+      "id": "64a974cd-43e6-4309-9e23-0f18f5263ef8",
+      "item": {
+        "type": "markdown",
+        "id": "64a974cd-43e6-4309-9e23-0f18f5263ef8",
+        "text": "Custom data types are allowed, but YAML natively encodes [[Scalar (computing)]] (such as [[String (computer science)]], [[Integer (computer science)]], and [[Floating point]]), [[List (computing)]], and [[associative arrays]] (also known as hashes, maps, or dictionaries). These data types are based on the [[Perl]] programming language, though all commonly used high-level programming languages share very similar concepts. \n"
+      },
+      "date": 1551791823337
+    },
+    {
+      "type": "add",
+      "id": "ae46b5db136e51ee",
+      "item": {
+        "type": "markdown",
+        "id": "ae46b5db136e51ee",
+        "text": "The colon-centered syntax, used to express [[Attribute–value pair]]s, is inspired by [[electronic mail]] headers as defined in RFC 0822, and the [[Delimiter]] \"---\" is borrowed from [[MIME]] (RFC 2046).  [[Escape sequences]] are reused from [[C (programming language)]], and whitespace wrapping for multi-line strings is inspired from [[HTML]].  Lists and hashes can contain nested lists and hashes, forming a [[tree structure]]; arbitrary [[Graph (abstract data type)]] can be represented using YAML aliases (similar to XML in [[SOAP]]). YAML is intended to be read and written in streams, a feature inspired by [[Simple API for XML]]."
+      },
+      "after": "64a974cd-43e6-4309-9e23-0f18f5263ef8",
+      "date": 1551791830792
+    },
+    {
+      "type": "edit",
+      "id": "ae46b5db136e51ee",
+      "item": {
+        "type": "markdown",
+        "id": "ae46b5db136e51ee",
+        "text": "The colon-centered syntax, used to express [[Attribute–value pair]]s, is inspired by [[electronic mail]] headers as defined in RFC 0822, and the [[Delimiter]] \"---\" is borrowed from [[MIME]] (RFC 2046).  [[Escape sequences]] are reused from [[C (programming language)]], and whitespace wrapping for multi-line strings is inspired from [[HTML]].  \n"
+      },
+      "date": 1551791838931
+    },
+    {
+      "type": "add",
+      "id": "535d3b88f3aaafe7",
+      "item": {
+        "type": "markdown",
+        "id": "535d3b88f3aaafe7",
+        "text": "Lists and hashes can contain nested lists and hashes, forming a [[tree structure]]; arbitrary [[Graph (abstract data type)]] can be represented using YAML aliases (similar to XML in [[SOAP]]). YAML is intended to be read and written in streams, a feature inspired by [[Simple API for XML]]."
+      },
+      "after": "ae46b5db136e51ee",
+      "date": 1551791840064
+    },
+    {
+      "type": "edit",
+      "id": "a681e76a-87c5-4459-a594-8814137e92e6",
+      "item": {
+        "type": "markdown",
+        "id": "a681e76a-87c5-4459-a594-8814137e92e6",
+        "text": "The official recommended [[filename extension]] for YAML files has been `.yaml` since 2006."
+      },
+      "date": 1551791854831
+    },
+    {
+      "type": "fork",
+      "site": "model.livecode.world",
+      "date": 1551791870692
+    },
+    {
+      "type": "fork",
+      "date": 1551791872289
+    }
+  ],
+  "story": [
+    {
+      "type": "markdown",
+      "id": "6ea72077-1f24-4775-bf9a-815d31de981c",
+      "text": "__YAML__ (''YAML Ain't Markup Language'') is a [[human-readable]] [[data serialization language]].  It is commonly used for [[configuration file]]s, but could be used in many applications where data is being stored or transmitted (e.g. document headers) - [https://en.wikipedia.org/wiki/YAML#Design wikipedia]\n"
+    },
+    {
+      "type": "markdown",
+      "id": "5b65a9aa6777edbd",
+      "text": "YAML targets many of the same communications applications as [[Extensible Markup Language]] but has a minimal syntax which intentionally breaks compatibility with [[SGML]]. It uses both [[Python (programming language)]]-style indentation to indicate nesting, and a more compact format that uses `[]` for lists and `{}` for maps making YAML 1.2 a [[subset]] of [[JSON]]."
+    },
+    {
+      "type": "code",
+      "id": "7e398564a3f41d33",
+      "text": "# sequencer protocols for Laser eye surgery\n---\n- step:  &id001\n    instrument:      Lasik 2000\n    pulseEnergy:     5.4\n    pulseDuration:   12\n    repetition:      1000\n    spotSize:        1mm\n\n- step: &id002\n    instrument:      Lasik 2000\n    pulseEnergy:     5.0\n    pulseDuration:   10\n    repetition:      500\n    spotSize:        2mm\n- step: *id001\n- step: *id002       # refers to the second step\n- step:\n    <<: *id001\n    spotSize: 2mm\n- step: *id002"
+    },
+    {
+      "type": "markdown",
+      "id": "64a974cd-43e6-4309-9e23-0f18f5263ef8",
+      "text": "Custom data types are allowed, but YAML natively encodes [[Scalar (computing)]] (such as [[String (computer science)]], [[Integer (computer science)]], and [[Floating point]]), [[List (computing)]], and [[associative arrays]] (also known as hashes, maps, or dictionaries). These data types are based on the [[Perl]] programming language, though all commonly used high-level programming languages share very similar concepts. \n"
+    },
+    {
+      "type": "markdown",
+      "id": "ae46b5db136e51ee",
+      "text": "The colon-centered syntax, used to express [[Attribute–value pair]]s, is inspired by [[electronic mail]] headers as defined in RFC 0822, and the [[Delimiter]] \"---\" is borrowed from [[MIME]] (RFC 2046).  [[Escape sequences]] are reused from [[C (programming language)]], and whitespace wrapping for multi-line strings is inspired from [[HTML]].  \n"
+    },
+    {
+      "type": "markdown",
+      "id": "535d3b88f3aaafe7",
+      "text": "Lists and hashes can contain nested lists and hashes, forming a [[tree structure]]; arbitrary [[Graph (abstract data type)]] can be represented using YAML aliases (similar to XML in [[SOAP]]). YAML is intended to be read and written in streams, a feature inspired by [[Simple API for XML]]."
+    },
+    {
+      "type": "markdown",
+      "id": "1b75d40b-b5c2-459a-8087-96065b7a5dac",
+      "text": "Support for reading and writing YAML is available for many programming languages. Some source code editors such as [[Emacs]] and various [[integrated development environment]]s have features that make editing YAML easier, such as folding up nested structures or automatically highlighting syntax errors."
+    },
+    {
+      "type": "markdown",
+      "id": "a681e76a-87c5-4459-a594-8814137e92e6",
+      "text": "The official recommended [[filename extension]] for YAML files has been `.yaml` since 2006."
+    },
+    {
+      "type": "markdown",
+      "id": "e1b5d5ea-3863-4ab2-a3a9-8e07cbe3e63f",
+      "text": "# Sections"
+    },
+    {
+      "type": "html",
+      "id": "e0d91d24-d8bd-4f6a-8465-87b848fa1032",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='History and name'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=YAML&action=edit&section=1'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "89099465-7f43-4688-b571-8bde0fc43695",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Design'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=YAML&action=edit&section=2'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "0012923c-3254-4656-a17b-7ae027d22984",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Features'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=YAML&action=edit&section=7'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "78f05263-e1a5-4cec-b981-fe15b55c6a5e",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Comparison with other serialization formats'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=YAML&action=edit&section=13'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "5fb72dac-b9a7-4957-9f6b-af190048b2c0",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Software (emitters and parsers)'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=YAML&action=edit&section=16'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "markdown",
+      "id": "b82fab88-fbee-420c-9285-0b8a4af3eee9",
+      "text": "# See also"
+    },
+    {
+      "type": "markdown",
+      "id": "c5399d72-2834-486e-a8c1-05cec74703d1",
+      "text": "- [[Comparison of data serialization formats]]\n- [[List of lightweight markup languages]]"
+    }
+  ]
+}

@@ -1,0 +1,596 @@
+{
+  "title": "Blockchain",
+  "journal": [
+    {
+      "date": 1545515235219,
+      "type": "create",
+      "item": {
+        "story": "",
+        "title": "Blockchain"
+      }
+    },
+    {
+      "type": "remove",
+      "id": "98679579-10f3-4a8f-b783-654b6be5e65b",
+      "date": 1545515134581,
+      "error": {
+        "type": "error",
+        "msg": "Not Found",
+        "response": "Page not found"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1545515213716
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "video",
+        "id": "5649c0536d9a1ede",
+        "text": "YOUTUBE 3FA3UjA0igY\nNick Szabo and Tim Ferriss discuss Blockchain"
+      },
+      "after": "1a948808-7106-4057-b02c-d724d01271e9",
+      "id": "5649c0536d9a1ede",
+      "date": 1545515230501
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "663183b76e41dac0",
+        "text": "# History"
+      },
+      "after": "9fec11cf-811c-42ce-85a1-92740879ce0c",
+      "id": "663183b76e41dac0",
+      "date": 1545515276185
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "video",
+        "id": "59a761903b1d2762",
+        "text": "YOUTUBE 7Y3fWXA6d5k\nNick Szabo explains history of Blockchain"
+      },
+      "after": "663183b76e41dac0",
+      "id": "59a761903b1d2762",
+      "date": 1545515278771
+    },
+    {
+      "type": "add",
+      "item": {
+        "id": "7ae309fb97f2e468",
+        "text": "YOUTUBE 19QT8-i1Wf0\nCoinscrum (Apr 2014) - The Concept of the [[Blockchain]] \n",
+        "type": "video"
+      },
+      "after": "823926f0-229b-4ab9-aea0-87025c817747",
+      "id": "7ae309fb97f2e468",
+      "date": 1545515286613
+    },
+    {
+      "type": "edit",
+      "id": "823926f0-229b-4ab9-aea0-87025c817747",
+      "item": {
+        "type": "markdown",
+        "id": "823926f0-229b-4ab9-aea0-87025c817747",
+        "text": "By design, a blockchain is resistant to modification of the data. It is \"an open, distributed ledger that can record transactions between two parties efficiently and in a verifiable and permanent way\". For use as a [[distributed ledger]], a blockchain is typically managed by a [[peer-to-peer]] network collectively adhering to a [[Protocol (communication)]] for inter-node communication and validating new blocks. \n"
+      },
+      "date": 1545515299920
+    },
+    {
+      "type": "add",
+      "id": "34a443b655ec7d5e",
+      "item": {
+        "type": "markdown",
+        "id": "34a443b655ec7d5e",
+        "text": "Once recorded, the data in any given block cannot be altered retroactively without alteration of all subsequent blocks, which requires consensus of the network majority. Although blockchain records are not unalterable, blockchains may be considered [[secure by design]] and exemplify a distributed computing system with high [[Byzantine fault tolerance]]. [[Decentralized]] consensus has therefore been claimed with a blockchain."
+      },
+      "after": "823926f0-229b-4ab9-aea0-87025c817747",
+      "date": 1545515300667
+    },
+    {
+      "type": "move",
+      "order": [
+        "1a948808-7106-4057-b02c-d724d01271e9",
+        "5649c0536d9a1ede",
+        "823926f0-229b-4ab9-aea0-87025c817747",
+        "7ae309fb97f2e468",
+        "34a443b655ec7d5e",
+        "c2a64a65-7b1c-4578-b3a1-8b3f87c0d6eb",
+        "9fec11cf-811c-42ce-85a1-92740879ce0c",
+        "663183b76e41dac0",
+        "59a761903b1d2762",
+        "fb627524-38cc-45d2-9a04-9dec53a7e96c",
+        "b51be9ba-012f-49d7-8355-effb0d711b9d",
+        "98d507f6-a934-4ef5-9f25-bffc89eaadac",
+        "0bc7243b-1206-4e77-ab33-4a507fee0eb3",
+        "605cbcd0-35cd-4844-a437-1d7ea609b207",
+        "529236f2-6275-4f48-9b00-6036f492617b",
+        "048b809f-e4a8-4709-b8f9-0f9234d255ef",
+        "167ae7ea-6b08-4a56-a77a-22bd0acba217",
+        "57af6a1e-ceaf-4ec2-afa6-3b5b495cde32",
+        "296874e4-bb46-4f9f-a698-9be6ff89c6e3"
+      ],
+      "id": "7ae309fb97f2e468",
+      "date": 1545515304778
+    },
+    {
+      "type": "move",
+      "order": [
+        "1a948808-7106-4057-b02c-d724d01271e9",
+        "5649c0536d9a1ede",
+        "823926f0-229b-4ab9-aea0-87025c817747",
+        "7ae309fb97f2e468",
+        "34a443b655ec7d5e",
+        "9fec11cf-811c-42ce-85a1-92740879ce0c",
+        "c2a64a65-7b1c-4578-b3a1-8b3f87c0d6eb",
+        "663183b76e41dac0",
+        "59a761903b1d2762",
+        "fb627524-38cc-45d2-9a04-9dec53a7e96c",
+        "b51be9ba-012f-49d7-8355-effb0d711b9d",
+        "98d507f6-a934-4ef5-9f25-bffc89eaadac",
+        "0bc7243b-1206-4e77-ab33-4a507fee0eb3",
+        "605cbcd0-35cd-4844-a437-1d7ea609b207",
+        "529236f2-6275-4f48-9b00-6036f492617b",
+        "048b809f-e4a8-4709-b8f9-0f9234d255ef",
+        "167ae7ea-6b08-4a56-a77a-22bd0acba217",
+        "57af6a1e-ceaf-4ec2-afa6-3b5b495cde32",
+        "296874e4-bb46-4f9f-a698-9be6ff89c6e3"
+      ],
+      "id": "c2a64a65-7b1c-4578-b3a1-8b3f87c0d6eb",
+      "date": 1545515309767
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "e247db614b763666",
+        "text": "# See also\n\n- [[Distributed Ledger Technology]]\n- [[Merkle tree]]\n- [[Blockchain Politics]]\n- [[Blockchains]]\n"
+      },
+      "after": "57af6a1e-ceaf-4ec2-afa6-3b5b495cde32",
+      "id": "e247db614b763666",
+      "date": 1545515329758
+    },
+    {
+      "type": "edit",
+      "id": "e247db614b763666",
+      "item": {
+        "type": "markdown",
+        "id": "e247db614b763666",
+        "text": "- [[Distributed Ledger Technology]]\n- [[Merkle tree]]\n- [[Blockchain Politics]]\n- [[Blockchains]]\n"
+      },
+      "date": 1545515334185
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "b2f2e3ed9b70a005",
+        "text": "\n- [[Block Chain]]\n- [[Block Chain Technology]]\n"
+      },
+      "after": "e247db614b763666",
+      "id": "b2f2e3ed9b70a005",
+      "date": 1545515338017
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "4b65d8562adf0253",
+        "text": "- Scalable privacy for every blockchain - [https://enigma.co/ enigma.co]"
+      },
+      "after": "296874e4-bb46-4f9f-a698-9be6ff89c6e3",
+      "id": "4b65d8562adf0253",
+      "date": 1545515345684
+    },
+    {
+      "type": "edit",
+      "id": "b2f2e3ed9b70a005",
+      "item": {
+        "type": "markdown",
+        "id": "b2f2e3ed9b70a005",
+        "text": "- [[Block Chain]]\n- [[Block Chain Technology]]\n- [[Distributed Hash Table]]\n"
+      },
+      "date": 1545515358682
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "5c679eb0-e7e1-44ce-b75f-a6d462a66423",
+        "text": "The first work on a cryptographically secured chain of blocks was described in 1991 by Stuart Haber and W. Scott Stornetta. They wanted to implement a system where document timestamps could not be tampered with. In 1992, Bayer, Haber and Stornetta incorporated [[Merkle tree]]s to the design, which improved its efficiency by allowing several document certificates to be collected into one block - [https://en.wikipedia.org/wiki/Blockchain#History wikipedia]"
+      },
+      "after": "663183b76e41dac0",
+      "id": "5c679eb0-e7e1-44ce-b75f-a6d462a66423",
+      "date": 1545515375294
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "html",
+        "id": "b498df74-715c-48a7-9cbc-400cf5140516",
+        "text": "<div style='padding: 12px; background:#eee; width:96%; align=centered;'>\n<a href='https://commons.wikimedia.org/wiki/File:Confirmed_Transactions_Per_Day.png' target='_blank'>\n<img style='display:block; margin:auto; width:100%;'\nsrc='https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Confirmed_Transactions_Per_Day.png/420px-Confirmed_Transactions_Per_Day.png'>\n</a>\n\n<p class=caption>\nBitcoin transactions (January 2009 – September 2017)\n- [https://commons.wikimedia.org/wiki/File:Confirmed_Transactions_Per_Day.png wikimedia.org]\n</p></div>"
+      },
+      "after": "59a761903b1d2762",
+      "id": "b498df74-715c-48a7-9cbc-400cf5140516",
+      "date": 1545515379313
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "0fe24536-7ac4-4e95-b453-81bc83e26cd3",
+        "text": "The first blockchain was conceptualized by a person (or group of people) known as [[Satoshi Nakamoto]] in 2008. Nakamoto improved the design in an important way using a [[Hashcash]]-like method to add blocks to the chain without requiring them to be signed by a trusted party."
+      },
+      "after": "59a761903b1d2762",
+      "id": "0fe24536-7ac4-4e95-b453-81bc83e26cd3",
+      "date": 1545515381753
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "023549b0-df54-4aee-9df2-0889ddc00d52",
+        "text": "In August 2014, the bitcoin blockchain file size, containing records of all transactions that have occurred on the network, reached 20GB ([[gigabyte]]s). In January 2015, the size had grown to almost 30GB, and from January 2016 to January 2017, the bitcoin blockchain grew from 50GB to 100GB in size."
+      },
+      "after": "0fe24536-7ac4-4e95-b453-81bc83e26cd3",
+      "id": "023549b0-df54-4aee-9df2-0889ddc00d52",
+      "date": 1545515383766
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "3533ec79-dc1e-4f6a-8826-c14bb0c2538c",
+        "text": "- [[History]]"
+      },
+      "after": "98d507f6-a934-4ef5-9f25-bffc89eaadac",
+      "id": "3533ec79-dc1e-4f6a-8826-c14bb0c2538c",
+      "date": 1545515412537
+    },
+    {
+      "type": "edit",
+      "id": "3533ec79-dc1e-4f6a-8826-c14bb0c2538c",
+      "item": {
+        "type": "markdown",
+        "id": "3533ec79-dc1e-4f6a-8826-c14bb0c2538c",
+        "text": "- [[History of blockchain]]"
+      },
+      "date": 1545515419829
+    },
+    {
+      "type": "remove",
+      "id": "59a761903b1d2762",
+      "date": 1545515435331
+    },
+    {
+      "type": "remove",
+      "id": "023549b0-df54-4aee-9df2-0889ddc00d52",
+      "date": 1545515459416
+    },
+    {
+      "type": "move",
+      "order": [
+        "1a948808-7106-4057-b02c-d724d01271e9",
+        "5649c0536d9a1ede",
+        "823926f0-229b-4ab9-aea0-87025c817747",
+        "7ae309fb97f2e468",
+        "34a443b655ec7d5e",
+        "9fec11cf-811c-42ce-85a1-92740879ce0c",
+        "c2a64a65-7b1c-4578-b3a1-8b3f87c0d6eb",
+        "663183b76e41dac0",
+        "5c679eb0-e7e1-44ce-b75f-a6d462a66423",
+        "0fe24536-7ac4-4e95-b453-81bc83e26cd3",
+        "b498df74-715c-48a7-9cbc-400cf5140516",
+        "3533ec79-dc1e-4f6a-8826-c14bb0c2538c",
+        "fb627524-38cc-45d2-9a04-9dec53a7e96c",
+        "b51be9ba-012f-49d7-8355-effb0d711b9d",
+        "98d507f6-a934-4ef5-9f25-bffc89eaadac",
+        "0bc7243b-1206-4e77-ab33-4a507fee0eb3",
+        "605cbcd0-35cd-4844-a437-1d7ea609b207",
+        "529236f2-6275-4f48-9b00-6036f492617b",
+        "048b809f-e4a8-4709-b8f9-0f9234d255ef",
+        "167ae7ea-6b08-4a56-a77a-22bd0acba217",
+        "57af6a1e-ceaf-4ec2-afa6-3b5b495cde32",
+        "e247db614b763666",
+        "b2f2e3ed9b70a005",
+        "296874e4-bb46-4f9f-a698-9be6ff89c6e3",
+        "4b65d8562adf0253"
+      ],
+      "id": "3533ec79-dc1e-4f6a-8826-c14bb0c2538c",
+      "date": 1545515476781
+    },
+    {
+      "type": "move",
+      "order": [
+        "1a948808-7106-4057-b02c-d724d01271e9",
+        "5649c0536d9a1ede",
+        "823926f0-229b-4ab9-aea0-87025c817747",
+        "7ae309fb97f2e468",
+        "34a443b655ec7d5e",
+        "9fec11cf-811c-42ce-85a1-92740879ce0c",
+        "c2a64a65-7b1c-4578-b3a1-8b3f87c0d6eb",
+        "663183b76e41dac0",
+        "5c679eb0-e7e1-44ce-b75f-a6d462a66423",
+        "b498df74-715c-48a7-9cbc-400cf5140516",
+        "0fe24536-7ac4-4e95-b453-81bc83e26cd3",
+        "3533ec79-dc1e-4f6a-8826-c14bb0c2538c",
+        "fb627524-38cc-45d2-9a04-9dec53a7e96c",
+        "b51be9ba-012f-49d7-8355-effb0d711b9d",
+        "98d507f6-a934-4ef5-9f25-bffc89eaadac",
+        "0bc7243b-1206-4e77-ab33-4a507fee0eb3",
+        "605cbcd0-35cd-4844-a437-1d7ea609b207",
+        "529236f2-6275-4f48-9b00-6036f492617b",
+        "048b809f-e4a8-4709-b8f9-0f9234d255ef",
+        "167ae7ea-6b08-4a56-a77a-22bd0acba217",
+        "57af6a1e-ceaf-4ec2-afa6-3b5b495cde32",
+        "e247db614b763666",
+        "b2f2e3ed9b70a005",
+        "296874e4-bb46-4f9f-a698-9be6ff89c6e3",
+        "4b65d8562adf0253"
+      ],
+      "id": "0fe24536-7ac4-4e95-b453-81bc83e26cd3",
+      "date": 1545515479671
+    },
+    {
+      "type": "move",
+      "order": [
+        "1a948808-7106-4057-b02c-d724d01271e9",
+        "5649c0536d9a1ede",
+        "823926f0-229b-4ab9-aea0-87025c817747",
+        "7ae309fb97f2e468",
+        "34a443b655ec7d5e",
+        "9fec11cf-811c-42ce-85a1-92740879ce0c",
+        "c2a64a65-7b1c-4578-b3a1-8b3f87c0d6eb",
+        "663183b76e41dac0",
+        "5c679eb0-e7e1-44ce-b75f-a6d462a66423",
+        "3533ec79-dc1e-4f6a-8826-c14bb0c2538c",
+        "b498df74-715c-48a7-9cbc-400cf5140516",
+        "0fe24536-7ac4-4e95-b453-81bc83e26cd3",
+        "fb627524-38cc-45d2-9a04-9dec53a7e96c",
+        "b51be9ba-012f-49d7-8355-effb0d711b9d",
+        "98d507f6-a934-4ef5-9f25-bffc89eaadac",
+        "0bc7243b-1206-4e77-ab33-4a507fee0eb3",
+        "605cbcd0-35cd-4844-a437-1d7ea609b207",
+        "529236f2-6275-4f48-9b00-6036f492617b",
+        "048b809f-e4a8-4709-b8f9-0f9234d255ef",
+        "167ae7ea-6b08-4a56-a77a-22bd0acba217",
+        "57af6a1e-ceaf-4ec2-afa6-3b5b495cde32",
+        "e247db614b763666",
+        "b2f2e3ed9b70a005",
+        "296874e4-bb46-4f9f-a698-9be6ff89c6e3",
+        "4b65d8562adf0253"
+      ],
+      "id": "3533ec79-dc1e-4f6a-8826-c14bb0c2538c",
+      "date": 1545515481707
+    },
+    {
+      "type": "edit",
+      "id": "5c679eb0-e7e1-44ce-b75f-a6d462a66423",
+      "item": {
+        "type": "markdown",
+        "id": "5c679eb0-e7e1-44ce-b75f-a6d462a66423",
+        "text": "The first work on a cryptographically secured chain of blocks was described in 1991 by Stuart Haber and W. Scott Stornetta. They wanted to implement a system where document timestamps could not be tampered with. \n"
+      },
+      "date": 1545515495559
+    },
+    {
+      "type": "add",
+      "id": "d13196f2319afa97",
+      "item": {
+        "type": "markdown",
+        "id": "d13196f2319afa97",
+        "text": "In 1992, Bayer, Haber and Stornetta incorporated [[Merkle tree]]s to the design, which improved its efficiency by allowing several document certificates to be collected into one block - [https://en.wikipedia.org/wiki/Blockchain#History wikipedia]"
+      },
+      "after": "5c679eb0-e7e1-44ce-b75f-a6d462a66423",
+      "date": 1545515496435
+    },
+    {
+      "type": "move",
+      "order": [
+        "1a948808-7106-4057-b02c-d724d01271e9",
+        "5649c0536d9a1ede",
+        "823926f0-229b-4ab9-aea0-87025c817747",
+        "7ae309fb97f2e468",
+        "34a443b655ec7d5e",
+        "9fec11cf-811c-42ce-85a1-92740879ce0c",
+        "c2a64a65-7b1c-4578-b3a1-8b3f87c0d6eb",
+        "663183b76e41dac0",
+        "5c679eb0-e7e1-44ce-b75f-a6d462a66423",
+        "3533ec79-dc1e-4f6a-8826-c14bb0c2538c",
+        "d13196f2319afa97",
+        "b498df74-715c-48a7-9cbc-400cf5140516",
+        "0fe24536-7ac4-4e95-b453-81bc83e26cd3",
+        "fb627524-38cc-45d2-9a04-9dec53a7e96c",
+        "b51be9ba-012f-49d7-8355-effb0d711b9d",
+        "98d507f6-a934-4ef5-9f25-bffc89eaadac",
+        "0bc7243b-1206-4e77-ab33-4a507fee0eb3",
+        "605cbcd0-35cd-4844-a437-1d7ea609b207",
+        "529236f2-6275-4f48-9b00-6036f492617b",
+        "048b809f-e4a8-4709-b8f9-0f9234d255ef",
+        "167ae7ea-6b08-4a56-a77a-22bd0acba217",
+        "57af6a1e-ceaf-4ec2-afa6-3b5b495cde32",
+        "e247db614b763666",
+        "b2f2e3ed9b70a005",
+        "296874e4-bb46-4f9f-a698-9be6ff89c6e3",
+        "4b65d8562adf0253"
+      ],
+      "id": "3533ec79-dc1e-4f6a-8826-c14bb0c2538c",
+      "date": 1545515497763
+    },
+    {
+      "type": "remove",
+      "id": "0bc7243b-1206-4e77-ab33-4a507fee0eb3",
+      "date": 1545515503544
+    },
+    {
+      "type": "edit",
+      "id": "823926f0-229b-4ab9-aea0-87025c817747",
+      "item": {
+        "type": "markdown",
+        "id": "823926f0-229b-4ab9-aea0-87025c817747",
+        "text": "By design, a blockchain is resistant to modification of the data. It is \"an open, distributed ledger that can record transactions between two parties efficiently and in a verifiable and permanent way\". \n"
+      },
+      "date": 1545515530268
+    },
+    {
+      "type": "add",
+      "id": "548856d7925a9423",
+      "item": {
+        "type": "markdown",
+        "id": "548856d7925a9423",
+        "text": "- See also [[Block chain]]\n"
+      },
+      "after": "823926f0-229b-4ab9-aea0-87025c817747",
+      "date": 1545515537644
+    },
+    {
+      "type": "add",
+      "id": "ff5b22b4f1995ed8",
+      "item": {
+        "type": "markdown",
+        "id": "ff5b22b4f1995ed8",
+        "text": "For use as a [[distributed ledger]], a blockchain is typically managed by a [[peer-to-peer]] network collectively adhering to a [[Protocol (communication)]] for inter-node communication and validating new blocks. \n"
+      },
+      "after": "548856d7925a9423",
+      "date": 1545515538223
+    }
+  ],
+  "story": [
+    {
+      "type": "markdown",
+      "id": "1a948808-7106-4057-b02c-d724d01271e9",
+      "text": "A __blockchain__, is a growing list of [[Record (computer science)]], called ''blocks'', which are linked using [[cryptography]]. Each block contains a [[Cryptographic hash function]] of the previous block, a [[Trusted timestamping]], and transaction data (generally represented as a [[merkle tree]] root hash) - [https://en.wikipedia.org/wiki/Blockchain wikipedia]"
+    },
+    {
+      "type": "video",
+      "id": "5649c0536d9a1ede",
+      "text": "YOUTUBE 3FA3UjA0igY\nNick Szabo and Tim Ferriss discuss Blockchain"
+    },
+    {
+      "type": "markdown",
+      "id": "823926f0-229b-4ab9-aea0-87025c817747",
+      "text": "By design, a blockchain is resistant to modification of the data. It is \"an open, distributed ledger that can record transactions between two parties efficiently and in a verifiable and permanent way\". \n"
+    },
+    {
+      "type": "markdown",
+      "id": "548856d7925a9423",
+      "text": "- See also [[Block chain]]\n"
+    },
+    {
+      "type": "markdown",
+      "id": "ff5b22b4f1995ed8",
+      "text": "For use as a [[distributed ledger]], a blockchain is typically managed by a [[peer-to-peer]] network collectively adhering to a [[Protocol (communication)]] for inter-node communication and validating new blocks. \n"
+    },
+    {
+      "id": "7ae309fb97f2e468",
+      "text": "YOUTUBE 19QT8-i1Wf0\nCoinscrum (Apr 2014) - The Concept of the [[Blockchain]] \n",
+      "type": "video"
+    },
+    {
+      "type": "markdown",
+      "id": "34a443b655ec7d5e",
+      "text": "Once recorded, the data in any given block cannot be altered retroactively without alteration of all subsequent blocks, which requires consensus of the network majority. Although blockchain records are not unalterable, blockchains may be considered [[secure by design]] and exemplify a distributed computing system with high [[Byzantine fault tolerance]]. [[Decentralized]] consensus has therefore been claimed with a blockchain."
+    },
+    {
+      "type": "html",
+      "id": "9fec11cf-811c-42ce-85a1-92740879ce0c",
+      "text": "<div style='padding: 12px; background:#eee; width:96%; align=centered;'>\n<a href='https://upload.wikimedia.org/wikipedia/commons/5/55/Bitcoin_Block_Data.svg' target='_blank'>\n<img style='display:block; margin:auto; width:100%;'\nsrc='https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Bitcoin_Block_Data.svg/320px-Bitcoin_Block_Data.svg.png'>\n</a>\n\n<p class=caption>\nBlockchain. distributed data store for digital transactions\n- [https://upload.wikimedia.org/wikipedia/commons/5/55/Bitcoin_Block_Data.svg wikimedia.org]\n</p></div>"
+    },
+    {
+      "type": "markdown",
+      "id": "c2a64a65-7b1c-4578-b3a1-8b3f87c0d6eb",
+      "text": "Blockchain was invented by [[Satoshi Nakamoto]] in 2008 to serve as the public transaction [[ledger]] of the [[cryptocurrency]] [[bitcoin]]. and blockchains which are readable by the public are widely used by [[cryptocurrencies]]. Blockchain is considered a type of [[payment rail]]. Private blockchains have been proposed for business use. Sources such as the ''Computerworld'' called the marketing of such blockchains without a proper security model \"snake oil\"."
+    },
+    {
+      "type": "markdown",
+      "id": "663183b76e41dac0",
+      "text": "# History"
+    },
+    {
+      "type": "markdown",
+      "id": "5c679eb0-e7e1-44ce-b75f-a6d462a66423",
+      "text": "The first work on a cryptographically secured chain of blocks was described in 1991 by Stuart Haber and W. Scott Stornetta. They wanted to implement a system where document timestamps could not be tampered with. \n"
+    },
+    {
+      "type": "markdown",
+      "id": "3533ec79-dc1e-4f6a-8826-c14bb0c2538c",
+      "text": "- [[History of blockchain]]"
+    },
+    {
+      "type": "markdown",
+      "id": "d13196f2319afa97",
+      "text": "In 1992, Bayer, Haber and Stornetta incorporated [[Merkle tree]]s to the design, which improved its efficiency by allowing several document certificates to be collected into one block - [https://en.wikipedia.org/wiki/Blockchain#History wikipedia]"
+    },
+    {
+      "type": "html",
+      "id": "b498df74-715c-48a7-9cbc-400cf5140516",
+      "text": "<div style='padding: 12px; background:#eee; width:96%; align=centered;'>\n<a href='https://commons.wikimedia.org/wiki/File:Confirmed_Transactions_Per_Day.png' target='_blank'>\n<img style='display:block; margin:auto; width:100%;'\nsrc='https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Confirmed_Transactions_Per_Day.png/420px-Confirmed_Transactions_Per_Day.png'>\n</a>\n\n<p class=caption>\nBitcoin transactions (January 2009 – September 2017)\n- [https://commons.wikimedia.org/wiki/File:Confirmed_Transactions_Per_Day.png wikimedia.org]\n</p></div>"
+    },
+    {
+      "type": "markdown",
+      "id": "0fe24536-7ac4-4e95-b453-81bc83e26cd3",
+      "text": "The first blockchain was conceptualized by a person (or group of people) known as [[Satoshi Nakamoto]] in 2008. Nakamoto improved the design in an important way using a [[Hashcash]]-like method to add blocks to the chain without requiring them to be signed by a trusted party."
+    },
+    {
+      "type": "markdown",
+      "id": "fb627524-38cc-45d2-9a04-9dec53a7e96c",
+      "text": "# Tools\n\nSearch for [[free culture]] images for this page on [https://www.google.com/search?as_st=y&tbm=isch&as_q=Blockchain&as_epq=&as_oq=&as_eq=&cr=&as_sitesearch=&safe=images&tbs=sur:fmc&gws_rd=ssl google]"
+    },
+    {
+      "type": "transport",
+      "id": "b51be9ba-012f-49d7-8355-effb0d711b9d",
+      "text": "POST https://rest.livecode.world/imagine"
+    },
+    {
+      "type": "markdown",
+      "id": "98d507f6-a934-4ef5-9f25-bffc89eaadac",
+      "text": "# Sections"
+    },
+    {
+      "type": "html",
+      "id": "605cbcd0-35cd-4844-a437-1d7ea609b207",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Structure'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Blockchain&action=edit&section=2'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "529236f2-6275-4f48-9b00-6036f492617b",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Uses'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Blockchain&action=edit&section=11'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "048b809f-e4a8-4709-b8f9-0f9234d255ef",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Types of blockchains'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Blockchain&action=edit&section=17'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "167ae7ea-6b08-4a56-a77a-22bd0acba217",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Academic research'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Blockchain&action=edit&section=21'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "markdown",
+      "id": "57af6a1e-ceaf-4ec2-afa6-3b5b495cde32",
+      "text": "# See also"
+    },
+    {
+      "type": "markdown",
+      "id": "e247db614b763666",
+      "text": "- [[Distributed Ledger Technology]]\n- [[Merkle tree]]\n- [[Blockchain Politics]]\n- [[Blockchains]]\n"
+    },
+    {
+      "type": "markdown",
+      "id": "b2f2e3ed9b70a005",
+      "text": "- [[Block Chain]]\n- [[Block Chain Technology]]\n- [[Distributed Hash Table]]\n"
+    },
+    {
+      "type": "markdown",
+      "id": "296874e4-bb46-4f9f-a698-9be6ff89c6e3",
+      "text": "- [[Changelog]]\n- [[Checklist]]\n- [[Economics of digitization]]"
+    },
+    {
+      "type": "markdown",
+      "id": "4b65d8562adf0253",
+      "text": "- Scalable privacy for every blockchain - [https://enigma.co/ enigma.co]"
+    }
+  ]
+}

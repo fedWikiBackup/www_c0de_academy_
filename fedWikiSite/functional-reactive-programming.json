@@ -1,0 +1,79 @@
+{
+  "journal": [
+    {
+      "date": 1551969836666,
+      "type": "create",
+      "item": {
+        "story": "",
+        "title": "Functional reactive programming"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1551969699309
+    }
+  ],
+  "title": "Functional reactive programming",
+  "story": [
+    {
+      "text": "__Functional reactive programming__ (__FRP__) is a [[programming paradigm]] for [[reactive programming]] ([[asynchronous programming]] [[dataflow programming]]) using the building blocks of [[functional programming]] (e.g. [[Map (higher-order function)]], [[Fold (higher-order function)]], [[Filter (higher-order function)]]). FRP has been used for programming [[graphical user interface]]s (GUIs), [[robotics]], games, and music, aiming to simplify these problems by explicitly modeling time - [https://en.wikipedia.org/wiki/Functional_reactive_programming wikipedia]",
+      "id": "195a9742-e152-4256-8d35-a2f34acd51f2",
+      "type": "markdown"
+    },
+    {
+      "text": "# Formulations of FRP",
+      "id": "de9be75b-4e01-4a58-9441-33257f17512e",
+      "type": "markdown"
+    },
+    {
+      "text": "The original formulation of functional reactive programming can be found in the ICFP 97 paper Functional Reactive Animation by [[Conal Elliott]] and [[Paul Hudak]] - [https://en.wikipedia.org/wiki/Functional_reactive_programming#Formulations_of_FRP wikipedia]",
+      "id": "a4cba2de-fe0a-4cf4-8dea-3985a968f76d",
+      "type": "markdown"
+    },
+    {
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Continuous'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Functional reactive programming&action=edit&section=2'>\n<input type=submit value=create></form>",
+      "id": "a74b1a3c-4b5d-4c57-9bdf-1cb84990ae77",
+      "type": "html"
+    },
+    {
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Discrete'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Functional reactive programming&action=edit&section=3'>\n<input type=submit value=create></form>",
+      "id": "155f43a3-b765-4082-91cc-91620c56f82f",
+      "type": "html"
+    },
+    {
+      "text": "FRP has taken many forms since its introduction in 1997. One axis of diversity is discrete vs. continuous semantics. Another axis is how FRP systems can be changed dynamically.",
+      "id": "ceddcbe3-d57d-4348-9bc0-3e6e2204a423",
+      "type": "markdown"
+    },
+    {
+      "text": "# Sections",
+      "id": "c66fbf6f-a2d9-472c-abdb-2104c1415fb3",
+      "type": "markdown"
+    },
+    {
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Interactive FRP'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Functional reactive programming&action=edit&section=4'>\n<input type=submit value=create></form>",
+      "id": "6a887298-912d-4314-b843-f16f16e473ef",
+      "type": "html"
+    },
+    {
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Implementation issues'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Functional reactive programming&action=edit&section=5'>\n<input type=submit value=create></form>",
+      "id": "7af41028-57a6-4de0-b1d0-d886e30b957a",
+      "type": "html"
+    },
+    {
+      "text": "# Implementations",
+      "id": "98363964-2921-4bab-a83d-b557272e0a53",
+      "type": "markdown"
+    },
+    {
+      "text": "# See also",
+      "id": "1f5b32f2-9e78-49c9-9e77-7b3f19cd82c7",
+      "type": "markdown"
+    },
+    {
+      "text": "- [[Incremental computing]]\n- [[Stream processing]]",
+      "id": "b3fe2153-7519-45f3-989c-2d36a9cc0fc4",
+      "type": "markdown"
+    }
+  ]
+}

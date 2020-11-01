@@ -1,0 +1,288 @@
+{
+  "title": "Micronaut",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "6fe6f8c5857fd2a0",
+      "text": "A modern, JVM-based, full-stack framework for building modular, easily testable microservice and serverless applications - [https://micronaut.io/ micronaut.io]"
+    },
+    {
+      "type": "video",
+      "id": "422774ef-9235-44ed-b2c9-d07bdf66b9db",
+      "text": "YOUTUBE BL9SsY5orkA\nIn this session, the creator of Micronaut and Grails introduces the newly released Micronaut framework and demonstrates how Micronaut’s unique compile-time approach enables the development of ultra-lightweight microservices for Java."
+    },
+    {
+      "type": "markdown",
+      "id": "660e659d-47d0-4888-b3b3-35fe6e97b338",
+      "text": "Compelling aspects of the Micronaut framework include:"
+    },
+    {
+      "type": "markdown",
+      "id": "f5f8a3f2a84c92e2",
+      "text": "- Subsecond startup time\n- Small processes that can run in as little as 10 MB of JVM heap \n- No runtime reflection\n- Dependency injection and AOP\n- Cloud Native\n"
+    },
+    {
+      "type": "markdown",
+      "id": "72f20624de02670b",
+      "text": "Graeme will also demonstrate how you can take your Microservices to the next level by using Micronaut's Ahead of Time Compilation (AOT) support and Oracle's GraalVM to achieve instant startup and ultra-low memory footprint.\n"
+    },
+    {
+      "type": "markdown",
+      "id": "6752f6655034b76b",
+      "text": "- https://micronaut.io/\n- https://voxxeddays.com/microservices \n- https://twitter.com/vxdmicroservice\n- https://www.linkedin.com/in/voxxed-days-microservices-906115164\n- https://t.co/pxf7cHZOpl"
+    },
+    {
+      "type": "markdown",
+      "id": "7fcbdd88ab11fa39",
+      "text": "# See also\n\n\n"
+    },
+    {
+      "type": "markdown",
+      "id": "fb558518f4014a07",
+      "text": "- [[GraalVM]]\n- [[Truffle]]\n- [[Kubeless]]\n- [[GitLab Serverless]] and [[Knative]]\n- [[Polyglot Webservice Hosting]]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Micronaut",
+        "story": []
+      },
+      "date": 1551549646218
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "fbd747d5-f1ff-46eb-a1d0-d52b5061d10a",
+        "text": "In this session, the creator of Micronaut and Grails introduces the newly released Micronaut framework and demonstrates how Micronaut’s unique compile-time approach enables the development of ultra-lightweight microservices for Java. Compelling aspects of the Micronaut framework include"
+      },
+      "id": "fbd747d5-f1ff-46eb-a1d0-d52b5061d10a",
+      "date": 1551549648527
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "video",
+        "id": "422774ef-9235-44ed-b2c9-d07bdf66b9db",
+        "text": "YOUTUBE BL9SsY5orkA\n[[Introduction to Micronaut Lightweight Microservices with Ahead of Time Compilation (Graeme Rocher)]]. Broadcast on 8 Nov 2018."
+      },
+      "after": "fbd747d5-f1ff-46eb-a1d0-d52b5061d10a",
+      "id": "422774ef-9235-44ed-b2c9-d07bdf66b9db",
+      "date": 1551549651215
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "660e659d-47d0-4888-b3b3-35fe6e97b338",
+        "text": "• Subsecond startup time • Small processes that can run in as little as 10 MB of JVM heap • No runtime reflection • Dependency injection and AOP • Cloud Native\n\nGraeme will also demonstrate how you can take your Microservices to the next level by using Micronaut's Ahead of Time Compilation (AOT) support and Oracle's GraalVM to achieve instant startup and ultra-low memory footprint.\n\nVoxxed Days Microservices 2018: 2 days conference (+1 optional workshops day) only on Microservices. \n\nFollow us on :\nWebsite : https://voxxeddays.com/microservices (bit.ly/vxdmicro)\nTwitter : https://twitter.com/vxdmicroservice\nLinkedin : https://www.linkedin.com/in/voxxed-days-microservices-906115164\nKeep in touch : https://t.co/pxf7cHZOpl\n\n#developers #conference #microservices"
+      },
+      "after": "422774ef-9235-44ed-b2c9-d07bdf66b9db",
+      "id": "660e659d-47d0-4888-b3b3-35fe6e97b338",
+      "date": 1551549654099
+    },
+    {
+      "type": "edit",
+      "id": "660e659d-47d0-4888-b3b3-35fe6e97b338",
+      "item": {
+        "type": "paragraph",
+        "id": "660e659d-47d0-4888-b3b3-35fe6e97b338",
+        "text": "• Subsecond startup time • Small processes that can run in as little as 10 MB of JVM heap • No runtime reflection • Dependency injection and AOP • Cloud Native\n\nGraeme will also demonstrate how you can take your Microservices to the next level by using Micronaut's Ahead of Time Compilation (AOT) support and Oracle's GraalVM to achieve instant startup and ultra-low memory footprint.\n\nVoxxed Days Microservices 2018: 2 days conference (+1 optional workshops day) only on Microservices. \n\n"
+      },
+      "date": 1551549681104
+    },
+    {
+      "type": "add",
+      "id": "6752f6655034b76b",
+      "item": {
+        "type": "paragraph",
+        "id": "6752f6655034b76b",
+        "text": "- https://voxxeddays.com/microservices \n- https://twitter.com/vxdmicroservice\n- https://www.linkedin.com/in/voxxed-days-microservices-906115164\n- https://t.co/pxf7cHZOpl"
+      },
+      "after": "660e659d-47d0-4888-b3b3-35fe6e97b338",
+      "date": 1551549709452
+    },
+    {
+      "type": "edit",
+      "id": "6752f6655034b76b",
+      "item": {
+        "type": "markdown",
+        "id": "6752f6655034b76b",
+        "text": "- https://voxxeddays.com/microservices \n- https://twitter.com/vxdmicroservice\n- https://www.linkedin.com/in/voxxed-days-microservices-906115164\n- https://t.co/pxf7cHZOpl"
+      },
+      "date": 1551549710802
+    },
+    {
+      "type": "edit",
+      "id": "660e659d-47d0-4888-b3b3-35fe6e97b338",
+      "item": {
+        "type": "markdown",
+        "id": "660e659d-47d0-4888-b3b3-35fe6e97b338",
+        "text": "• Subsecond startup time • Small processes that can run in as little as 10 MB of JVM heap • No runtime reflection • Dependency injection and AOP • Cloud Native\n\nGraeme will also demonstrate how you can take your Microservices to the next level by using Micronaut's Ahead of Time Compilation (AOT) support and Oracle's GraalVM to achieve instant startup and ultra-low memory footprint.\n\nVoxxed Days Microservices 2018: 2 days conference (+1 optional workshops day) only on Microservices. \n\n"
+      },
+      "date": 1551549717350
+    },
+    {
+      "type": "edit",
+      "id": "660e659d-47d0-4888-b3b3-35fe6e97b338",
+      "item": {
+        "type": "markdown",
+        "id": "660e659d-47d0-4888-b3b3-35fe6e97b338",
+        "text": "- Subsecond startup time\n- Small processes that can run in as little as 10 MB of JVM heap \n- No runtime reflection\n- Dependency injection and AOP\n- Cloud Native\n"
+      },
+      "date": 1551549747918
+    },
+    {
+      "type": "add",
+      "id": "72f20624de02670b",
+      "item": {
+        "type": "markdown",
+        "id": "72f20624de02670b",
+        "text": "Graeme will also demonstrate how you can take your Microservices to the next level by using Micronaut's Ahead of Time Compilation (AOT) support and Oracle's GraalVM to achieve instant startup and ultra-low memory footprint.\n"
+      },
+      "after": "660e659d-47d0-4888-b3b3-35fe6e97b338",
+      "date": 1551549752633
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "7fcbdd88ab11fa39",
+        "text": "# See also\n\n\n"
+      },
+      "after": "6752f6655034b76b",
+      "id": "7fcbdd88ab11fa39",
+      "date": 1551549761401
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "fb558518f4014a07",
+        "text": "- [[GraalVM]]\n- [[Micronaut]]\n- [[Kubeless]]\n- [[GitLab Serverless]] and [[Knative]]\n- [[Polyglot Webservice Hosting]]"
+      },
+      "after": "7fcbdd88ab11fa39",
+      "id": "fb558518f4014a07",
+      "date": 1551549765057
+    },
+    {
+      "type": "edit",
+      "id": "fb558518f4014a07",
+      "item": {
+        "type": "markdown",
+        "id": "fb558518f4014a07",
+        "text": "- [[GraalVM]]\n- [[Kubeless]]\n- [[GitLab Serverless]] and [[Knative]]\n- [[Polyglot Webservice Hosting]]"
+      },
+      "date": 1551549770086
+    },
+    {
+      "type": "edit",
+      "id": "fb558518f4014a07",
+      "item": {
+        "type": "markdown",
+        "id": "fb558518f4014a07",
+        "text": "- [[GraalVM]]\n- [[Truffle]]\n- [[Kubeless]]\n- [[GitLab Serverless]] and [[Knative]]\n- [[Polyglot Webservice Hosting]]"
+      },
+      "date": 1563260975382
+    },
+    {
+      "type": "edit",
+      "id": "fbd747d5-f1ff-46eb-a1d0-d52b5061d10a",
+      "item": {
+        "type": "paragraph",
+        "id": "fbd747d5-f1ff-46eb-a1d0-d52b5061d10a",
+        "text": "In this session, the creator of Micronaut and Grails introduces the newly released Micronaut framework and demonstrates how Micronaut’s unique compile-time approach enables the development of ultra-lightweight microservices for Java. Compelling aspects of the Micronaut framework include - [https://micronaut.io/ micronaut.io]"
+      },
+      "date": 1563261070013
+    },
+    {
+      "type": "edit",
+      "id": "fbd747d5-f1ff-46eb-a1d0-d52b5061d10a",
+      "item": {
+        "type": "paragraph",
+        "id": "fbd747d5-f1ff-46eb-a1d0-d52b5061d10a",
+        "text": "In this session, the creator of Micronaut and Grails introduces the newly released Micronaut framework and demonstrates how Micronaut’s unique compile-time approach enables the development of ultra-lightweight microservices for Java. Compelling aspects of the Micronaut framework include"
+      },
+      "date": 1563261094884
+    },
+    {
+      "type": "add",
+      "id": "6fe6f8c5857fd2a0",
+      "item": {
+        "type": "paragraph",
+        "id": "6fe6f8c5857fd2a0",
+        "text": "A modern, JVM-based, full-stack framework for building modular, easily testable microservice and serverless applications - [https://micronaut.io/ micronaut.io]"
+      },
+      "after": "fbd747d5-f1ff-46eb-a1d0-d52b5061d10a",
+      "date": 1563261099939
+    },
+    {
+      "type": "remove",
+      "id": "fbd747d5-f1ff-46eb-a1d0-d52b5061d10a",
+      "date": 1563261103774
+    },
+    {
+      "type": "edit",
+      "id": "422774ef-9235-44ed-b2c9-d07bdf66b9db",
+      "item": {
+        "type": "video",
+        "id": "422774ef-9235-44ed-b2c9-d07bdf66b9db",
+        "text": "YOUTUBE BL9SsY5orkA\nIn this session, the creator of Micronaut and Grails introduces the newly released Micronaut framework and demonstrates how Micronaut’s unique compile-time approach enables the development of ultra-lightweight microservices for Java. Compelling aspects of the Micronaut framework include"
+      },
+      "date": 1563261111425
+    },
+    {
+      "type": "edit",
+      "id": "422774ef-9235-44ed-b2c9-d07bdf66b9db",
+      "item": {
+        "type": "video",
+        "id": "422774ef-9235-44ed-b2c9-d07bdf66b9db",
+        "text": "YOUTUBE BL9SsY5orkA\nIn this session, the creator of Micronaut and Grails introduces the newly released Micronaut framework and demonstrates how Micronaut’s unique compile-time approach enables the development of ultra-lightweight microservices for Java."
+      },
+      "date": 1563261127451
+    },
+    {
+      "type": "edit",
+      "id": "660e659d-47d0-4888-b3b3-35fe6e97b338",
+      "item": {
+        "type": "markdown",
+        "id": "660e659d-47d0-4888-b3b3-35fe6e97b338",
+        "text": "Compelling aspects of the Micronaut framework include\n"
+      },
+      "date": 1563261129438
+    },
+    {
+      "type": "add",
+      "id": "f5f8a3f2a84c92e2",
+      "item": {
+        "type": "markdown",
+        "id": "f5f8a3f2a84c92e2",
+        "text": "- Subsecond startup time\n- Small processes that can run in as little as 10 MB of JVM heap \n- No runtime reflection\n- Dependency injection and AOP\n- Cloud Native\n"
+      },
+      "after": "660e659d-47d0-4888-b3b3-35fe6e97b338",
+      "date": 1563261129949
+    },
+    {
+      "type": "edit",
+      "id": "660e659d-47d0-4888-b3b3-35fe6e97b338",
+      "item": {
+        "type": "markdown",
+        "id": "660e659d-47d0-4888-b3b3-35fe6e97b338",
+        "text": "Compelling aspects of the Micronaut framework include:"
+      },
+      "date": 1563261137495
+    },
+    {
+      "type": "edit",
+      "id": "6752f6655034b76b",
+      "item": {
+        "type": "markdown",
+        "id": "6752f6655034b76b",
+        "text": "- https://micronaut.io/\n- https://voxxeddays.com/microservices \n- https://twitter.com/vxdmicroservice\n- https://www.linkedin.com/in/voxxed-days-microservices-906115164\n- https://t.co/pxf7cHZOpl"
+      },
+      "date": 1563261168675
+    }
+  ]
+}

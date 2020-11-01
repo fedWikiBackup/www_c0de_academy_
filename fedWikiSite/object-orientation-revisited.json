@@ -1,0 +1,175 @@
+{
+  "title": "Object Orientation Revisited",
+  "story": [
+    {
+      "type": "markdown",
+      "id": "4462cf599e2fd5d2",
+      "text": "Nygaard and Dahl invented Simula’s classes and objects to master complex problems. [[Alan Kay]] invented object orientation (OO) with its networks of communicating objects to facilitate simple and powerful mental models. His goal was to make computers and programming comprehensible to children of all ages. \n"
+    },
+    {
+      "type": "video",
+      "id": "d5f26633-4d79-4a36-93b0-a50282844a75",
+      "text": "VIMEO 43536416\nTrygve Reenskaug - Object Orientation Revisited. Simplicity and power with DCI."
+    },
+    {
+      "type": "markdown",
+      "id": "0d302f4eeec69964",
+      "text": "I have extended Kay’s original OO with explicit concepts and code that specify how objects interact at runtime. With this new paradigm, Data-Context-Interaction (DCI), programmers reason about their code, new team members get quickly up to speed, maintainers lead a better and more productive life. The DCI Context is a new abstraction that supplements the ubiquitous class. \n \n\n"
+    },
+    {
+      "type": "markdown",
+      "id": "01123cc4278408ff",
+      "text": "Mainstream programmers missed the importance of communication in Kay’s OO and misused the term. A better name for their approach is ‘class orientation’.\n"
+    },
+    {
+      "type": "markdown",
+      "id": "d9bd0efff1018592",
+      "text": "While a class says everything about the inside of an object and nothing about the objects surrounding it, a DCI Context says everything about a network of communicating objects and nothing about their insides. \n"
+    },
+    {
+      "type": "markdown",
+      "id": "fe86c6da8d0ef482",
+      "text": "The class is great for describing autonomous objects such as the domain objects in the Data part of DCI. The Context is great for describing how use cases are realized by networks of communicating objects. Communication is now a first-class citizen of programming."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Object Orientation Revisited",
+        "story": []
+      },
+      "date": 1560867975742
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "4462cf599e2fd5d2"
+      },
+      "id": "4462cf599e2fd5d2",
+      "type": "add",
+      "date": 1560867976882
+    },
+    {
+      "type": "edit",
+      "id": "4462cf599e2fd5d2",
+      "item": {
+        "type": "markdown",
+        "id": "4462cf599e2fd5d2",
+        "text": "Nygaard and Dahl invented Simula’s classes and objects to master complex problems. Alan Kay invented object orientation (OO) with its networks of communicating objects to facilitate simple and powerful mental models. His goal was to make computers and programming comprehensible to children of all ages. \n"
+      },
+      "date": 1560868000670
+    },
+    {
+      "type": "add",
+      "id": "0d302f4eeec69964",
+      "item": {
+        "type": "markdown",
+        "id": "0d302f4eeec69964",
+        "text": "Mainstream programmers missed the importance of communication in Kay’s OO and misused the term. A better name for their approach is ‘class orientation’.\n"
+      },
+      "after": "4462cf599e2fd5d2",
+      "date": 1560868009133
+    },
+    {
+      "type": "add",
+      "id": "79e682bdf52c28d0",
+      "item": {
+        "type": "markdown",
+        "id": "79e682bdf52c28d0",
+        "text": "I have extended Kay’s original OO with explicit concepts and code that specify how objects interact at runtime. With this new paradigm, Data-Context-Interaction (DCI), programmers reason about their code, new team members get quickly up to speed, maintainers lead a better and more productive life. The DCI Context is a new abstraction that supplements the ubiquitous class. \n"
+      },
+      "after": "0d302f4eeec69964",
+      "date": 1560868014215
+    },
+    {
+      "type": "add",
+      "id": "d9bd0efff1018592",
+      "item": {
+        "type": "markdown",
+        "id": "d9bd0efff1018592",
+        "text": "While a class says everything about the inside of an object and nothing about the objects surrounding it, a DCI Context says everything about a network of communicating objects and nothing about their insides. \n"
+      },
+      "after": "79e682bdf52c28d0",
+      "date": 1560868019758
+    },
+    {
+      "type": "add",
+      "id": "fe86c6da8d0ef482",
+      "item": {
+        "type": "markdown",
+        "id": "fe86c6da8d0ef482",
+        "text": "The class is great for describing autonomous objects such as the domain objects in the Data part of DCI. The Context is great for describing how use cases are realized by networks of communicating objects. Communication is now a first-class citizen of programming."
+      },
+      "after": "d9bd0efff1018592",
+      "date": 1560868020627
+    },
+    {
+      "id": "d5f26633-4d79-4a36-93b0-a50282844a75",
+      "type": "add",
+      "item": {
+        "type": "video",
+        "id": "d5f26633-4d79-4a36-93b0-a50282844a75",
+        "text": "VIMEO 43536416\n. "
+      },
+      "after": "4462cf599e2fd5d2",
+      "date": 1560868027508
+    },
+    {
+      "type": "remove",
+      "id": "79e682bdf52c28d0",
+      "date": 1560868043617
+    },
+    {
+      "type": "edit",
+      "id": "d5f26633-4d79-4a36-93b0-a50282844a75",
+      "item": {
+        "type": "video",
+        "id": "d5f26633-4d79-4a36-93b0-a50282844a75",
+        "text": "VIMEO 43536416\nI have extended Kay’s original OO with explicit concepts and code that specify how objects interact at runtime. With this new paradigm, Data-Context-Interaction (DCI), programmers reason about their code, new team members get quickly up to speed, maintainers lead a better and more productive life. The DCI Context is a new abstraction that supplements the ubiquitous class. \n "
+      },
+      "date": 1560868046492
+    },
+    {
+      "type": "edit",
+      "id": "d5f26633-4d79-4a36-93b0-a50282844a75",
+      "item": {
+        "type": "video",
+        "id": "d5f26633-4d79-4a36-93b0-a50282844a75",
+        "text": "VIMEO 43536416\nTrygve Reenskaug - Object Orientation Revisited. Simplicity and power with DCI."
+      },
+      "date": 1560868070582
+    },
+    {
+      "type": "edit",
+      "id": "0d302f4eeec69964",
+      "item": {
+        "type": "markdown",
+        "id": "0d302f4eeec69964",
+        "text": "I have extended Kay’s original OO with explicit concepts and code that specify how objects interact at runtime. With this new paradigm, Data-Context-Interaction (DCI), programmers reason about their code, new team members get quickly up to speed, maintainers lead a better and more productive life. The DCI Context is a new abstraction that supplements the ubiquitous class. \n \n\n"
+      },
+      "date": 1560868075479
+    },
+    {
+      "type": "add",
+      "id": "01123cc4278408ff",
+      "item": {
+        "type": "markdown",
+        "id": "01123cc4278408ff",
+        "text": "Mainstream programmers missed the importance of communication in Kay’s OO and misused the term. A better name for their approach is ‘class orientation’.\n"
+      },
+      "after": "0d302f4eeec69964",
+      "date": 1560868076317
+    },
+    {
+      "type": "edit",
+      "id": "4462cf599e2fd5d2",
+      "item": {
+        "type": "markdown",
+        "id": "4462cf599e2fd5d2",
+        "text": "Nygaard and Dahl invented Simula’s classes and objects to master complex problems. [[Alan Kay]] invented object orientation (OO) with its networks of communicating objects to facilitate simple and powerful mental models. His goal was to make computers and programming comprehensible to children of all ages. \n"
+      },
+      "date": 1560868088244
+    }
+  ]
+}

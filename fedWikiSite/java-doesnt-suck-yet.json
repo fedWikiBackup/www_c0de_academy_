@@ -1,0 +1,246 @@
+{
+  "title": "Java Doesn't Suck Yet",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "9d777e276240563f",
+      "text": "Almost 5 years ago, amid numerous claims that Java was dying, James Ward wrote about 10 ways we could use it better to avoid the downfall: [https://jamesward.com/2014/12/03/java-doesnt-suck-youre-just-using-it-wrong post]\n[https://twitter.com/_JamesWard/status/1191047392260308992 twitter]"
+    },
+    {
+      "type": "paragraph",
+      "id": "77ecbda98f509710",
+      "text": "Well, Java is not dead and the mainstream has embraced pretty much everything he wrote about. Let's see how...\n\n"
+    },
+    {
+      "type": "paragraph",
+      "id": "297ce7fa75cdff4f",
+      "text": "10 Page Wikis to Setup Dev Environments Suck - App servers are no longer the norm. Build tools have embraced launch wrappers (mvnw, gradlew). @testcontainers / Docker make it easy to run integration tests and are widely used.\n\n"
+    },
+    {
+      "type": "paragraph",
+      "id": "77c72c85e14893b4",
+      "text": "Incongruent Deployment Environments Suck - External config and immutable infrastructure have become the norm. Kubernetes has standardized container deployment.\n\n"
+    },
+    {
+      "type": "paragraph",
+      "id": "2200ccdd7804d4ee",
+      "text": "Servers That Take More Than 30 Seconds to Start Suck - Microservices have become the standard Plain-ole `static void main` apps are now the default. @graalvm provides further startup optimizations. @springboot, @QuarkusIO, & @micronautfw have significantly reduced startup time.\n\n"
+    },
+    {
+      "type": "paragraph",
+      "id": "35d14e78ca9bd597",
+      "text": "Manually Managed Dependencies Suck - It's been a while since I've heard of someone copying JAR files around instead of managing dependencies with a build tool.\n\n"
+    },
+    {
+      "type": "paragraph",
+      "id": "a81fa031e8ff3460",
+      "text": "Unversioned & Unpublished Libraries Suck - Reproducible builds are now highly valued and widely used. But we still have some work to do with making sure all production artifacts can be correlated to a commit in SCM.\n\n"
+    },
+    {
+      "type": "paragraph",
+      "id": "53f4efc10886cc51",
+      "text": "Long Development / Validation Cycles Really Suck - @playframework and @QuarkusIO have done a great job providing out-of-the-box support for a low latency dev cycle. Others are catching up and now provide it with some additional work.\n\n"
+    },
+    {
+      "type": "paragraph",
+      "id": "f118013b3556946f",
+      "text": "Monolithic Releases Suck - Continuous Delivery has become the norm. The 12 Factor App & Cloud Native principles are being applied widely.  But there are some distributed monoliths out there indicating we haven't totally figured this one out yet.\n\n"
+    },
+    {
+      "type": "paragraph",
+      "id": "9bf22e7eae8ab4e6",
+      "text": "Sticky Sessions and Server State Suck - Stateless services have become the norm with state having moved to external data stores. CQRS continues to emerge as a way to do state at scale.\n\n"
+    },
+    {
+      "type": "paragraph",
+      "id": "869e67812497ff1d",
+      "text": "Useless Blocking Sucks - Reactive is now all the rage. Even traditional Java frameworks like Spring have gone all-in with reactive. @kotlin has emerged as a contender in the reactive revolution for those that just want a better Java.\n\n"
+    },
+    {
+      "type": "paragraph",
+      "id": "0fca4c5ef90ab613",
+      "text": "The Java Language Kinda Sucks - With more frequent releases & some superb leadership, Java has added a ton of great language features over the past 5 years. Kotlin is gaining real traction, significant in the Android space, and some in the server space. Scala has stagnated a bit.\n\n"
+    },
+    {
+      "type": "paragraph",
+      "id": "fa8e6f27ffb2a484",
+      "text": "So there we have it! Tons of progress with the Java ecosystem in the past 5 years. The ship is not sinking as many had predicted. Kudos to all who helped move things forward."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Java Doesn't Suck Yet",
+        "story": []
+      },
+      "date": 1572825247063
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "9d777e276240563f"
+      },
+      "id": "9d777e276240563f",
+      "type": "add",
+      "date": 1572825308979
+    },
+    {
+      "type": "edit",
+      "id": "9d777e276240563f",
+      "item": {
+        "type": "paragraph",
+        "id": "9d777e276240563f",
+        "text": "Almost 5 years ago, amid numerous claims that Java was dying, James Ward wrote about 10 ways we could use it better to avoid the downfall: [https://jamesward.com/2014/12/03/java-doesnt-suck-youre-just-using-it-wrong post]\n\n"
+      },
+      "date": 1572825320230
+    },
+    {
+      "type": "add",
+      "id": "77ecbda98f509710",
+      "item": {
+        "type": "paragraph",
+        "id": "77ecbda98f509710",
+        "text": "Well, Java is not dead and the mainstream has embraced pretty much everything he wrote about. Let's see how...\n\n"
+      },
+      "after": "9d777e276240563f",
+      "date": 1572825326264
+    },
+    {
+      "type": "add",
+      "id": "297ce7fa75cdff4f",
+      "item": {
+        "type": "paragraph",
+        "id": "297ce7fa75cdff4f",
+        "text": "10 Page Wikis to Setup Dev Environments Suck - App servers are no longer the norm. Build tools have embraced launch wrappers (mvnw, gradlew). @testcontainers / Docker make it easy to run integration tests and are widely used.\n\n"
+      },
+      "after": "77ecbda98f509710",
+      "date": 1572825328945
+    },
+    {
+      "type": "add",
+      "id": "77c72c85e14893b4",
+      "item": {
+        "type": "paragraph",
+        "id": "77c72c85e14893b4",
+        "text": "Incongruent Deployment Environments Suck - External config and immutable infrastructure have become the norm. Kubernetes has standardized container deployment.\n\n"
+      },
+      "after": "297ce7fa75cdff4f",
+      "date": 1572825330890
+    },
+    {
+      "type": "add",
+      "id": "2200ccdd7804d4ee",
+      "item": {
+        "type": "paragraph",
+        "id": "2200ccdd7804d4ee",
+        "text": "Servers That Take More Than 30 Seconds to Start Suck - Microservices have become the standard Plain-ole `static void main` apps are now the default. @graalvm provides further startup optimizations. @springboot, @QuarkusIO, & @micronautfw have significantly reduced startup time.\n\n"
+      },
+      "after": "77c72c85e14893b4",
+      "date": 1572825333298
+    },
+    {
+      "type": "add",
+      "id": "35d14e78ca9bd597",
+      "item": {
+        "type": "paragraph",
+        "id": "35d14e78ca9bd597",
+        "text": "Manually Managed Dependencies Suck - It's been a while since I've heard of someone copying JAR files around instead of managing dependencies with a build tool.\n\n"
+      },
+      "after": "2200ccdd7804d4ee",
+      "date": 1572825335472
+    },
+    {
+      "type": "add",
+      "id": "a81fa031e8ff3460",
+      "item": {
+        "type": "paragraph",
+        "id": "a81fa031e8ff3460",
+        "text": "Unversioned & Unpublished Libraries Suck - Reproducible builds are now highly valued and widely used. But we still have some work to do with making sure all production artifacts can be correlated to a commit in SCM.\n\n"
+      },
+      "after": "35d14e78ca9bd597",
+      "date": 1572825337769
+    },
+    {
+      "type": "add",
+      "id": "53f4efc10886cc51",
+      "item": {
+        "type": "paragraph",
+        "id": "53f4efc10886cc51",
+        "text": "Long Development / Validation Cycles Really Suck - @playframework and @QuarkusIO have done a great job providing out-of-the-box support for a low latency dev cycle. Others are catching up and now provide it with some additional work.\n\n"
+      },
+      "after": "a81fa031e8ff3460",
+      "date": 1572825340025
+    },
+    {
+      "type": "add",
+      "id": "f118013b3556946f",
+      "item": {
+        "type": "paragraph",
+        "id": "f118013b3556946f",
+        "text": "Monolithic Releases Suck - Continuous Delivery has become the norm. The 12 Factor App & Cloud Native principles are being applied widely.  But there are some distributed monoliths out there indicating we haven't totally figured this one out yet.\n\n"
+      },
+      "after": "53f4efc10886cc51",
+      "date": 1572825343066
+    },
+    {
+      "type": "add",
+      "id": "9bf22e7eae8ab4e6",
+      "item": {
+        "type": "paragraph",
+        "id": "9bf22e7eae8ab4e6",
+        "text": "Sticky Sessions and Server State Suck - Stateless services have become the norm with state having moved to external data stores. CQRS continues to emerge as a way to do state at scale.\n\n"
+      },
+      "after": "f118013b3556946f",
+      "date": 1572825345682
+    },
+    {
+      "type": "add",
+      "id": "869e67812497ff1d",
+      "item": {
+        "type": "paragraph",
+        "id": "869e67812497ff1d",
+        "text": "Useless Blocking Sucks - Reactive is now all the rage. Even traditional Java frameworks like Spring have gone all-in with reactive. @kotlin has emerged as a contender in the reactive revolution for those that just want a better Java.\n\n"
+      },
+      "after": "9bf22e7eae8ab4e6",
+      "date": 1572825348857
+    },
+    {
+      "type": "add",
+      "id": "0fca4c5ef90ab613",
+      "item": {
+        "type": "paragraph",
+        "id": "0fca4c5ef90ab613",
+        "text": "The Java Language Kinda Sucks - With more frequent releases & some superb leadership, Java has added a ton of great language features over the past 5 years. Kotlin is gaining real traction, significant in the Android space, and some in the server space. Scala has stagnated a bit.\n\n"
+      },
+      "after": "869e67812497ff1d",
+      "date": 1572825351689
+    },
+    {
+      "type": "add",
+      "id": "fa8e6f27ffb2a484",
+      "item": {
+        "type": "paragraph",
+        "id": "fa8e6f27ffb2a484",
+        "text": "So there we have it! Tons of progress with the Java ecosystem in the past 5 years. The ship is not sinking as many had predicted. Kudos to all who helped move things forward."
+      },
+      "after": "0fca4c5ef90ab613",
+      "date": 1572825366723
+    },
+    {
+      "type": "edit",
+      "id": "9d777e276240563f",
+      "item": {
+        "type": "paragraph",
+        "id": "9d777e276240563f",
+        "text": "Almost 5 years ago, amid numerous claims that Java was dying, James Ward wrote about 10 ways we could use it better to avoid the downfall: [https://jamesward.com/2014/12/03/java-doesnt-suck-youre-just-using-it-wrong post]\n[https://twitter.com/_JamesWard/status/1191047392260308992 twitter]"
+      },
+      "date": 1572825415430
+    },
+    {
+      "type": "fork",
+      "site": "found.ward.bay.wiki.org",
+      "date": 1573059165536
+    }
+  ]
+}

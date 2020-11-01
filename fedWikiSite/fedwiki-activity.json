@@ -1,0 +1,252 @@
+{
+  "title": "Fedwiki Activity",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "2581edca1c3a105d",
+      "text": "Here we list all the sites we know of that concentrate on the technical and social aspects of writing in [[Federated Wiki]]. See [[Fedwiki Sites]] for a list of domains we use in the views below:"
+    },
+    {
+      "type": "markdown",
+      "id": "f2e58789948ca8a6",
+      "text": "- [[Fedwiki Index]]\n- [[All Fedwiki Activity]]\n"
+    },
+    {
+      "type": "markdown",
+      "id": "248583e6ef513c7d",
+      "text": "# Activity in previous 4 weeks"
+    },
+    {
+      "type": "activity",
+      "id": "e9e9f102158e1382",
+      "text": "ROSTER Fedwiki\nROSTER Fedwiki Admin\nROSTER Fedwiki Tools\nROSTER Fedwiki Future\nROSTER Fedwiki Hacks\nROSTER Fedwiki Trash\n\nCONVERSATION\nSINCE 4 weeks"
+    },
+    {
+      "type": "markdown",
+      "id": "8ac5da9f5a523940",
+      "text": "# See also"
+    },
+    {
+      "type": "markdown",
+      "id": "33b93ba133b346b1",
+      "text": "- [[C0de Activity]]\n- [[Livecode Activity]]\n- [[Fedwiki Activity]]\n\n"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Fedwiki Activity",
+        "story": []
+      },
+      "date": 1547733783198
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "2581edca1c3a105d",
+        "text": "Here we list all the sites we know of in the federation that concentrate mainly on [[LiveCode Sites]]. We also provide other views of activity that you might find useful:"
+      },
+      "id": "2581edca1c3a105d",
+      "date": 1547734003349
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "f2e58789948ca8a6",
+        "text": "- [[Livecode Index]]\n- [[All Livecode Activity]]\n"
+      },
+      "after": "2581edca1c3a105d",
+      "id": "f2e58789948ca8a6",
+      "date": 1547734012172
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "activity",
+        "id": "e9e9f102158e1382",
+        "text": "ROSTER Livecode Sites\nCONVERSATION\nSINCE 4 weeks"
+      },
+      "after": "f2e58789948ca8a6",
+      "id": "e9e9f102158e1382",
+      "date": 1547734017212
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "248583e6ef513c7d",
+        "text": "# Activity in the previous 4 weeks"
+      },
+      "after": "f2e58789948ca8a6",
+      "id": "248583e6ef513c7d",
+      "date": 1547734019840
+    },
+    {
+      "type": "edit",
+      "id": "2581edca1c3a105d",
+      "item": {
+        "type": "paragraph",
+        "id": "2581edca1c3a105d",
+        "text": "Here we list all the sites we know of in the federation that concentrate mainly on [[Fedwiki Sites]]. We also provide other views of activity that you might find useful:"
+      },
+      "date": 1547734058684
+    },
+    {
+      "type": "edit",
+      "id": "f2e58789948ca8a6",
+      "item": {
+        "type": "markdown",
+        "id": "f2e58789948ca8a6",
+        "text": "- [[Fedwiki Index]]\n- [[All Fedwiki Activity]]\n"
+      },
+      "date": 1547734068803
+    },
+    {
+      "type": "edit",
+      "id": "e9e9f102158e1382",
+      "item": {
+        "type": "activity",
+        "id": "e9e9f102158e1382",
+        "text": "ROSTER Fedwiki Sites\nCONVERSATION\nSINCE 4 weeks"
+      },
+      "date": 1547734087763
+    },
+    {
+      "type": "edit",
+      "id": "248583e6ef513c7d",
+      "item": {
+        "type": "markdown",
+        "id": "248583e6ef513c7d",
+        "text": "# Fedwiki Activity in previous 4 weeks"
+      },
+      "date": 1547734113885
+    },
+    {
+      "type": "edit",
+      "id": "248583e6ef513c7d",
+      "item": {
+        "type": "markdown",
+        "id": "248583e6ef513c7d",
+        "text": "# Fedwiki.org Activity in previous 4 weeks"
+      },
+      "date": 1547734127763
+    },
+    {
+      "type": "edit",
+      "id": "248583e6ef513c7d",
+      "item": {
+        "type": "markdown",
+        "id": "248583e6ef513c7d",
+        "text": "# Fedwiki.org activity in previous 4 weeks"
+      },
+      "date": 1547734133898
+    },
+    {
+      "type": "edit",
+      "id": "e9e9f102158e1382",
+      "item": {
+        "type": "activity",
+        "id": "e9e9f102158e1382",
+        "text": "ROSTER Fedwiki Site Index\nROSTER Fedwiki Admin\nROSTER Fedwiki Tools\nROSTER Fedwiki Future\nROSTER Fedwiki Hacks\nROSTER Fedwiki Trash\n\nCONVERSATION\nSINCE 4 weeks"
+      },
+      "date": 1547740242855
+    },
+    {
+      "type": "edit",
+      "id": "e9e9f102158e1382",
+      "item": {
+        "type": "activity",
+        "id": "e9e9f102158e1382",
+        "text": "ROSTER Fedwiki\nROSTER Fedwiki Admin\nROSTER Fedwiki Tools\nROSTER Fedwiki Future\nROSTER Fedwiki Hacks\nROSTER Fedwiki Trash\n\nCONVERSATION\nSINCE 4 weeks"
+      },
+      "date": 1547740608124
+    },
+    {
+      "type": "edit",
+      "id": "248583e6ef513c7d",
+      "item": {
+        "type": "markdown",
+        "id": "248583e6ef513c7d",
+        "text": "# Activity in previous 4 weeks"
+      },
+      "date": 1547805782185
+    },
+    {
+      "type": "fork",
+      "site": "fedwiki.org",
+      "date": 1547899206362
+    },
+    {
+      "type": "edit",
+      "id": "2581edca1c3a105d",
+      "item": {
+        "type": "paragraph",
+        "id": "2581edca1c3a105d",
+        "text": "Here we list all the sites we know of in the federation that concentrate mainly on the technical and social aspects of writing in [[Federated Wiki]]. See [[Fedwiki Sites]] for a list of domains we use in the views below:"
+      },
+      "date": 1547899501186
+    },
+    {
+      "type": "edit",
+      "id": "2581edca1c3a105d",
+      "item": {
+        "type": "paragraph",
+        "id": "2581edca1c3a105d",
+        "text": "Here we list all the sites we know of that concentrate on the technical and social aspects of writing in [[Federated Wiki]]. See [[Fedwiki Sites]] for a list of domains we use in the views below:"
+      },
+      "date": 1547899531974
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "8ac5da9f5a523940"
+      },
+      "id": "8ac5da9f5a523940",
+      "type": "add",
+      "after": "e9e9f102158e1382",
+      "date": 1547899560382
+    },
+    {
+      "type": "edit",
+      "id": "8ac5da9f5a523940",
+      "item": {
+        "type": "markdown",
+        "id": "8ac5da9f5a523940",
+        "text": "# See also"
+      },
+      "date": 1547899569898
+    },
+    {
+      "type": "fork",
+      "site": "future.fedwiki.org",
+      "date": 1547903827188
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "33b93ba133b346b1",
+        "text": "- [[C0de Activity]]\n- [[Livecode Activity]]\n- [[Fedwiki Activity]]\n\n"
+      },
+      "after": "248583e6ef513c7d",
+      "id": "33b93ba133b346b1",
+      "date": 1547903839301
+    },
+    {
+      "type": "move",
+      "order": [
+        "2581edca1c3a105d",
+        "f2e58789948ca8a6",
+        "248583e6ef513c7d",
+        "e9e9f102158e1382",
+        "8ac5da9f5a523940",
+        "33b93ba133b346b1"
+      ],
+      "id": "33b93ba133b346b1",
+      "date": 1547903845011
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "title": "How standards proliferate",
+  "story": [
+    {
+      "type": "factory",
+      "id": "363d00d9d75537ea"
+    },
+    {
+      "type": "html",
+      "id": "2d6f8721-ad15-48bc-8152-f2cdd6329844",
+      "text": "<div style='padding: 12px; background:#eee; width:96%; align=centered;'>\n<a href='https://imgs.xkcd.com/comics/standards.png' target='_blank'>\n<img style='display:block; margin:auto; width:100%;'\nsrc='https://imgs.xkcd.com/comics/standards.png'>\n</a>\n\n<p class=caption>\n[[How standards proliferate]]\n- [https://xkcd.com/927/ xkcd.com]\n</p></div>"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "How standards proliferate",
+        "story": []
+      },
+      "date": 1545411218048
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "363d00d9d75537ea"
+      },
+      "id": "363d00d9d75537ea",
+      "type": "add",
+      "date": 1545411223785
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "html",
+        "id": "2d6f8721-ad15-48bc-8152-f2cdd6329844",
+        "text": "<div style='padding: 12px; background:#eee; width:96%; align=centered;'>\n<a href='https://imgs.xkcd.com/comics/standards.png' target='_blank'>\n<img style='display:block; margin:auto; width:100%;'\nsrc='https://imgs.xkcd.com/comics/standards.png'>\n</a>\n\n<p class=caption>\nThis is an image\n- [https://imgs.xkcd.com/comics/standards.png xkcd.com]\n</p></div>"
+      },
+      "after": "363d00d9d75537ea",
+      "id": "2d6f8721-ad15-48bc-8152-f2cdd6329844",
+      "date": 1545411247309
+    },
+    {
+      "type": "edit",
+      "id": "2d6f8721-ad15-48bc-8152-f2cdd6329844",
+      "item": {
+        "type": "html",
+        "id": "2d6f8721-ad15-48bc-8152-f2cdd6329844",
+        "text": "<div style='padding: 12px; background:#eee; width:96%; align=centered;'>\n<a href='https://imgs.xkcd.com/comics/standards.png' target='_blank'>\n<img style='display:block; margin:auto; width:100%;'\nsrc='https://imgs.xkcd.com/comics/standards.png'>\n</a>\n\n<p class=caption>\n[[How standards proliferate]]\n- [https://xkcd.com/927/ xkcd.com]\n</p></div>"
+      },
+      "date": 1545411288725
+    }
+  ]
+}

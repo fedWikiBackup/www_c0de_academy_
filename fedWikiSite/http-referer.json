@@ -1,0 +1,705 @@
+{
+  "title": "HTTP referer",
+  "journal": [
+    {
+      "date": 1552049273138,
+      "type": "create",
+      "item": {
+        "story": "",
+        "title": "HTTP referer"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1552049137107
+    },
+    {
+      "type": "edit",
+      "id": "83a53b89-0b3a-4017-ae0e-4439e59ab272",
+      "item": {
+        "type": "markdown",
+        "id": "83a53b89-0b3a-4017-ae0e-4439e59ab272",
+        "text": "The __HTTP__REFERER__ header (originally a misspelling of __referrer__) is an optional [[List of HTTP header fields]] that identifies the address of the webpage (i.e. the [[Uniform Resource Identifier]] or [[Internationalized Resource Identifier]]) that linked to the resource being requested. By checking the referrer, the new webpage can see where the request originated - [https://en.wikipedia.org/wiki/HTTP_referer wikipedia]"
+      },
+      "date": 1552049197498
+    },
+    {
+      "type": "edit",
+      "id": "83a53b89-0b3a-4017-ae0e-4439e59ab272",
+      "item": {
+        "type": "markdown",
+        "id": "83a53b89-0b3a-4017-ae0e-4439e59ab272",
+        "text": "The`HTTP__REFERER` header (originally a misspelling of __referrer__) is an optional [[List of HTTP header fields]] that identifies the address of the webpage (i.e. the [[Uniform Resource Identifier]] or [[Internationalized Resource Identifier]]) that linked to the resource being requested. By checking the referrer, the new webpage can see where the request originated - [https://en.wikipedia.org/wiki/HTTP_referer wikipedia]"
+      },
+      "date": 1552049226339
+    },
+    {
+      "type": "edit",
+      "id": "83a53b89-0b3a-4017-ae0e-4439e59ab272",
+      "item": {
+        "type": "markdown",
+        "id": "83a53b89-0b3a-4017-ae0e-4439e59ab272",
+        "text": "The`HTTP__REFERER` header (originally a misspelling of __referrer__) is an optional[[HTTP header]] that identifies the address of the webpage (i.e. the [[Uniform Resource Identifier]] or [[Internationalized Resource Identifier]]) that linked to the resource being requested. By checking the referrer, the new webpage can see where the request originated - [https://en.wikipedia.org/wiki/HTTP_referer wikipedia]"
+      },
+      "date": 1552049244226
+    },
+    {
+      "type": "edit",
+      "id": "83a53b89-0b3a-4017-ae0e-4439e59ab272",
+      "item": {
+        "type": "markdown",
+        "id": "83a53b89-0b3a-4017-ae0e-4439e59ab272",
+        "text": "The`HTTP__REFERER` header (originally a misspelling of __referrer__) is an optional[[HTTP header]] that identifies the address of the webpage that linked to the resource being requested. By checking the referrer, the new webpage can see where the request originated - [https://en.wikipedia.org/wiki/HTTP_referer wikipedia]"
+      },
+      "date": 1552049265284
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "0745e6d0-c754-4af7-9abf-0c872e89a89f",
+        "text": "# Etymology"
+      },
+      "after": "e1ca9544-d8a7-479c-a7e3-c027a60746bb",
+      "id": "0745e6d0-c754-4af7-9abf-0c872e89a89f",
+      "date": 1552049345565
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "44bf0968-9cd9-479d-861b-7e3b62b1bdce",
+        "text": "The misspelling of ''[[wikt:referrer]]'' originated in the original proposal by computer scientist [[Phillip Hallam-Baker]] to incorporate the field into the [[HTTP]] specification. The misspelling was set in stone by the time of its incorporation into the [[Request for Comments]] standards document RFC 1945; document co-author [[Roy Fielding]] has remarked that neither \"referrer\" nor the misspelling  has since become a widely used spelling in the industry when discussing HTTP referrers; usage of the misspelling is not universal, though, as the correct spelling \"referrer\" is used in some web specifications such as the [[Document Object Model]] - [https://en.wikipedia.org/wiki/HTTP_referer#Etymology wikipedia]"
+      },
+      "after": "9650d76c-cf9c-4399-ad7f-ada2d7e11b43",
+      "id": "44bf0968-9cd9-479d-861b-7e3b62b1bdce",
+      "date": 1552049348492
+    },
+    {
+      "type": "move",
+      "order": [
+        "83a53b89-0b3a-4017-ae0e-4439e59ab272",
+        "e1ca9544-d8a7-479c-a7e3-c027a60746bb",
+        "9650d76c-cf9c-4399-ad7f-ada2d7e11b43",
+        "0745e6d0-c754-4af7-9abf-0c872e89a89f",
+        "44bf0968-9cd9-479d-861b-7e3b62b1bdce",
+        "d460fae7-3741-4413-a0f7-5401f43ab6dd",
+        "96f7dc6f-f938-4fa7-a4d8-a02fe6a46ab0",
+        "448f09be-1d11-4df6-80bf-695ea7638c64",
+        "1da8da60-eb06-4943-a93c-0c6d4f322684"
+      ],
+      "id": "9650d76c-cf9c-4399-ad7f-ada2d7e11b43",
+      "date": 1552049350236
+    },
+    {
+      "type": "edit",
+      "id": "0745e6d0-c754-4af7-9abf-0c872e89a89f",
+      "item": {
+        "type": "markdown",
+        "id": "0745e6d0-c754-4af7-9abf-0c872e89a89f",
+        "text": "# Spelling"
+      },
+      "date": 1552049373839
+    },
+    {
+      "type": "edit",
+      "id": "44bf0968-9cd9-479d-861b-7e3b62b1bdce",
+      "item": {
+        "type": "markdown",
+        "id": "44bf0968-9cd9-479d-861b-7e3b62b1bdce",
+        "text": "The misspelling of ''[[wikt:referrer]]'' originated in the original proposal by computer scientist [[Phillip Hallam-Baker]] to incorporate the field into the [[HTTP]] specification. The misspelling was set in stone by the time of its incorporation into the [[Request for Comments]] standards document RFC 1945.\n"
+      },
+      "date": 1552049382998
+    },
+    {
+      "type": "add",
+      "id": "263100c1e02a70e8",
+      "item": {
+        "type": "markdown",
+        "id": "263100c1e02a70e8",
+        "text": "Document co-author [[Roy Fielding]] has remarked that neither \"referrer\" nor the misspelling  has since become a widely used spelling in the industry when discussing HTTP referrers; usage of the misspelling is not universal, though, as the correct spelling \"referrer\" is used in some web specifications such as the [[Document Object Model]] - [https://en.wikipedia.org/wiki/HTTP_referer#Etymology wikipedia]"
+      },
+      "after": "44bf0968-9cd9-479d-861b-7e3b62b1bdce",
+      "date": 1552049390698
+    },
+    {
+      "type": "edit",
+      "id": "263100c1e02a70e8",
+      "item": {
+        "type": "markdown",
+        "id": "263100c1e02a70e8",
+        "text": "Document co-author [[Roy Fielding]] has remarked that neither \"referrer\" nor the misspelling  has since become a widely used spelling in the industry when discussing HTTP referrers; usage of the misspelling is not universal, though, as the correct spelling \"referrer\" is used in some web specifications such as the [[Document Object Model]]."
+      },
+      "date": 1552049397376
+    },
+    {
+      "type": "edit",
+      "id": "44bf0968-9cd9-479d-861b-7e3b62b1bdce",
+      "item": {
+        "type": "markdown",
+        "id": "44bf0968-9cd9-479d-861b-7e3b62b1bdce",
+        "text": "The misspelling of ''[[wikt:referrer]]'' originated in the original proposal by computer scientist [[Phillip Hallam-Baker]] to incorporate the field into the [[HTTP]] specification. The misspelling was set in stone by the time of its incorporation into the [[Request for Comments]] standards document RFC 1945 - [https://en.wikipedia.org/wiki/HTTP_referer#Etymology wikipedia]\n"
+      },
+      "date": 1552049402513
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "cfdbe4fa-df08-4a03-bd0d-98b3de00e09a",
+        "text": "# Referer hiding"
+      },
+      "after": "263100c1e02a70e8",
+      "id": "cfdbe4fa-df08-4a03-bd0d-98b3de00e09a",
+      "date": 1552049419365
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "d972cc53-b075-499c-8bd4-691196133af6",
+        "text": "Most web servers maintain logs of all traffic, and record the HTTP referrer sent by the web browser for each request. This raises a number of privacy concerns, and as a result, a number of systems to prevent web servers being sent the real referring URL have been developed. These systems work either by blanking the referrer field or by replacing it with inaccurate data. Generally, [[Internet security]] suites blank the referrer data, while web-based servers replace it with a false URL, usually their own. This raises the problem of referrer spam. The technical details of both methods are fairly consistent – software applications act as a [[proxy server]] and manipulate the HTTP request, while web-based methods load websites within frames, causing the web browser to send a referrer URL of their website address. Some web browsers give their users the option to turn off referrer fields in the request header - [https://en.wikipedia.org/wiki/HTTP_referer#Referer_hiding wikipedia]"
+      },
+      "after": "263100c1e02a70e8",
+      "id": "d972cc53-b075-499c-8bd4-691196133af6",
+      "date": 1552049423779
+    },
+    {
+      "type": "move",
+      "order": [
+        "83a53b89-0b3a-4017-ae0e-4439e59ab272",
+        "e1ca9544-d8a7-479c-a7e3-c027a60746bb",
+        "9650d76c-cf9c-4399-ad7f-ada2d7e11b43",
+        "0745e6d0-c754-4af7-9abf-0c872e89a89f",
+        "44bf0968-9cd9-479d-861b-7e3b62b1bdce",
+        "263100c1e02a70e8",
+        "cfdbe4fa-df08-4a03-bd0d-98b3de00e09a",
+        "d972cc53-b075-499c-8bd4-691196133af6",
+        "d460fae7-3741-4413-a0f7-5401f43ab6dd",
+        "96f7dc6f-f938-4fa7-a4d8-a02fe6a46ab0",
+        "448f09be-1d11-4df6-80bf-695ea7638c64",
+        "1da8da60-eb06-4943-a93c-0c6d4f322684"
+      ],
+      "id": "cfdbe4fa-df08-4a03-bd0d-98b3de00e09a",
+      "date": 1552049425940
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "7b5dc358-ff3a-47c0-b57e-774f61a7566c",
+        "text": "Most web browsers do not send the referrer field when they are instructed to redirect using the \"Refresh\" field. This does not include some versions of [[Opera (web browser)]] and many mobile web browsers. However, this method of redirection is discouraged by the [[World Wide Web Consortium]] (W3C)."
+      },
+      "after": "d972cc53-b075-499c-8bd4-691196133af6",
+      "id": "7b5dc358-ff3a-47c0-b57e-774f61a7566c",
+      "date": 1552049430391
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "352e6807-8fe9-475b-a535-7413eb738f03",
+        "text": "If a website is accessed from a [[HTTP Secure]] (HTTPS) connection and a link points to anywhere except another secure location, then the referrer field is not sent."
+      },
+      "after": "7b5dc358-ff3a-47c0-b57e-774f61a7566c",
+      "id": "352e6807-8fe9-475b-a535-7413eb738f03",
+      "date": 1552049432515
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "d6dd4d71-cc41-4b05-b8b6-be083b470b53",
+        "text": "The [[HTML5]] standard added support for the attribute/value rel=\"noreferrer\", which instructs the user agent to not send a referrer."
+      },
+      "after": "352e6807-8fe9-475b-a535-7413eb738f03",
+      "id": "d6dd4d71-cc41-4b05-b8b6-be083b470b53",
+      "date": 1552049435814
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "8029a683-a57f-43b7-af2f-c0a27dbce78d",
+        "text": "Another referrer hiding method is to convert the original link URL to a [[Data URI scheme]]-based URL containing small HTML page with a [[meta refresh]] to the original URL. When the user is redirected from the <span style=\"font-family:monospace\">data:</span> page, the original referrer is hidden."
+      },
+      "after": "d6dd4d71-cc41-4b05-b8b6-be083b470b53",
+      "id": "8029a683-a57f-43b7-af2f-c0a27dbce78d",
+      "date": 1552049446047
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "4b7ca5be-dbde-4b97-a907-bda7661f7168",
+        "text": "[[Content Security Policy]] standard version 1.1 introduced a new ''referrer'' directive that allows more control over the browser's behavior in regards to the referrer header. Specifically it allows the webmaster to instruct the browser not to block referrer at all, reveal it only when moving with the same origin etc."
+      },
+      "after": "8029a683-a57f-43b7-af2f-c0a27dbce78d",
+      "id": "4b7ca5be-dbde-4b97-a907-bda7661f7168",
+      "date": 1552049448581
+    },
+    {
+      "type": "edit",
+      "id": "d6dd4d71-cc41-4b05-b8b6-be083b470b53",
+      "item": {
+        "type": "markdown",
+        "id": "d6dd4d71-cc41-4b05-b8b6-be083b470b53",
+        "text": "# Noreferrer\n"
+      },
+      "date": 1552049463595
+    },
+    {
+      "type": "add",
+      "id": "314c1187c2c12691",
+      "item": {
+        "type": "markdown",
+        "id": "314c1187c2c12691",
+        "text": "The [[HTML5]] standard added support for the attribute/value rel=\"noreferrer\", which instructs the user agent to not send a referrer."
+      },
+      "after": "d6dd4d71-cc41-4b05-b8b6-be083b470b53",
+      "date": 1552049464665
+    },
+    {
+      "type": "edit",
+      "id": "d972cc53-b075-499c-8bd4-691196133af6",
+      "item": {
+        "type": "markdown",
+        "id": "d972cc53-b075-499c-8bd4-691196133af6",
+        "text": "Most web servers maintain logs of all traffic, and record the HTTP referrer sent by the web browser for each request. This raises a number of privacy concerns, and as a result, a number of systems to prevent web servers being sent the real referring URL have been developed. \n"
+      },
+      "date": 1552049524112
+    },
+    {
+      "type": "add",
+      "id": "d4b82ec0516d33dd",
+      "item": {
+        "type": "markdown",
+        "id": "d4b82ec0516d33dd",
+        "text": "These systems work either by blanking the referrer field or by replacing it with inaccurate data. Generally, [[Internet security]] suites blank the referrer data, while web-based servers replace it with a false URL, usually their own. This raises the problem of referrer spam. \n"
+      },
+      "after": "d972cc53-b075-499c-8bd4-691196133af6",
+      "date": 1552049543448
+    },
+    {
+      "type": "add",
+      "id": "b1dd3db0ba32791e",
+      "item": {
+        "type": "markdown",
+        "id": "b1dd3db0ba32791e",
+        "text": "The technical details of both methods are fairly consistent – software applications act as a [[proxy server]] and manipulate the HTTP request, while web-based methods load websites within frames, causing the web browser to send a referrer URL of their website address. \n"
+      },
+      "after": "d4b82ec0516d33dd",
+      "date": 1552049571416
+    },
+    {
+      "type": "add",
+      "id": "ca6d4d688b349ebf",
+      "item": {
+        "type": "markdown",
+        "id": "ca6d4d688b349ebf",
+        "text": "Some web browsers give their users the option to turn off referrer fields in the request header - [https://en.wikipedia.org/wiki/HTTP_referer#Referer_hiding wikipedia]"
+      },
+      "after": "b1dd3db0ba32791e",
+      "date": 1552049573978
+    },
+    {
+      "type": "edit",
+      "id": "b1dd3db0ba32791e",
+      "item": {
+        "type": "markdown",
+        "id": "b1dd3db0ba32791e",
+        "text": "The technical details of both methods are fairly consistent - software applications act as a [[proxy server]] and manipulate the HTTP request, while web-based methods load websites within frames, causing the web browser to send a referrer URL of their website address. \n"
+      },
+      "date": 1552049580541
+    },
+    {
+      "type": "edit",
+      "id": "ca6d4d688b349ebf",
+      "item": {
+        "type": "markdown",
+        "id": "ca6d4d688b349ebf",
+        "text": "Some web browsers give their users the option to turn off referrer fields in the request header"
+      },
+      "date": 1552049590465
+    },
+    {
+      "type": "edit",
+      "id": "b1dd3db0ba32791e",
+      "item": {
+        "type": "markdown",
+        "id": "b1dd3db0ba32791e",
+        "text": "The technical details of both methods are fairly consistent => software applications act as a [[proxy server]] and manipulate the HTTP request, while web-based methods load websites within frames, causing the web browser to send a referrer URL of their website address - [https://en.wikipedia.org/wiki/HTTP_referer#Referer_hiding wikipedia]\n"
+      },
+      "date": 1552049606457
+    },
+    {
+      "type": "edit",
+      "id": "9650d76c-cf9c-4399-ad7f-ada2d7e11b43",
+      "item": {
+        "type": "markdown",
+        "id": "9650d76c-cf9c-4399-ad7f-ada2d7e11b43",
+        "text": "# Security\n"
+      },
+      "date": 1552049633124
+    },
+    {
+      "type": "add",
+      "id": "87ec3c0a8b7d1d74",
+      "item": {
+        "type": "markdown",
+        "id": "87ec3c0a8b7d1d74",
+        "text": "Essentially the browser knows the URI of the web page being displayed when the user clicks on a link, and sends this information along to the server using the `HTTP_REFERE` header.\n"
+      },
+      "after": "9650d76c-cf9c-4399-ad7f-ada2d7e11b43",
+      "date": 1552049706596
+    },
+    {
+      "type": "add",
+      "id": "c8d4dba251d8556c",
+      "item": {
+        "type": "markdown",
+        "id": "c8d4dba251d8556c",
+        "text": "The default behaviour of referer leaking puts websites at risk of privacy and security breaches."
+      },
+      "after": "87ec3c0a8b7d1d74",
+      "date": 1552049707494
+    },
+    {
+      "type": "edit",
+      "id": "87ec3c0a8b7d1d74",
+      "item": {
+        "type": "markdown",
+        "id": "87ec3c0a8b7d1d74",
+        "text": "Essentially the browser knows the URI of the web page being displayed when the user clicks on a link, and sends this information along to the server using the `HTTP_REFERER` header.\n"
+      },
+      "date": 1552049715457
+    },
+    {
+      "type": "edit",
+      "id": "87ec3c0a8b7d1d74",
+      "item": {
+        "type": "markdown",
+        "id": "87ec3c0a8b7d1d74",
+        "text": "Essentially the web browser knows the URI of the web page being displayed when the user clicks on a link, and sends this information along to the server using the `HTTP_REFERER` header.\n"
+      },
+      "date": 1552049726350
+    },
+    {
+      "type": "move",
+      "order": [
+        "83a53b89-0b3a-4017-ae0e-4439e59ab272",
+        "e1ca9544-d8a7-479c-a7e3-c027a60746bb",
+        "9650d76c-cf9c-4399-ad7f-ada2d7e11b43",
+        "87ec3c0a8b7d1d74",
+        "ca6d4d688b349ebf",
+        "c8d4dba251d8556c",
+        "0745e6d0-c754-4af7-9abf-0c872e89a89f",
+        "44bf0968-9cd9-479d-861b-7e3b62b1bdce",
+        "263100c1e02a70e8",
+        "cfdbe4fa-df08-4a03-bd0d-98b3de00e09a",
+        "d972cc53-b075-499c-8bd4-691196133af6",
+        "d4b82ec0516d33dd",
+        "b1dd3db0ba32791e",
+        "7b5dc358-ff3a-47c0-b57e-774f61a7566c",
+        "352e6807-8fe9-475b-a535-7413eb738f03",
+        "d6dd4d71-cc41-4b05-b8b6-be083b470b53",
+        "314c1187c2c12691",
+        "8029a683-a57f-43b7-af2f-c0a27dbce78d",
+        "4b7ca5be-dbde-4b97-a907-bda7661f7168",
+        "d460fae7-3741-4413-a0f7-5401f43ab6dd",
+        "96f7dc6f-f938-4fa7-a4d8-a02fe6a46ab0",
+        "448f09be-1d11-4df6-80bf-695ea7638c64",
+        "1da8da60-eb06-4943-a93c-0c6d4f322684"
+      ],
+      "id": "ca6d4d688b349ebf",
+      "date": 1552049737935
+    },
+    {
+      "type": "edit",
+      "id": "c8d4dba251d8556c",
+      "item": {
+        "type": "markdown",
+        "id": "c8d4dba251d8556c",
+        "text": "This default browser behaviour puts websites at risk of privacy and security breaches."
+      },
+      "date": 1552049755787
+    },
+    {
+      "type": "move",
+      "order": [
+        "83a53b89-0b3a-4017-ae0e-4439e59ab272",
+        "e1ca9544-d8a7-479c-a7e3-c027a60746bb",
+        "9650d76c-cf9c-4399-ad7f-ada2d7e11b43",
+        "87ec3c0a8b7d1d74",
+        "c8d4dba251d8556c",
+        "ca6d4d688b349ebf",
+        "0745e6d0-c754-4af7-9abf-0c872e89a89f",
+        "44bf0968-9cd9-479d-861b-7e3b62b1bdce",
+        "263100c1e02a70e8",
+        "cfdbe4fa-df08-4a03-bd0d-98b3de00e09a",
+        "d972cc53-b075-499c-8bd4-691196133af6",
+        "d4b82ec0516d33dd",
+        "b1dd3db0ba32791e",
+        "7b5dc358-ff3a-47c0-b57e-774f61a7566c",
+        "352e6807-8fe9-475b-a535-7413eb738f03",
+        "d6dd4d71-cc41-4b05-b8b6-be083b470b53",
+        "314c1187c2c12691",
+        "8029a683-a57f-43b7-af2f-c0a27dbce78d",
+        "4b7ca5be-dbde-4b97-a907-bda7661f7168",
+        "d460fae7-3741-4413-a0f7-5401f43ab6dd",
+        "96f7dc6f-f938-4fa7-a4d8-a02fe6a46ab0",
+        "448f09be-1d11-4df6-80bf-695ea7638c64",
+        "1da8da60-eb06-4943-a93c-0c6d4f322684"
+      ],
+      "id": "c8d4dba251d8556c",
+      "date": 1552049757374
+    },
+    {
+      "type": "remove",
+      "id": "c8d4dba251d8556c",
+      "date": 1552049759080
+    },
+    {
+      "type": "edit",
+      "id": "87ec3c0a8b7d1d74",
+      "item": {
+        "type": "markdown",
+        "id": "87ec3c0a8b7d1d74",
+        "text": "Essentially the web browser knows the URI of the web page being displayed when the user clicks on a link, and sends this information along to the server using the `HTTP_REFERER` header. This default browser behaviour puts websites at risk of privacy and security breaches."
+      },
+      "date": 1552049761715
+    },
+    {
+      "type": "edit",
+      "id": "ca6d4d688b349ebf",
+      "item": {
+        "type": "markdown",
+        "id": "ca6d4d688b349ebf",
+        "text": "Some web browsers give their users the option to turn off referrer fields in the request header. On the other hand it is relatively simple using any scripting language to fake the `HTTP_REFERER` header in a request. Relying on this information for security is no security policy at all."
+      },
+      "date": 1552049882091
+    },
+    {
+      "type": "remove",
+      "id": "1da8da60-eb06-4943-a93c-0c6d4f322684",
+      "date": 1552049893354
+    },
+    {
+      "type": "remove",
+      "id": "96f7dc6f-f938-4fa7-a4d8-a02fe6a46ab0",
+      "date": 1552049896436
+    },
+    {
+      "type": "edit",
+      "id": "d460fae7-3741-4413-a0f7-5401f43ab6dd",
+      "item": {
+        "type": "markdown",
+        "id": "d460fae7-3741-4413-a0f7-5401f43ab6dd",
+        "text": "# Sections\n"
+      },
+      "date": 1552049899077
+    },
+    {
+      "type": "add",
+      "id": "515ae04e83bbafdb",
+      "item": {
+        "type": "markdown",
+        "id": "515ae04e83bbafdb",
+        "text": "# See also\n"
+      },
+      "after": "d460fae7-3741-4413-a0f7-5401f43ab6dd",
+      "date": 1552049902926
+    },
+    {
+      "type": "add",
+      "id": "0c2690e02b19dfd2",
+      "item": {
+        "type": "markdown",
+        "id": "0c2690e02b19dfd2",
+        "text": "- [[HTTP]]"
+      },
+      "after": "515ae04e83bbafdb",
+      "date": 1552049907363
+    },
+    {
+      "type": "move",
+      "order": [
+        "83a53b89-0b3a-4017-ae0e-4439e59ab272",
+        "e1ca9544-d8a7-479c-a7e3-c027a60746bb",
+        "9650d76c-cf9c-4399-ad7f-ada2d7e11b43",
+        "87ec3c0a8b7d1d74",
+        "ca6d4d688b349ebf",
+        "0745e6d0-c754-4af7-9abf-0c872e89a89f",
+        "44bf0968-9cd9-479d-861b-7e3b62b1bdce",
+        "263100c1e02a70e8",
+        "cfdbe4fa-df08-4a03-bd0d-98b3de00e09a",
+        "d972cc53-b075-499c-8bd4-691196133af6",
+        "d4b82ec0516d33dd",
+        "b1dd3db0ba32791e",
+        "7b5dc358-ff3a-47c0-b57e-774f61a7566c",
+        "352e6807-8fe9-475b-a535-7413eb738f03",
+        "d6dd4d71-cc41-4b05-b8b6-be083b470b53",
+        "314c1187c2c12691",
+        "8029a683-a57f-43b7-af2f-c0a27dbce78d",
+        "4b7ca5be-dbde-4b97-a907-bda7661f7168",
+        "d460fae7-3741-4413-a0f7-5401f43ab6dd",
+        "0c2690e02b19dfd2",
+        "448f09be-1d11-4df6-80bf-695ea7638c64",
+        "515ae04e83bbafdb"
+      ],
+      "id": "515ae04e83bbafdb",
+      "date": 1552049910377
+    },
+    {
+      "type": "move",
+      "order": [
+        "83a53b89-0b3a-4017-ae0e-4439e59ab272",
+        "e1ca9544-d8a7-479c-a7e3-c027a60746bb",
+        "9650d76c-cf9c-4399-ad7f-ada2d7e11b43",
+        "87ec3c0a8b7d1d74",
+        "ca6d4d688b349ebf",
+        "0745e6d0-c754-4af7-9abf-0c872e89a89f",
+        "44bf0968-9cd9-479d-861b-7e3b62b1bdce",
+        "263100c1e02a70e8",
+        "cfdbe4fa-df08-4a03-bd0d-98b3de00e09a",
+        "d972cc53-b075-499c-8bd4-691196133af6",
+        "d4b82ec0516d33dd",
+        "b1dd3db0ba32791e",
+        "7b5dc358-ff3a-47c0-b57e-774f61a7566c",
+        "352e6807-8fe9-475b-a535-7413eb738f03",
+        "d6dd4d71-cc41-4b05-b8b6-be083b470b53",
+        "314c1187c2c12691",
+        "8029a683-a57f-43b7-af2f-c0a27dbce78d",
+        "4b7ca5be-dbde-4b97-a907-bda7661f7168",
+        "d460fae7-3741-4413-a0f7-5401f43ab6dd",
+        "448f09be-1d11-4df6-80bf-695ea7638c64",
+        "515ae04e83bbafdb",
+        "0c2690e02b19dfd2"
+      ],
+      "id": "0c2690e02b19dfd2",
+      "date": 1552049912333
+    },
+    {
+      "type": "edit",
+      "id": "0c2690e02b19dfd2",
+      "item": {
+        "type": "markdown",
+        "id": "0c2690e02b19dfd2",
+        "text": "- [[Hypertext Transfer Protocol]]\n- [[HTTP]]"
+      },
+      "date": 1552049941358
+    }
+  ],
+  "story": [
+    {
+      "type": "markdown",
+      "id": "83a53b89-0b3a-4017-ae0e-4439e59ab272",
+      "text": "The`HTTP__REFERER` header (originally a misspelling of __referrer__) is an optional[[HTTP header]] that identifies the address of the webpage that linked to the resource being requested. By checking the referrer, the new webpage can see where the request originated - [https://en.wikipedia.org/wiki/HTTP_referer wikipedia]"
+    },
+    {
+      "type": "markdown",
+      "id": "e1ca9544-d8a7-479c-a7e3-c027a60746bb",
+      "text": "In the most common situation this means that when a user clicks a [[hyperlink]] in a [[web browser]], the browser sends a request to the server holding the destination webpage. The request may include the  field, which indicates the last page the user was on (the one where they clicked the link)."
+    },
+    {
+      "type": "markdown",
+      "id": "9650d76c-cf9c-4399-ad7f-ada2d7e11b43",
+      "text": "# Security\n"
+    },
+    {
+      "type": "markdown",
+      "id": "87ec3c0a8b7d1d74",
+      "text": "Essentially the web browser knows the URI of the web page being displayed when the user clicks on a link, and sends this information along to the server using the `HTTP_REFERER` header. This default browser behaviour puts websites at risk of privacy and security breaches."
+    },
+    {
+      "type": "markdown",
+      "id": "ca6d4d688b349ebf",
+      "text": "Some web browsers give their users the option to turn off referrer fields in the request header. On the other hand it is relatively simple using any scripting language to fake the `HTTP_REFERER` header in a request. Relying on this information for security is no security policy at all."
+    },
+    {
+      "type": "markdown",
+      "id": "0745e6d0-c754-4af7-9abf-0c872e89a89f",
+      "text": "# Spelling"
+    },
+    {
+      "type": "markdown",
+      "id": "44bf0968-9cd9-479d-861b-7e3b62b1bdce",
+      "text": "The misspelling of ''[[wikt:referrer]]'' originated in the original proposal by computer scientist [[Phillip Hallam-Baker]] to incorporate the field into the [[HTTP]] specification. The misspelling was set in stone by the time of its incorporation into the [[Request for Comments]] standards document RFC 1945 - [https://en.wikipedia.org/wiki/HTTP_referer#Etymology wikipedia]\n"
+    },
+    {
+      "type": "markdown",
+      "id": "263100c1e02a70e8",
+      "text": "Document co-author [[Roy Fielding]] has remarked that neither \"referrer\" nor the misspelling  has since become a widely used spelling in the industry when discussing HTTP referrers; usage of the misspelling is not universal, though, as the correct spelling \"referrer\" is used in some web specifications such as the [[Document Object Model]]."
+    },
+    {
+      "type": "markdown",
+      "id": "cfdbe4fa-df08-4a03-bd0d-98b3de00e09a",
+      "text": "# Referer hiding"
+    },
+    {
+      "type": "markdown",
+      "id": "d972cc53-b075-499c-8bd4-691196133af6",
+      "text": "Most web servers maintain logs of all traffic, and record the HTTP referrer sent by the web browser for each request. This raises a number of privacy concerns, and as a result, a number of systems to prevent web servers being sent the real referring URL have been developed. \n"
+    },
+    {
+      "type": "markdown",
+      "id": "d4b82ec0516d33dd",
+      "text": "These systems work either by blanking the referrer field or by replacing it with inaccurate data. Generally, [[Internet security]] suites blank the referrer data, while web-based servers replace it with a false URL, usually their own. This raises the problem of referrer spam. \n"
+    },
+    {
+      "type": "markdown",
+      "id": "b1dd3db0ba32791e",
+      "text": "The technical details of both methods are fairly consistent => software applications act as a [[proxy server]] and manipulate the HTTP request, while web-based methods load websites within frames, causing the web browser to send a referrer URL of their website address - [https://en.wikipedia.org/wiki/HTTP_referer#Referer_hiding wikipedia]\n"
+    },
+    {
+      "type": "markdown",
+      "id": "7b5dc358-ff3a-47c0-b57e-774f61a7566c",
+      "text": "Most web browsers do not send the referrer field when they are instructed to redirect using the \"Refresh\" field. This does not include some versions of [[Opera (web browser)]] and many mobile web browsers. However, this method of redirection is discouraged by the [[World Wide Web Consortium]] (W3C)."
+    },
+    {
+      "type": "markdown",
+      "id": "352e6807-8fe9-475b-a535-7413eb738f03",
+      "text": "If a website is accessed from a [[HTTP Secure]] (HTTPS) connection and a link points to anywhere except another secure location, then the referrer field is not sent."
+    },
+    {
+      "type": "markdown",
+      "id": "d6dd4d71-cc41-4b05-b8b6-be083b470b53",
+      "text": "# Noreferrer\n"
+    },
+    {
+      "type": "markdown",
+      "id": "314c1187c2c12691",
+      "text": "The [[HTML5]] standard added support for the attribute/value rel=\"noreferrer\", which instructs the user agent to not send a referrer."
+    },
+    {
+      "type": "markdown",
+      "id": "8029a683-a57f-43b7-af2f-c0a27dbce78d",
+      "text": "Another referrer hiding method is to convert the original link URL to a [[Data URI scheme]]-based URL containing small HTML page with a [[meta refresh]] to the original URL. When the user is redirected from the <span style=\"font-family:monospace\">data:</span> page, the original referrer is hidden."
+    },
+    {
+      "type": "markdown",
+      "id": "4b7ca5be-dbde-4b97-a907-bda7661f7168",
+      "text": "[[Content Security Policy]] standard version 1.1 introduced a new ''referrer'' directive that allows more control over the browser's behavior in regards to the referrer header. Specifically it allows the webmaster to instruct the browser not to block referrer at all, reveal it only when moving with the same origin etc."
+    },
+    {
+      "type": "markdown",
+      "id": "d460fae7-3741-4413-a0f7-5401f43ab6dd",
+      "text": "# Sections\n"
+    },
+    {
+      "type": "html",
+      "id": "448f09be-1d11-4df6-80bf-695ea7638c64",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Details'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=HTTP referer&action=edit&section=2'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "markdown",
+      "id": "515ae04e83bbafdb",
+      "text": "# See also\n"
+    },
+    {
+      "type": "markdown",
+      "id": "0c2690e02b19dfd2",
+      "text": "- [[Hypertext Transfer Protocol]]\n- [[HTTP]]"
+    }
+  ]
+}

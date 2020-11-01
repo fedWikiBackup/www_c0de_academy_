@@ -1,0 +1,292 @@
+{
+  "title": "NoSQL",
+  "journal": [
+    {
+      "date": 1552317820780,
+      "type": "create",
+      "item": {
+        "story": "",
+        "title": "NoSQL"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1552317683646
+    },
+    {
+      "type": "edit",
+      "id": "872c84cd-f0ad-4dc5-ae49-e73ca4c2307c",
+      "item": {
+        "type": "markdown",
+        "id": "872c84cd-f0ad-4dc5-ae49-e73ca4c2307c",
+        "text": "A __NoSQL__ (originally referring to \"non [[SQL]]\" or \"non relational\") [[database]] provides a mechanism for [[Computer data storage]] and [[data retrieval]] of data that is modeled in means other than the tabular relations used in [[relational database]]s. Such databases have existed since the late 1960s, but did not obtain the \"NoSQL\" moniker until a surge of popularity in the early 21st century, triggered by the needs of [[Web 2.0]] companies. NoSQL databases are increasingly used in [[big data]] and [[real-time web]] applications.  NoSQL systems are also sometimes called \"Not only SQL\" to emphasize that they may support [[SQL]]-like query languages, or sit alongside SQL database in a [[polyglot persistence]] architecture."
+      },
+      "date": 1552317701606
+    },
+    {
+      "type": "edit",
+      "id": "872c84cd-f0ad-4dc5-ae49-e73ca4c2307c",
+      "item": {
+        "type": "markdown",
+        "id": "872c84cd-f0ad-4dc5-ae49-e73ca4c2307c",
+        "text": "A __NoSQL__ (originally referring to \"non [[SQL]]\" or \"non relational\") [[database]] provides a mechanism for [[Computer data storage]] and [[data retrieval]] of data that is modeled in means other than the tabular relations used in [[relational database]]s - [https://en.wikipedia.org/wiki/NoSQL wikipedia]"
+      },
+      "date": 1552317709278
+    },
+    {
+      "type": "add",
+      "id": "67e846312e05af9e",
+      "item": {
+        "type": "markdown",
+        "id": "67e846312e05af9e",
+        "text": "Such databases have existed since the late 1960s, but did not obtain the \"NoSQL\" moniker until a surge of popularity in the early 21st century, triggered by the needs of [[Web 2.0]] companies. NoSQL databases are increasingly used in [[big data]] and [[real-time web]] applications.  NoSQL systems are also sometimes called \"Not only SQL\" to emphasize that they may support [[SQL]]-like query languages, or sit alongside SQL database in a [[polyglot persistence]] architecture."
+      },
+      "after": "872c84cd-f0ad-4dc5-ae49-e73ca4c2307c",
+      "date": 1552317710061
+    },
+    {
+      "type": "edit",
+      "id": "67e846312e05af9e",
+      "item": {
+        "type": "markdown",
+        "id": "67e846312e05af9e",
+        "text": "Such databases have existed since the late 1960s, but did not obtain the \"NoSQL\" moniker until a surge of popularity in the early 21st century, triggered by the needs of [[Web 2.0]] companies. \n"
+      },
+      "date": 1552317726126
+    },
+    {
+      "type": "add",
+      "id": "d8bb884abff65038",
+      "item": {
+        "type": "markdown",
+        "id": "d8bb884abff65038",
+        "text": "NoSQL databases are increasingly used in [[big data]] and [[real-time web]] applications.  NoSQL systems are also sometimes called \"Not only SQL\" to emphasize that they may support [[SQL]]-like query languages, or sit alongside SQL database in a [[polyglot persistence]] architecture."
+      },
+      "after": "67e846312e05af9e",
+      "date": 1552317727933
+    },
+    {
+      "type": "edit",
+      "id": "67fa4abc-91d8-4ec7-ba42-dd8d151acfe4",
+      "item": {
+        "type": "markdown",
+        "id": "67fa4abc-91d8-4ec7-ba42-dd8d151acfe4",
+        "text": "Motivations for this approach include: simplicity of design, simpler [[horizontal scaling]] in [[cluster computing]] (which is a problem for relational databases), and finer control over availability. \n"
+      },
+      "date": 1552317802177
+    },
+    {
+      "type": "add",
+      "id": "b46b3faa1019b4f1",
+      "item": {
+        "type": "markdown",
+        "id": "b46b3faa1019b4f1",
+        "text": "The data structures used by NoSQL databases (e.g. key-value, wide column, graph, or document) are different from those used by default in relational databases, making some operations faster in NoSQL. \n"
+      },
+      "after": "67fa4abc-91d8-4ec7-ba42-dd8d151acfe4",
+      "date": 1552317813897
+    },
+    {
+      "type": "add",
+      "id": "28d71fd1ad473e94",
+      "item": {
+        "type": "markdown",
+        "id": "28d71fd1ad473e94",
+        "text": "The particular suitability of a given NoSQL database depends on the problem it must solve.  Sometimes the data structures used by NoSQL databases are also viewed as \"more flexible\" than relational database tables."
+      },
+      "after": "b46b3faa1019b4f1",
+      "date": 1552317817999
+    },
+    {
+      "type": "edit",
+      "id": "b059b502-eeb5-4f58-ab5c-cdfc79def1d1",
+      "item": {
+        "type": "markdown",
+        "id": "b059b502-eeb5-4f58-ab5c-cdfc79def1d1",
+        "text": "Many NoSQL stores compromise [[consistency (database systems)]] (in the sense of the [[CAP theorem]]) in favor of availability, partition tolerance, and speed. Barriers to the greater adoption of NoSQL stores include the use of low-level query languages (instead of SQL).\n"
+      },
+      "date": 1552317859228
+    },
+    {
+      "type": "add",
+      "id": "6b511cb4e21deacc",
+      "item": {
+        "type": "markdown",
+        "id": "6b511cb4e21deacc",
+        "text": "For instance the lack of ability to:\n- Perform ad-hoc [[join (SQL)]] across tables)\n- Lack of standardized interfaces and huge previous investments in existing relational databases. \n- Most NoSQL stores lack true [[ACID]] transactions, although a few databases have made them central to their designs."
+      },
+      "after": "b059b502-eeb5-4f58-ab5c-cdfc79def1d1",
+      "date": 1552317907837
+    },
+    {
+      "type": "edit",
+      "id": "e5b55d39-1d0c-42d1-acd6-a69be84cf46b",
+      "item": {
+        "type": "markdown",
+        "id": "e5b55d39-1d0c-42d1-acd6-a69be84cf46b",
+        "text": "Instead, most NoSQL databases offer a concept of \"[[eventual consistency]]\" in which database changes are propagated to all nodes \"eventually\" (typically within milliseconds) so queries for data might not return updated data immediately or might result in reading data that is not accurate, a problem known as stale reads.  \n"
+      },
+      "date": 1552317920581
+    },
+    {
+      "type": "add",
+      "id": "aed9b36a8858bf37",
+      "item": {
+        "type": "markdown",
+        "id": "aed9b36a8858bf37",
+        "text": "Additionally, some NoSQL systems may exhibit lost writes and other forms of [[data loss]]. \n"
+      },
+      "after": "e5b55d39-1d0c-42d1-acd6-a69be84cf46b",
+      "date": 1552317931500
+    },
+    {
+      "type": "add",
+      "id": "165d18ff30503441",
+      "item": {
+        "type": "markdown",
+        "id": "165d18ff30503441",
+        "text": "Some NoSQL systems provide concepts such as [[write-ahead logging]] to avoid data loss. For [[distributed transaction processing]] across multiple databases, data consistency is an even bigger challenge that is difficult for both NoSQL and relational databases. Even current relational databases \"do not allow referential integrity constraints to span databases.\" There are few systems that maintain both [[ACID]] transactions and [[X/Open XA]] standards for distributed transaction processing."
+      },
+      "after": "aed9b36a8858bf37",
+      "date": 1552317932928
+    },
+    {
+      "type": "remove",
+      "id": "aed9b36a8858bf37",
+      "date": 1552317933744
+    },
+    {
+      "type": "edit",
+      "id": "e5b55d39-1d0c-42d1-acd6-a69be84cf46b",
+      "item": {
+        "type": "markdown",
+        "id": "e5b55d39-1d0c-42d1-acd6-a69be84cf46b",
+        "text": "Instead, most NoSQL databases offer a concept of \"[[eventual consistency]]\" in which database changes are propagated to all nodes \"eventually\" (typically within milliseconds) so queries for data might not return updated data immediately or might result in reading data that is not accurate, a problem known as stale reads.  Additionally, some NoSQL systems may exhibit lost writes and other forms of [[data loss]]. \n"
+      },
+      "date": 1552317935891
+    },
+    {
+      "type": "edit",
+      "id": "165d18ff30503441",
+      "item": {
+        "type": "markdown",
+        "id": "165d18ff30503441",
+        "text": "Some NoSQL systems provide concepts such as [[write-ahead logging]] to avoid data loss. For [[distributed transaction processing]] across multiple databases, data consistency is an even bigger challenge that is difficult for both NoSQL and relational databases. Even current relational databases:\n> do not allow referential integrity constraints to span databases.\n"
+      },
+      "date": 1552317972601
+    },
+    {
+      "type": "add",
+      "id": "9eb176cd8689909c",
+      "item": {
+        "type": "markdown",
+        "id": "9eb176cd8689909c",
+        "text": "There are few systems that maintain both [[ACID]] transactions and [[X/Open XA]] standards for distributed transaction processing."
+      },
+      "after": "165d18ff30503441",
+      "date": 1552317974699
+    },
+    {
+      "type": "fork",
+      "site": "future.fedwiki.org",
+      "date": 1552318018836
+    }
+  ],
+  "story": [
+    {
+      "type": "markdown",
+      "id": "872c84cd-f0ad-4dc5-ae49-e73ca4c2307c",
+      "text": "A __NoSQL__ (originally referring to \"non [[SQL]]\" or \"non relational\") [[database]] provides a mechanism for [[Computer data storage]] and [[data retrieval]] of data that is modeled in means other than the tabular relations used in [[relational database]]s - [https://en.wikipedia.org/wiki/NoSQL wikipedia]"
+    },
+    {
+      "type": "markdown",
+      "id": "67e846312e05af9e",
+      "text": "Such databases have existed since the late 1960s, but did not obtain the \"NoSQL\" moniker until a surge of popularity in the early 21st century, triggered by the needs of [[Web 2.0]] companies. \n"
+    },
+    {
+      "type": "markdown",
+      "id": "d8bb884abff65038",
+      "text": "NoSQL databases are increasingly used in [[big data]] and [[real-time web]] applications.  NoSQL systems are also sometimes called \"Not only SQL\" to emphasize that they may support [[SQL]]-like query languages, or sit alongside SQL database in a [[polyglot persistence]] architecture."
+    },
+    {
+      "type": "markdown",
+      "id": "67fa4abc-91d8-4ec7-ba42-dd8d151acfe4",
+      "text": "Motivations for this approach include: simplicity of design, simpler [[horizontal scaling]] in [[cluster computing]] (which is a problem for relational databases), and finer control over availability. \n"
+    },
+    {
+      "type": "markdown",
+      "id": "b46b3faa1019b4f1",
+      "text": "The data structures used by NoSQL databases (e.g. key-value, wide column, graph, or document) are different from those used by default in relational databases, making some operations faster in NoSQL. \n"
+    },
+    {
+      "type": "markdown",
+      "id": "28d71fd1ad473e94",
+      "text": "The particular suitability of a given NoSQL database depends on the problem it must solve.  Sometimes the data structures used by NoSQL databases are also viewed as \"more flexible\" than relational database tables."
+    },
+    {
+      "type": "markdown",
+      "id": "b059b502-eeb5-4f58-ab5c-cdfc79def1d1",
+      "text": "Many NoSQL stores compromise [[consistency (database systems)]] (in the sense of the [[CAP theorem]]) in favor of availability, partition tolerance, and speed. Barriers to the greater adoption of NoSQL stores include the use of low-level query languages (instead of SQL).\n"
+    },
+    {
+      "type": "markdown",
+      "id": "6b511cb4e21deacc",
+      "text": "For instance the lack of ability to:\n- Perform ad-hoc [[join (SQL)]] across tables)\n- Lack of standardized interfaces and huge previous investments in existing relational databases. \n- Most NoSQL stores lack true [[ACID]] transactions, although a few databases have made them central to their designs."
+    },
+    {
+      "type": "markdown",
+      "id": "e5b55d39-1d0c-42d1-acd6-a69be84cf46b",
+      "text": "Instead, most NoSQL databases offer a concept of \"[[eventual consistency]]\" in which database changes are propagated to all nodes \"eventually\" (typically within milliseconds) so queries for data might not return updated data immediately or might result in reading data that is not accurate, a problem known as stale reads.  Additionally, some NoSQL systems may exhibit lost writes and other forms of [[data loss]]. \n"
+    },
+    {
+      "type": "markdown",
+      "id": "165d18ff30503441",
+      "text": "Some NoSQL systems provide concepts such as [[write-ahead logging]] to avoid data loss. For [[distributed transaction processing]] across multiple databases, data consistency is an even bigger challenge that is difficult for both NoSQL and relational databases. Even current relational databases:\n> do not allow referential integrity constraints to span databases.\n"
+    },
+    {
+      "type": "markdown",
+      "id": "9eb176cd8689909c",
+      "text": "There are few systems that maintain both [[ACID]] transactions and [[X/Open XA]] standards for distributed transaction processing."
+    },
+    {
+      "type": "markdown",
+      "id": "10f0cfa7-b1a9-42c1-a00d-a098f522fa78",
+      "text": "# Sections"
+    },
+    {
+      "type": "html",
+      "id": "86d689f8-2fd7-4072-aaad-55d3bab6cf3d",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='History'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=NoSQL&action=edit&section=1'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "41a60621-2449-4a5e-b19c-4c7feae6f8fe",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Types and examples'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=NoSQL&action=edit&section=2'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "c994514b-29f0-467d-8647-b1da46e4c823",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Performance'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=NoSQL&action=edit&section=13'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "6a1739dd-8940-4770-98ff-de7aa904e9ca",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Handling relational data'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=NoSQL&action=edit&section=14'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "c3f3ff46-c086-4ab8-86c8-8510a9893706",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='ACID and join support'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=NoSQL&action=edit&section=18'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "markdown",
+      "id": "0ab37601-2d0c-43e9-8dd7-7ad1fce23ffc",
+      "text": "# See also"
+    },
+    {
+      "type": "markdown",
+      "id": "fe8bc0c8-3553-4a78-bb01-a2df960d8a29",
+      "text": "- [[CAP theorem]]\n- [[Comparison of object database management systems]]\n- [[Comparison of structured storage software]]\n- [[Correlation database]]\n- [[Distributed cache]]\n- [[Faceted search]]\n- [[MultiValue]]\n- [[Multi-model database]]\n- [[Triplestore]]\n- [[Schema-agnostic databases]]"
+    }
+  ]
+}

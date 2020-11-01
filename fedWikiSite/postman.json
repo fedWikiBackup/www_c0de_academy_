@@ -1,0 +1,337 @@
+{
+  "title": "Postman",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "d1e0d1bef5557e06",
+      "text": "Postman: Postman is an API(application programming interface) development tool which helps to build, test and modify APIs - [https://www.geeksforgeeks.org/introduction-postman-api-development/ geeksforgeeks.org]"
+    },
+    {
+      "type": "video",
+      "id": "f0e24d95d4ad2225",
+      "text": "YOUTUBE PLAYLIST PLM-7VG-sgbtBsenu0CM-UF3NZj3hQFs7E\nIn this playlist quickly get on top of the first 5 things to try if you’re new to [[Postman]].\n"
+    },
+    {
+      "type": "markdown",
+      "id": "922676d9-0db2-4179-99a1-670e748a0a9c",
+      "text": "# Collections"
+    },
+    {
+      "type": "paragraph",
+      "id": "a01c2994b196471e",
+      "text": "Learn about grouping API requests into collections and sharing them easily across teams or publicly.  Supercharge your API workflow."
+    },
+    {
+      "type": "video",
+      "id": "7e37479a-8bb7-4f9b-b901-69deb69f534b",
+      "text": "YOUTUBE bF8q8wvLs8A\n[[How to use and share Postman Collections]]. Broadcast on 2 Oct 2015."
+    },
+    {
+      "type": "paragraph",
+      "id": "a40ab2188f9319e2",
+      "text": "Almost any functionality that could be needed by any developer is encapsulated in this tool. It is used by over 5 million developers every month to make their API development easy and simple. "
+    },
+    {
+      "type": "paragraph",
+      "id": "f909c57a4f9a50e1",
+      "text": "It has the ability to make various types of HTTP requests (GET, POST, PUT, PATCH), saving environments for later use, converting the API to code for various languages (like JavaScript, Python)."
+    },
+    {
+      "type": "markdown",
+      "id": "ed403633f590c3d2",
+      "text": "# See also\n"
+    },
+    {
+      "type": "markdown",
+      "id": "7971a16f28b156a3",
+      "text": "- Learning Centre - [https://learning.getpostman.com/docs/postman/sending_api_requests/authorization/ getpostman.com]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Postman",
+        "story": []
+      },
+      "date": 1545129905357
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "d1e0d1bef5557e06"
+      },
+      "id": "d1e0d1bef5557e06",
+      "type": "add",
+      "date": 1545129913101
+    },
+    {
+      "type": "edit",
+      "id": "d1e0d1bef5557e06",
+      "item": {
+        "type": "paragraph",
+        "id": "d1e0d1bef5557e06",
+        "text": "Postman: Postman is an API(application programming interface) development tool which helps to build, test and modify APIs. "
+      },
+      "date": 1545129935351
+    },
+    {
+      "type": "add",
+      "id": "a40ab2188f9319e2",
+      "item": {
+        "type": "paragraph",
+        "id": "a40ab2188f9319e2",
+        "text": "Almost any functionality that could be needed by any developer is encapsulated in this tool. It is used by over 5 million developers every month to make their API development easy and simple. It has the ability to make various types of HTTP requests(GET, POST, PUT, PATCH), saving environments for later use, converting the API to code for various languages (like JavaScript, Python)."
+      },
+      "after": "d1e0d1bef5557e06",
+      "date": 1545129943767
+    },
+    {
+      "type": "edit",
+      "id": "d1e0d1bef5557e06",
+      "item": {
+        "type": "paragraph",
+        "id": "d1e0d1bef5557e06",
+        "text": "Postman: Postman is an API(application programming interface) development tool which helps to build, test and modify APIs - [https://www.geeksforgeeks.org/introduction-postman-api-development/ geeksforgeeks.org]"
+      },
+      "date": 1545130954395
+    },
+    {
+      "type": "edit",
+      "id": "a40ab2188f9319e2",
+      "item": {
+        "type": "paragraph",
+        "id": "a40ab2188f9319e2",
+        "text": "Almost any functionality that could be needed by any developer is encapsulated in this tool. It is used by over 5 million developers every month to make their API development easy and simple. "
+      },
+      "date": 1545130962939
+    },
+    {
+      "type": "add",
+      "id": "f909c57a4f9a50e1",
+      "item": {
+        "type": "paragraph",
+        "id": "f909c57a4f9a50e1",
+        "text": "It has the ability to make various types of HTTP requests (GET, POST, PUT, PATCH), saving environments for later use, converting the API to code for various languages (like JavaScript, Python)."
+      },
+      "after": "a40ab2188f9319e2",
+      "date": 1545130967212
+    },
+    {
+      "type": "add",
+      "id": "f0e24d95d4ad2225",
+      "item": {
+        "type": "factory",
+        "id": "f0e24d95d4ad2225",
+        "text": "- https://medium.com/@olotintemitope/how-to-generate-your-api-documentation-in-20-minutes-4e0072f08b94"
+      },
+      "after": "d1e0d1bef5557e06",
+      "date": 1545131190112
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "video",
+        "id": "7e37479a-8bb7-4f9b-b901-69deb69f534b",
+        "text": "YOUTUBE bF8q8wvLs8A\n[[How to use and share Postman Collections]]. Broadcast on 2 Oct 2015."
+      },
+      "after": "f0e24d95d4ad2225",
+      "id": "7e37479a-8bb7-4f9b-b901-69deb69f534b",
+      "date": 1545131228807
+    },
+    {
+      "type": "move",
+      "order": [
+        "d1e0d1bef5557e06",
+        "7e37479a-8bb7-4f9b-b901-69deb69f534b",
+        "a40ab2188f9319e2",
+        "f909c57a4f9a50e1",
+        "f0e24d95d4ad2225"
+      ],
+      "id": "f0e24d95d4ad2225",
+      "date": 1545131239725
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "922676d9-0db2-4179-99a1-670e748a0a9c",
+        "text": "Learn about grouping API requests into collections and sharing them easily across teams or publicly.  Supercharge your API workflow."
+      },
+      "after": "d1e0d1bef5557e06",
+      "id": "922676d9-0db2-4179-99a1-670e748a0a9c",
+      "date": 1545131249658
+    },
+    {
+      "type": "edit",
+      "id": "922676d9-0db2-4179-99a1-670e748a0a9c",
+      "item": {
+        "type": "paragraph",
+        "id": "922676d9-0db2-4179-99a1-670e748a0a9c",
+        "text": "# Collections"
+      },
+      "date": 1545131259913
+    },
+    {
+      "type": "add",
+      "id": "a01c2994b196471e",
+      "item": {
+        "type": "paragraph",
+        "id": "a01c2994b196471e",
+        "text": "Learn about grouping API requests into collections and sharing them easily across teams or publicly.  Supercharge your API workflow."
+      },
+      "after": "922676d9-0db2-4179-99a1-670e748a0a9c",
+      "date": 1545131260347
+    },
+    {
+      "type": "edit",
+      "id": "922676d9-0db2-4179-99a1-670e748a0a9c",
+      "item": {
+        "type": "markdown",
+        "id": "922676d9-0db2-4179-99a1-670e748a0a9c",
+        "text": "# Collections"
+      },
+      "date": 1545131261400
+    },
+    {
+      "type": "edit",
+      "id": "f0e24d95d4ad2225",
+      "item": {
+        "type": "video",
+        "id": "f0e24d95d4ad2225",
+        "text": "YOUTUBE PLAYLIST PLM-7VG-sgbtBsenu0CM-UF3NZj3hQFs7E\n(double-click to edit caption)\n"
+      },
+      "date": 1545131408664
+    },
+    {
+      "type": "move",
+      "order": [
+        "d1e0d1bef5557e06",
+        "922676d9-0db2-4179-99a1-670e748a0a9c",
+        "a01c2994b196471e",
+        "f0e24d95d4ad2225",
+        "7e37479a-8bb7-4f9b-b901-69deb69f534b",
+        "a40ab2188f9319e2",
+        "f909c57a4f9a50e1"
+      ],
+      "id": "f0e24d95d4ad2225",
+      "date": 1545131435064
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "8cd7b52f0e7b8c4f"
+      },
+      "id": "8cd7b52f0e7b8c4f",
+      "type": "add",
+      "after": "f909c57a4f9a50e1",
+      "date": 1545131523271
+    },
+    {
+      "type": "move",
+      "order": [
+        "d1e0d1bef5557e06",
+        "f0e24d95d4ad2225",
+        "922676d9-0db2-4179-99a1-670e748a0a9c",
+        "a01c2994b196471e",
+        "7e37479a-8bb7-4f9b-b901-69deb69f534b",
+        "a40ab2188f9319e2",
+        "f909c57a4f9a50e1",
+        "8cd7b52f0e7b8c4f"
+      ],
+      "id": "f0e24d95d4ad2225",
+      "date": 1545131651227
+    },
+    {
+      "type": "edit",
+      "id": "f0e24d95d4ad2225",
+      "item": {
+        "type": "video",
+        "id": "f0e24d95d4ad2225",
+        "text": "YOUTUBE PLAYLIST PLM-7VG-sgbtBsenu0CM-UF3NZj3hQFs7E\nIn this playlist quickly get on top of the first 5 things to try if you’re new to [[Postman]].\n"
+      },
+      "date": 1545131706454
+    },
+    {
+      "type": "fork",
+      "site": "api.c0de.academy"
+    },
+    {
+      "type": "remove",
+      "id": "8cd7b52f0e7b8c4f",
+      "date": 1545131734884
+    },
+    {
+      "type": "add",
+      "id": "ed403633f590c3d2",
+      "item": {
+        "type": "paragraph",
+        "id": "ed403633f590c3d2",
+        "text": "- Learning Centre - [https://learning.getpostman.com/docs/postman/sending_api_requests/authorization/ getpostman.com]"
+      },
+      "after": "d1e0d1bef5557e06",
+      "date": 1545226484245
+    },
+    {
+      "type": "edit",
+      "id": "ed403633f590c3d2",
+      "item": {
+        "type": "markdown",
+        "id": "ed403633f590c3d2",
+        "text": "- Learning Centre - [https://learning.getpostman.com/docs/postman/sending_api_requests/authorization/ getpostman.com]"
+      },
+      "date": 1545226487148
+    },
+    {
+      "type": "move",
+      "order": [
+        "d1e0d1bef5557e06",
+        "f0e24d95d4ad2225",
+        "ed403633f590c3d2",
+        "922676d9-0db2-4179-99a1-670e748a0a9c",
+        "a01c2994b196471e",
+        "7e37479a-8bb7-4f9b-b901-69deb69f534b",
+        "a40ab2188f9319e2",
+        "f909c57a4f9a50e1"
+      ],
+      "id": "ed403633f590c3d2",
+      "date": 1545226488692
+    },
+    {
+      "type": "move",
+      "order": [
+        "d1e0d1bef5557e06",
+        "f0e24d95d4ad2225",
+        "922676d9-0db2-4179-99a1-670e748a0a9c",
+        "a01c2994b196471e",
+        "7e37479a-8bb7-4f9b-b901-69deb69f534b",
+        "a40ab2188f9319e2",
+        "f909c57a4f9a50e1",
+        "ed403633f590c3d2"
+      ],
+      "id": "ed403633f590c3d2",
+      "date": 1545226503107
+    },
+    {
+      "type": "edit",
+      "id": "ed403633f590c3d2",
+      "item": {
+        "type": "markdown",
+        "id": "ed403633f590c3d2",
+        "text": "# See also\n"
+      },
+      "date": 1545226513904
+    },
+    {
+      "type": "add",
+      "id": "7971a16f28b156a3",
+      "item": {
+        "type": "markdown",
+        "id": "7971a16f28b156a3",
+        "text": "- Learning Centre - [https://learning.getpostman.com/docs/postman/sending_api_requests/authorization/ getpostman.com]"
+      },
+      "after": "ed403633f590c3d2",
+      "date": 1545226514277
+    }
+  ]
+}

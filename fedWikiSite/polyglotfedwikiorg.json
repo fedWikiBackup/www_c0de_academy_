@@ -1,0 +1,114 @@
+{
+  "title": "polyglot.fed.wiki.org",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "b380dfe24238c455",
+      "text": "We survey 100 things programming languages do and the many variations one learns as a programmer."
+    },
+    {
+      "type": "reference",
+      "id": "8c6b64199eeeb8af",
+      "site": "polyglot.fed.wiki.org",
+      "slug": "one-hundred-steps",
+      "title": "One Hundred Steps",
+      "text": "The idea is to list one hundred curious things about programming. These can be taken on faith. In some languages they are true. In other languages, no. Developing a sense of what might and might not be true is the part of programming that is rarely taught, probably because the inconsistency is an embarrassment."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "polyglot.fed.wiki.org",
+        "story": []
+      },
+      "date": 1396808069086
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "8c6b64199eeeb8af"
+      },
+      "id": "8c6b64199eeeb8af",
+      "type": "add",
+      "date": 1396808080116
+    },
+    {
+      "type": "edit",
+      "id": "8c6b64199eeeb8af",
+      "item": {
+        "type": "reference",
+        "id": "8c6b64199eeeb8af",
+        "site": "polyglot.fed.wiki.org",
+        "slug": "one-hundred-steps",
+        "title": "One Hundred Steps",
+        "text": "The idea is to list one hundred curious things about programming. These can be taken on faith. In some languages they are true. In other languages, no. Developing a sense of what might and might not be true is the part of programming that is rarely taught, probably because the inconsistency is an embarrassment."
+      },
+      "date": 1396808095052
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "b380dfe24238c455"
+      },
+      "id": "b380dfe24238c455",
+      "type": "add",
+      "after": "8c6b64199eeeb8af",
+      "date": 1396808100409
+    },
+    {
+      "type": "edit",
+      "id": "b380dfe24238c455",
+      "item": {
+        "type": "paragraph",
+        "id": "b380dfe24238c455",
+        "text": "We survey things programming languages do and the many variations one learns as a programmer."
+      },
+      "date": 1396808394288
+    },
+    {
+      "type": "move",
+      "order": [
+        "b380dfe24238c455",
+        "8c6b64199eeeb8af"
+      ],
+      "id": "b380dfe24238c455",
+      "date": 1396808398218
+    },
+    {
+      "type": "edit",
+      "id": "b380dfe24238c455",
+      "item": {
+        "type": "paragraph",
+        "id": "b380dfe24238c455",
+        "text": "We survey things programming languages do and the many variations one learns as a programmer. "
+      },
+      "date": 1396808443920
+    },
+    {
+      "type": "edit",
+      "id": "b380dfe24238c455",
+      "item": {
+        "type": "paragraph",
+        "id": "b380dfe24238c455",
+        "text": "We survey things programming languages do and the many variations one learns as a programmer."
+      },
+      "date": 1396808472708
+    },
+    {
+      "type": "edit",
+      "id": "b380dfe24238c455",
+      "item": {
+        "type": "paragraph",
+        "id": "b380dfe24238c455",
+        "text": "We survey 100 things programming languages do and the many variations one learns as a programmer."
+      },
+      "date": 1396808479979
+    },
+    {
+      "type": "fork",
+      "site": "sites.fed.wiki.org",
+      "date": 1545412797050
+    }
+  ]
+}

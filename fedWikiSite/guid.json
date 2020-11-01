@@ -1,0 +1,30 @@
+{
+  "title": "GUID",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "e91aba030e384e37",
+      "text": "Same as [[Universally unique identifier]]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "GUID",
+        "story": []
+      },
+      "date": 1547821963597
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "e91aba030e384e37",
+        "text": "Same as [[Universally unique identifier]]"
+      },
+      "id": "e91aba030e384e37",
+      "date": 1547821969752
+    }
+  ]
+}
