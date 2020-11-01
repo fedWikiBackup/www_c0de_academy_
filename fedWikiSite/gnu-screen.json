@@ -1,0 +1,115 @@
+{
+  "title": "GNU Screen",
+  "journal": [
+    {
+      "date": 1551774447203,
+      "type": "create",
+      "item": {
+        "story": "",
+        "title": "GNU Screen"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1551774317099
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "7c04047cd1f18253",
+        "text": "- Documentation - [https://www.gnu.org/software/screen/manual/screen.html gnu.org]"
+      },
+      "after": "a777ff77-7f31-43c9-bf7f-c87f56de2842",
+      "id": "7c04047cd1f18253",
+      "date": 1551774370636
+    },
+    {
+      "type": "edit",
+      "id": "7c04047cd1f18253",
+      "item": {
+        "type": "markdown",
+        "id": "7c04047cd1f18253",
+        "text": "- Documentation - [https://www.gnu.org/software/screen/manual/screen.html gnu.org]\n- [[Pair programming]] with Screen - [https://www.nixtutor.com/linux/introduction-to-gnu-screen/ nixtutor.com]"
+      },
+      "date": 1551774652646
+    },
+    {
+      "type": "edit",
+      "id": "7c04047cd1f18253",
+      "item": {
+        "type": "markdown",
+        "id": "7c04047cd1f18253",
+        "text": "- Tutorial - [https://www.linode.com/docs/networking/ssh/using-gnu-screen-to-manage-persistent-terminal-sessions/ linode.com]\n- Documentation - [https://www.gnu.org/software/screen/manual/screen.html gnu.org]\n- [[Pair programming]] with Screen - [https://www.nixtutor.com/linux/introduction-to-gnu-screen/ nixtutor.com]"
+      },
+      "date": 1551774700583
+    },
+    {
+      "type": "edit",
+      "id": "7c04047cd1f18253",
+      "item": {
+        "type": "markdown",
+        "id": "7c04047cd1f18253",
+        "text": "- Tutorial - [https://www.linode.com/docs/networking/ssh/using-gnu-screen-to-manage-persistent-terminal-sessions/ linode.com]\n- Documentation - [https://www.gnu.org/software/screen/manual/screen.html gnu.org]\n- Screen passwords - [https://www.tecmint.com/screen-command-examples-to-manage-linux-terminals/ tecmint.com]\n- [[Pair programming]] with Screen - [https://www.nixtutor.com/linux/introduction-to-gnu-screen/ nixtutor.com]"
+      },
+      "date": 1551774742136
+    },
+    {
+      "type": "edit",
+      "id": "7c04047cd1f18253",
+      "item": {
+        "type": "markdown",
+        "id": "7c04047cd1f18253",
+        "text": "- Tutorial - [https://www.linode.com/docs/networking/ssh/using-gnu-screen-to-manage-persistent-terminal-sessions/ linode.com]\n- Documentation - [https://www.gnu.org/software/screen/manual/screen.html gnu.org]\n- Screen passwords - [https://www.tecmint.com/screen-command-examples-to-manage-linux-terminals/ tecmint.com]\n- [[Pair programming]] with Screen - [https://www.nixtutor.com/linux/introduction-to-gnu-screen/ nixtutor.com]\n- In scripts - [https://unix.stackexchange.com/questions/257845/how-to-run-a-program-in-a-screen-redirect-all-output-to-a-file-and-detach stackexchange]"
+      },
+      "date": 1551775105618
+    }
+  ],
+  "story": [
+    {
+      "type": "markdown",
+      "id": "86ba7116-8556-47d9-8738-badbe524028a",
+      "text": "__GNU Screen__ is a [[terminal multiplexer]], a [[software application]] that can be used to [[multiplexing]] several [[virtual console]]s, allowing a user to access multiple separate [[login session]]s inside a single [[computer terminal]] window, or detach and reattach sessions from a terminal. It is useful for dealing with multiple programs from a [[command line interface]], and for separating programs from the session of the [[Unix shell]] that started the program, particularly so a remote [[process (computing)]] continues running even when the user is disconnected - [pWikipediaURL wikipedia]"
+    },
+    {
+      "type": "html",
+      "id": "297cbf5e-3bb1-457d-b0fc-42714d129755",
+      "text": "<div style='padding: 12px; background:#eee; width:96%; align=centered;'>\n<a href='https://upload.wikimedia.org/wikipedia/en/2/22/Heckert_GNU_white.svg' target='_blank'>\n<img style='display:block; margin:auto; width:100%;'\nsrc='https://upload.wikimedia.org/wikipedia/en/thumb/2/22/Heckert_GNU_white.svg/320px-Heckert_GNU_white.svg.png'>\n</a>\n\n<p class=caption>\nGNU Screen. terminal multiplexer\n- [https://upload.wikimedia.org/wikipedia/en/2/22/Heckert_GNU_white.svg wikimedia]\n</p></div>"
+    },
+    {
+      "type": "markdown",
+      "id": "7090a0bf-7e6c-4ce9-aa08-4dd368847935",
+      "text": "Released under the terms of version 3 or later of the [[GNU General Public License]], GNU Screen is [[free software]]."
+    },
+    {
+      "type": "markdown",
+      "id": "32dadd7a-200d-4970-a9ac-001aad99d6b1",
+      "text": "# Sections"
+    },
+    {
+      "type": "html",
+      "id": "ed374ec4-2e0b-4c9b-bb3f-f579d8fac989",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Features'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=GNU Screen&action=edit&section=1'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "3863e295-c165-454f-8056-ef58b3b2033a",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='History'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=GNU Screen&action=edit&section=2'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "markdown",
+      "id": "a777ff77-7f31-43c9-bf7f-c87f56de2842",
+      "text": "# See also"
+    },
+    {
+      "type": "markdown",
+      "id": "7c04047cd1f18253",
+      "text": "- Tutorial - [https://www.linode.com/docs/networking/ssh/using-gnu-screen-to-manage-persistent-terminal-sessions/ linode.com]\n- Documentation - [https://www.gnu.org/software/screen/manual/screen.html gnu.org]\n- Screen passwords - [https://www.tecmint.com/screen-command-examples-to-manage-linux-terminals/ tecmint.com]\n- [[Pair programming]] with Screen - [https://www.nixtutor.com/linux/introduction-to-gnu-screen/ nixtutor.com]\n- In scripts - [https://unix.stackexchange.com/questions/257845/how-to-run-a-program-in-a-screen-redirect-all-output-to-a-file-and-detach stackexchange]"
+    },
+    {
+      "type": "markdown",
+      "id": "fc291fc9-91ac-45a1-82f4-abe8316980d9",
+      "text": "- [[xpra]]\n- [[Byobu (software)]]\n- [[tmux]]"
+    }
+  ]
+}
