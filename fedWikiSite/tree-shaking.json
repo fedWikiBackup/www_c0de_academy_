@@ -1,0 +1,211 @@
+{
+  "title": "Tree shaking",
+  "journal": [
+    {
+      "date": 1547975384145,
+      "type": "create",
+      "item": {
+        "story": "",
+        "title": "Tree shaking"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1547975268261
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "6c4921f0-bd7e-4719-83ab-b62d75e2028b",
+        "text": "# History"
+      },
+      "after": "c4d732da-1d88-42e7-821a-9af944950e75",
+      "id": "6c4921f0-bd7e-4719-83ab-b62d75e2028b",
+      "date": 1547975278760
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "ab727d24-2745-4174-a4d2-71683f5e518f",
+        "text": "Dead code elimination in dynamic languages is a much harder problem than in static languages. The idea of a \"treeshaker\" originated in [[LISP]] in the 1990s. The idea is that all possible execution flows of a program can be represented as a tree of function calls, so that functions that are never called can be eliminated - [https://en.wikipedia.org/wiki/Tree_shaking#History wikipedia]"
+      },
+      "after": "6c4921f0-bd7e-4719-83ab-b62d75e2028b",
+      "id": "ab727d24-2745-4174-a4d2-71683f5e518f",
+      "date": 1547975280928
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "b86364af-0670-4aba-8741-71b8c1e12dd3",
+        "text": "The algorithm was applied to [[JavaScript]] in [[Google Closure Tools]] and then to [[Dart (programming language)]] in the dart2js compiler also written by [[Google]], presented by Bob Nystrom in 2012 and described by the book \"Dart in Action\" by author Chris Buckett in 2013:"
+      },
+      "after": "ab727d24-2745-4174-a4d2-71683f5e518f",
+      "id": "b86364af-0670-4aba-8741-71b8c1e12dd3",
+      "date": 1547975284163
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "64e88348-7774-4c7c-80b6-064ee9d8ae2a",
+        "text": "The next wave of popularity of the term is attributed to Rich Harris’s Rollup project developed in 2015."
+      },
+      "after": "b86364af-0670-4aba-8741-71b8c1e12dd3",
+      "id": "64e88348-7774-4c7c-80b6-064ee9d8ae2a",
+      "date": 1547975287880
+    },
+    {
+      "type": "edit",
+      "id": "64e88348-7774-4c7c-80b6-064ee9d8ae2a",
+      "item": {
+        "type": "markdown",
+        "id": "64e88348-7774-4c7c-80b6-064ee9d8ae2a",
+        "text": "The next wave of popularity of the term is attributed to Rich Harris’s [[Rollup.js]] project developed in 2015."
+      },
+      "date": 1547975303736
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "b40506e1-4697-4621-8729-9a654668a4c1",
+        "text": "# Relation to ECMAScript 6 modules"
+      },
+      "after": "64e88348-7774-4c7c-80b6-064ee9d8ae2a",
+      "id": "b40506e1-4697-4621-8729-9a654668a4c1",
+      "date": 1547975313756
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "252493c6-9de5-47f6-ab59-be4dccdaa023",
+        "text": "The popularity of tree shaking in JavaScript is based on the fact that in distinction from CommonJS modules, ECMAScript 6 module loading is static and thus whole dependency tree can be deduced by statically parsing the syntax tree. Thus tree shaking becomes an easy problem. However, tree shaking does not only apply at import/export level: it can also work at statement level, depending on the implementation - [https://en.wikipedia.org/wiki/Tree_shaking#Relation_to_ECMAScript_6_modules wikipedia]"
+      },
+      "after": "b40506e1-4697-4621-8729-9a654668a4c1",
+      "id": "252493c6-9de5-47f6-ab59-be4dccdaa023",
+      "date": 1547975316187
+    },
+    {
+      "type": "remove",
+      "id": "fa973a03-c6c7-4ce1-a801-79f72709c121",
+      "date": 1547975322573
+    },
+    {
+      "type": "edit",
+      "id": "9fcb7e24-c1c4-4caa-bf5d-701336baa787",
+      "item": {
+        "type": "markdown",
+        "id": "9fcb7e24-c1c4-4caa-bf5d-701336baa787",
+        "text": "# See also"
+      },
+      "date": 1547975327551
+    },
+    {
+      "type": "remove",
+      "id": "717292ee-b0d1-4280-a441-6b6f806ad75a",
+      "date": 1547975330147
+    },
+    {
+      "type": "remove",
+      "id": "bb8436e0-7511-4ca2-ad8d-8dab23e1626d",
+      "date": 1547975332235
+    },
+    {
+      "type": "edit",
+      "id": "9fcb7e24-c1c4-4caa-bf5d-701336baa787",
+      "item": {
+        "type": "markdown",
+        "id": "9fcb7e24-c1c4-4caa-bf5d-701336baa787",
+        "text": "# See also\n"
+      },
+      "date": 1547975517142
+    },
+    {
+      "type": "add",
+      "id": "f4c47863eb35d158",
+      "item": {
+        "type": "markdown",
+        "id": "f4c47863eb35d158",
+        "text": "- [[ECMAScript]]\n- [["
+      },
+      "after": "9fcb7e24-c1c4-4caa-bf5d-701336baa787",
+      "date": 1547975533183
+    },
+    {
+      "type": "edit",
+      "id": "f4c47863eb35d158",
+      "item": {
+        "type": "markdown",
+        "id": "f4c47863eb35d158",
+        "text": "- [[Dead code elimination]]\n- [[ECMAScript]]\n- [[ECMAScript]]\n"
+      },
+      "date": 1547975554950
+    },
+    {
+      "type": "edit",
+      "id": "f4c47863eb35d158",
+      "item": {
+        "type": "markdown",
+        "id": "f4c47863eb35d158",
+        "text": "- [[Dead code elimination]]\n- [[Rollup.js]]\n- [[ECMAScript]]\n"
+      },
+      "date": 1547975563023
+    },
+    {
+      "type": "fork",
+      "site": "livecode.world",
+      "date": 1547976108627
+    }
+  ],
+  "story": [
+    {
+      "type": "markdown",
+      "id": "c4d732da-1d88-42e7-821a-9af944950e75",
+      "text": "In [[computing]], __tree shaking__ is a [[dead code elimination]] technique that is applied when optimizing code written in [[ECMAScript]] dialects like [[Dart (programming language)]], [[JavaScript]], or [[TypeScript]] into a single bundle that is loaded by a [[web browser]]. Rather than eliminating code that can never be executed, tree shaking starts from entry point and includes only the code that is guaranteed to be executed. It is succinctly described as \"live code inclusion\" - [https://en.wikipedia.org/wiki/Tree_shaking wikipedia]"
+    },
+    {
+      "type": "markdown",
+      "id": "6c4921f0-bd7e-4719-83ab-b62d75e2028b",
+      "text": "# History"
+    },
+    {
+      "type": "markdown",
+      "id": "ab727d24-2745-4174-a4d2-71683f5e518f",
+      "text": "Dead code elimination in dynamic languages is a much harder problem than in static languages. The idea of a \"treeshaker\" originated in [[LISP]] in the 1990s. The idea is that all possible execution flows of a program can be represented as a tree of function calls, so that functions that are never called can be eliminated - [https://en.wikipedia.org/wiki/Tree_shaking#History wikipedia]"
+    },
+    {
+      "type": "markdown",
+      "id": "b86364af-0670-4aba-8741-71b8c1e12dd3",
+      "text": "The algorithm was applied to [[JavaScript]] in [[Google Closure Tools]] and then to [[Dart (programming language)]] in the dart2js compiler also written by [[Google]], presented by Bob Nystrom in 2012 and described by the book \"Dart in Action\" by author Chris Buckett in 2013:"
+    },
+    {
+      "type": "markdown",
+      "id": "64e88348-7774-4c7c-80b6-064ee9d8ae2a",
+      "text": "The next wave of popularity of the term is attributed to Rich Harris’s [[Rollup.js]] project developed in 2015."
+    },
+    {
+      "type": "markdown",
+      "id": "b40506e1-4697-4621-8729-9a654668a4c1",
+      "text": "# Relation to ECMAScript 6 modules"
+    },
+    {
+      "type": "markdown",
+      "id": "252493c6-9de5-47f6-ab59-be4dccdaa023",
+      "text": "The popularity of tree shaking in JavaScript is based on the fact that in distinction from CommonJS modules, ECMAScript 6 module loading is static and thus whole dependency tree can be deduced by statically parsing the syntax tree. Thus tree shaking becomes an easy problem. However, tree shaking does not only apply at import/export level: it can also work at statement level, depending on the implementation - [https://en.wikipedia.org/wiki/Tree_shaking#Relation_to_ECMAScript_6_modules wikipedia]"
+    },
+    {
+      "type": "markdown",
+      "id": "9fcb7e24-c1c4-4caa-bf5d-701336baa787",
+      "text": "# See also\n"
+    },
+    {
+      "type": "markdown",
+      "id": "f4c47863eb35d158",
+      "text": "- [[Dead code elimination]]\n- [[Rollup.js]]\n- [[ECMAScript]]\n"
+    }
+  ]
+}
