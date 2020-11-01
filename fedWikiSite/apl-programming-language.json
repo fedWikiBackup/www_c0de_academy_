@@ -1,0 +1,159 @@
+{
+  "title": "APL (programming language)",
+  "journal": [
+    {
+      "date": 1551969602142,
+      "type": "create",
+      "item": {
+        "story": "",
+        "title": "APL (programming language)"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1551969469588
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "be1476d4-33ae-4164-b524-74677b28282d",
+        "text": "# Design"
+      },
+      "after": "70dd32e8-2cb5-4d09-82db-7075f0761103",
+      "id": "be1476d4-33ae-4164-b524-74677b28282d",
+      "date": 1551969517513
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "6af9a2cd-eeae-45fb-8ca2-c20ee8c7f463",
+        "text": "Unlike traditionally structured programming languages, APL code is typically structured as chains of [[unary operation]] or [[binary operation]] [[function (programming)]], and [[higher-order function]] acting on [[array data type]]. APL has many nonstandard ''primitives'' (functions and operators) that are indicated by a single symbol or a combination of a few symbols. All primitives are defined to have the same [[operator precedence]], and always associate to the right. Thus, APL is ''read'' or best understood from [[APL syntax and symbols#Syntax rules]] - [https://en.wikipedia.org/wiki/APL_(programming_language)#Design wikipedia]"
+      },
+      "after": "be1476d4-33ae-4164-b524-74677b28282d",
+      "id": "6af9a2cd-eeae-45fb-8ca2-c20ee8c7f463",
+      "date": 1551969522944
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "e6bdc12b-211d-4b45-9250-54f81aa11208",
+        "text": "Early APL implementations (circa 1970 or so) had no programming loop-[[control flow]] structures, such as <code>do</code> or <code>while</code> loops, and <code>if-then-else</code> constructs. Instead, they used array operations, and use of [[structured programming]] constructs was often not necessary, since an operation could be performed on a full array in one statement. For example, the <code>iota</code> function (<code>ι</code>) can replace for-loop [[iteration]]: ιN when applied to a scalar positive integer yields a one-dimensional array (vector), 1 2 3 ... N. More recent implementations of APL generally include comprehensive control structures, so that data structure and program control flow can be clearly and cleanly separated."
+      },
+      "after": "6af9a2cd-eeae-45fb-8ca2-c20ee8c7f463",
+      "id": "e6bdc12b-211d-4b45-9250-54f81aa11208",
+      "date": 1551969528177
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "bd1ec1df-ab83-4046-93ae-db98c4917165",
+        "text": "The APL environment is called a ''workspace''. In a workspace the user can define programs and data, i.e., the data values exist also outside the programs, and the user can also manipulate the data without having to define a program. In the examples below, the APL interpreter first types six spaces before awaiting the user's input. Its own output starts in column one."
+      },
+      "after": "e6bdc12b-211d-4b45-9250-54f81aa11208",
+      "id": "bd1ec1df-ab83-4046-93ae-db98c4917165",
+      "date": 1551969539861
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "html",
+        "id": "ea88ebe4-619c-41f0-aed9-1b71ae4b9982",
+        "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Design'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=APL (programming language)&action=edit&section=12'>\n<input type=submit value=create></form>"
+      },
+      "after": "bd1ec1df-ab83-4046-93ae-db98c4917165",
+      "id": "ea88ebe4-619c-41f0-aed9-1b71ae4b9982",
+      "date": 1551969556693
+    },
+    {
+      "type": "move",
+      "order": [
+        "70dd32e8-2cb5-4d09-82db-7075f0761103",
+        "be1476d4-33ae-4164-b524-74677b28282d",
+        "6af9a2cd-eeae-45fb-8ca2-c20ee8c7f463",
+        "ea88ebe4-619c-41f0-aed9-1b71ae4b9982",
+        "e6bdc12b-211d-4b45-9250-54f81aa11208",
+        "bd1ec1df-ab83-4046-93ae-db98c4917165",
+        "bc5477d6-160d-42be-b375-0d2a549c1f33",
+        "f857ed75-e051-4510-bd38-a2e1305beee5",
+        "53423b71-0263-4aeb-8f29-a3710f6a85f9",
+        "0eac10a5-e183-464e-a3f7-3bd6f20b24de",
+        "9de57496-d418-4977-9d78-85e178d2faa6",
+        "fef5dee6-38e0-4544-a1d2-921ea0d80824",
+        "16e46eda-4cdf-4e45-bc1f-e626099a4f6a"
+      ],
+      "id": "ea88ebe4-619c-41f0-aed9-1b71ae4b9982",
+      "date": 1551969572804
+    }
+  ],
+  "story": [
+    {
+      "type": "markdown",
+      "id": "70dd32e8-2cb5-4d09-82db-7075f0761103",
+      "text": "__APL__ (named after the book ''A Programming Language'') is a [[programming language]] developed in the 1960s by [[Kenneth E. Iverson]]. Its central datatype is the [[Array data type#Multi-dimensional arrays]]. It uses a large range of [[APL syntax and symbols]] to represent most functions and operators, leading to very concise code. It has been an important influence on the development of concept modeling, [[spreadsheet]]s, [[functional programming]], and computer math packages. It has also inspired several other programming languages - [https://en.wikipedia.org/wiki/APL_(programming_language) wikipedia]"
+    },
+    {
+      "type": "markdown",
+      "id": "be1476d4-33ae-4164-b524-74677b28282d",
+      "text": "# Design"
+    },
+    {
+      "type": "markdown",
+      "id": "6af9a2cd-eeae-45fb-8ca2-c20ee8c7f463",
+      "text": "Unlike traditionally structured programming languages, APL code is typically structured as chains of [[unary operation]] or [[binary operation]] [[function (programming)]], and [[higher-order function]] acting on [[array data type]]. APL has many nonstandard ''primitives'' (functions and operators) that are indicated by a single symbol or a combination of a few symbols. All primitives are defined to have the same [[operator precedence]], and always associate to the right. Thus, APL is ''read'' or best understood from [[APL syntax and symbols#Syntax rules]] - [https://en.wikipedia.org/wiki/APL_(programming_language)#Design wikipedia]"
+    },
+    {
+      "type": "html",
+      "id": "ea88ebe4-619c-41f0-aed9-1b71ae4b9982",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Design'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=APL (programming language)&action=edit&section=12'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "markdown",
+      "id": "e6bdc12b-211d-4b45-9250-54f81aa11208",
+      "text": "Early APL implementations (circa 1970 or so) had no programming loop-[[control flow]] structures, such as <code>do</code> or <code>while</code> loops, and <code>if-then-else</code> constructs. Instead, they used array operations, and use of [[structured programming]] constructs was often not necessary, since an operation could be performed on a full array in one statement. For example, the <code>iota</code> function (<code>ι</code>) can replace for-loop [[iteration]]: ιN when applied to a scalar positive integer yields a one-dimensional array (vector), 1 2 3 ... N. More recent implementations of APL generally include comprehensive control structures, so that data structure and program control flow can be clearly and cleanly separated."
+    },
+    {
+      "type": "markdown",
+      "id": "bd1ec1df-ab83-4046-93ae-db98c4917165",
+      "text": "The APL environment is called a ''workspace''. In a workspace the user can define programs and data, i.e., the data values exist also outside the programs, and the user can also manipulate the data without having to define a program. In the examples below, the APL interpreter first types six spaces before awaiting the user's input. Its own output starts in column one."
+    },
+    {
+      "type": "markdown",
+      "id": "bc5477d6-160d-42be-b375-0d2a549c1f33",
+      "text": "# Sections"
+    },
+    {
+      "type": "html",
+      "id": "f857ed75-e051-4510-bd38-a2e1305beee5",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='History'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=APL (programming language)&action=edit&section=1'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "53423b71-0263-4aeb-8f29-a3710f6a85f9",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Language characteristics'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=APL (programming language)&action=edit&section=10'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "0eac10a5-e183-464e-a3f7-3bd6f20b24de",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Use'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=APL (programming language)&action=edit&section=24'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "9de57496-d418-4977-9d78-85e178d2faa6",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Notable implementations'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=APL (programming language)&action=edit&section=25'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "fef5dee6-38e0-4544-a1d2-921ea0d80824",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Interpretation and compilation of APL'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=APL (programming language)&action=edit&section=34'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "16e46eda-4cdf-4e45-bc1f-e626099a4f6a",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Standards'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=APL (programming language)&action=edit&section=38'>\n<input type=submit value=create></form>"
+    }
+  ]
+}
