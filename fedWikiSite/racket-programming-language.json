@@ -1,0 +1,549 @@
+{
+  "title": "Racket (programming language)",
+  "journal": [
+    {
+      "date": 1551169072661,
+      "type": "create",
+      "item": {
+        "story": "",
+        "title": "Racket (programming language)"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1551168991217
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "2d976f88-7f00-4483-8215-c25a8bee0524",
+        "text": "# Features"
+      },
+      "after": "96e97360-f624-4a17-af01-1c43acc1f765",
+      "id": "2d976f88-7f00-4483-8215-c25a8bee0524",
+      "date": 1551169177746
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "77716676-59ab-4ec9-a7f1-b0ce111c90b4",
+        "text": "Racket's core language includes [[macro (computer science)#Syntactic macros]], [[modular programming]], [[closure (computer science)]], [[tail call]]s, [[delimited continuation]]s, parameters (fluid variables), [[design by contract]], [[green threads]] and OS [[thread (computer science)]], and more. The language also comes with primitives, such as eventspaces and custodians, which control resource management and enables the language to act like an [[operating system]] for loading and managing other programs.  Further extensions to the language are created with the powerful macro system, which together with the module system and custom parsers can control all aspects of a language.  Unlike programming languages that lack macro systems, most language constructs in Racket are written on the base language using macros.  These include a [[mixin]] class system, a component (or module) system as expressive as ML's [[opaque ascription]], and [[pattern matching]] - [https://en.wikipedia.org/wiki/Racket_(programming_language)#Features wikipedia]"
+      },
+      "after": "2d976f88-7f00-4483-8215-c25a8bee0524",
+      "id": "77716676-59ab-4ec9-a7f1-b0ce111c90b4",
+      "date": 1551169193156
+    },
+    {
+      "type": "edit",
+      "id": "77716676-59ab-4ec9-a7f1-b0ce111c90b4",
+      "item": {
+        "type": "markdown",
+        "id": "77716676-59ab-4ec9-a7f1-b0ce111c90b4",
+        "text": "Racket's core language includes [[macro (computer science)#Syntactic macros]], [[modular programming]], [[closure (computer science)]], [[tail call]]s, [[delimited continuation]]s, parameters (fluid variables), [[design by contract]], [[green threads]] and OS [[thread (computer science)]], and more. \n"
+      },
+      "date": 1551169200133
+    },
+    {
+      "type": "add",
+      "id": "9c5f7d5867ab0ccc",
+      "item": {
+        "type": "markdown",
+        "id": "9c5f7d5867ab0ccc",
+        "text": "The language also comes with primitives, such as eventspaces and custodians, which control resource management and enables the language to act like an [[operating system]] for loading and managing other programs.  \n"
+      },
+      "after": "77716676-59ab-4ec9-a7f1-b0ce111c90b4",
+      "date": 1551169204003
+    },
+    {
+      "type": "add",
+      "id": "9bf4ecbf8467f8e1",
+      "item": {
+        "type": "markdown",
+        "id": "9bf4ecbf8467f8e1",
+        "text": "Further extensions to the language are created with the powerful macro system, which together with the module system and custom parsers can control all aspects of a language.  \n"
+      },
+      "after": "9c5f7d5867ab0ccc",
+      "date": 1551169210554
+    },
+    {
+      "type": "add",
+      "id": "bbba990768aa4fdc",
+      "item": {
+        "type": "markdown",
+        "id": "bbba990768aa4fdc",
+        "text": "Unlike programming languages that lack macro systems, most language constructs in Racket are written on the base language using macros.  These include a [[mixin]] class system, a component (or module) system as expressive as ML's [[opaque ascription]], and [[pattern matching]] - [https://en.wikipedia.org/wiki/Racket_(programming_language)#Features wikipedia]"
+      },
+      "after": "9bf4ecbf8467f8e1",
+      "date": 1551169221240
+    },
+    {
+      "type": "edit",
+      "id": "bbba990768aa4fdc",
+      "item": {
+        "type": "markdown",
+        "id": "bbba990768aa4fdc",
+        "text": "Unlike programming languages that lack macro systems, most language constructs in Racket are written on the base language using macros.  These include a [[mixin]] class system, a component (or module) system as expressive as ML's [[opaque ascription]], and [[pattern matching]]."
+      },
+      "date": 1551169228723
+    },
+    {
+      "type": "edit",
+      "id": "77716676-59ab-4ec9-a7f1-b0ce111c90b4",
+      "item": {
+        "type": "markdown",
+        "id": "77716676-59ab-4ec9-a7f1-b0ce111c90b4",
+        "text": "Racket's core language includes [[macro (computer science)#Syntactic macros]], [[modular programming]], [[closure (computer science)]], [[tail call]]s, [[delimited continuation]]s, parameters (fluid variables), [[design by contract]], [[green threads]] and OS [[thread (computer science)]], and more - [https://en.wikipedia.org/wiki/Racket_(programming_language)#Features wikipedia]"
+      },
+      "date": 1551169236380
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "c4c2c756-3187-4492-b551-6b39d5a962df",
+        "text": "Further, the language features the first contract system for a [[higher-order programming]] language."
+      },
+      "after": "bbba990768aa4fdc",
+      "id": "c4c2c756-3187-4492-b551-6b39d5a962df",
+      "date": 1551169246965
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "f2e20359-b729-4e98-a243-61315a1b53eb",
+        "text": "Racket's contract system is inspired by the [[Design by Contract]] work for [[Eiffel (programming language)]] and extends it to work for higher-order values such as [[first-class function]]s, objects, [[Reference (computer science)]] cells, and so on. For example, an object that is checked by a contract can be ensured to make contract checks when its methods are eventually invoked."
+      },
+      "after": "c4c2c756-3187-4492-b551-6b39d5a962df",
+      "id": "f2e20359-b729-4e98-a243-61315a1b53eb",
+      "date": 1551169250464
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "31c9d3a3-0813-44ab-890e-f034548110ff",
+        "text": "Racket includes both [[bytecode]] and [[Just-in-time compilation]] (JIT) compilers. The bytecode compiler that translates to an internal bytecode format that is run by the Racket [[virtual machine]], with the JIT compiler transtating bytecoder to native code on [[x86]], [[x86-64]], [[ARM architecture]] and [[PowerPC]] platforms at runtime."
+      },
+      "after": "f2e20359-b729-4e98-a243-61315a1b53eb",
+      "id": "31c9d3a3-0813-44ab-890e-f034548110ff",
+      "date": 1551169257712
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "b41b332e-99e3-4024-bcb3-3e7c546739d7",
+        "text": "Since 2004, the language has also shipped with PLaneT, a package manager that is integrated into the module system so that [[third-party software component]] can be transparently imported and used. Also, PLaneT has a built-in [[software versioning]] policy to prevent [[dependency hell]]."
+      },
+      "after": "31c9d3a3-0813-44ab-890e-f034548110ff",
+      "id": "b41b332e-99e3-4024-bcb3-3e7c546739d7",
+      "date": 1551169259789
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "0af7ca0a-c36a-4631-86e5-578782aa90d1",
+        "text": "At the end of 2014, much of Racket's code was moved into a new packaging system separate from the main code base. This new packaging system is serviced by a client program named ''raco''. The new package system provides fewer features than PLaneT; a blog post by Jay McCarthy on the Racket blog explains the rationale for the change and how to duplicate the older system."
+      },
+      "after": "b41b332e-99e3-4024-bcb3-3e7c546739d7",
+      "id": "0af7ca0a-c36a-4631-86e5-578782aa90d1",
+      "date": 1551169261904
+    },
+    {
+      "type": "remove",
+      "id": "fe133c59-82e8-45ee-8cf4-580cb77e2039",
+      "date": 1551169270960
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "743d0fd6-4f34-4b1b-b593-e2772ad8e4b2",
+        "text": "# Applications and practical use"
+      },
+      "after": "0af7ca0a-c36a-4631-86e5-578782aa90d1",
+      "id": "743d0fd6-4f34-4b1b-b593-e2772ad8e4b2",
+      "date": 1551169459376
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "925e0214-b8c1-4185-8b35-97113bc5c950",
+        "text": "Apart from having a basis in [[programming language theory]], Racket was designed to be used as a general-purpose language in production systems.  Thus, the Racket distribution features an extensive library that covers systems and network programming, web development, a uniform interface to the underlying operating system, a dynamic [[foreign function interface]], several flavours of [[regular expressions]], lexer/parser generators, [[logic programming]], and a complete [[GUI]] framework - [https://en.wikipedia.org/wiki/Racket_(programming_language)#Applications_and_practical_use wikipedia]"
+      },
+      "after": "743d0fd6-4f34-4b1b-b593-e2772ad8e4b2",
+      "id": "925e0214-b8c1-4185-8b35-97113bc5c950",
+      "date": 1551169460899
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "76950893-b057-41cf-9784-e912340df296",
+        "text": "Racket has several features useful for a commercial language, among them an ability to generate standalone executables under Windows, macOS, and Unix, a [[Profiling (computer programming)]] and [[debugger]] included in the [[integrated development environment]] (IDE), and a [[unit testing]] framework."
+      },
+      "after": "925e0214-b8c1-4185-8b35-97113bc5c950",
+      "id": "76950893-b057-41cf-9784-e912340df296",
+      "date": 1551169463038
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "03dde6c0-e44d-4d28-b9f9-fc2d8372186a",
+        "text": "Racket has been used for commercial projects and web applications. A notable example is the [[Hacker News]] website, which runs on [[Arc (programming language)]], which is developed in Racket. [[Naughty Dog]] has used it as a scripting language in several of their video games."
+      },
+      "after": "76950893-b057-41cf-9784-e912340df296",
+      "id": "03dde6c0-e44d-4d28-b9f9-fc2d8372186a",
+      "date": 1551169465391
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "8bdd5dfb-e5c1-4249-b6af-9e8b89ab284c",
+        "text": "Racket is used to teach students algebra through game design in the [[Bootstrap curriculum]]."
+      },
+      "after": "03dde6c0-e44d-4d28-b9f9-fc2d8372186a",
+      "id": "8bdd5dfb-e5c1-4249-b6af-9e8b89ab284c",
+      "date": 1551169467843
+    },
+    {
+      "type": "remove",
+      "id": "3f8c26a2-1c0c-4d0d-abdc-5d76d52916c5",
+      "date": 1551169474212
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "5bffb8b1dd96d455",
+        "text": "# See also\n"
+      },
+      "after": "acc90663-93e8-4fd5-92d6-af99766e12b9",
+      "id": "5bffb8b1dd96d455",
+      "date": 1551169480990
+    },
+    {
+      "type": "add",
+      "id": "28eda82cd401f6c5",
+      "item": {
+        "type": "markdown",
+        "id": "28eda82cd401f6c5",
+        "text": "- [[Language Oriented Programming]]"
+      },
+      "after": "5bffb8b1dd96d455",
+      "date": 1551169513648
+    },
+    {
+      "type": "edit",
+      "id": "28eda82cd401f6c5",
+      "item": {
+        "type": "markdown",
+        "id": "28eda82cd401f6c5",
+        "text": "- [[Language Oriented Programming]]\n"
+      },
+      "date": 1551171328307
+    },
+    {
+      "type": "add",
+      "id": "d819b7aba15277cf",
+      "item": {
+        "type": "markdown",
+        "id": "d819b7aba15277cf",
+        "text": "- https://beautifulracket.com/"
+      },
+      "after": "28eda82cd401f6c5",
+      "date": 1551171334586
+    },
+    {
+      "type": "edit",
+      "id": "d819b7aba15277cf",
+      "item": {
+        "type": "markdown",
+        "id": "d819b7aba15277cf",
+        "text": "- https://beautifulracket.com\n- Racket can compile to [[LLVM]] using the racket-llvm bindings for Racket - [https://github.com/bubba/racket-llvm github]\n- Wracket dialect compiles to WebAssembly - [https://github.com/sschauss/wracket github]"
+      },
+      "date": 1551171371555
+    },
+    {
+      "type": "move",
+      "order": [
+        "90782ab3-d56b-44f6-8eaf-c068e87ca47e",
+        "d819b7aba15277cf",
+        "79936643-5ed7-4f6b-b506-084cc5f3f54b",
+        "bc0c3039-7fc8-4062-b3f7-3cdbc78354cb",
+        "c4f75e52-d763-4bee-b2df-bde148272193",
+        "96e97360-f624-4a17-af01-1c43acc1f765",
+        "2d976f88-7f00-4483-8215-c25a8bee0524",
+        "77716676-59ab-4ec9-a7f1-b0ce111c90b4",
+        "9c5f7d5867ab0ccc",
+        "9bf4ecbf8467f8e1",
+        "bbba990768aa4fdc",
+        "c4c2c756-3187-4492-b551-6b39d5a962df",
+        "f2e20359-b729-4e98-a243-61315a1b53eb",
+        "31c9d3a3-0813-44ab-890e-f034548110ff",
+        "b41b332e-99e3-4024-bcb3-3e7c546739d7",
+        "0af7ca0a-c36a-4631-86e5-578782aa90d1",
+        "743d0fd6-4f34-4b1b-b593-e2772ad8e4b2",
+        "925e0214-b8c1-4185-8b35-97113bc5c950",
+        "76950893-b057-41cf-9784-e912340df296",
+        "03dde6c0-e44d-4d28-b9f9-fc2d8372186a",
+        "8bdd5dfb-e5c1-4249-b6af-9e8b89ab284c",
+        "2c07c78b-b086-476b-b768-f4acff23abbb",
+        "6a3ef7d9-6f62-4c95-b67a-8005dbd126ae",
+        "a28871e8-1770-4665-b5bd-2c87d5860cf8",
+        "ab3d8c44-b4f6-4776-aa36-f5fa7910dfe6",
+        "acc90663-93e8-4fd5-92d6-af99766e12b9",
+        "5bffb8b1dd96d455",
+        "28eda82cd401f6c5"
+      ],
+      "id": "d819b7aba15277cf",
+      "date": 1551171386431
+    },
+    {
+      "type": "edit",
+      "id": "90782ab3-d56b-44f6-8eaf-c068e87ca47e",
+      "item": {
+        "type": "markdown",
+        "id": "90782ab3-d56b-44f6-8eaf-c068e87ca47e",
+        "text": "__Racket__ (formerly __PLT Scheme__) is a [[General-purpose programming language]], [[multi-paradigm programming language]] based on the [[Scheme (programming language)]] dialect of [[Lisp (programming language)]]. \n"
+      },
+      "date": 1551171392126
+    },
+    {
+      "type": "add",
+      "id": "9023b296e501cc5a",
+      "item": {
+        "type": "markdown",
+        "id": "9023b296e501cc5a",
+        "text": "It is designed to be a platform for programming language design and implementation. Racket is also used for [[script (computing)]], [[computer science]] education, and research - [https://en.wikipedia.org/wiki/Racket_(programming_language) wikipedia]"
+      },
+      "after": "90782ab3-d56b-44f6-8eaf-c068e87ca47e",
+      "date": 1551171392676
+    },
+    {
+      "type": "move",
+      "order": [
+        "90782ab3-d56b-44f6-8eaf-c068e87ca47e",
+        "d819b7aba15277cf",
+        "9023b296e501cc5a",
+        "79936643-5ed7-4f6b-b506-084cc5f3f54b",
+        "bc0c3039-7fc8-4062-b3f7-3cdbc78354cb",
+        "c4f75e52-d763-4bee-b2df-bde148272193",
+        "96e97360-f624-4a17-af01-1c43acc1f765",
+        "2d976f88-7f00-4483-8215-c25a8bee0524",
+        "77716676-59ab-4ec9-a7f1-b0ce111c90b4",
+        "9c5f7d5867ab0ccc",
+        "9bf4ecbf8467f8e1",
+        "bbba990768aa4fdc",
+        "c4c2c756-3187-4492-b551-6b39d5a962df",
+        "f2e20359-b729-4e98-a243-61315a1b53eb",
+        "31c9d3a3-0813-44ab-890e-f034548110ff",
+        "b41b332e-99e3-4024-bcb3-3e7c546739d7",
+        "0af7ca0a-c36a-4631-86e5-578782aa90d1",
+        "743d0fd6-4f34-4b1b-b593-e2772ad8e4b2",
+        "925e0214-b8c1-4185-8b35-97113bc5c950",
+        "76950893-b057-41cf-9784-e912340df296",
+        "03dde6c0-e44d-4d28-b9f9-fc2d8372186a",
+        "8bdd5dfb-e5c1-4249-b6af-9e8b89ab284c",
+        "2c07c78b-b086-476b-b768-f4acff23abbb",
+        "6a3ef7d9-6f62-4c95-b67a-8005dbd126ae",
+        "a28871e8-1770-4665-b5bd-2c87d5860cf8",
+        "ab3d8c44-b4f6-4776-aa36-f5fa7910dfe6",
+        "acc90663-93e8-4fd5-92d6-af99766e12b9",
+        "5bffb8b1dd96d455",
+        "28eda82cd401f6c5"
+      ],
+      "id": "9023b296e501cc5a",
+      "date": 1551171396611
+    },
+    {
+      "type": "edit",
+      "id": "9023b296e501cc5a",
+      "item": {
+        "type": "markdown",
+        "id": "9023b296e501cc5a",
+        "text": "It is designed to be a platform for programming language design and implementation. Racket is also used for [[script (computing)]], [[computer science]] education, and research."
+      },
+      "date": 1551171401635
+    },
+    {
+      "type": "edit",
+      "id": "90782ab3-d56b-44f6-8eaf-c068e87ca47e",
+      "item": {
+        "type": "markdown",
+        "id": "90782ab3-d56b-44f6-8eaf-c068e87ca47e",
+        "text": "__Racket__ (formerly __PLT Scheme__) is a [[General-purpose programming language]], [[multi-paradigm programming language]] based on the [[Scheme (programming language)]] dialect of [[Lisp (programming language)]] - [https://en.wikipedia.org/wiki/Racket_(programming_language) wikipedia]\n"
+      },
+      "date": 1551171405764
+    },
+    {
+      "type": "fork",
+      "site": "literate.wiki",
+      "date": 1551171424228
+    },
+    {
+      "type": "edit",
+      "id": "d819b7aba15277cf",
+      "item": {
+        "type": "markdown",
+        "id": "d819b7aba15277cf",
+        "text": "- [[Language Oriented Programming]]\n- https://beautifulracket.com\n- Racket can compile to [[LLVM]] using the racket-llvm bindings for Racket - [https://github.com/bubba/racket-llvm github]\n- Wracket dialect compiles to WebAssembly - [https://github.com/sschauss/wracket github]"
+      },
+      "date": 1551171442586
+    }
+  ],
+  "story": [
+    {
+      "type": "markdown",
+      "id": "90782ab3-d56b-44f6-8eaf-c068e87ca47e",
+      "text": "__Racket__ (formerly __PLT Scheme__) is a [[General-purpose programming language]], [[multi-paradigm programming language]] based on the [[Scheme (programming language)]] dialect of [[Lisp (programming language)]] - [https://en.wikipedia.org/wiki/Racket_(programming_language) wikipedia]\n"
+    },
+    {
+      "type": "markdown",
+      "id": "d819b7aba15277cf",
+      "text": "- [[Language Oriented Programming]]\n- https://beautifulracket.com\n- Racket can compile to [[LLVM]] using the racket-llvm bindings for Racket - [https://github.com/bubba/racket-llvm github]\n- Wracket dialect compiles to WebAssembly - [https://github.com/sschauss/wracket github]"
+    },
+    {
+      "type": "markdown",
+      "id": "9023b296e501cc5a",
+      "text": "It is designed to be a platform for programming language design and implementation. Racket is also used for [[script (computing)]], [[computer science]] education, and research."
+    },
+    {
+      "type": "html",
+      "id": "79936643-5ed7-4f6b-b506-084cc5f3f54b",
+      "text": "<div style='padding: 12px; background:#eee; width:96%; align=centered;'>\n<a href='https://upload.wikimedia.org/wikipedia/commons/b/b5/Drracket.png' target='_blank'>\n<img style='display:block; margin:auto; width:100%;'\nsrc='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Drracket.png/271px-Drracket.png'>\n</a>\n\n<p class=caption>\nRacket (programming language). programming language\n- [https://upload.wikimedia.org/wikipedia/commons/b/b5/Drracket.png wikimedia]\n</p></div>"
+    },
+    {
+      "type": "markdown",
+      "id": "bc0c3039-7fc8-4062-b3f7-3cdbc78354cb",
+      "text": "The Racket platform provides an implementation of the Racket language (including a [[run-time system]], libraries, and [[just-in-time compilation]]) along with the DrRacket [[integrated development environment]] (IDE) written in Racket. Racket is used by the [[ProgramByDesign]] outreach program, which aims to turn [[computer science]] into \"an indispensable part of the [[liberal arts]] [[curriculum]]\"."
+    },
+    {
+      "type": "markdown",
+      "id": "c4f75e52-d763-4bee-b2df-bde148272193",
+      "text": "The core Racket language is known for its extensive [[macro (computer science)]] system which enables creating embedded and [[domain-specific language]]s, language constructs such as [[class (computer programming)]] or [[modular programming]], and separate dialects of Racket with different [[semantics of programming languages]]."
+    },
+    {
+      "type": "markdown",
+      "id": "96e97360-f624-4a17-af01-1c43acc1f765",
+      "text": "The platform distribution is [[free and open-source software]] distributed under the [[GNU Lesser General Public License]] (LGPL). Extensions and packages written by the community may be uploaded to Racket's [[package manager]]."
+    },
+    {
+      "type": "markdown",
+      "id": "2d976f88-7f00-4483-8215-c25a8bee0524",
+      "text": "# Features"
+    },
+    {
+      "type": "markdown",
+      "id": "77716676-59ab-4ec9-a7f1-b0ce111c90b4",
+      "text": "Racket's core language includes [[macro (computer science)#Syntactic macros]], [[modular programming]], [[closure (computer science)]], [[tail call]]s, [[delimited continuation]]s, parameters (fluid variables), [[design by contract]], [[green threads]] and OS [[thread (computer science)]], and more - [https://en.wikipedia.org/wiki/Racket_(programming_language)#Features wikipedia]"
+    },
+    {
+      "type": "markdown",
+      "id": "9c5f7d5867ab0ccc",
+      "text": "The language also comes with primitives, such as eventspaces and custodians, which control resource management and enables the language to act like an [[operating system]] for loading and managing other programs.  \n"
+    },
+    {
+      "type": "markdown",
+      "id": "9bf4ecbf8467f8e1",
+      "text": "Further extensions to the language are created with the powerful macro system, which together with the module system and custom parsers can control all aspects of a language.  \n"
+    },
+    {
+      "type": "markdown",
+      "id": "bbba990768aa4fdc",
+      "text": "Unlike programming languages that lack macro systems, most language constructs in Racket are written on the base language using macros.  These include a [[mixin]] class system, a component (or module) system as expressive as ML's [[opaque ascription]], and [[pattern matching]]."
+    },
+    {
+      "type": "markdown",
+      "id": "c4c2c756-3187-4492-b551-6b39d5a962df",
+      "text": "Further, the language features the first contract system for a [[higher-order programming]] language."
+    },
+    {
+      "type": "markdown",
+      "id": "f2e20359-b729-4e98-a243-61315a1b53eb",
+      "text": "Racket's contract system is inspired by the [[Design by Contract]] work for [[Eiffel (programming language)]] and extends it to work for higher-order values such as [[first-class function]]s, objects, [[Reference (computer science)]] cells, and so on. For example, an object that is checked by a contract can be ensured to make contract checks when its methods are eventually invoked."
+    },
+    {
+      "type": "markdown",
+      "id": "31c9d3a3-0813-44ab-890e-f034548110ff",
+      "text": "Racket includes both [[bytecode]] and [[Just-in-time compilation]] (JIT) compilers. The bytecode compiler that translates to an internal bytecode format that is run by the Racket [[virtual machine]], with the JIT compiler transtating bytecoder to native code on [[x86]], [[x86-64]], [[ARM architecture]] and [[PowerPC]] platforms at runtime."
+    },
+    {
+      "type": "markdown",
+      "id": "b41b332e-99e3-4024-bcb3-3e7c546739d7",
+      "text": "Since 2004, the language has also shipped with PLaneT, a package manager that is integrated into the module system so that [[third-party software component]] can be transparently imported and used. Also, PLaneT has a built-in [[software versioning]] policy to prevent [[dependency hell]]."
+    },
+    {
+      "type": "markdown",
+      "id": "0af7ca0a-c36a-4631-86e5-578782aa90d1",
+      "text": "At the end of 2014, much of Racket's code was moved into a new packaging system separate from the main code base. This new packaging system is serviced by a client program named ''raco''. The new package system provides fewer features than PLaneT; a blog post by Jay McCarthy on the Racket blog explains the rationale for the change and how to duplicate the older system."
+    },
+    {
+      "type": "markdown",
+      "id": "743d0fd6-4f34-4b1b-b593-e2772ad8e4b2",
+      "text": "# Applications and practical use"
+    },
+    {
+      "type": "markdown",
+      "id": "925e0214-b8c1-4185-8b35-97113bc5c950",
+      "text": "Apart from having a basis in [[programming language theory]], Racket was designed to be used as a general-purpose language in production systems.  Thus, the Racket distribution features an extensive library that covers systems and network programming, web development, a uniform interface to the underlying operating system, a dynamic [[foreign function interface]], several flavours of [[regular expressions]], lexer/parser generators, [[logic programming]], and a complete [[GUI]] framework - [https://en.wikipedia.org/wiki/Racket_(programming_language)#Applications_and_practical_use wikipedia]"
+    },
+    {
+      "type": "markdown",
+      "id": "76950893-b057-41cf-9784-e912340df296",
+      "text": "Racket has several features useful for a commercial language, among them an ability to generate standalone executables under Windows, macOS, and Unix, a [[Profiling (computer programming)]] and [[debugger]] included in the [[integrated development environment]] (IDE), and a [[unit testing]] framework."
+    },
+    {
+      "type": "markdown",
+      "id": "03dde6c0-e44d-4d28-b9f9-fc2d8372186a",
+      "text": "Racket has been used for commercial projects and web applications. A notable example is the [[Hacker News]] website, which runs on [[Arc (programming language)]], which is developed in Racket. [[Naughty Dog]] has used it as a scripting language in several of their video games."
+    },
+    {
+      "type": "markdown",
+      "id": "8bdd5dfb-e5c1-4249-b6af-9e8b89ab284c",
+      "text": "Racket is used to teach students algebra through game design in the [[Bootstrap curriculum]]."
+    },
+    {
+      "type": "markdown",
+      "id": "2c07c78b-b086-476b-b768-f4acff23abbb",
+      "text": "# Tools\n\nSearch for [[free culture]] images for this page on [https://www.google.com/search?as_st=y&tbm=isch&as_q=Racket+%28programming+language%29&as_epq=&as_oq=&as_eq=&cr=&as_sitesearch=&safe=images&tbs=sur:fmc&gws_rd=ssl google]"
+    },
+    {
+      "type": "markdown",
+      "id": "6a3ef7d9-6f62-4c95-b67a-8005dbd126ae",
+      "text": "# Sections"
+    },
+    {
+      "type": "html",
+      "id": "a28871e8-1770-4665-b5bd-2c87d5860cf8",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='History'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Racket (programming language)&action=edit&section=1'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "ab3d8c44-b4f6-4776-aa36-f5fa7910dfe6",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Programming environment'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Racket (programming language)&action=edit&section=6'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "acc90663-93e8-4fd5-92d6-af99766e12b9",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Code examples'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Racket (programming language)&action=edit&section=8'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "markdown",
+      "id": "5bffb8b1dd96d455",
+      "text": "# See also\n"
+    },
+    {
+      "type": "markdown",
+      "id": "28eda82cd401f6c5",
+      "text": "- [[Language Oriented Programming]]\n"
+    }
+  ]
+}
