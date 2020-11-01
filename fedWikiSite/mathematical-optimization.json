@@ -1,0 +1,104 @@
+{
+  "title": "Mathematical optimization",
+  "journal": [
+    {
+      "date": 1550998320387,
+      "type": "create",
+      "item": {
+        "story": "",
+        "title": "Mathematical optimization"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1550998193015
+    }
+  ],
+  "story": [
+    {
+      "type": "markdown",
+      "id": "a14976c0-9169-432e-b1a3-6c8ef425aa16",
+      "text": "In [[mathematics]], [[computer science]] and [[operations research]], __mathematical optimization__ (alternatively spelled ''optimisation'') or __mathematical programming__ is the selection of a best element (with regard to some criterion) from some set of available alternatives - [https://en.wikipedia.org/wiki/Mathematical_optimization wikipedia]"
+    },
+    {
+      "type": "html",
+      "id": "9a5bdbf8-137a-4bc1-a2bd-747335b03cf0",
+      "text": "<div style='padding: 12px; background:#eee; width:96%; align=centered;'>\n<a href='https://commons.wikimedia.org/wiki/File:Max_paraboloid.svg' target='_blank'>\n<img style='display:block; margin:auto; width:100%;'\nsrc='https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Max_paraboloid.svg/420px-Max_paraboloid.svg.png'>\n</a>\n\n<p class=caption>\nmaximum]] at (''x, y, z'') = (0, 0, 4) is indicated by a blue dot\n- [https://commons.wikimedia.org/wiki/File:Max_paraboloid.svg wikimedia]\n</p></div>"
+    },
+    {
+      "type": "html",
+      "id": "d69b3451-3204-408b-883b-c4570317257d",
+      "text": "<div style='padding: 12px; background:#eee; width:96%; align=centered;'>\n<a href='https://commons.wikimedia.org/wiki/File:Nelder-Mead_Simionescu.gif' target='_blank'>\n<img style='display:block; margin:auto; width:100%;'\nsrc='https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Nelder-Mead_Simionescu.gif/420px-Nelder-Mead_Simionescu.gif'>\n</a>\n\n<p class=caption>\nSimionescu's function]]. Simplex vertices are ordered by their value, with 1 having the lowest (best) value\n- [https://commons.wikimedia.org/wiki/File:Nelder-Mead_Simionescu.gif wikimedia]\n</p></div>"
+    },
+    {
+      "type": "markdown",
+      "id": "fdda0169-8926-4003-8030-ec923dca8445",
+      "text": "In the simplest case, an [[optimization problem]] consists of [[maxima and minima]] a [[Function of a real variable]] by systematically choosing [[Argument of a function]] values from within an allowed set and computing the [[Value (mathematics)]] of the function. The generalization of optimization theory and techniques to other formulations constitutes a large area of [[applied mathematics]]. More generally, optimization includes finding \"best available\" values of some objective function given a defined [[domain of a function]] (or input), including a variety of different types of objective functions and different types of domains."
+    },
+    {
+      "type": "markdown",
+      "id": "bb62776b-58b4-4ace-a9ed-f06d2bc26723",
+      "text": "# Tools\n\nSearch for [[free culture]] images for this page on [https://www.google.com/search?as_st=y&tbm=isch&as_q=Mathematical+optimization&as_epq=&as_oq=&as_eq=&cr=&as_sitesearch=&safe=images&tbs=sur:fmc&gws_rd=ssl google]"
+    },
+    {
+      "type": "markdown",
+      "id": "ab518318-739d-469e-9ed4-03b6105864ea",
+      "text": "# Sections"
+    },
+    {
+      "type": "html",
+      "id": "46b9fc36-deea-4f54-b53e-f952f0128d7d",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Optimization problems'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Mathematical optimization&action=edit&section=1'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "78f3119b-0f26-446e-806e-69a48556b613",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Notation'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Mathematical optimization&action=edit&section=2'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "b360990e-88bf-450f-b405-d50422d88972",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='History'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Mathematical optimization&action=edit&section=5'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "c0f60d86-b364-436f-b645-32219a5edc86",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Major subfields'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Mathematical optimization&action=edit&section=6'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "f941f592-b8be-4996-aaa9-4342bb24f7af",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Classification of critical points and extrema'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Mathematical optimization&action=edit&section=9'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "1f2019f1-83fd-4bb7-a1f4-d980907133ca",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Computational optimization techniques'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Mathematical optimization&action=edit&section=16'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "039117ec-ee15-46a7-9952-da320ea175b7",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Applications'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Mathematical optimization&action=edit&section=21'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "ba0923cc-1dc3-4366-a1e7-2acb8bb5945c",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Solvers'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Mathematical optimization&action=edit&section=31'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "ba56f7f8-4fa7-4f76-89d1-afd5e9d05050",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Journals'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Mathematical optimization&action=edit&section=41'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "markdown",
+      "id": "d01f6a29-c68f-441e-a6d5-af245a332d2a",
+      "text": "# See also"
+    },
+    {
+      "type": "markdown",
+      "id": "06c3b488-a69c-4bb1-b5eb-8d8171c523f4",
+      "text": "- [[Brachistochrone]]\n- [[Curve fitting]]\n- [[Deterministic global optimization]]\n- [[Goal programming]]\n- [[Important publications in optimization]]\n- [[Least squares]]\n- [[Mathematical Optimization Society]]\n- [[Mathematical optimization algorithms]]\n- [[Mathematical optimization software]]\n- [[Process optimization]]\n- [[Simulation-based optimization]]\n- [[Test functions for optimization]]\n- [[Variational calculus]]\n- [[Vehicle routing problem]]"
+    }
+  ]
+}
