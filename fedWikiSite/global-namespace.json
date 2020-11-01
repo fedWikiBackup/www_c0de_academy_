@@ -1,0 +1,163 @@
+{
+  "title": "Global Namespace",
+  "journal": [
+    {
+      "date": 1547820705385,
+      "type": "create",
+      "item": {
+        "story": "",
+        "title": "Global Namespace"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1547820591873
+    },
+    {
+      "type": "edit",
+      "id": "080d0789-be72-4673-8cce-416b05a286ea",
+      "item": {
+        "type": "markdown",
+        "id": "080d0789-be72-4673-8cce-416b05a286ea",
+        "text": "A Global Namespace has the unique ability to aggregate disparate and remote network based file systems, providing a consolidated view that can greatly reduce complexities of localized file management and administration.  \n"
+      },
+      "date": 1547820613752
+    },
+    {
+      "type": "add",
+      "id": "396566f28d4fc993",
+      "item": {
+        "type": "markdown",
+        "id": "396566f28d4fc993",
+        "text": "For example, prior to file system namespace consolidation, two servers exist and each represent their own independent namespaces; e.g. \\\\server1\\share1 & \\\\server2\\share2.  Various files exist within each share respectively; however, users have to access each namespace independently.  This becomes an obvious challenge as the number of namespaces grows within an organization."
+      },
+      "after": "080d0789-be72-4673-8cce-416b05a286ea",
+      "date": 1547820631460
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "9708c6a6-12ff-404e-a271-26cb617df3ec",
+        "text": "# Standards"
+      },
+      "after": "3f536e81-a4f4-4606-9193-bf4781377d0b",
+      "id": "9708c6a6-12ff-404e-a271-26cb617df3ec",
+      "date": 1547820650416
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "831d682a-fef3-4ad0-a851-9af33f8a9177",
+        "text": "Global Namespace technology can virtualize file server protocols such as [[Common Internet File System]] (CIFS) protocol and the [[Network File System (protocol)]] (NFS) protocols.  These are standard protocols used by all servers, [[network attached storage]] (NAS) devices and client systems for handling file data - [https://en.wikipedia.org/wiki/Global_Namespace#Standards wikipedia]"
+      },
+      "after": "9708c6a6-12ff-404e-a271-26cb617df3ec",
+      "id": "831d682a-fef3-4ad0-a851-9af33f8a9177",
+      "date": 1547820653548
+    },
+    {
+      "type": "remove",
+      "id": "8c61f7af-f7b1-442d-a0ea-15e32e609b02",
+      "date": 1547820657181
+    },
+    {
+      "type": "edit",
+      "id": "e184b446-b943-48be-b775-efa33b55aa32",
+      "item": {
+        "type": "markdown",
+        "id": "e184b446-b943-48be-b775-efa33b55aa32",
+        "text": "# See also\n"
+      },
+      "date": 1547820666322
+    },
+    {
+      "type": "add",
+      "id": "4cd2497cdc728fe3",
+      "item": {
+        "type": "markdown",
+        "id": "4cd2497cdc728fe3",
+        "text": "- [[IPFS]]\n- [[Permanent Web]]"
+      },
+      "after": "e184b446-b943-48be-b775-efa33b55aa32",
+      "date": 1547820683047
+    },
+    {
+      "type": "remove",
+      "id": "e8ac941a-7d6a-4051-bb7a-1a514e42c199",
+      "date": 1547820686357
+    },
+    {
+      "type": "edit",
+      "id": "4cd2497cdc728fe3",
+      "item": {
+        "type": "markdown",
+        "id": "4cd2497cdc728fe3",
+        "text": "- [[IPFS]]\n- [[Permanent Web]]\n- [[UUID]]"
+      },
+      "date": 1547820696272
+    },
+    {
+      "type": "edit",
+      "id": "4cd2497cdc728fe3",
+      "item": {
+        "type": "markdown",
+        "id": "4cd2497cdc728fe3",
+        "text": "- [[IPFS]]\n- [[Permanent Web]]\n- [[Universally unique identifier]]"
+      },
+      "date": 1547821164267
+    },
+    {
+      "type": "fork",
+      "site": "livecode.world",
+      "date": 1547821174862
+    }
+  ],
+  "story": [
+    {
+      "type": "markdown",
+      "id": "23ef7185-ced0-4798-879e-505d2aa55c1a",
+      "text": "A __Global Namespace__ (GNS) is a heterogeneous, enterprise-wide abstraction of all file information, open to dynamic customization based on user-defined parameters.  This becomes of particular importance as multiple network based file systems proliferate within an organization—the challenge becomes one of effective file management - [https://en.wikipedia.org/wiki/Global_Namespace wikipedia]"
+    },
+    {
+      "type": "markdown",
+      "id": "080d0789-be72-4673-8cce-416b05a286ea",
+      "text": "A Global Namespace has the unique ability to aggregate disparate and remote network based file systems, providing a consolidated view that can greatly reduce complexities of localized file management and administration.  \n"
+    },
+    {
+      "type": "markdown",
+      "id": "396566f28d4fc993",
+      "text": "For example, prior to file system namespace consolidation, two servers exist and each represent their own independent namespaces; e.g. \\\\server1\\share1 & \\\\server2\\share2.  Various files exist within each share respectively; however, users have to access each namespace independently.  This becomes an obvious challenge as the number of namespaces grows within an organization."
+    },
+    {
+      "type": "markdown",
+      "id": "4c9f2b90-8dfa-4f10-9685-dd586586abda",
+      "text": "With a GNS, an organization can access a virtualized file system namespace; e.g. files now exist under a unified structure, such as \\\\company.com\\share1, share2—where the files exist in multiple physical server\\share locations but appear to be part of a single namespace."
+    },
+    {
+      "type": "markdown",
+      "id": "3f536e81-a4f4-4606-9193-bf4781377d0b",
+      "text": "Some of the main reasons behind a GNS is to open up more storage pools for larger working pools of disk, migrate data transparently, and reduce number of mount points / shares in an environment.  Vendors implement this technology in different ways, but the client view is designed to be the same."
+    },
+    {
+      "type": "markdown",
+      "id": "9708c6a6-12ff-404e-a271-26cb617df3ec",
+      "text": "# Standards"
+    },
+    {
+      "type": "markdown",
+      "id": "831d682a-fef3-4ad0-a851-9af33f8a9177",
+      "text": "Global Namespace technology can virtualize file server protocols such as [[Common Internet File System]] (CIFS) protocol and the [[Network File System (protocol)]] (NFS) protocols.  These are standard protocols used by all servers, [[network attached storage]] (NAS) devices and client systems for handling file data - [https://en.wikipedia.org/wiki/Global_Namespace#Standards wikipedia]"
+    },
+    {
+      "type": "markdown",
+      "id": "e184b446-b943-48be-b775-efa33b55aa32",
+      "text": "# See also\n"
+    },
+    {
+      "type": "markdown",
+      "id": "4cd2497cdc728fe3",
+      "text": "- [[IPFS]]\n- [[Permanent Web]]\n- [[Universally unique identifier]]"
+    }
+  ]
+}
