@@ -1,0 +1,2186 @@
+{
+  "title": "JSON Plugin",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "94734ee597653649",
+      "text": "We read and write the json 'resource' subtree within the JSON item on this page. See [[About JSON Plugin]]"
+    },
+    {
+      "type": "markdown",
+      "id": "3909ef38d9e83d7e",
+      "text": "- [[JSON Plugin Security]]\n- [[JSON Plugin API]]\n- [[JSON Plugin Examples]]"
+    },
+    {
+      "type": "markdown",
+      "id": "7ebf017c69dfbc59",
+      "text": "# Example"
+    },
+    {
+      "type": "paragraph",
+      "id": "1d01d6470608d2a2",
+      "text": "The web addressable data on this page is easily readable with an external link:"
+    },
+    {
+      "type": "markdown",
+      "id": "3d55c116b3d13e20",
+      "text": "- [http:/plugin/json/json-plugin http:/plugin/json/json-plugin]\n- http://search.fedwiki.org/plugin/json/json-plugin\n"
+    },
+    {
+      "type": "json",
+      "id": "35ece947aa90b581",
+      "text": "To read and write to this plugin use the url \"http:/plugin/json/json-plugin\"",
+      "resource": {
+        "mpx4250": 354.5420560747664,
+        "a2010": 984.9532710280374,
+        "a2011": 483.93457943925233,
+        "a2012": 0,
+        "a2013": 785.8878504672897,
+        "a2014": 0.9825285302467764,
+        "acrms": 223.38825472741553
+      },
+      "slug": "json-plugin",
+      "writes": 56730,
+      "written": 1491577041948,
+      "interval": 102089,
+      "writer": "demo"
+    },
+    {
+      "type": "reference",
+      "id": "717b04b15927d454",
+      "site": "admin.fedwiki.org",
+      "slug": "atopia-fedwiki-sites",
+      "title": "Atopia Fedwiki Sites",
+      "text": "Here we list all the [[Fedwiki]] sites served by the [[Atopia]] server of [[Digital Ocean]]."
+    },
+    {
+      "type": "reference",
+      "id": "1232438b0c8603d3",
+      "site": "localhost:3000",
+      "slug": "json-plugin",
+      "title": "JSON Plugin",
+      "text": "Here we keep private notes about the plugin configuration on [[your local server]] - [[hopefully running securely]] behind your firewall."
+    },
+    {
+      "type": "markdown",
+      "id": "686ee871469b8fa8",
+      "text": "# Resources"
+    },
+    {
+      "type": "paragraph",
+      "id": "05f8ed14ff686d79",
+      "text": "REST Best Practices for Concurrent Updates. [https://blog.4psa.com/rest-best-practices-managing-concurrent-updates/ post]"
+    },
+    {
+      "type": "plugmatic",
+      "id": "35e960a5c70e1e79",
+      "text": "wiki-plugin-json"
+    },
+    {
+      "type": "markdown",
+      "id": "bc851e89b31cdab2",
+      "text": "# See also\n"
+    },
+    {
+      "type": "markdown",
+      "id": "0745a74a5068cd97",
+      "text": "- [[JSON Plugin]]\n- [[JSON Plugin Security]]\n- [[JSON API Keys]]\n- [[JSON Plugin API]]\n- [[JSON Plugin Examples]]\n- [[Atopia Fedwiki Sites]]\n\n"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "JSON Plugin",
+        "story": []
+      },
+      "date": 1471841312228
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "94734ee597653649",
+        "text": "We read and write json subtrees within this item."
+      },
+      "id": "94734ee597653649",
+      "date": 1471841348174
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "26ec29edb22d01bf",
+        "text": "See [[About JSON Plugin]]"
+      },
+      "after": "94734ee597653649",
+      "id": "26ec29edb22d01bf",
+      "date": 1471841351548
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "1d01d6470608d2a2",
+        "text": "This page has. [http:/plugin/json/testing-json json]"
+      },
+      "after": "26ec29edb22d01bf",
+      "id": "1d01d6470608d2a2",
+      "date": 1471841355911
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "json",
+        "id": "35ece947aa90b581",
+        "text": "145 reads, 44 writes, 4 array, 46 object, 122 string, 15 number, 120 null",
+        "resource": {
+          "foo": "bar"
+        }
+      },
+      "after": "1d01d6470608d2a2",
+      "id": "35ece947aa90b581",
+      "date": 1471841360333
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "686ee871469b8fa8",
+        "text": "# Resources"
+      },
+      "after": "35ece947aa90b581",
+      "id": "686ee871469b8fa8",
+      "date": 1471841364238
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "05f8ed14ff686d79",
+        "text": "REST Best Practices for Concurrent Updates. [https://blog.4psa.com/rest-best-practices-managing-concurrent-updates/ post]"
+      },
+      "after": "686ee871469b8fa8",
+      "id": "05f8ed14ff686d79",
+      "date": 1471841369889
+    },
+    {
+      "type": "edit",
+      "id": "1d01d6470608d2a2",
+      "item": {
+        "type": "paragraph",
+        "id": "1d01d6470608d2a2",
+        "text": "This page has data accessible through rest. [http:/plugin/json/json-plugin json]"
+      },
+      "date": 1471841456962,
+      "error": {
+        "type": "error",
+        "msg": "Forbidden",
+        "response": "Forbidden"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1471842725027
+    },
+    {
+      "type": "edit",
+      "id": "35ece947aa90b581",
+      "item": {
+        "type": "json",
+        "id": "35ece947aa90b581",
+        "text": "44 writes, 46 objects, 4 arrays.",
+        "resource": {
+          "foo": "bar"
+        }
+      },
+      "date": 1471842759072
+    },
+    {
+      "type": "edit",
+      "id": "94734ee597653649",
+      "item": {
+        "type": "paragraph",
+        "id": "94734ee597653649",
+        "text": "We read and write the json 'resource' subtree within the JSON item on this page. "
+      },
+      "date": 1471880349478
+    },
+    {
+      "type": "edit",
+      "id": "1d01d6470608d2a2",
+      "item": {
+        "type": "paragraph",
+        "id": "1d01d6470608d2a2",
+        "text": "This page has web addressable data. [http:/plugin/json/json-plugin json]"
+      },
+      "date": 1471880371458
+    },
+    {
+      "type": "edit",
+      "id": "1d01d6470608d2a2",
+      "item": {
+        "type": "paragraph",
+        "id": "1d01d6470608d2a2",
+        "text": "The web addressable data on this page is easily readable with an external link. [http:/plugin/json/json-plugin json]"
+      },
+      "date": 1471880463209
+    },
+    {
+      "type": "add",
+      "id": "4fb43a4c2635176b",
+      "item": {
+        "type": "paragraph",
+        "id": "4fb43a4c2635176b",
+        "text": "We've yet to figure out how it should be displayed here but we'll probably just show some statistics."
+      },
+      "after": "1d01d6470608d2a2",
+      "date": 1471880529395
+    },
+    {
+      "type": "add",
+      "id": "fad521fc3bf2180a",
+      "item": {
+        "type": "paragraph",
+        "id": "fad521fc3bf2180a",
+        "text": "Write to this page with curl using the temporary api key. Soon we will figure out secure key management."
+      },
+      "after": "4fb43a4c2635176b",
+      "date": 1471880652229
+    },
+    {
+      "type": "move",
+      "order": [
+        "94734ee597653649",
+        "26ec29edb22d01bf",
+        "1d01d6470608d2a2",
+        "4fb43a4c2635176b",
+        "35ece947aa90b581",
+        "fad521fc3bf2180a",
+        "686ee871469b8fa8",
+        "05f8ed14ff686d79"
+      ],
+      "id": "fad521fc3bf2180a",
+      "date": 1471880655940
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "code",
+        "id": "6803b3063cc970e8",
+        "text": "echo '{\"foo\": \"bar\"}' |\\\n  curl -X PUT  -d @- \\\n    -H \"Content-Type: application/json\" \\\n    -H \"X-Api-Key:35ece947aa90b581\" \\\n    http://<site>/plugin/json/<slug>"
+      },
+      "after": "fad521fc3bf2180a",
+      "id": "6803b3063cc970e8",
+      "date": 1471880661582
+    },
+    {
+      "type": "edit",
+      "id": "6803b3063cc970e8",
+      "item": {
+        "type": "code",
+        "id": "6803b3063cc970e8",
+        "text": "echo '{\"foo\": \"bar\"}' |\\\n  curl -X PUT  -d @- \\\n    -H \"Content-Type: application/json\" \\\n    -H \"X-Api-Key:35ece947aa90b581\" \\\n    http://ward.asia.wiki.org/plugin/json/json-plugin"
+      },
+      "date": 1471880688804
+    },
+    {
+      "type": "add",
+      "id": "c3b1f25fdd93a1e8",
+      "item": {
+        "type": "paragraph",
+        "id": "c3b1f25fdd93a1e8",
+        "text": "This work-in-progress is available for preview. [https://github.com/WardCunningham/wiki-plugin-json github]"
+      },
+      "after": "fad521fc3bf2180a",
+      "date": 1471880779489
+    },
+    {
+      "type": "edit",
+      "id": "c3b1f25fdd93a1e8",
+      "item": {
+        "type": "paragraph",
+        "id": "c3b1f25fdd93a1e8",
+        "text": "This work-in-progress is available for preview. [https://github.com/WardCunningham/wiki-plugin-json github] [https://www.npmjs.com/package/wiki-plugin-json npm]"
+      },
+      "date": 1471880845977
+    },
+    {
+      "type": "edit",
+      "id": "c3b1f25fdd93a1e8",
+      "item": {
+        "type": "paragraph",
+        "id": "c3b1f25fdd93a1e8",
+        "text": "This work-in-progress is available for preview as source or package. [https://github.com/WardCunningham/wiki-plugin-json github] [https://www.npmjs.com/package/wiki-plugin-json npm]"
+      },
+      "date": 1471880870337
+    },
+    {
+      "type": "move",
+      "order": [
+        "94734ee597653649",
+        "26ec29edb22d01bf",
+        "1d01d6470608d2a2",
+        "4fb43a4c2635176b",
+        "35ece947aa90b581",
+        "fad521fc3bf2180a",
+        "6803b3063cc970e8",
+        "c3b1f25fdd93a1e8",
+        "686ee871469b8fa8",
+        "05f8ed14ff686d79"
+      ],
+      "id": "c3b1f25fdd93a1e8",
+      "date": 1471880882968
+    },
+    {
+      "type": "edit",
+      "id": "35ece947aa90b581",
+      "item": {
+        "type": "json",
+        "id": "35ece947aa90b581",
+        "text": "JSON data. 44 writes, last 2 days ago, 134 bytes.",
+        "resource": {
+          "author": "Ward Cunningham"
+        }
+      },
+      "date": 1471881027052
+    },
+    {
+      "type": "edit",
+      "id": "35ece947aa90b581",
+      "item": {
+        "type": "json",
+        "id": "35ece947aa90b581",
+        "text": "JSON data, last write 2 days ago, 134 bytes.",
+        "resource": {
+          "author": "Ward Cunningham"
+        }
+      },
+      "date": 1471881175404
+    },
+    {
+      "type": "edit",
+      "id": "35ece947aa90b581",
+      "item": {
+        "type": "json",
+        "id": "35ece947aa90b581",
+        "text": "JSON data, 134 bytes from 2 days ago",
+        "resource": {
+          "author": "Ward Cunningham"
+        }
+      },
+      "date": 1471881229694
+    },
+    {
+      "type": "edit",
+      "id": "35ece947aa90b581",
+      "item": {
+        "type": "json",
+        "id": "35ece947aa90b581",
+        "text": "Sensor feed from jd.local screen json. Raw format at present. Soon to be converted to wiki friendly format.",
+        "resource": {
+          "foo": "bar"
+        },
+        "slug": "json-plugin",
+        "writes": 5,
+        "written": 1472052377203,
+        "interval": 30225
+      },
+      "date": 1472053857988,
+      "error": {
+        "type": "error",
+        "msg": "Forbidden",
+        "response": "Forbidden"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1472053880279
+    },
+    {
+      "type": "edit",
+      "id": "fad521fc3bf2180a",
+      "item": {
+        "type": "paragraph",
+        "id": "fad521fc3bf2180a",
+        "text": "Data is from the 'a' series of sensors also reported by the legacy SensorServer software. [http://c2.com/~ward/arduino/SensorServer/ site]"
+      },
+      "date": 1472165301668,
+      "error": {
+        "type": "error",
+        "msg": "Forbidden",
+        "response": "Forbidden"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1472165324767
+    },
+    {
+      "type": "remove",
+      "id": "6803b3063cc970e8",
+      "date": 1472165329856
+    },
+    {
+      "type": "remove",
+      "id": "4fb43a4c2635176b",
+      "date": 1472355311377,
+      "error": {
+        "type": "error",
+        "msg": "Forbidden",
+        "response": "Forbidden"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1472355329446
+    },
+    {
+      "type": "add",
+      "id": "83dfb967155642a1",
+      "item": {
+        "type": "paragraph",
+        "id": "83dfb967155642a1",
+        "text": "# Markup"
+      },
+      "after": "c3b1f25fdd93a1e8",
+      "date": 1472355376244
+    },
+    {
+      "type": "add",
+      "id": "08e8b00522b8c4d9",
+      "item": {
+        "type": "paragraph",
+        "id": "08e8b00522b8c4d9",
+        "text": "I've looked into implementing the jq json manipulation package as a dsl for formatting posted resources. I find it too powerful to be a convenient markup. It feels more like programming than I would like."
+      },
+      "after": "83dfb967155642a1",
+      "date": 1472355596477
+    },
+    {
+      "type": "add",
+      "id": "81d8c9ddff518a53",
+      "item": {
+        "type": "paragraph",
+        "id": "81d8c9ddff518a53",
+        "text": "Here I will test some markup ideas that should make it easy to post and easy to markup with an eye toward sources we support or are likely to eventually support."
+      },
+      "after": "08e8b00522b8c4d9",
+      "date": 1472355684807
+    },
+    {
+      "type": "add",
+      "id": "e508d38c1f1c495a",
+      "item": {
+        "type": "paragraph",
+        "id": "e508d38c1f1c495a",
+        "text": "KEEP 100 to save the last 100 posts. This would be interpreted server side."
+      },
+      "after": "81d8c9ddff518a53",
+      "date": 1472355738258
+    },
+    {
+      "type": "add",
+      "id": "9ea9f759691e8cd8",
+      "item": {
+        "type": "paragraph",
+        "id": "9ea9f759691e8cd8",
+        "text": "TIMESERIES label to source a kept value as values over time. This could estimate epoch for each sample. Search json breadth first until label is found."
+      },
+      "after": "e508d38c1f1c495a",
+      "date": 1472356043582
+    },
+    {
+      "type": "edit",
+      "id": "9ea9f759691e8cd8",
+      "item": {
+        "type": "paragraph",
+        "id": "9ea9f759691e8cd8",
+        "text": "TIMESERIES :abel to source a kept value as values over time. This could estimate epoch for each sample. Search json breadth first until label is found."
+      },
+      "date": 1472356054909
+    },
+    {
+      "type": "edit",
+      "id": "9ea9f759691e8cd8",
+      "item": {
+        "type": "paragraph",
+        "id": "9ea9f759691e8cd8",
+        "text": "TIMESERIES Label to source a kept value as values over time. This could estimate epoch for each sample. Search json breadth first until label is found."
+      },
+      "date": 1472356064194
+    },
+    {
+      "type": "edit",
+      "id": "e508d38c1f1c495a",
+      "item": {
+        "type": "paragraph",
+        "id": "e508d38c1f1c495a",
+        "text": "KEEP 100 — save the last 100 posts. This would be interpreted server side."
+      },
+      "date": 1472356096425
+    },
+    {
+      "type": "edit",
+      "id": "9ea9f759691e8cd8",
+      "item": {
+        "type": "paragraph",
+        "id": "9ea9f759691e8cd8",
+        "text": "TIMESERIES Label — source a kept value as values over time. This could estimate epoch for each sample. Search json breadth first until label is found."
+      },
+      "date": 1472356107263
+    },
+    {
+      "type": "edit",
+      "id": "9ea9f759691e8cd8",
+      "item": {
+        "type": "paragraph",
+        "id": "9ea9f759691e8cd8",
+        "text": "TIMESERIES Key — source a kept value as values over time. This could estimate epoch for each sample. Search json breadth first until Key is found."
+      },
+      "date": 1472356148896
+    },
+    {
+      "type": "edit",
+      "id": "9ea9f759691e8cd8",
+      "item": {
+        "type": "paragraph",
+        "id": "9ea9f759691e8cd8",
+        "text": "TIMESERIES Key — source a kept value as a measurement over time. This could estimate epoch for each sample. Search json breadth first until Key is found."
+      },
+      "date": 1472356221441
+    },
+    {
+      "type": "edit",
+      "id": "9ea9f759691e8cd8",
+      "item": {
+        "type": "paragraph",
+        "id": "9ea9f759691e8cd8",
+        "text": "TIMESERIES Key — source a kept value as a measurement over time. This could estimate epoch for each sample knowing interval or finding a date or time field. Search json breadth first until Key is found."
+      },
+      "date": 1472356300527
+    },
+    {
+      "type": "edit",
+      "id": "83dfb967155642a1",
+      "item": {
+        "type": "markdown",
+        "id": "83dfb967155642a1",
+        "text": "# Markup"
+      },
+      "date": 1472389910174
+    },
+    {
+      "type": "edit",
+      "id": "e508d38c1f1c495a",
+      "item": {
+        "type": "paragraph",
+        "id": "e508d38c1f1c495a",
+        "text": "KEEP 100 — save the last 100 posts. This would be interpreted server side. But how does this interact with editing?"
+      },
+      "date": 1472390819087
+    },
+    {
+      "type": "edit",
+      "id": "e508d38c1f1c495a",
+      "item": {
+        "type": "paragraph",
+        "id": "e508d38c1f1c495a",
+        "text": "KEEP 100 — save the last 100 posts. This would be interpreted server side. But how does this interact with editing? "
+      },
+      "date": 1472390894135
+    },
+    {
+      "type": "edit",
+      "id": "e508d38c1f1c495a",
+      "item": {
+        "type": "paragraph",
+        "id": "e508d38c1f1c495a",
+        "text": "KEEP 100 — save the last 100 posts. This would be interpreted server side. But how does this interact with editing? Even KEEP 1 is set back by edit."
+      },
+      "date": 1472390964703
+    },
+    {
+      "type": "edit",
+      "id": "9ea9f759691e8cd8",
+      "item": {
+        "type": "paragraph",
+        "id": "9ea9f759691e8cd8",
+        "text": "TIMESERIES Key — source a kept value as a measurement over time. This could estimate epoch for each sample knowing interval or by finding a date or time field. Search json breadth first until Key is found."
+      },
+      "date": 1472391006158
+    },
+    {
+      "type": "edit",
+      "id": "e508d38c1f1c495a",
+      "item": {
+        "type": "paragraph",
+        "id": "e508d38c1f1c495a",
+        "text": "KEEP 100 — save the last 100 posts. This would be interpreted server side. But how does this interact with editing? Even KEEP 1 is set back by edit without merge."
+      },
+      "date": 1472391144701
+    },
+    {
+      "type": "edit",
+      "id": "e508d38c1f1c495a",
+      "item": {
+        "type": "paragraph",
+        "id": "e508d38c1f1c495a",
+        "text": "KEEP 100 — save the last 100 posts. This would be interpreted server side. But how does this interact with editing? Reset to empty on save?"
+      },
+      "date": 1472391405305
+    },
+    {
+      "type": "edit",
+      "id": "e508d38c1f1c495a",
+      "item": {
+        "type": "paragraph",
+        "id": "e508d38c1f1c495a",
+        "text": "KEEP 100 — save the last 100 posts. This would be interpreted server side. But how does this interact with editing? Merge? Reset to empty on save?"
+      },
+      "date": 1472391423772
+    },
+    {
+      "type": "add",
+      "id": "802efb4f4575b2e0",
+      "item": {
+        "type": "paragraph",
+        "id": "802efb4f4575b2e0",
+        "text": "What about units and conversion noise?"
+      },
+      "after": "9ea9f759691e8cd8",
+      "date": 1472391586144
+    },
+    {
+      "type": "add",
+      "id": "eaca0dbb7cd54409",
+      "item": {
+        "type": "paragraph",
+        "id": "eaca0dbb7cd54409",
+        "text": "What about aggregation, percentile, missing data?"
+      },
+      "after": "802efb4f4575b2e0",
+      "date": 1472391629679
+    },
+    {
+      "type": "add",
+      "id": "3909ef38d9e83d7e",
+      "item": {
+        "type": "paragraph",
+        "id": "3909ef38d9e83d7e",
+        "text": "# Security"
+      },
+      "after": "eaca0dbb7cd54409",
+      "date": 1472399549450
+    },
+    {
+      "type": "add",
+      "id": "2440b911e9c4292b",
+      "item": {
+        "type": "paragraph",
+        "id": "2440b911e9c4292b",
+        "text": "We have not yet chosen a mechanism for creation and distribution of access tokens. We have one for now which demonstrates our intention but offers no security."
+      },
+      "after": "3909ef38d9e83d7e",
+      "date": 1472399758168
+    },
+    {
+      "type": "add",
+      "id": "1185301fd0c8d132",
+      "item": {
+        "type": "paragraph",
+        "id": "1185301fd0c8d132",
+        "text": "We should consider who can grant access by minting tokens. Choices include the logged-in site owner, the logged-in server administrator, or the operator with ssh access to the installation."
+      },
+      "after": "2440b911e9c4292b",
+      "date": 1472399952556
+    },
+    {
+      "type": "add",
+      "id": "18607dada32fd0a9",
+      "item": {
+        "type": "paragraph",
+        "id": "18607dada32fd0a9",
+        "text": "Consider holding tokens in a json file on the server accessed through the path status/plugin/json/tokens."
+      },
+      "after": "1185301fd0c8d132",
+      "date": 1472400346094
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "8c5943367a831a25"
+      },
+      "id": "8c5943367a831a25",
+      "type": "add",
+      "after": "05f8ed14ff686d79",
+      "date": 1472400360042
+    },
+    {
+      "type": "move",
+      "order": [
+        "94734ee597653649",
+        "26ec29edb22d01bf",
+        "1d01d6470608d2a2",
+        "35ece947aa90b581",
+        "fad521fc3bf2180a",
+        "c3b1f25fdd93a1e8",
+        "83dfb967155642a1",
+        "08e8b00522b8c4d9",
+        "81d8c9ddff518a53",
+        "e508d38c1f1c495a",
+        "9ea9f759691e8cd8",
+        "802efb4f4575b2e0",
+        "eaca0dbb7cd54409",
+        "3909ef38d9e83d7e",
+        "2440b911e9c4292b",
+        "1185301fd0c8d132",
+        "18607dada32fd0a9",
+        "8c5943367a831a25",
+        "686ee871469b8fa8",
+        "05f8ed14ff686d79"
+      ],
+      "id": "8c5943367a831a25",
+      "date": 1472400365111
+    },
+    {
+      "type": "edit",
+      "id": "8c5943367a831a25",
+      "item": {
+        "type": "code",
+        "id": "8c5943367a831a25",
+        "text": "{\"json-plugin\":\n  {\""
+      },
+      "date": 1472400424946
+    },
+    {
+      "type": "edit",
+      "id": "8c5943367a831a25",
+      "item": {
+        "type": "code",
+        "id": "8c5943367a831a25",
+        "text": "{\n  \"json-plugin\": {\n    \"35ece947aa90b581\": {\n      \"id\": \"demo\",\n      \"about\": \"widely known, discard if abused\"\n    }\n  }\n}\n  "
+      },
+      "date": 1472400646470
+    },
+    {
+      "type": "edit",
+      "id": "8c5943367a831a25",
+      "item": {
+        "type": "code",
+        "id": "8c5943367a831a25",
+        "text": "{\n  \"json-plugin\": {\n    \"35ece947aa90b581\": {\n      \"id\": \"demo\",\n      \"about\": \"widely known, discard if abused\"\n    }\n  }\n}"
+      },
+      "date": 1472400701830
+    },
+    {
+      "type": "edit",
+      "id": "8c5943367a831a25",
+      "item": {
+        "type": "code",
+        "id": "8c5943367a831a25",
+        "text": "{\n  \"json-plugin\": {\n    \"35ece947aa90b581\": {\n      \"id\": \"demo\",\n      \"nbt\": \"widely known, discard if abused\"\n    }\n  }\n}"
+      },
+      "date": 1472400749193
+    },
+    {
+      "type": "edit",
+      "id": "8c5943367a831a25",
+      "item": {
+        "type": "code",
+        "id": "8c5943367a831a25",
+        "text": "{\n  \"json-plugin\": {\n    \"35ece947aa90b581\": {\n      \"id\": \"demo\",\n      \"nb\": \"widely known, discard if abused\"\n    }\n  }\n}"
+      },
+      "date": 1472400756075
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "9af83e477207a839"
+      },
+      "id": "9af83e477207a839",
+      "type": "add",
+      "after": "05f8ed14ff686d79",
+      "date": 1472400785061
+    },
+    {
+      "type": "move",
+      "order": [
+        "94734ee597653649",
+        "26ec29edb22d01bf",
+        "1d01d6470608d2a2",
+        "35ece947aa90b581",
+        "fad521fc3bf2180a",
+        "c3b1f25fdd93a1e8",
+        "83dfb967155642a1",
+        "08e8b00522b8c4d9",
+        "81d8c9ddff518a53",
+        "e508d38c1f1c495a",
+        "9ea9f759691e8cd8",
+        "802efb4f4575b2e0",
+        "eaca0dbb7cd54409",
+        "3909ef38d9e83d7e",
+        "2440b911e9c4292b",
+        "1185301fd0c8d132",
+        "18607dada32fd0a9",
+        "8c5943367a831a25",
+        "9af83e477207a839",
+        "686ee871469b8fa8",
+        "05f8ed14ff686d79"
+      ],
+      "id": "9af83e477207a839",
+      "date": 1472400788606
+    },
+    {
+      "type": "edit",
+      "id": "9af83e477207a839",
+      "item": {
+        "type": "paragraph",
+        "id": "9af83e477207a839",
+        "text": "A write would be authorized if the file is present, the slug listed and the token appearing under the slug. Usage stats could be collected under the provided id as a way of distinguishing abusers should there be multiple tokens."
+      },
+      "date": 1472401088976
+    },
+    {
+      "type": "edit",
+      "id": "3909ef38d9e83d7e",
+      "item": {
+        "type": "markdown",
+        "id": "3909ef38d9e83d7e",
+        "text": "# Security"
+      },
+      "date": 1472401136020
+    },
+    {
+      "type": "edit",
+      "id": "35ece947aa90b581",
+      "item": {
+        "type": "json",
+        "id": "35ece947aa90b581",
+        "text": "Sensor feed from jd.local screen json. Raw format at present. Soon to be converted to wiki friendly format.\nTIMESERIES",
+        "resource": {
+          "mpx4250": 367.7102803738318,
+          "a2010": 980.8878504672897,
+          "a2011": 535.2523364485982,
+          "a2012": 131.85981308411215,
+          "a2013": 787.1121495327103,
+          "a2014": 0.9882456058694691,
+          "acrms": 223.3984420003443
+        },
+        "slug": "json-plugin",
+        "writes": 10323,
+        "written": 1473270356025,
+        "interval": 103325,
+        "writer": "demo"
+      },
+      "date": 1473270554635
+    },
+    {
+      "type": "edit",
+      "id": "35ece947aa90b581",
+      "item": {
+        "type": "json",
+        "id": "35ece947aa90b581",
+        "text": "Sensor feed from jd.local screen json. Raw format at present. Soon to be converted to wiki friendly format.\nMARKERS",
+        "resource": {
+          "mpx4250": 367.7102803738318,
+          "a2010": 980.8878504672897,
+          "a2011": 535.2523364485982,
+          "a2012": 131.85981308411215,
+          "a2013": 787.1121495327103,
+          "a2014": 0.9882456058694691,
+          "acrms": 223.3984420003443
+        },
+        "slug": "json-plugin",
+        "writes": 10323,
+        "written": 1473270356025,
+        "interval": 103325,
+        "writer": "demo"
+      },
+      "date": 1473270635128
+    },
+    {
+      "type": "edit",
+      "id": "35ece947aa90b581",
+      "item": {
+        "type": "json",
+        "id": "35ece947aa90b581",
+        "text": "Sensor feed from jd.local screen json. Raw format at present. Soon to be converted to wiki friendly format.",
+        "resource": {
+          "mpx4250": 367.7102803738318,
+          "a2010": 980.8878504672897,
+          "a2011": 535.2523364485982,
+          "a2012": 131.85981308411215,
+          "a2013": 787.1121495327103,
+          "a2014": 0.9882456058694691,
+          "acrms": 223.3984420003443
+        },
+        "slug": "json-plugin",
+        "writes": 10323,
+        "written": 1473270356025,
+        "interval": 103325,
+        "writer": "demo"
+      },
+      "date": 1473270661589
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "35e960a5c70e1e79"
+      },
+      "id": "35e960a5c70e1e79",
+      "type": "add",
+      "after": "05f8ed14ff686d79",
+      "date": 1533322952680
+    },
+    {
+      "type": "edit",
+      "id": "35e960a5c70e1e79",
+      "item": {
+        "type": "plugmatic",
+        "id": "35e960a5c70e1e79",
+        "text": "wiki-plugin-json"
+      },
+      "date": 1533322973056
+    },
+    {
+      "type": "add",
+      "id": "e914779ef9c63123",
+      "item": {
+        "type": "paragraph",
+        "id": "e914779ef9c63123",
+        "text": "See [[Data in Context]] where pages pool data to be assembled into one large graph database."
+      },
+      "after": "c3b1f25fdd93a1e8",
+      "date": 1542122118681
+    },
+    {
+      "type": "add",
+      "id": "e8931b0d6b5cd15f",
+      "item": {
+        "type": "paragraph",
+        "id": "e8931b0d6b5cd15f",
+        "text": "We allow regular mechanical updates without relying on the journal to keep this history. The plugin makes some effort to report change but this sidestepping of the journal breaks our notion of forking from history. [https://github.com/WardCunningham/wiki-plugin-json/issues/2 github]"
+      },
+      "after": "e914779ef9c63123",
+      "date": 1542122437534
+    },
+    {
+      "type": "fork",
+      "site": "ward.asia.wiki.org",
+      "date": 1547334197995
+    },
+    {
+      "type": "remove",
+      "id": "26ec29edb22d01bf",
+      "date": 1547337361244
+    },
+    {
+      "type": "edit",
+      "id": "94734ee597653649",
+      "item": {
+        "type": "paragraph",
+        "id": "94734ee597653649",
+        "text": "We read and write the json 'resource' subtree within the JSON item on this page. See [[About JSON Plugin]]"
+      },
+      "date": 1547337366452
+    },
+    {
+      "type": "add",
+      "id": "7ebf017c69dfbc59",
+      "item": {
+        "type": "paragraph",
+        "id": "7ebf017c69dfbc59",
+        "text": "# Example"
+      },
+      "after": "94734ee597653649",
+      "date": 1547337369665
+    },
+    {
+      "type": "edit",
+      "id": "7ebf017c69dfbc59",
+      "item": {
+        "type": "markdown",
+        "id": "7ebf017c69dfbc59",
+        "text": "# Example"
+      },
+      "date": 1547337371517
+    },
+    {
+      "type": "edit",
+      "id": "1d01d6470608d2a2",
+      "item": {
+        "type": "paragraph",
+        "id": "1d01d6470608d2a2",
+        "text": "The web addressable data on this page is easily readable with an external link:"
+      },
+      "date": 1547337385484
+    },
+    {
+      "type": "add",
+      "id": "3d55c116b3d13e20",
+      "item": {
+        "type": "paragraph",
+        "id": "3d55c116b3d13e20",
+        "text": "- [http:/plugin/json/json-plugin json]"
+      },
+      "after": "1d01d6470608d2a2",
+      "date": 1547337418692
+    },
+    {
+      "type": "edit",
+      "id": "3d55c116b3d13e20",
+      "item": {
+        "type": "markdown",
+        "id": "3d55c116b3d13e20",
+        "text": "- [http:/plugin/json/json-plugin json]"
+      },
+      "date": 1547337421003
+    },
+    {
+      "type": "edit",
+      "id": "35ece947aa90b581",
+      "item": {
+        "type": "json",
+        "id": "35ece947aa90b581",
+        "text": "To read and write to this plugin use the url \"sdaf\"",
+        "resource": {
+          "mpx4250": 354.5420560747664,
+          "a2010": 984.9532710280374,
+          "a2011": 483.93457943925233,
+          "a2012": 0,
+          "a2013": 785.8878504672897,
+          "a2014": 0.9825285302467764,
+          "acrms": 223.38825472741553
+        },
+        "slug": "json-plugin",
+        "writes": 56730,
+        "written": 1491577041948,
+        "interval": 102089,
+        "writer": "demo"
+      },
+      "date": 1547337465749
+    },
+    {
+      "type": "edit",
+      "id": "35ece947aa90b581",
+      "item": {
+        "type": "json",
+        "id": "35ece947aa90b581",
+        "text": "To read and write to this plugin use the url \"http:/plugin/json/json-plugin\"",
+        "resource": {
+          "mpx4250": 354.5420560747664,
+          "a2010": 984.9532710280374,
+          "a2011": 483.93457943925233,
+          "a2012": 0,
+          "a2013": 785.8878504672897,
+          "a2014": 0.9825285302467764,
+          "acrms": 223.38825472741553
+        },
+        "slug": "json-plugin",
+        "writes": 56730,
+        "written": 1491577041948,
+        "interval": 102089,
+        "writer": "demo"
+      },
+      "date": 1547337482976
+    },
+    {
+      "type": "edit",
+      "id": "3d55c116b3d13e20",
+      "item": {
+        "type": "markdown",
+        "id": "3d55c116b3d13e20",
+        "text": "- http:/plugin/json/json-plugin - [http:/plugin/json/json-plugin json]"
+      },
+      "date": 1547337499184
+    },
+    {
+      "type": "edit",
+      "id": "3d55c116b3d13e20",
+      "item": {
+        "type": "markdown",
+        "id": "3d55c116b3d13e20",
+        "text": "- http:/plugin/json/json-plugin http:/plugin/json/json-plugin]"
+      },
+      "date": 1547337511057
+    },
+    {
+      "type": "edit",
+      "id": "3d55c116b3d13e20",
+      "item": {
+        "type": "markdown",
+        "id": "3d55c116b3d13e20",
+        "text": "- [http:/plugin/json/json-plugin http:/plugin/json/json-plugin]"
+      },
+      "date": 1547337519877
+    },
+    {
+      "type": "move",
+      "order": [
+        "94734ee597653649",
+        "7ebf017c69dfbc59",
+        "1d01d6470608d2a2",
+        "3d55c116b3d13e20",
+        "35ece947aa90b581",
+        "3909ef38d9e83d7e",
+        "fad521fc3bf2180a",
+        "c3b1f25fdd93a1e8",
+        "e914779ef9c63123",
+        "e8931b0d6b5cd15f",
+        "83dfb967155642a1",
+        "08e8b00522b8c4d9",
+        "81d8c9ddff518a53",
+        "e508d38c1f1c495a",
+        "9ea9f759691e8cd8",
+        "802efb4f4575b2e0",
+        "eaca0dbb7cd54409",
+        "2440b911e9c4292b",
+        "1185301fd0c8d132",
+        "18607dada32fd0a9",
+        "8c5943367a831a25",
+        "9af83e477207a839",
+        "686ee871469b8fa8",
+        "05f8ed14ff686d79",
+        "35e960a5c70e1e79"
+      ],
+      "id": "3909ef38d9e83d7e",
+      "date": 1547337539561
+    },
+    {
+      "type": "move",
+      "order": [
+        "94734ee597653649",
+        "7ebf017c69dfbc59",
+        "1d01d6470608d2a2",
+        "3d55c116b3d13e20",
+        "35ece947aa90b581",
+        "3909ef38d9e83d7e",
+        "2440b911e9c4292b",
+        "fad521fc3bf2180a",
+        "c3b1f25fdd93a1e8",
+        "e914779ef9c63123",
+        "e8931b0d6b5cd15f",
+        "83dfb967155642a1",
+        "08e8b00522b8c4d9",
+        "81d8c9ddff518a53",
+        "e508d38c1f1c495a",
+        "9ea9f759691e8cd8",
+        "802efb4f4575b2e0",
+        "eaca0dbb7cd54409",
+        "1185301fd0c8d132",
+        "18607dada32fd0a9",
+        "8c5943367a831a25",
+        "9af83e477207a839",
+        "686ee871469b8fa8",
+        "05f8ed14ff686d79",
+        "35e960a5c70e1e79"
+      ],
+      "id": "2440b911e9c4292b",
+      "date": 1547337545994
+    },
+    {
+      "type": "edit",
+      "id": "fad521fc3bf2180a",
+      "item": {
+        "type": "paragraph",
+        "id": "fad521fc3bf2180a",
+        "text": "# Sensors"
+      },
+      "date": 1547337553334
+    },
+    {
+      "type": "add",
+      "id": "7d1fe7bfc9d08392",
+      "item": {
+        "type": "paragraph",
+        "id": "7d1fe7bfc9d08392",
+        "text": "Data is from the 'a' series of sensors also reported by the legacy SensorServer software. [http://c2.com/~ward/arduino/SensorServer/ site]"
+      },
+      "after": "fad521fc3bf2180a",
+      "date": 1547337553990
+    },
+    {
+      "type": "edit",
+      "id": "fad521fc3bf2180a",
+      "item": {
+        "type": "markdown",
+        "id": "fad521fc3bf2180a",
+        "text": "# Sensors"
+      },
+      "date": 1547337555062
+    },
+    {
+      "type": "move",
+      "order": [
+        "94734ee597653649",
+        "7ebf017c69dfbc59",
+        "1d01d6470608d2a2",
+        "3d55c116b3d13e20",
+        "35ece947aa90b581",
+        "3909ef38d9e83d7e",
+        "2440b911e9c4292b",
+        "1185301fd0c8d132",
+        "fad521fc3bf2180a",
+        "7d1fe7bfc9d08392",
+        "c3b1f25fdd93a1e8",
+        "e914779ef9c63123",
+        "e8931b0d6b5cd15f",
+        "83dfb967155642a1",
+        "08e8b00522b8c4d9",
+        "81d8c9ddff518a53",
+        "e508d38c1f1c495a",
+        "9ea9f759691e8cd8",
+        "802efb4f4575b2e0",
+        "eaca0dbb7cd54409",
+        "18607dada32fd0a9",
+        "8c5943367a831a25",
+        "9af83e477207a839",
+        "686ee871469b8fa8",
+        "05f8ed14ff686d79",
+        "35e960a5c70e1e79"
+      ],
+      "id": "1185301fd0c8d132",
+      "date": 1547337561023
+    },
+    {
+      "type": "move",
+      "order": [
+        "94734ee597653649",
+        "7ebf017c69dfbc59",
+        "1d01d6470608d2a2",
+        "3d55c116b3d13e20",
+        "35ece947aa90b581",
+        "3909ef38d9e83d7e",
+        "2440b911e9c4292b",
+        "1185301fd0c8d132",
+        "18607dada32fd0a9",
+        "fad521fc3bf2180a",
+        "7d1fe7bfc9d08392",
+        "c3b1f25fdd93a1e8",
+        "e914779ef9c63123",
+        "e8931b0d6b5cd15f",
+        "83dfb967155642a1",
+        "08e8b00522b8c4d9",
+        "81d8c9ddff518a53",
+        "e508d38c1f1c495a",
+        "9ea9f759691e8cd8",
+        "802efb4f4575b2e0",
+        "eaca0dbb7cd54409",
+        "8c5943367a831a25",
+        "9af83e477207a839",
+        "686ee871469b8fa8",
+        "05f8ed14ff686d79",
+        "35e960a5c70e1e79"
+      ],
+      "id": "18607dada32fd0a9",
+      "date": 1547337565687
+    },
+    {
+      "type": "move",
+      "order": [
+        "94734ee597653649",
+        "7ebf017c69dfbc59",
+        "1d01d6470608d2a2",
+        "3d55c116b3d13e20",
+        "35ece947aa90b581",
+        "3909ef38d9e83d7e",
+        "2440b911e9c4292b",
+        "1185301fd0c8d132",
+        "18607dada32fd0a9",
+        "8c5943367a831a25",
+        "fad521fc3bf2180a",
+        "7d1fe7bfc9d08392",
+        "c3b1f25fdd93a1e8",
+        "e914779ef9c63123",
+        "e8931b0d6b5cd15f",
+        "83dfb967155642a1",
+        "08e8b00522b8c4d9",
+        "81d8c9ddff518a53",
+        "e508d38c1f1c495a",
+        "9ea9f759691e8cd8",
+        "802efb4f4575b2e0",
+        "eaca0dbb7cd54409",
+        "9af83e477207a839",
+        "686ee871469b8fa8",
+        "05f8ed14ff686d79",
+        "35e960a5c70e1e79"
+      ],
+      "id": "8c5943367a831a25",
+      "date": 1547337568115
+    },
+    {
+      "type": "move",
+      "order": [
+        "94734ee597653649",
+        "7ebf017c69dfbc59",
+        "1d01d6470608d2a2",
+        "3d55c116b3d13e20",
+        "35ece947aa90b581",
+        "3909ef38d9e83d7e",
+        "2440b911e9c4292b",
+        "1185301fd0c8d132",
+        "18607dada32fd0a9",
+        "8c5943367a831a25",
+        "9af83e477207a839",
+        "fad521fc3bf2180a",
+        "7d1fe7bfc9d08392",
+        "c3b1f25fdd93a1e8",
+        "e914779ef9c63123",
+        "e8931b0d6b5cd15f",
+        "83dfb967155642a1",
+        "08e8b00522b8c4d9",
+        "81d8c9ddff518a53",
+        "e508d38c1f1c495a",
+        "9ea9f759691e8cd8",
+        "802efb4f4575b2e0",
+        "eaca0dbb7cd54409",
+        "686ee871469b8fa8",
+        "05f8ed14ff686d79",
+        "35e960a5c70e1e79"
+      ],
+      "id": "9af83e477207a839",
+      "date": 1547337572505
+    },
+    {
+      "type": "move",
+      "order": [
+        "94734ee597653649",
+        "7ebf017c69dfbc59",
+        "1d01d6470608d2a2",
+        "3d55c116b3d13e20",
+        "35ece947aa90b581",
+        "3909ef38d9e83d7e",
+        "2440b911e9c4292b",
+        "1185301fd0c8d132",
+        "18607dada32fd0a9",
+        "8c5943367a831a25",
+        "9af83e477207a839",
+        "686ee871469b8fa8",
+        "fad521fc3bf2180a",
+        "7d1fe7bfc9d08392",
+        "c3b1f25fdd93a1e8",
+        "e914779ef9c63123",
+        "e8931b0d6b5cd15f",
+        "83dfb967155642a1",
+        "08e8b00522b8c4d9",
+        "81d8c9ddff518a53",
+        "e508d38c1f1c495a",
+        "9ea9f759691e8cd8",
+        "802efb4f4575b2e0",
+        "eaca0dbb7cd54409",
+        "05f8ed14ff686d79",
+        "35e960a5c70e1e79"
+      ],
+      "id": "686ee871469b8fa8",
+      "date": 1547337581001
+    },
+    {
+      "type": "move",
+      "order": [
+        "94734ee597653649",
+        "7ebf017c69dfbc59",
+        "1d01d6470608d2a2",
+        "3d55c116b3d13e20",
+        "35ece947aa90b581",
+        "3909ef38d9e83d7e",
+        "2440b911e9c4292b",
+        "1185301fd0c8d132",
+        "18607dada32fd0a9",
+        "8c5943367a831a25",
+        "9af83e477207a839",
+        "686ee871469b8fa8",
+        "05f8ed14ff686d79",
+        "fad521fc3bf2180a",
+        "7d1fe7bfc9d08392",
+        "c3b1f25fdd93a1e8",
+        "e914779ef9c63123",
+        "e8931b0d6b5cd15f",
+        "83dfb967155642a1",
+        "08e8b00522b8c4d9",
+        "81d8c9ddff518a53",
+        "e508d38c1f1c495a",
+        "9ea9f759691e8cd8",
+        "802efb4f4575b2e0",
+        "eaca0dbb7cd54409",
+        "35e960a5c70e1e79"
+      ],
+      "id": "05f8ed14ff686d79",
+      "date": 1547337586354
+    },
+    {
+      "type": "move",
+      "order": [
+        "94734ee597653649",
+        "7ebf017c69dfbc59",
+        "1d01d6470608d2a2",
+        "3d55c116b3d13e20",
+        "35ece947aa90b581",
+        "3909ef38d9e83d7e",
+        "2440b911e9c4292b",
+        "1185301fd0c8d132",
+        "18607dada32fd0a9",
+        "8c5943367a831a25",
+        "9af83e477207a839",
+        "686ee871469b8fa8",
+        "05f8ed14ff686d79",
+        "35e960a5c70e1e79",
+        "fad521fc3bf2180a",
+        "7d1fe7bfc9d08392",
+        "c3b1f25fdd93a1e8",
+        "e914779ef9c63123",
+        "e8931b0d6b5cd15f",
+        "83dfb967155642a1",
+        "08e8b00522b8c4d9",
+        "81d8c9ddff518a53",
+        "e508d38c1f1c495a",
+        "9ea9f759691e8cd8",
+        "802efb4f4575b2e0",
+        "eaca0dbb7cd54409"
+      ],
+      "id": "35e960a5c70e1e79",
+      "date": 1547337589601
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "d76cedbac968af86",
+        "text": "# API"
+      },
+      "after": "9af83e477207a839",
+      "id": "d76cedbac968af86",
+      "date": 1547459815668
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "92cbe6cac5108418",
+        "text": "Read data from the page with an http GET request."
+      },
+      "after": "d76cedbac968af86",
+      "id": "92cbe6cac5108418",
+      "date": 1547459821080
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "code",
+        "id": "4a82a08a99a7dc43",
+        "text": "curl http://<site>/plugin/json/<slug>"
+      },
+      "after": "92cbe6cac5108418",
+      "id": "4a82a08a99a7dc43",
+      "date": 1547459824393
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "cb70f800b671844d",
+        "text": "Write data to the page with an http PUT request."
+      },
+      "after": "4a82a08a99a7dc43",
+      "id": "cb70f800b671844d",
+      "date": 1547459827103
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "code",
+        "id": "6803b3063cc970e8",
+        "text": "echo '{\"foo\": \"bar\"}' |\\\n  curl -X PUT  -d @- \\\n    -H \"Content-Type: application/json\" \\\n    -H \"X-Api-Key:35ece947aa90b581\" \\\n    http://<site>/plugin/json/<slug>"
+      },
+      "after": "cb70f800b671844d",
+      "id": "6803b3063cc970e8",
+      "date": 1547459829746
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "0c42e39b5eaffc1e",
+        "text": "Write requests report back to the requestor information useful for confirming proper operation of a write."
+      },
+      "after": "6803b3063cc970e8",
+      "id": "0c42e39b5eaffc1e",
+      "date": 1547459834534
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "code",
+        "id": "4ce154d5489dd999",
+        "text": "{\n  \"status\": \"ok\",\n  \"writes\": 3330,\n  \"interval\": 299524,\n  \"length\": 17736\n}"
+      },
+      "after": "0c42e39b5eaffc1e",
+      "id": "4ce154d5489dd999",
+      "date": 1547459838625
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "3cf8022706d21e44",
+        "text": "See [[About JSON API Keys]]"
+      },
+      "after": "4ce154d5489dd999",
+      "id": "3cf8022706d21e44",
+      "date": 1547459846308
+    },
+    {
+      "type": "edit",
+      "id": "3d55c116b3d13e20",
+      "item": {
+        "type": "markdown",
+        "id": "3d55c116b3d13e20",
+        "text": "- [http:/plugin/json/json-plugin http:/plugin/json/json-plugin]\n- http://search.fedwiki.org/plugin/json/json-plugin"
+      },
+      "date": 1547460206605,
+      "error": {
+        "type": "error",
+        "msg": "Forbidden",
+        "response": "Forbidden"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1547460223581
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "717b04b15927d454"
+      },
+      "id": "717b04b15927d454",
+      "type": "add",
+      "after": "eaca0dbb7cd54409",
+      "date": 1547460877370
+    },
+    {
+      "type": "edit",
+      "id": "717b04b15927d454",
+      "item": {
+        "type": "reference",
+        "id": "717b04b15927d454",
+        "site": "admin.fedwiki.org",
+        "slug": "atopia-fedwiki-sites",
+        "title": "Atopia Fedwiki Sites",
+        "text": "Here we list all the [[Fedwiki]] sites served by the [[Atopia]] server of [[Digital Ocean]]."
+      },
+      "date": 1547460879559
+    },
+    {
+      "type": "move",
+      "order": [
+        "94734ee597653649",
+        "7ebf017c69dfbc59",
+        "1d01d6470608d2a2",
+        "3d55c116b3d13e20",
+        "35ece947aa90b581",
+        "717b04b15927d454",
+        "3909ef38d9e83d7e",
+        "2440b911e9c4292b",
+        "1185301fd0c8d132",
+        "18607dada32fd0a9",
+        "8c5943367a831a25",
+        "9af83e477207a839",
+        "d76cedbac968af86",
+        "92cbe6cac5108418",
+        "4a82a08a99a7dc43",
+        "cb70f800b671844d",
+        "6803b3063cc970e8",
+        "0c42e39b5eaffc1e",
+        "4ce154d5489dd999",
+        "3cf8022706d21e44",
+        "686ee871469b8fa8",
+        "05f8ed14ff686d79",
+        "35e960a5c70e1e79",
+        "fad521fc3bf2180a",
+        "7d1fe7bfc9d08392",
+        "c3b1f25fdd93a1e8",
+        "e914779ef9c63123",
+        "e8931b0d6b5cd15f",
+        "83dfb967155642a1",
+        "08e8b00522b8c4d9",
+        "81d8c9ddff518a53",
+        "e508d38c1f1c495a",
+        "9ea9f759691e8cd8",
+        "802efb4f4575b2e0",
+        "eaca0dbb7cd54409"
+      ],
+      "id": "717b04b15927d454",
+      "date": 1547460888011
+    },
+    {
+      "type": "fork",
+      "site": "search.fedwiki.org",
+      "date": 1547463374621
+    },
+    {
+      "type": "fork",
+      "date": 1547463383643
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "1232438b0c8603d3"
+      },
+      "id": "1232438b0c8603d3",
+      "type": "add",
+      "after": "eaca0dbb7cd54409",
+      "date": 1547463385307
+    },
+    {
+      "type": "move",
+      "order": [
+        "94734ee597653649",
+        "7ebf017c69dfbc59",
+        "1d01d6470608d2a2",
+        "3d55c116b3d13e20",
+        "35ece947aa90b581",
+        "717b04b15927d454",
+        "1232438b0c8603d3",
+        "3909ef38d9e83d7e",
+        "2440b911e9c4292b",
+        "1185301fd0c8d132",
+        "18607dada32fd0a9",
+        "8c5943367a831a25",
+        "9af83e477207a839",
+        "d76cedbac968af86",
+        "92cbe6cac5108418",
+        "4a82a08a99a7dc43",
+        "cb70f800b671844d",
+        "6803b3063cc970e8",
+        "0c42e39b5eaffc1e",
+        "4ce154d5489dd999",
+        "3cf8022706d21e44",
+        "686ee871469b8fa8",
+        "05f8ed14ff686d79",
+        "35e960a5c70e1e79",
+        "fad521fc3bf2180a",
+        "7d1fe7bfc9d08392",
+        "c3b1f25fdd93a1e8",
+        "e914779ef9c63123",
+        "e8931b0d6b5cd15f",
+        "83dfb967155642a1",
+        "08e8b00522b8c4d9",
+        "81d8c9ddff518a53",
+        "e508d38c1f1c495a",
+        "9ea9f759691e8cd8",
+        "802efb4f4575b2e0",
+        "eaca0dbb7cd54409"
+      ],
+      "id": "1232438b0c8603d3",
+      "date": 1547463391259
+    },
+    {
+      "type": "edit",
+      "id": "1232438b0c8603d3",
+      "item": {
+        "type": "reference",
+        "id": "1232438b0c8603d3",
+        "site": "localhost:3000",
+        "slug": "json-plugin",
+        "title": "JSON Plugin",
+        "text": "We read and write the json 'resource' subtree within the JSON item on this page."
+      },
+      "date": 1547463397997
+    },
+    {
+      "type": "edit",
+      "id": "1232438b0c8603d3",
+      "item": {
+        "type": "reference",
+        "id": "1232438b0c8603d3",
+        "site": "localhost:3000",
+        "slug": "json-plugin",
+        "title": "JSON Plugin",
+        "text": "Here we keep private notes about the plugin configuration on [[Your local server]] (if you have set it up) running behind"
+      },
+      "date": 1547463464168
+    },
+    {
+      "type": "edit",
+      "id": "1232438b0c8603d3",
+      "item": {
+        "type": "reference",
+        "id": "1232438b0c8603d3",
+        "site": "localhost:3000",
+        "slug": "json-plugin",
+        "title": "JSON Plugin",
+        "text": "Here we keep private notes about the plugin configuration on [[Your Local Server]] - [[Hopefully running securely]] behind your firewall."
+      },
+      "date": 1547463516332
+    },
+    {
+      "type": "edit",
+      "id": "1232438b0c8603d3",
+      "item": {
+        "type": "reference",
+        "id": "1232438b0c8603d3",
+        "site": "localhost:3000",
+        "slug": "json-plugin",
+        "title": "JSON Plugin",
+        "text": "Here we keep private notes about the plugin configuration on [[Your Local Server]] - [[Hopefully Running Securely]] behind your firewall."
+      },
+      "date": 1547463527789
+    },
+    {
+      "type": "edit",
+      "id": "1232438b0c8603d3",
+      "item": {
+        "type": "reference",
+        "id": "1232438b0c8603d3",
+        "site": "localhost:3000",
+        "slug": "json-plugin",
+        "title": "JSON Plugin",
+        "text": "Here we keep private notes about the plugin configuration on [[your local server]] - [[hopefully running securely]] behind your firewall."
+      },
+      "date": 1547463950928
+    },
+    {
+      "type": "edit",
+      "id": "3d55c116b3d13e20",
+      "item": {
+        "type": "markdown",
+        "id": "3d55c116b3d13e20",
+        "text": "- [http:/plugin/json/json-plugin http:/plugin/json/json-plugin]\n- http://search.fedwiki.org/plugin/json/json-plugin\n"
+      },
+      "date": 1547756819706
+    },
+    {
+      "type": "add",
+      "id": "ed02caf03f648a24",
+      "item": {
+        "type": "markdown",
+        "id": "ed02caf03f648a24",
+        "text": "The plugin stores the json in a `resource` element inside the json-item of the page-json:"
+      },
+      "after": "3d55c116b3d13e20",
+      "date": 1547756901286
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "29a7121977d5f0f4"
+      },
+      "id": "29a7121977d5f0f4",
+      "type": "add",
+      "after": "eaca0dbb7cd54409",
+      "date": 1547756922197
+    },
+    {
+      "type": "edit",
+      "id": "29a7121977d5f0f4",
+      "item": {
+        "type": "code",
+        "id": "29a7121977d5f0f4",
+        "text": "{\n      \"type\": \"json\",\n      \"id\": \"eced0677c98e04d2\",\n      \"text\": \"This is an experimental place to store information regarding root level domains serverd by fedwiki on the Atopia server.\",\n      \"resource\": {\n        \"hello\": \"world\"\n      },\n      \"slug\": \"atopia-fedwiki-sites\",\n      \"writes\": 3,\n      \"writer\": \"wildcard\",\n      \"written\": 1546465297870,\n      \"interval\": 1880220\n    },"
+      },
+      "date": 1547756932100
+    },
+    {
+      "type": "move",
+      "order": [
+        "94734ee597653649",
+        "7ebf017c69dfbc59",
+        "1d01d6470608d2a2",
+        "3d55c116b3d13e20",
+        "ed02caf03f648a24",
+        "35ece947aa90b581",
+        "717b04b15927d454",
+        "1232438b0c8603d3",
+        "29a7121977d5f0f4",
+        "3909ef38d9e83d7e",
+        "2440b911e9c4292b",
+        "1185301fd0c8d132",
+        "18607dada32fd0a9",
+        "8c5943367a831a25",
+        "9af83e477207a839",
+        "d76cedbac968af86",
+        "92cbe6cac5108418",
+        "4a82a08a99a7dc43",
+        "cb70f800b671844d",
+        "6803b3063cc970e8",
+        "0c42e39b5eaffc1e",
+        "4ce154d5489dd999",
+        "3cf8022706d21e44",
+        "686ee871469b8fa8",
+        "05f8ed14ff686d79",
+        "35e960a5c70e1e79",
+        "fad521fc3bf2180a",
+        "7d1fe7bfc9d08392",
+        "c3b1f25fdd93a1e8",
+        "e914779ef9c63123",
+        "e8931b0d6b5cd15f",
+        "83dfb967155642a1",
+        "08e8b00522b8c4d9",
+        "81d8c9ddff518a53",
+        "e508d38c1f1c495a",
+        "9ea9f759691e8cd8",
+        "802efb4f4575b2e0",
+        "eaca0dbb7cd54409"
+      ],
+      "id": "29a7121977d5f0f4",
+      "date": 1547756955411
+    },
+    {
+      "type": "move",
+      "order": [
+        "94734ee597653649",
+        "7ebf017c69dfbc59",
+        "1d01d6470608d2a2",
+        "3d55c116b3d13e20",
+        "35ece947aa90b581",
+        "717b04b15927d454",
+        "1232438b0c8603d3",
+        "ed02caf03f648a24",
+        "29a7121977d5f0f4",
+        "3909ef38d9e83d7e",
+        "2440b911e9c4292b",
+        "1185301fd0c8d132",
+        "18607dada32fd0a9",
+        "8c5943367a831a25",
+        "9af83e477207a839",
+        "d76cedbac968af86",
+        "92cbe6cac5108418",
+        "4a82a08a99a7dc43",
+        "cb70f800b671844d",
+        "6803b3063cc970e8",
+        "0c42e39b5eaffc1e",
+        "4ce154d5489dd999",
+        "3cf8022706d21e44",
+        "686ee871469b8fa8",
+        "05f8ed14ff686d79",
+        "35e960a5c70e1e79",
+        "fad521fc3bf2180a",
+        "7d1fe7bfc9d08392",
+        "c3b1f25fdd93a1e8",
+        "e914779ef9c63123",
+        "e8931b0d6b5cd15f",
+        "83dfb967155642a1",
+        "08e8b00522b8c4d9",
+        "81d8c9ddff518a53",
+        "e508d38c1f1c495a",
+        "9ea9f759691e8cd8",
+        "802efb4f4575b2e0",
+        "eaca0dbb7cd54409"
+      ],
+      "id": "ed02caf03f648a24",
+      "date": 1547756959114
+    },
+    {
+      "type": "remove",
+      "id": "ed02caf03f648a24",
+      "date": 1547757008048
+    },
+    {
+      "type": "remove",
+      "id": "29a7121977d5f0f4",
+      "date": 1547757010603
+    },
+    {
+      "type": "edit",
+      "id": "3909ef38d9e83d7e",
+      "item": {
+        "type": "markdown",
+        "id": "3909ef38d9e83d7e",
+        "text": "- [[JSON Plugin Security]]"
+      },
+      "date": 1547757056449
+    },
+    {
+      "type": "remove",
+      "id": "2440b911e9c4292b",
+      "date": 1547757065097
+    },
+    {
+      "type": "remove",
+      "id": "1185301fd0c8d132",
+      "date": 1547757068993
+    },
+    {
+      "type": "remove",
+      "id": "18607dada32fd0a9",
+      "date": 1547757072430
+    },
+    {
+      "type": "remove",
+      "id": "8c5943367a831a25",
+      "date": 1547757075989
+    },
+    {
+      "type": "remove",
+      "id": "9af83e477207a839",
+      "date": 1547757079566
+    },
+    {
+      "type": "remove",
+      "id": "d76cedbac968af86",
+      "date": 1547757128173
+    },
+    {
+      "type": "edit",
+      "id": "3909ef38d9e83d7e",
+      "item": {
+        "type": "markdown",
+        "id": "3909ef38d9e83d7e",
+        "text": "- [[JSON Plugin Security]]\n- [[JSON Plugin API]]"
+      },
+      "date": 1547757129444
+    },
+    {
+      "type": "remove",
+      "id": "92cbe6cac5108418",
+      "date": 1547757144779
+    },
+    {
+      "type": "remove",
+      "id": "4a82a08a99a7dc43",
+      "date": 1547757150154
+    },
+    {
+      "type": "remove",
+      "id": "cb70f800b671844d",
+      "date": 1547757155110
+    },
+    {
+      "type": "remove",
+      "id": "6803b3063cc970e8",
+      "date": 1547757159616
+    },
+    {
+      "type": "remove",
+      "id": "0c42e39b5eaffc1e",
+      "date": 1547757163375
+    },
+    {
+      "type": "remove",
+      "id": "4ce154d5489dd999",
+      "date": 1547757166477
+    },
+    {
+      "type": "edit",
+      "id": "fad521fc3bf2180a",
+      "item": {
+        "type": "markdown",
+        "id": "fad521fc3bf2180a",
+        "text": "- [[JSON Plugin Examples]]"
+      },
+      "date": 1547757206616
+    },
+    {
+      "type": "remove",
+      "id": "7d1fe7bfc9d08392",
+      "date": 1547757214168
+    },
+    {
+      "type": "remove",
+      "id": "c3b1f25fdd93a1e8",
+      "date": 1547757217673
+    },
+    {
+      "type": "remove",
+      "id": "e914779ef9c63123",
+      "date": 1547757220521
+    },
+    {
+      "type": "remove",
+      "id": "e8931b0d6b5cd15f",
+      "date": 1547757223679
+    },
+    {
+      "type": "move",
+      "order": [
+        "94734ee597653649",
+        "7ebf017c69dfbc59",
+        "1d01d6470608d2a2",
+        "3d55c116b3d13e20",
+        "35ece947aa90b581",
+        "717b04b15927d454",
+        "1232438b0c8603d3",
+        "3909ef38d9e83d7e",
+        "fad521fc3bf2180a",
+        "3cf8022706d21e44",
+        "686ee871469b8fa8",
+        "05f8ed14ff686d79",
+        "35e960a5c70e1e79",
+        "83dfb967155642a1",
+        "08e8b00522b8c4d9",
+        "81d8c9ddff518a53",
+        "e508d38c1f1c495a",
+        "9ea9f759691e8cd8",
+        "802efb4f4575b2e0",
+        "eaca0dbb7cd54409"
+      ],
+      "id": "fad521fc3bf2180a",
+      "date": 1547757228223
+    },
+    {
+      "type": "remove",
+      "id": "3cf8022706d21e44",
+      "date": 1547757235230
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "bc851e89b31cdab2",
+        "text": "# See also\n"
+      },
+      "after": "eaca0dbb7cd54409",
+      "id": "bc851e89b31cdab2",
+      "date": 1547757424526
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "0745a74a5068cd97",
+        "text": "- [[JSON Plugin]]\n- [[Atopia Fedwiki Sites]]"
+      },
+      "after": "bc851e89b31cdab2",
+      "id": "0745a74a5068cd97",
+      "date": 1547757427839
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "be3b4e51ba30094c",
+        "text": "- [[JSON API Keys]]"
+      },
+      "after": "0745a74a5068cd97",
+      "id": "be3b4e51ba30094c",
+      "date": 1547757432927
+    },
+    {
+      "type": "remove",
+      "id": "be3b4e51ba30094c",
+      "date": 1547757434781
+    },
+    {
+      "type": "edit",
+      "id": "0745a74a5068cd97",
+      "item": {
+        "type": "markdown",
+        "id": "0745a74a5068cd97",
+        "text": "- [[JSON Plugin]]\n- [[Atopia Fedwiki Sites]]\n- [[JSON API Keys]]"
+      },
+      "date": 1547757436003
+    },
+    {
+      "type": "remove",
+      "id": "fad521fc3bf2180a",
+      "date": 1547757444532
+    },
+    {
+      "type": "edit",
+      "id": "3909ef38d9e83d7e",
+      "item": {
+        "type": "markdown",
+        "id": "3909ef38d9e83d7e",
+        "text": "- [[JSON Plugin Security]]\n- [[JSON Plugin API]]\n- [[JSON Plugin Examples]]"
+      },
+      "date": 1547757446378
+    },
+    {
+      "type": "edit",
+      "id": "0745a74a5068cd97",
+      "item": {
+        "type": "markdown",
+        "id": "0745a74a5068cd97",
+        "text": "- [[JSON Plugin]]\n- [[Atopia Fedwiki Sites]]\n- [[JSON Plugin Security]]\n- [[JSON API Keys]]\n- [[JSON Plugin API]]\n- [[JSON Plugin Examples]]"
+      },
+      "date": 1547757464949
+    },
+    {
+      "type": "edit",
+      "id": "0745a74a5068cd97",
+      "item": {
+        "type": "markdown",
+        "id": "0745a74a5068cd97",
+        "text": "- [[JSON Plugin]]\n- [[Atopia Fedwiki Sites]]\n- [[JSON Plugin Security]]\n- [[JSON API Keys]]\n- [[JSON Plugin API]]\n- [[JSON Plugin Examples]]\n- [[JSON API Keys]]\n"
+      },
+      "date": 1547757471197
+    },
+    {
+      "type": "remove",
+      "id": "08e8b00522b8c4d9",
+      "date": 1547757513749
+    },
+    {
+      "type": "remove",
+      "id": "83dfb967155642a1",
+      "date": 1547757515924
+    },
+    {
+      "type": "remove",
+      "id": "81d8c9ddff518a53",
+      "date": 1547757517467
+    },
+    {
+      "type": "remove",
+      "id": "e508d38c1f1c495a",
+      "date": 1547757518996
+    },
+    {
+      "type": "remove",
+      "id": "9ea9f759691e8cd8",
+      "date": 1547757522076
+    },
+    {
+      "type": "remove",
+      "id": "802efb4f4575b2e0",
+      "date": 1547757524165
+    },
+    {
+      "type": "remove",
+      "id": "eaca0dbb7cd54409",
+      "date": 1547757526189
+    },
+    {
+      "type": "move",
+      "order": [
+        "94734ee597653649",
+        "3909ef38d9e83d7e",
+        "7ebf017c69dfbc59",
+        "1d01d6470608d2a2",
+        "3d55c116b3d13e20",
+        "35ece947aa90b581",
+        "717b04b15927d454",
+        "1232438b0c8603d3",
+        "686ee871469b8fa8",
+        "05f8ed14ff686d79",
+        "35e960a5c70e1e79",
+        "bc851e89b31cdab2",
+        "0745a74a5068cd97"
+      ],
+      "id": "3909ef38d9e83d7e",
+      "date": 1547757541542
+    },
+    {
+      "type": "remove",
+      "id": "0745a74a5068cd97",
+      "date": 1547757773829
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "0745a74a5068cd97",
+        "text": "- [[JSON Plugin]]\n- [[JSON Plugin Security]]\n- [[JSON API Keys]]\n- [[JSON Plugin API]]\n- [[JSON Plugin Examples]]\n- [[Atopia Fedwiki Sites]]\n\n"
+      },
+      "after": "bc851e89b31cdab2",
+      "id": "0745a74a5068cd97",
+      "date": 1547757776318
+    },
+    {
+      "type": "fork",
+      "site": "admin.fedwiki.org",
+      "date": 1550075233915
+    }
+  ]
+}
