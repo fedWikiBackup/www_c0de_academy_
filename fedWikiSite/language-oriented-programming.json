@@ -1,0 +1,872 @@
+{
+  "title": "Language Oriented Programming",
+  "story": [
+    {
+      "type": "markdown",
+      "id": "61af6d7f-3ece-4f7c-b76d-f0692a0a6e15",
+      "text": "__Language-oriented programming__ (__LOP__) is a style of [[computer]] [[Computer programming]] in which, rather than solving problems in [[general-purpose programming language]]s, the programmer creates one or more [[domain-specific language]]s for the problem first, and solves the problem in those languages - [https://en.wikipedia.org/wiki/Language-oriented_programming wikipedia]\n"
+    },
+    {
+      "type": "markdown",
+      "id": "1063ef24011e9a8b",
+      "text": "- [[Racket (programming language)]]\n- Original paper by Martin Ward - [http://www.gkc.org.uk/martin/papers/middle-out-t.pdf pdf]"
+    },
+    {
+      "type": "markdown",
+      "id": "227272fb-6cb3-4efd-ba7a-99c2e2cae263",
+      "text": "# Concept"
+    },
+    {
+      "type": "markdown",
+      "id": "18917f5f-ab8f-4e78-8021-8993d35b82d8",
+      "text": "The concept of language-oriented programming takes the approach to capture requirements in the user's terms, and then to try to create an implementation language as isomorphic as possible to the user's descriptions, so that the mapping between requirements and implementation is as direct as possible - [https://en.wikipedia.org/wiki/Language-oriented_programming#Concept wikipedia]\n"
+    },
+    {
+      "type": "markdown",
+      "id": "8aa5a72d8fe2edcb",
+      "text": "A measure of the closeness of this isomorphism is the \"redundancy\" of the language, defined as the number of editing operations needed to implement a stand-alone change in requirements. \n"
+    },
+    {
+      "type": "markdown",
+      "id": "efed724ec162801c",
+      "text": "It is not assumed ''a-priori'' what is the best language for implementing the new language. Rather, the developer can choose among options created by analysis of the information flows - what information is acquired, what its structure is, when it is acquired, from whom, and what is done with it."
+    },
+    {
+      "type": "pagefold",
+      "id": "7f051ccbf8152ec7",
+      "text": "c2.com"
+    },
+    {
+      "type": "html",
+      "text": "Language Oriented Programming just got a face-lift (Nov, 2004). [[Sergey Dmitriev]] has published and article titled <i>Language Oriented Programming: The Next Programming Paradigm</i>. See [http://www.onboard.jetbrains.com/articles/04/10/lop/ www.onboard.jetbrains.com]. His argument is that LOP will be the next programming paradigm after OOP - [http://c2.com/cgi/wiki?LanguageOrientedProgramming c2.com]",
+      "id": "a52e14f8929a77b32570afc09e028721"
+    },
+    {
+      "type": "html",
+      "text": "\nIt seems pretty compelling to me (but then again, I'm the editor of the article, and an employee of [[Jet Brains]]). We're looking for feedback, discussion, and especially criticism. I'm sure the wikizens have an opinion on this. What say ye?",
+      "id": "157284e077676472187f7834e92d09d2"
+    },
+    {
+      "type": "html",
+      "text": "\nI was going to respond on [[Lambda The Ultimate]], where there's currently a forum discussion on this topic, but Wiki lets me link more easily...",
+      "id": "de9273cf2130dba98dc4c07e61d4237a"
+    },
+    {
+      "type": "html",
+      "text": "\nFirst off, there's a large amount of prior research in this direction, and not just in the Lisp world.  I think it's worth taking a look at:",
+      "id": "debc4e1dca6a031a06032232b492be61"
+    },
+    {
+      "type": "html",
+      "text": " [[Ml Language]] (ML initially stood for \"[[Meta Language]]\", and was designed to make construction of compilers and DSLs easy).  There's a good presentation on how to write a DSL in Ocaml in a day at [http://www.venge.net/graydon/talks/mkc/html/index.html www.venge.net].",
+      "id": "8b2dacef83a0593705ffb4abcbe683e5"
+    },
+    {
+      "type": "html",
+      "text": " [[Rebol Language]].  Rebol was initially supposed to be a universal data-exchange language.  [[Everything Isa]] dialect in Rebol, allowing you to adjust the language on the fly.  There's native BNF ([[Backus Naur Form]]) support, and execution can alter the parsing of subsequent tokens (this fact makes Rebol impossible to compile, but also makes it ideal for DSLs).  From the sample Rebol code I've seen, it looks a bit easier than the [[Language Oriented Programming]] examples in the article.",
+      "id": "b45e3bae6d02f9d9005d6a68b61075e0"
+    },
+    {
+      "type": "html",
+      "text": " Preprocessors + combinator libraries in [[Haskell Language]].  The two that come to mind are [[Haskell Db]] and WASH.  [[Haskell Db]] is a replacement for SQL that lets you write [[Relational Algebra]] expressions directly in Haskell.  WASH is a webapp framework that's kind of like [[Active Server Pages]] for Haskell, except it tends to integrate a bit better because Haskell code is already declarative.  There's also Fudgets, a GUI library in pure-functional style.",
+      "id": "94e6d022c36ec117f91ca7e138635c54"
+    },
+    {
+      "type": "html",
+      "text": " D-expressions in [[Dylan Language]].  There's a paper on this by [[Jonathan Bachrach]], and it's the implementation strategy in [[Functional Developer]].  This is a way to tap into the [[Abstract Syntax Tree]] of parsed Dylan code fragments, except it actually works at a slightly higher level (the skeleton syntax tree).  It then provides a [[Generic Function]] interface to manipulate code fragments.  Basically all of Dylan syntax is represented as D-expressions in [[Functional Developer]], which is an elegant approach that unfortunately leads to impenetrable error messages when using that IDE.  DSLs like the Dylan User Interface Manager are done using Dylan macros.",
+      "id": "6abd6f5f060a5132707af84b8af83078"
+    },
+    {
+      "type": "html",
+      "text": " [[David Moon]]'s ideas on defsyntax ([http://www.archub.org/arcsug.txt www.archub.org]).  I'm not sure I think this is a terribly great approach; BNF already provides a good mechanism for defining syntax, and providing an ad-hoc alternative just seems like a needless fragmentation.",
+      "id": "80b1bf221cb799ea9ebcfc348177bebf"
+    },
+    {
+      "type": "html",
+      "text": " The internals of [[Parrot Code]].  Parrot is written in [[Cee Language]], but it's C that's heavily preprocessed by various [[Perl Language]] scripts.  As a result, there's a DSL to define PMCs, to define opcodes, to define JIT operations, and so on.  [[Dan Sugalski]] gave a presentation about the use of DSLs in Parrot at some recent convention.",
+      "id": "d3136eba93c6dd9ff52f3fe82cdb3e98"
+    },
+    {
+      "type": "html",
+      "text": "\nAs for whether [[Language Oriented Programming]] is a good idea, I see two big [[Stumbling Blocks For Domain Specific Languages]] (content moved there, hope you don't mind.)",
+      "id": "32b6cfc0cc0e1e1719960bb0ac69c7a5"
+    },
+    {
+      "type": "html",
+      "text": "Previously, discussion of LOP on this wiki was based on [[Helmut Leitner]]'s interpretation of it. See [http://www.wikiservice.at/thelop/wiki.cgi?LanguageOrientedProgramming www.wikiservice.at] for information about that. The 'new' LOP is technically derived from the same source, which was an article titled <i>Language Oriented Programming</i> by [[Martin Ward]] ([http://www.dur.ac.uk/martin.ward/martin/papers/middle-out-t.pdf www.dur.ac.uk]). However, Helmut took a very different approach to it, so his LOP is not the same as [[Sergey Dmitriev]]'s LOP.",
+      "id": "6e9caa3c07eb8da3e779e54cd71bc1a1"
+    },
+    {
+      "type": "html",
+      "text": "Xactium has some interesting technology that realizes this vision (their whole tool is defined using itself).  A book can be freely downloaded from their website ([http://www.xactium.com/ www.xactium.com]). It seems that this technology has migrated over to this other website ([http://www.ceteva.com/ www.ceteva.com]). There you can find everything formerly located at Xactium's site and much more.",
+      "id": "04f8d5724103a87025f0ce6b423e4f01"
+    },
+    {
+      "type": "html",
+      "text": "The early access to Meta-Programming System is started in June 2005 at [http://www.jetbrains.com/mps www.jetbrains.com].",
+      "id": "063fdba0e98fe8d70a37db2a48aa5188"
+    },
+    {
+      "type": "html",
+      "text": "\nWould the opposite be \"attribute-based\" programming, such as a [[Business Rules Metabase]]?",
+      "id": "53be070c41647e1bd8a5e261a12965fc"
+    },
+    {
+      "type": "html",
+      "text": "<i>Not necessarily.  The definition at the top of [[Business Rules Metabase]] states, \"[r]ather than coding [[Business Rules]] in a generic language Java, C++ etc.[, p]ut them in a high level language/database explicitly for the purpose of storing and enforcing business rules.\"  I would interpret a high level language for storing (and representing) and enforcing business rules as being something that could conceivably employ [[Language Oriented Programming]].</i>",
+      "id": "b7f3fd2f83fc0de800d4d5ccbd84d382"
+    },
+    {
+      "type": "html",
+      "text": "<i>If it's a language, I wouldn't call it a \"___base\". I dissagree with that definition.</i>",
+      "id": "14866c8ce46c95fb304f7ece7c339474"
+    },
+    {
+      "type": "html",
+      "text": "\nDidn't this used to be called 'metalinguistic abstraction'? Why did it need a new name? -- [[Bryan Edds]]",
+      "id": "4a70befb9b78d7827c7b227bfb30407f"
+    },
+    {
+      "type": "html",
+      "text": "Hi Bryan, I see 'metalinguistic abstraction' is an abstract concept that doesn't tell you how to construct the language. It also assumes, from what I read that an application specific language is the results. My concept is more concrete by providing a dictionary and rules, so you can see it as an specific implementation of the 'metalinguistic abstraction'. On the other hand, it has a more general forcus as a cross-application meta-language, with a special focus on reusable libraries and modules. -- [[Helmut Leitner]]",
+      "id": "9b61d5afa248120080b12276ac078090"
+    },
+    {
+      "type": "html",
+      "text": "The article about language oriented programming is full of nonsense and tautology. First, programming has always been \"language oriented\" so the article title and concept is meaningless. That is how you program: you use a computer programming language. The title \"language oriented programming\" is redundant, since programming has always been oriented around programming languages. Second, in the article he says he never thinks of programs as a list of things to do (set of instructions). This is complete nonsense. What is the first thing that comes to mind when you want to build an input form on a website: first I want the user to input his data, then I want to collect the data, then I want to store it in a database. These are all very procedural ways of thinking, and this model works well.",
+      "id": "e07578e2787bc8cb965db989c8280e7d"
+    },
+    {
+      "type": "html",
+      "text": "[[Category Metaprogramming]]",
+      "id": "634a7a200aa48e83b9226209a9fe90dd"
+    },
+    {
+      "type": "pagefold",
+      "id": "c163e81fc564d12a",
+      "text": "."
+    },
+    {
+      "type": "markdown",
+      "id": "0263354e-dabe-4fa9-953c-69fc3488efdd",
+      "text": "# See also"
+    },
+    {
+      "type": "markdown",
+      "id": "dedc8dd0-dc39-4348-bc2b-f47fbe4b5394",
+      "text": "- [[Grammar-oriented programming]]\n- [[Dialecting]]\n- [[Domain-specific language]]\n- [[Extensible programming]]\n- [[Intentional programming]]\n- [[Homoiconicity]]\n"
+    },
+    {
+      "type": "markdown",
+      "id": "1c3c2c7bdadd9eac",
+      "text": "- [[Programming paradigm]]"
+    }
+  ],
+  "journal": [
+    {
+      "date": 1390900209000,
+      "id": "8f40bdbb75c8b2193b0e0299bfd82287",
+      "type": "create",
+      "item": {
+        "title": "Language Oriented Programming",
+        "story": [
+          {
+            "type": "html",
+            "text": "Language Oriented Programming just got a face-lift (Nov, 2004). [[Sergey Dmitriev]] has published and article titled <i>Language Oriented Programming: The Next Programming Paradigm</i>. See [http://www.onboard.jetbrains.com/articles/04/10/lop/ www.onboard.jetbrains.com]. His argument is that LOP will be the next programming paradigm after OOP <i>(oh boy, the [[Next Big Thing]])</i>.",
+            "id": "a52e14f8929a77b32570afc09e028721"
+          },
+          {
+            "type": "html",
+            "text": "\nIt seems pretty compelling to me (but then again, I'm the editor of the article, and an employee of [[Jet Brains]]). We're looking for feedback, discussion, and especially criticism. I'm sure the wikizens have an opinion on this. What say ye?",
+            "id": "157284e077676472187f7834e92d09d2"
+          },
+          {
+            "type": "html",
+            "text": "<hr>",
+            "id": "387d3512a7d360c408cfd6c2f2033d48"
+          },
+          {
+            "type": "html",
+            "text": "\nI was going to respond on [[Lambda The Ultimate]], where there's currently a forum discussion on this topic, but Wiki lets me link more easily...",
+            "id": "de9273cf2130dba98dc4c07e61d4237a"
+          },
+          {
+            "type": "html",
+            "text": "\nFirst off, there's a large amount of prior research in this direction, and not just in the Lisp world.  I think it's worth taking a look at:",
+            "id": "debc4e1dca6a031a06032232b492be61"
+          },
+          {
+            "type": "html",
+            "text": " [[Ml Language]] (ML initially stood for \"[[Meta Language]]\", and was designed to make construction of compilers and DSLs easy).  There's a good presentation on how to write a DSL in Ocaml in a day at [http://www.venge.net/graydon/talks/mkc/html/index.html www.venge.net].",
+            "id": "8b2dacef83a0593705ffb4abcbe683e5"
+          },
+          {
+            "type": "html",
+            "text": " [[Rebol Language]].  Rebol was initially supposed to be a universal data-exchange language.  [[Everything Isa]] dialect in Rebol, allowing you to adjust the language on the fly.  There's native BNF ([[Backus Naur Form]]) support, and execution can alter the parsing of subsequent tokens (this fact makes Rebol impossible to compile, but also makes it ideal for DSLs).  From the sample Rebol code I've seen, it looks a bit easier than the [[Language Oriented Programming]] examples in the article.",
+            "id": "b45e3bae6d02f9d9005d6a68b61075e0"
+          },
+          {
+            "type": "html",
+            "text": " Preprocessors + combinator libraries in [[Haskell Language]].  The two that come to mind are [[Haskell Db]] and WASH.  [[Haskell Db]] is a replacement for SQL that lets you write [[Relational Algebra]] expressions directly in Haskell.  WASH is a webapp framework that's kind of like [[Active Server Pages]] for Haskell, except it tends to integrate a bit better because Haskell code is already declarative.  There's also Fudgets, a GUI library in pure-functional style.",
+            "id": "94e6d022c36ec117f91ca7e138635c54"
+          },
+          {
+            "type": "html",
+            "text": " D-expressions in [[Dylan Language]].  There's a paper on this by [[Jonathan Bachrach]], and it's the implementation strategy in [[Functional Developer]].  This is a way to tap into the [[Abstract Syntax Tree]] of parsed Dylan code fragments, except it actually works at a slightly higher level (the skeleton syntax tree).  It then provides a [[Generic Function]] interface to manipulate code fragments.  Basically all of Dylan syntax is represented as D-expressions in [[Functional Developer]], which is an elegant approach that unfortunately leads to impenetrable error messages when using that IDE.  DSLs like the Dylan User Interface Manager are done using Dylan macros.",
+            "id": "6abd6f5f060a5132707af84b8af83078"
+          },
+          {
+            "type": "html",
+            "text": " [[David Moon]]'s ideas on defsyntax ([http://www.archub.org/arcsug.txt www.archub.org]).  I'm not sure I think this is a terribly great approach; BNF already provides a good mechanism for defining syntax, and providing an ad-hoc alternative just seems like a needless fragmentation.",
+            "id": "80b1bf221cb799ea9ebcfc348177bebf"
+          },
+          {
+            "type": "html",
+            "text": " The internals of [[Parrot Code]].  Parrot is written in [[Cee Language]], but it's C that's heavily preprocessed by various [[Perl Language]] scripts.  As a result, there's a DSL to define PMCs, to define opcodes, to define JIT operations, and so on.  [[Dan Sugalski]] gave a presentation about the use of DSLs in Parrot at some recent convention.",
+            "id": "d3136eba93c6dd9ff52f3fe82cdb3e98"
+          },
+          {
+            "type": "html",
+            "text": "\nAs for whether [[Language Oriented Programming]] is a good idea, I see two big [[Stumbling Blocks For Domain Specific Languages]] (content moved there, hope you don't mind.)",
+            "id": "32b6cfc0cc0e1e1719960bb0ac69c7a5"
+          },
+          {
+            "type": "html",
+            "text": "<hr>",
+            "id": "387d3512a7d360c408cfd6c2f2033d48"
+          },
+          {
+            "type": "html",
+            "text": "Previously, discussion of LOP on this wiki was based on [[Helmut Leitner]]'s interpretation of it. See [http://www.wikiservice.at/thelop/wiki.cgi?LanguageOrientedProgramming www.wikiservice.at] for information about that. The 'new' LOP is technically derived from the same source, which was an article titled <i>Language Oriented Programming</i> by [[Martin Ward]] ([http://www.dur.ac.uk/martin.ward/martin/papers/middle-out-t.pdf www.dur.ac.uk]). However, Helmut took a very different approach to it, so his LOP is not the same as [[Sergey Dmitriev]]'s LOP.",
+            "id": "6e9caa3c07eb8da3e779e54cd71bc1a1"
+          },
+          {
+            "type": "html",
+            "text": "<hr>",
+            "id": "387d3512a7d360c408cfd6c2f2033d48"
+          },
+          {
+            "type": "html",
+            "text": "Xactium has some interesting technology that realizes this vision (their whole tool is defined using itself).  A book can be freely downloaded from their website ([http://www.xactium.com/ www.xactium.com]). It seems that this technology has migrated over to this other website ([http://www.ceteva.com/ www.ceteva.com]). There you can find everything formerly located at Xactium's site and much more.",
+            "id": "04f8d5724103a87025f0ce6b423e4f01"
+          },
+          {
+            "type": "html",
+            "text": "<hr>",
+            "id": "387d3512a7d360c408cfd6c2f2033d48"
+          },
+          {
+            "type": "html",
+            "text": "The early access to Meta-Programming System is started in June 2005 at [http://www.jetbrains.com/mps www.jetbrains.com].",
+            "id": "063fdba0e98fe8d70a37db2a48aa5188"
+          },
+          {
+            "type": "html",
+            "text": "<hr>",
+            "id": "387d3512a7d360c408cfd6c2f2033d48"
+          },
+          {
+            "type": "html",
+            "text": "\nWould the opposite be \"attribute-based\" programming, such as a [[Business Rules Metabase]]?",
+            "id": "53be070c41647e1bd8a5e261a12965fc"
+          },
+          {
+            "type": "html",
+            "text": "<i>Not necessarily.  The definition at the top of [[Business Rules Metabase]] states, \"[r]ather than coding [[Business Rules]] in a generic language Java, C++ etc.[, p]ut them in a high level language/database explicitly for the purpose of storing and enforcing business rules.\"  I would interpret a high level language for storing (and representing) and enforcing business rules as being something that could conceivably employ [[Language Oriented Programming]].</i>",
+            "id": "b7f3fd2f83fc0de800d4d5ccbd84d382"
+          },
+          {
+            "type": "html",
+            "text": "<i>If it's a language, I wouldn't call it a \"___base\". I dissagree with that definition.</i>",
+            "id": "14866c8ce46c95fb304f7ece7c339474"
+          },
+          {
+            "type": "html",
+            "text": "<hr>",
+            "id": "387d3512a7d360c408cfd6c2f2033d48"
+          },
+          {
+            "type": "html",
+            "text": "\nDidn't this used to be called 'metalinguistic abstraction'? Why did it need a new name? -- [[Bryan Edds]]",
+            "id": "4a70befb9b78d7827c7b227bfb30407f"
+          },
+          {
+            "type": "html",
+            "text": "\nHi Bryan, I see 'metalinguistic abstraction' is an abstract concept that doesn't tell you how to construct the language. It also assumes, from what I read that an application specific language is the results. My concept is more concrete by providing a dictionary and rules, so you can see it as an specific implementation of the 'metalinguistic abstraction'. On the other hand, it has a more general forcus as a cross-application meta-language, with a special focus on reusable libraries and modules. -- [[Helmut Leitner]]",
+            "id": "9b61d5afa248120080b12276ac078090"
+          },
+          {
+            "type": "html",
+            "text": "<hr>",
+            "id": "387d3512a7d360c408cfd6c2f2033d48"
+          },
+          {
+            "type": "html",
+            "text": "The article about language oriented programming is full of nonsense and tautology. First, programming has always been \"language oriented\" so the article title and concept is meaningless. That is how you program: you use a computer programming language. The title \"language oriented programming\" is redundant, since programming has always been oriented around programming languages. Second, in the article he says he never thinks of programs as a list of things to do (set of instructions). This is complete nonsense. What is the first thing that comes to mind when you want to build an input form on a website: first I want the user to input his data, then I want to collect the data, then I want to store it in a database. These are all very procedural ways of thinking, and this model works well.",
+            "id": "e07578e2787bc8cb965db989c8280e7d"
+          },
+          {
+            "type": "html",
+            "text": "<hr>",
+            "id": "387d3512a7d360c408cfd6c2f2033d48"
+          },
+          {
+            "type": "html",
+            "text": "[[Category Metaprogramming]]",
+            "id": "634a7a200aa48e83b9226209a9fe90dd"
+          },
+          {
+            "type": "html",
+            "text": "See original on  [http://c2.com/cgi/wiki?LanguageOrientedProgramming c2.com]",
+            "id": "53a83fdd895f719ded18d1287b752915"
+          }
+        ]
+      }
+    },
+    {
+      "type": "fork",
+      "site": "sfw.c2.com",
+      "date": 1550581094620
+    },
+    {
+      "type": "fork",
+      "site": "literate.wiki",
+      "date": 1551169851846
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "61af6d7f-3ece-4f7c-b76d-f0692a0a6e15",
+        "text": "__Language-oriented programming__ (__LOP__) is a style of [[computer]] [[Computer programming]] in which, rather than solving problems in [[general-purpose programming language]]s, the programmer creates one or more [[domain-specific language]]s for the problem first, and solves the problem in those languages. This concept is described in detail in the paper by Martin Ward entitled \"Language Oriented Programming\", published in ''Software - Concepts and Tools'', Vol.15, No.4, pp 147-161, 1994 - [https://en.wikipedia.org/wiki/Language-oriented_programming wikipedia]"
+      },
+      "id": "61af6d7f-3ece-4f7c-b76d-f0692a0a6e15",
+      "date": 1551169855431
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "0263354e-dabe-4fa9-953c-69fc3488efdd",
+        "text": "# See also"
+      },
+      "after": "53a83fdd895f719ded18d1287b752915",
+      "id": "0263354e-dabe-4fa9-953c-69fc3488efdd",
+      "date": 1551169869454
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "dedc8dd0-dc39-4348-bc2b-f47fbe4b5394",
+        "text": "- [[Grammar-oriented programming]]\n- [[Dialecting]]\n- [[Domain-specific language]]\n- [[Extensible programming]]\n- [[Intentional programming]]\n- [[Homoiconicity]]"
+      },
+      "after": "0263354e-dabe-4fa9-953c-69fc3488efdd",
+      "id": "dedc8dd0-dc39-4348-bc2b-f47fbe4b5394",
+      "date": 1551169871589
+    },
+    {
+      "type": "remove",
+      "id": "53a83fdd895f719ded18d1287b752915",
+      "date": 1551169879023
+    },
+    {
+      "type": "move",
+      "order": [
+        "61af6d7f-3ece-4f7c-b76d-f0692a0a6e15",
+        "387d3512a7d360c408cfd6c2f2033d48",
+        "a52e14f8929a77b32570afc09e028721",
+        "157284e077676472187f7834e92d09d2",
+        "387d3512a7d360c408cfd6c2f2033d48",
+        "de9273cf2130dba98dc4c07e61d4237a",
+        "debc4e1dca6a031a06032232b492be61",
+        "8b2dacef83a0593705ffb4abcbe683e5",
+        "b45e3bae6d02f9d9005d6a68b61075e0",
+        "94e6d022c36ec117f91ca7e138635c54",
+        "6abd6f5f060a5132707af84b8af83078",
+        "80b1bf221cb799ea9ebcfc348177bebf",
+        "d3136eba93c6dd9ff52f3fe82cdb3e98",
+        "32b6cfc0cc0e1e1719960bb0ac69c7a5",
+        "387d3512a7d360c408cfd6c2f2033d48",
+        "6e9caa3c07eb8da3e779e54cd71bc1a1",
+        "387d3512a7d360c408cfd6c2f2033d48",
+        "04f8d5724103a87025f0ce6b423e4f01",
+        "387d3512a7d360c408cfd6c2f2033d48",
+        "063fdba0e98fe8d70a37db2a48aa5188",
+        "387d3512a7d360c408cfd6c2f2033d48",
+        "53be070c41647e1bd8a5e261a12965fc",
+        "b7f3fd2f83fc0de800d4d5ccbd84d382",
+        "14866c8ce46c95fb304f7ece7c339474",
+        "387d3512a7d360c408cfd6c2f2033d48",
+        "4a70befb9b78d7827c7b227bfb30407f",
+        "9b61d5afa248120080b12276ac078090",
+        "387d3512a7d360c408cfd6c2f2033d48",
+        "e07578e2787bc8cb965db989c8280e7d",
+        "634a7a200aa48e83b9226209a9fe90dd",
+        "0263354e-dabe-4fa9-953c-69fc3488efdd",
+        "dedc8dd0-dc39-4348-bc2b-f47fbe4b5394"
+      ],
+      "id": "387d3512a7d360c408cfd6c2f2033d48",
+      "date": 1551169901673
+    },
+    {
+      "type": "edit",
+      "id": "a52e14f8929a77b32570afc09e028721",
+      "item": {
+        "type": "html",
+        "text": "Language Oriented Programming just got a face-lift (Nov, 2004). [[Sergey Dmitriev]] has published and article titled <i>Language Oriented Programming: The Next Programming Paradigm</i>. See [http://www.onboard.jetbrains.com/articles/04/10/lop/ www.onboard.jetbrains.com]. His argument is that LOP will be the next programming paradigm after OOP - [http://c2.com/cgi/wiki?LanguageOrientedProgramming c2.com]",
+        "id": "a52e14f8929a77b32570afc09e028721"
+      },
+      "date": 1551169932186
+    },
+    {
+      "item": {
+        "type": "pagefold",
+        "id": "c163e81fc564d12a",
+        "text": "."
+      },
+      "id": "c163e81fc564d12a",
+      "type": "add",
+      "after": "dedc8dd0-dc39-4348-bc2b-f47fbe4b5394",
+      "date": 1551169936012
+    },
+    {
+      "type": "move",
+      "order": [
+        "61af6d7f-3ece-4f7c-b76d-f0692a0a6e15",
+        "387d3512a7d360c408cfd6c2f2033d48",
+        "a52e14f8929a77b32570afc09e028721",
+        "157284e077676472187f7834e92d09d2",
+        "387d3512a7d360c408cfd6c2f2033d48",
+        "de9273cf2130dba98dc4c07e61d4237a",
+        "debc4e1dca6a031a06032232b492be61",
+        "8b2dacef83a0593705ffb4abcbe683e5",
+        "b45e3bae6d02f9d9005d6a68b61075e0",
+        "94e6d022c36ec117f91ca7e138635c54",
+        "6abd6f5f060a5132707af84b8af83078",
+        "80b1bf221cb799ea9ebcfc348177bebf",
+        "d3136eba93c6dd9ff52f3fe82cdb3e98",
+        "32b6cfc0cc0e1e1719960bb0ac69c7a5",
+        "387d3512a7d360c408cfd6c2f2033d48",
+        "6e9caa3c07eb8da3e779e54cd71bc1a1",
+        "387d3512a7d360c408cfd6c2f2033d48",
+        "04f8d5724103a87025f0ce6b423e4f01",
+        "387d3512a7d360c408cfd6c2f2033d48",
+        "063fdba0e98fe8d70a37db2a48aa5188",
+        "387d3512a7d360c408cfd6c2f2033d48",
+        "53be070c41647e1bd8a5e261a12965fc",
+        "b7f3fd2f83fc0de800d4d5ccbd84d382",
+        "14866c8ce46c95fb304f7ece7c339474",
+        "387d3512a7d360c408cfd6c2f2033d48",
+        "4a70befb9b78d7827c7b227bfb30407f",
+        "9b61d5afa248120080b12276ac078090",
+        "387d3512a7d360c408cfd6c2f2033d48",
+        "c163e81fc564d12a",
+        "e07578e2787bc8cb965db989c8280e7d",
+        "634a7a200aa48e83b9226209a9fe90dd",
+        "0263354e-dabe-4fa9-953c-69fc3488efdd",
+        "dedc8dd0-dc39-4348-bc2b-f47fbe4b5394"
+      ],
+      "id": "c163e81fc564d12a",
+      "date": 1551169938204
+    },
+    {
+      "type": "edit",
+      "id": "9b61d5afa248120080b12276ac078090",
+      "item": {
+        "type": "html",
+        "text": "Hi Bryan, I see 'metalinguistic abstraction' is an abstract concept that doesn't tell you how to construct the language. It also assumes, from what I read that an application specific language is the results. My concept is more concrete by providing a dictionary and rules, so you can see it as an specific implementation of the 'metalinguistic abstraction'. On the other hand, it has a more general forcus as a cross-application meta-language, with a special focus on reusable libraries and modules. -- [[Helmut Leitner]]",
+        "id": "9b61d5afa248120080b12276ac078090"
+      },
+      "date": 1551169946114
+    },
+    {
+      "type": "remove",
+      "id": "387d3512a7d360c408cfd6c2f2033d48",
+      "date": 1551169954441
+    },
+    {
+      "type": "edit",
+      "id": "c163e81fc564d12a",
+      "item": {
+        "type": "pagefold",
+        "id": "c163e81fc564d12a",
+        "text": "."
+      },
+      "date": 1551169961397
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "7f051ccbf8152ec7"
+      },
+      "id": "7f051ccbf8152ec7",
+      "type": "add",
+      "after": "dedc8dd0-dc39-4348-bc2b-f47fbe4b5394",
+      "date": 1551169972095
+    },
+    {
+      "type": "move",
+      "order": [
+        "61af6d7f-3ece-4f7c-b76d-f0692a0a6e15",
+        "7f051ccbf8152ec7",
+        "387d3512a7d360c408cfd6c2f2033d48",
+        "a52e14f8929a77b32570afc09e028721",
+        "157284e077676472187f7834e92d09d2",
+        "387d3512a7d360c408cfd6c2f2033d48",
+        "de9273cf2130dba98dc4c07e61d4237a",
+        "debc4e1dca6a031a06032232b492be61",
+        "8b2dacef83a0593705ffb4abcbe683e5",
+        "b45e3bae6d02f9d9005d6a68b61075e0",
+        "94e6d022c36ec117f91ca7e138635c54",
+        "6abd6f5f060a5132707af84b8af83078",
+        "80b1bf221cb799ea9ebcfc348177bebf",
+        "d3136eba93c6dd9ff52f3fe82cdb3e98",
+        "32b6cfc0cc0e1e1719960bb0ac69c7a5",
+        "387d3512a7d360c408cfd6c2f2033d48",
+        "6e9caa3c07eb8da3e779e54cd71bc1a1",
+        "387d3512a7d360c408cfd6c2f2033d48",
+        "04f8d5724103a87025f0ce6b423e4f01",
+        "387d3512a7d360c408cfd6c2f2033d48",
+        "063fdba0e98fe8d70a37db2a48aa5188",
+        "387d3512a7d360c408cfd6c2f2033d48",
+        "53be070c41647e1bd8a5e261a12965fc",
+        "b7f3fd2f83fc0de800d4d5ccbd84d382",
+        "14866c8ce46c95fb304f7ece7c339474",
+        "387d3512a7d360c408cfd6c2f2033d48",
+        "4a70befb9b78d7827c7b227bfb30407f",
+        "9b61d5afa248120080b12276ac078090",
+        "c163e81fc564d12a",
+        "e07578e2787bc8cb965db989c8280e7d",
+        "634a7a200aa48e83b9226209a9fe90dd",
+        "0263354e-dabe-4fa9-953c-69fc3488efdd",
+        "dedc8dd0-dc39-4348-bc2b-f47fbe4b5394"
+      ],
+      "id": "7f051ccbf8152ec7",
+      "date": 1551169980293,
+      "error": {
+        "type": "error",
+        "msg": "Internal Server Error",
+        "response": "Server Ignoring move. Try reload."
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1551169983307
+    },
+    {
+      "type": "remove",
+      "id": "387d3512a7d360c408cfd6c2f2033d48",
+      "date": 1551169988196
+    },
+    {
+      "type": "edit",
+      "id": "7f051ccbf8152ec7",
+      "item": {
+        "type": "pagefold",
+        "id": "7f051ccbf8152ec7",
+        "text": "c2.com"
+      },
+      "date": 1551169996463
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "18917f5f-ab8f-4e78-8021-8993d35b82d8",
+        "text": "The concept of language-oriented programming takes the approach to capture requirements in the user's terms, and then to try to create an implementation language as [[wikt:isomorphic#Adjective]] as possible to the user's descriptions, so that the mapping between requirements and implementation is as direct as possible. A measure of the closeness of this isomorphism is the \"redundancy\" of the language, defined as the number of editing operations needed to implement a stand-alone change in requirements. It is not assumed ''a-priori'' what is the best language for implementing the new language. Rather, the developer can choose among options created by analysis of the information flows — what information is acquired, what its structure is, when it is acquired, from whom, and what is done with it - [https://en.wikipedia.org/wiki/Language-oriented_programming#Concept wikipedia]"
+      },
+      "after": "61af6d7f-3ece-4f7c-b76d-f0692a0a6e15",
+      "id": "18917f5f-ab8f-4e78-8021-8993d35b82d8",
+      "date": 1551170006382
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "227272fb-6cb3-4efd-ba7a-99c2e2cae263",
+        "text": "# Concept"
+      },
+      "after": "61af6d7f-3ece-4f7c-b76d-f0692a0a6e15",
+      "id": "227272fb-6cb3-4efd-ba7a-99c2e2cae263",
+      "date": 1551170014570
+    },
+    {
+      "type": "edit",
+      "id": "18917f5f-ab8f-4e78-8021-8993d35b82d8",
+      "item": {
+        "type": "markdown",
+        "id": "18917f5f-ab8f-4e78-8021-8993d35b82d8",
+        "text": "The concept of language-oriented programming takes the approach to capture requirements in the user's terms, and then to try to create an implementation language as isomorphic as possible to the user's descriptions, so that the mapping between requirements and implementation is as direct as possible. \n"
+      },
+      "date": 1551170077456
+    },
+    {
+      "type": "add",
+      "id": "8aa5a72d8fe2edcb",
+      "item": {
+        "type": "markdown",
+        "id": "8aa5a72d8fe2edcb",
+        "text": "A measure of the closeness of this isomorphism is the \"redundancy\" of the language, defined as the number of editing operations needed to implement a stand-alone change in requirements. \n"
+      },
+      "after": "18917f5f-ab8f-4e78-8021-8993d35b82d8",
+      "date": 1551170094735
+    },
+    {
+      "type": "add",
+      "id": "efed724ec162801c",
+      "item": {
+        "type": "markdown",
+        "id": "efed724ec162801c",
+        "text": "It is not assumed ''a-priori'' what is the best language for implementing the new language. Rather, the developer can choose among options created by analysis of the information flows - what information is acquired, what its structure is, when it is acquired, from whom, and what is done with it."
+      },
+      "after": "8aa5a72d8fe2edcb",
+      "date": 1551170117456
+    },
+    {
+      "type": "edit",
+      "id": "18917f5f-ab8f-4e78-8021-8993d35b82d8",
+      "item": {
+        "type": "markdown",
+        "id": "18917f5f-ab8f-4e78-8021-8993d35b82d8",
+        "text": "The concept of language-oriented programming takes the approach to capture requirements in the user's terms, and then to try to create an implementation language as isomorphic as possible to the user's descriptions, so that the mapping between requirements and implementation is as direct as possible - [https://en.wikipedia.org/wiki/Language-oriented_programming#Concept wikipedia]\n"
+      },
+      "date": 1551170120792
+    },
+    {
+      "type": "edit",
+      "id": "61af6d7f-3ece-4f7c-b76d-f0692a0a6e15",
+      "item": {
+        "type": "markdown",
+        "id": "61af6d7f-3ece-4f7c-b76d-f0692a0a6e15",
+        "text": "__Language-oriented programming__ (__LOP__) is a style of [[computer]] [[Computer programming]] in which, rather than solving problems in [[general-purpose programming language]]s, the programmer creates one or more [[domain-specific language]]s for the problem first, and solves the problem in those languages - [https://en.wikipedia.org/wiki/Language-oriented_programming wikipedia]\n"
+      },
+      "date": 1551170165378
+    },
+    {
+      "type": "add",
+      "id": "1063ef24011e9a8b",
+      "item": {
+        "type": "markdown",
+        "id": "1063ef24011e9a8b",
+        "text": "This concept is described in detail in the paper by Martin Ward entitled \"Language Oriented Programming\", published in ''Software - Concepts and Tools'', Vol.15, No.4, pp 147-161, 1994"
+      },
+      "after": "61af6d7f-3ece-4f7c-b76d-f0692a0a6e15",
+      "date": 1551170167488
+    },
+    {
+      "type": "edit",
+      "id": "1063ef24011e9a8b",
+      "item": {
+        "type": "markdown",
+        "id": "1063ef24011e9a8b",
+        "text": "This concept is described in detail in the paper by Martin Ward entitled \"Language Oriented Programming\" - http://www.gkc.org.uk/martin/papers/middle-out-t.pdf pdf]"
+      },
+      "date": 1551170250998
+    },
+    {
+      "type": "edit",
+      "id": "1063ef24011e9a8b",
+      "item": {
+        "type": "markdown",
+        "id": "1063ef24011e9a8b",
+        "text": "This concept is described in detail in the paper by Martin Ward entitled \"Language Oriented Programming\" - [http://www.gkc.org.uk/martin/papers/middle-out-t.pdf pdf]"
+      },
+      "date": 1551170256820
+    },
+    {
+      "type": "fork",
+      "site": "c0de.academy",
+      "date": 1551170362510
+    },
+    {
+      "type": "edit",
+      "id": "1063ef24011e9a8b",
+      "item": {
+        "type": "markdown",
+        "id": "1063ef24011e9a8b",
+        "text": "This concept is described in detail in the paper by Martin Ward entitled \"Language Oriented Programming\" - [http://www.gkc.org.uk/martin/papers/middle-out-t.pdf pdf]\n"
+      },
+      "date": 1551170512651
+    },
+    {
+      "type": "add",
+      "id": "8d8bdb1dd07b7ffd",
+      "item": {
+        "type": "markdown",
+        "id": "8d8bdb1dd07b7ffd",
+        "text": "Racket can copile to [[LLVM]] using - [https://github.com/bubba/racket-llvm github]"
+      },
+      "after": "1063ef24011e9a8b",
+      "date": 1551170537985
+    },
+    {
+      "type": "edit",
+      "id": "8d8bdb1dd07b7ffd",
+      "item": {
+        "type": "markdown",
+        "id": "8d8bdb1dd07b7ffd",
+        "text": "Racket can compile to [[LLVM]] using the racket-llvm bindings for Racket - [https://github.com/bubba/racket-llvm github]"
+      },
+      "date": 1551170580476
+    },
+    {
+      "type": "edit",
+      "id": "1063ef24011e9a8b",
+      "item": {
+        "type": "markdown",
+        "id": "1063ef24011e9a8b",
+        "text": "- Original paper by Martin Ward entitled \"Language Oriented Programming\" - [http://www.gkc.org.uk/martin/papers/middle-out-t.pdf pdf]\n"
+      },
+      "date": 1551170688806
+    },
+    {
+      "type": "edit",
+      "id": "8d8bdb1dd07b7ffd",
+      "item": {
+        "type": "markdown",
+        "id": "8d8bdb1dd07b7ffd",
+        "text": "- Racket can compile to [[LLVM]] using the racket-llvm bindings for Racket - [https://github.com/bubba/racket-llvm github]"
+      },
+      "date": 1551170693126
+    },
+    {
+      "type": "remove",
+      "id": "8d8bdb1dd07b7ffd",
+      "date": 1551170695047
+    },
+    {
+      "type": "edit",
+      "id": "1063ef24011e9a8b",
+      "item": {
+        "type": "markdown",
+        "id": "1063ef24011e9a8b",
+        "text": "- Original paper by Martin Ward entitled \"Language Oriented Programming\" - [http://www.gkc.org.uk/martin/papers/middle-out-t.pdf pdf]\n- Racket can compile to [[LLVM]] using the racket-llvm bindings for Racket - [https://github.com/bubba/racket-llvm github]"
+      },
+      "date": 1551170696264
+    },
+    {
+      "type": "edit",
+      "id": "1063ef24011e9a8b",
+      "item": {
+        "type": "markdown",
+        "id": "1063ef24011e9a8b",
+        "text": "- Original paper by Martin Ward entitled \"Language Oriented Programming\" - [http://www.gkc.org.uk/martin/papers/middle-out-t.pdf pdf]\n- Racket can compile to [[LLVM]] using the racket-llvm bindings for Racket - [https://github.com/bubba/racket-llvm github]\n- Lisp-like language to WebAssembly build with racket"
+      },
+      "date": 1551170709834
+    },
+    {
+      "type": "edit",
+      "id": "1063ef24011e9a8b",
+      "item": {
+        "type": "markdown",
+        "id": "1063ef24011e9a8b",
+        "text": "- Original paper by Martin Ward entitled \"Language Oriented Programming\" - [http://www.gkc.org.uk/martin/papers/middle-out-t.pdf pdf]\n- Racket can compile to [[LLVM]] using the racket-llvm bindings for Racket - [https://github.com/bubba/racket-llvm github]\n- Wracket dialect compiles to WebAssembly - [https://github.com/sschauss/wracket github]"
+      },
+      "date": 1551170762872
+    },
+    {
+      "type": "move",
+      "order": [
+        "61af6d7f-3ece-4f7c-b76d-f0692a0a6e15",
+        "1063ef24011e9a8b",
+        "227272fb-6cb3-4efd-ba7a-99c2e2cae263",
+        "18917f5f-ab8f-4e78-8021-8993d35b82d8",
+        "8aa5a72d8fe2edcb",
+        "efed724ec162801c",
+        "7f051ccbf8152ec7",
+        "a52e14f8929a77b32570afc09e028721",
+        "157284e077676472187f7834e92d09d2",
+        "de9273cf2130dba98dc4c07e61d4237a",
+        "debc4e1dca6a031a06032232b492be61",
+        "8b2dacef83a0593705ffb4abcbe683e5",
+        "b45e3bae6d02f9d9005d6a68b61075e0",
+        "94e6d022c36ec117f91ca7e138635c54",
+        "6abd6f5f060a5132707af84b8af83078",
+        "80b1bf221cb799ea9ebcfc348177bebf",
+        "d3136eba93c6dd9ff52f3fe82cdb3e98",
+        "32b6cfc0cc0e1e1719960bb0ac69c7a5",
+        "6e9caa3c07eb8da3e779e54cd71bc1a1",
+        "04f8d5724103a87025f0ce6b423e4f01",
+        "063fdba0e98fe8d70a37db2a48aa5188",
+        "53be070c41647e1bd8a5e261a12965fc",
+        "b7f3fd2f83fc0de800d4d5ccbd84d382",
+        "14866c8ce46c95fb304f7ece7c339474",
+        "4a70befb9b78d7827c7b227bfb30407f",
+        "9b61d5afa248120080b12276ac078090",
+        "e07578e2787bc8cb965db989c8280e7d",
+        "634a7a200aa48e83b9226209a9fe90dd",
+        "c163e81fc564d12a",
+        "0263354e-dabe-4fa9-953c-69fc3488efdd",
+        "dedc8dd0-dc39-4348-bc2b-f47fbe4b5394"
+      ],
+      "id": "c163e81fc564d12a",
+      "date": 1551170791881
+    },
+    {
+      "type": "edit",
+      "id": "1063ef24011e9a8b",
+      "item": {
+        "type": "markdown",
+        "id": "1063ef24011e9a8b",
+        "text": "- Original paper by Martin Ward entitled \"Language Oriented Programming\" - [http://www.gkc.org.uk/martin/papers/middle-out-t.pdf pdf]"
+      },
+      "date": 1551171363588
+    },
+    {
+      "type": "fork",
+      "site": "literate.wiki"
+    },
+    {
+      "type": "edit",
+      "id": "1063ef24011e9a8b",
+      "item": {
+        "type": "markdown",
+        "id": "1063ef24011e9a8b",
+        "text": "- Original paper by Martin Ward - [http://www.gkc.org.uk/martin/papers/middle-out-t.pdf pdf]"
+      },
+      "date": 1551171460780
+    },
+    {
+      "type": "edit",
+      "id": "1063ef24011e9a8b",
+      "item": {
+        "type": "markdown",
+        "id": "1063ef24011e9a8b",
+        "text": "- Original paper by Martin Ward - [http://www.gkc.org.uk/martin/papers/middle-out-t.pdf pdf]\n- [[Racket (programming language)]]"
+      },
+      "date": 1551171589036
+    },
+    {
+      "type": "edit",
+      "id": "1063ef24011e9a8b",
+      "item": {
+        "type": "markdown",
+        "id": "1063ef24011e9a8b",
+        "text": "- [[Racket (programming language)]]\n- Original paper by Martin Ward - [http://www.gkc.org.uk/martin/papers/middle-out-t.pdf pdf]"
+      },
+      "date": 1551171601492
+    },
+    {
+      "type": "edit",
+      "id": "dedc8dd0-dc39-4348-bc2b-f47fbe4b5394",
+      "item": {
+        "type": "markdown",
+        "id": "dedc8dd0-dc39-4348-bc2b-f47fbe4b5394",
+        "text": "- [[Grammar-oriented programming]]\n- [[Dialecting]]\n- [[Domain-specific language]]\n- [[Extensible programming]]\n- [[Intentional programming]]\n- [[Homoiconicity]]\n"
+      },
+      "date": 1551349212091
+    },
+    {
+      "type": "add",
+      "id": "1c3c2c7bdadd9eac",
+      "item": {
+        "type": "markdown",
+        "id": "1c3c2c7bdadd9eac",
+        "text": "- [[Programming paradigm]]"
+      },
+      "after": "dedc8dd0-dc39-4348-bc2b-f47fbe4b5394",
+      "date": 1551349214471
+    }
+  ]
+}
