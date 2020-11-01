@@ -1,0 +1,89 @@
+{
+  "title": "Hypertext Transfer Protocol",
+  "journal": [
+    {
+      "date": 1552050058388,
+      "type": "create",
+      "item": {
+        "story": "",
+        "title": "Hypertext Transfer Protocol"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1552049922679
+    }
+  ],
+  "story": [
+    {
+      "type": "markdown",
+      "id": "8732581c-7a51-4871-8155-dee12819e48b",
+      "text": "The __Hypertext Transfer Protocol__ (__HTTP__) is an [[application protocol]] for distributed, collaborative, [[hypermedia]] information systems. HTTP is the foundation of data communication for the [[World Wide Web]], where [[hypertext]] documents include [[hyperlink]]s to other resources that the user can easily access, for example by a [[Computer mouse]] click or by tapping the screen. HTTP was developed to facilitate hypertext and the World Wide Web - [https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol wikipedia]"
+    },
+    {
+      "type": "markdown",
+      "id": "49752cd0-a822-478e-aff8-62c380df8248",
+      "text": "Development of HTTP was initiated by [[Tim Berners-Lee]] at [[CERN]] in 1989. Development of HTTP standards was coordinated by the [[Internet Engineering Task Force]] (IETF) and the [[World Wide Web Consortium]] (W3C), culminating in the publication of a series of [[Requests for Comments]] (RFCs). The first definition of HTTP/1.1, the version of HTTP in common use, occurred in  family of RFCs in 2014."
+    },
+    {
+      "type": "markdown",
+      "id": "52936339-4887-4279-b637-1c2234c14cdf",
+      "text": "A later version, the successor [[HTTP/2]], was standardized in 2015 (and [[HTTP/3]] is its proposed successor ([[Internet Draft]]), that builds on HTTP/2), and is now supported by major web servers and browsers over TLS using [[ALPN]] extension where [[Transport Layer Security#TLS 1.2]] or newer is required."
+    },
+    {
+      "type": "markdown",
+      "id": "ed3c6862-0e37-4596-af98-c974993a2b14",
+      "text": "# Sections"
+    },
+    {
+      "type": "html",
+      "id": "6271b37f-cad6-4115-8c98-b04da4be566d",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Technical overview'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Hypertext Transfer Protocol&action=edit&section=1'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "36a34c14-61e9-4f48-97e0-1a1fdbf3b78b",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='History'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Hypertext Transfer Protocol&action=edit&section=2'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "94c8fcea-730d-4965-ada2-17865973d38b",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='HTTP session'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Hypertext Transfer Protocol&action=edit&section=3'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "b0ed1173-f596-43cc-a132-baf65141fee6",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='HTTP authentication'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Hypertext Transfer Protocol&action=edit&section=6'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "3099f2ae-61ef-4dba-ae3d-d40e11d0f37b",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Message format'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Hypertext Transfer Protocol&action=edit&section=8'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "b1503cc3-7579-4cee-bf99-16dc9a8102b3",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Encrypted connections'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Hypertext Transfer Protocol&action=edit&section=17'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "85295907-4d8a-4c32-a31f-c70c2a10c5d9",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Example session'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Hypertext Transfer Protocol&action=edit&section=18'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "a745d628-f277-4a62-b132-153449091291",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Similar protocols'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Hypertext Transfer Protocol&action=edit&section=21'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "markdown",
+      "id": "fa691284-62d1-49af-b0bb-17825e95da8c",
+      "text": "# See also"
+    },
+    {
+      "type": "markdown",
+      "id": "2c220252-c02d-49dd-8137-6de7f4bcfdb8",
+      "text": "- [[Persistence]]\n- [[Compression]]\n- [[HTTPS]]\n- [[QUIC]]"
+    }
+  ]
+}
