@@ -1,0 +1,174 @@
+{
+  "title": "Technology Sites",
+  "journal": [
+    {
+      "date": 1424445310106,
+      "type": "create",
+      "item": {
+        "story": "",
+        "title": "Technology Sites"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1536156935290
+    },
+    {
+      "type": "add",
+      "id": "4cca15f95e5c4e6e",
+      "item": {
+        "type": "paragraph",
+        "id": "4cca15f95e5c4e6e",
+        "text": "REFERENCES c0de.academy/technology-sites\nREFERENCES c0de.academy/coding-sites\nREFERENCES livecode.world/welcome-visitors\nREFERENCES fedwiki.org/fedwiki-sites\nREFERENCES fedwiki.org/foraging-sites"
+      },
+      "after": "a85cf8f5cd11e8da",
+      "date": 1546600045275
+    },
+    {
+      "type": "move",
+      "order": [
+        "fd4cf8bb6030d407",
+        "a85cf8f5cd11e8da",
+        "1bea8572d71395ba",
+        "4cca15f95e5c4e6e",
+        "91688e3fcb7175a2",
+        "162f2b748c9c74e2",
+        "a924dbfb415af80b",
+        "3bd435ada4e6462d",
+        "69d14953a9bc5730",
+        "1052d016b4e9cac4",
+        "3f73f2a535befb70",
+        "a9d459cb912acc7a",
+        "b78f7c91cd1ea13b",
+        "882fd9596a29fe3d",
+        "1d31bf7c7d5a92a5",
+        "3a7aa3d1f4b76e59",
+        "cd3fb3fa0256277c"
+      ],
+      "id": "4cca15f95e5c4e6e",
+      "date": 1546600048102
+    },
+    {
+      "type": "edit",
+      "id": "4cca15f95e5c4e6e",
+      "item": {
+        "type": "paragraph",
+        "id": "4cca15f95e5c4e6e",
+        "text": "REFERENCES [[technology-sites]]\nREFERENCES [[coding-sites]]\nREFERENCES livecode.world/welcome-visitors\nREFERENCES fedwiki.org/fedwiki-sites\nREFERENCES fedwiki.org/foraging-sites"
+      },
+      "date": 1546600078354
+    },
+    {
+      "type": "edit",
+      "id": "4cca15f95e5c4e6e",
+      "item": {
+        "type": "paragraph",
+        "id": "4cca15f95e5c4e6e",
+        "text": "- REFERENCES [[technology-sites]]\n- REFERENCES [[coding-sites]]\n- REFERENCES livecode.world/welcome-visitors\n- REFERENCES fedwiki.org/fedwiki-sites\n- REFERENCES fedwiki.org/foraging-sites"
+      },
+      "date": 1546600093284
+    },
+    {
+      "type": "edit",
+      "id": "4cca15f95e5c4e6e",
+      "item": {
+        "type": "markdown",
+        "id": "4cca15f95e5c4e6e",
+        "text": "- REFERENCES [[technology-sites]]\n- REFERENCES [[coding-sites]]\n- REFERENCES livecode.world/welcome-visitors\n- REFERENCES fedwiki.org/fedwiki-sites\n- REFERENCES fedwiki.org/foraging-sites"
+      },
+      "date": 1546600094243
+    }
+  ],
+  "story": [
+    {
+      "text": "A list of sites that document technology related to the technology. There are also a bunch of [[Dead Sites]].",
+      "id": "fd4cf8bb6030d407",
+      "type": "paragraph"
+    },
+    {
+      "text": "This list is used to create a dynamically generated list of [[Changes to Technology Sites]].",
+      "id": "a85cf8f5cd11e8da",
+      "type": "paragraph"
+    },
+    {
+      "text": "Technology Sites\n\nREFERENCES c0de.academy/technology-sites\nREFERENCES c0de.academy/coding-sites\nREFERENCES livecode.world/welcome-visitors\nREFERENCES fedwiki.org/fedwiki-sites\nREFERENCES fedwiki.org/foraging-sites",
+      "id": "1bea8572d71395ba",
+      "type": "roster"
+    },
+    {
+      "type": "markdown",
+      "id": "4cca15f95e5c4e6e",
+      "text": "- REFERENCES [[technology-sites]]\n- REFERENCES [[coding-sites]]\n- REFERENCES livecode.world/welcome-visitors\n- REFERENCES fedwiki.org/fedwiki-sites\n- REFERENCES fedwiki.org/foraging-sites"
+    },
+    {
+      "text": "# Coding Sites",
+      "id": "91688e3fcb7175a2",
+      "type": "markdown"
+    },
+    {
+      "text": "Here we list [[coding sites]]:",
+      "id": "162f2b748c9c74e2",
+      "type": "paragraph"
+    },
+    {
+      "text": "Coding Sites\n\nREFERENCES c0de.academy/coding-sites\nREFERENCES livecode.world/welcome-visitors\n",
+      "id": "a924dbfb415af80b",
+      "type": "roster"
+    },
+    {
+      "text": "# Livecode Sites",
+      "id": "3bd435ada4e6462d",
+      "type": "markdown"
+    },
+    {
+      "text": "We also include all the [[Livecode Sites]] in the [[roster]] above:",
+      "id": "69d14953a9bc5730",
+      "type": "paragraph"
+    },
+    {
+      "id": "1052d016b4e9cac4",
+      "type": "roster",
+      "text": "Livecode Sites\n\nREFERENCES livecode.world/welcome-visitors",
+      "alias": "1bea8572d71395ba"
+    },
+    {
+      "text": "<H3>Federated Wiki Sites",
+      "id": "3f73f2a535befb70",
+      "type": "html"
+    },
+    {
+      "text": "Fedwiki Sites\n\nREFERENCES fedwiki.org/fedwiki-sites",
+      "id": "a9d459cb912acc7a",
+      "type": "roster"
+    },
+    {
+      "id": "b78f7c91cd1ea13b",
+      "type": "reference",
+      "site": "www.fedwiki.org",
+      "slug": "fedwiki-sites",
+      "title": "Fedwiki Sites",
+      "text": "above we list [[Fedwiki Sites]]:"
+    },
+    {
+      "text": "# Foraging Sites",
+      "id": "882fd9596a29fe3d",
+      "type": "markdown"
+    },
+    {
+      "text": "Here are a diverse collection of sites where we forage:",
+      "id": "1d31bf7c7d5a92a5",
+      "type": "paragraph"
+    },
+    {
+      "id": "3a7aa3d1f4b76e59",
+      "type": "roster",
+      "text": "Foraging Sites\n\nREFERENCES fedwiki.org/foraging-sites",
+      "alias": "1bea8572d71395ba"
+    },
+    {
+      "text": "# Other Coding Sites\n\n- [[Dead Sites]]",
+      "id": "cd3fb3fa0256277c",
+      "type": "markdown"
+    }
+  ]
+}
