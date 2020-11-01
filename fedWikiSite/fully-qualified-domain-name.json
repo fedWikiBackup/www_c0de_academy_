@@ -1,0 +1,116 @@
+{
+  "title": "Fully qualified domain name",
+  "journal": [
+    {
+      "date": 1550656612763,
+      "type": "create",
+      "item": {
+        "story": "",
+        "title": "Fully qualified domain name"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1550656488336
+    },
+    {
+      "type": "remove",
+      "id": "bcda17f0-f34c-4cea-be3c-1f8ef0ac6f77",
+      "date": 1550656492374
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "ba3e7285-0913-4af5-878b-fae3c77780dc",
+        "text": "# See also"
+      },
+      "after": "9bf31391-dfa3-4cb5-bb47-9c5e644bde5d",
+      "id": "ba3e7285-0913-4af5-878b-fae3c77780dc",
+      "date": 1550656500330
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "7055bea1309029f1",
+        "text": "- [[Domain name]]\n- [[DNS zone]]\n- [[DNS root zone]]\n- [[Domain propagation]]\n- [[Domain Name System]]\n- [[Domain Name Tools]]\n"
+      },
+      "after": "ba3e7285-0913-4af5-878b-fae3c77780dc",
+      "id": "7055bea1309029f1",
+      "date": 1550656502924
+    },
+    {
+      "type": "edit",
+      "id": "896565b1-8eb4-4fca-a0ad-36d1197bf0b0",
+      "item": {
+        "type": "markdown",
+        "id": "896565b1-8eb4-4fca-a0ad-36d1197bf0b0",
+        "text": "The DNS [[root domain]] is unnamed which is expressed by having an empty label in the DNS hierarchy, resulting in a fully qualified domain name ending with the top-level domain. However, in some cases the full stop (period) character is required at the end of the fully qualified domain name."
+      },
+      "date": 1550656530059
+    },
+    {
+      "type": "edit",
+      "id": "896565b1-8eb4-4fca-a0ad-36d1197bf0b0",
+      "item": {
+        "type": "markdown",
+        "id": "896565b1-8eb4-4fca-a0ad-36d1197bf0b0",
+        "text": "The [[DNS root]] domain is unnamed which is expressed by having an empty label in the DNS hierarchy, resulting in a fully qualified domain name ending with the top-level domain. However, in some cases the full stop (period) character is required at the end of the fully qualified domain name."
+      },
+      "date": 1550656630513
+    }
+  ],
+  "story": [
+    {
+      "type": "markdown",
+      "id": "7c5c009b-4fd3-473a-aa2b-40c1602dbbc0",
+      "text": "A __fully qualified domain name__ (__FQDN__), sometimes also referred to as an ''absolute domain name'', is a [[domain name]] that specifies its exact location in the tree hierarchy of the [[Domain Name System]] (DNS). It specifies all domain levels, including the [[top-level domain]] and the [[DNS root zone]]. A fully qualified domain name is distinguished by its lack of ambiguity: it can be interpreted only in one way - [https://en.wikipedia.org/wiki/Fully_qualified_domain_name wikipedia]"
+    },
+    {
+      "type": "html",
+      "id": "84c04f42-2499-450f-a98a-2402c84e428a",
+      "text": "<div style='padding: 12px; background:#eee; width:96%; align=centered;'>\n<a href='https://commons.wikimedia.org/wiki/File:DNS-names-ru.svg' target='_blank'>\n<img style='display:block; margin:auto; width:100%;'\nsrc='https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/DNS-names-ru.svg/420px-DNS-names-ru.svg.png'>\n</a>\n\n<p class=caption>\n350px\n- [https://commons.wikimedia.org/wiki/File:DNS-names-ru.svg wikimedia]\n</p></div>"
+    },
+    {
+      "type": "markdown",
+      "id": "896565b1-8eb4-4fca-a0ad-36d1197bf0b0",
+      "text": "The [[DNS root]] domain is unnamed which is expressed by having an empty label in the DNS hierarchy, resulting in a fully qualified domain name ending with the top-level domain. However, in some cases the full stop (period) character is required at the end of the fully qualified domain name."
+    },
+    {
+      "type": "markdown",
+      "id": "d3d49c77-a1a3-4991-87c7-7560bdc4328f",
+      "text": "In contrast to a domain name that is fully specified, a domain name that does not include the full path of labels up to the DNS root is often called a ''partially qualified domain name''."
+    },
+    {
+      "type": "markdown",
+      "id": "b85be847-8605-4ec6-a011-0eb30608418e",
+      "text": "# Sections"
+    },
+    {
+      "type": "html",
+      "id": "4d00f8dd-e338-4f44-9177-a87a61ed1eae",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Syntax'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Fully qualified domain name&action=edit&section=1'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "b95c4569-f866-4e29-8953-f760e676429d",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Resolution'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Fully qualified domain name&action=edit&section=3'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "9bf31391-dfa3-4cb5-bb47-9c5e644bde5d",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Partially qualified domain name'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=Fully qualified domain name&action=edit&section=4'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "markdown",
+      "id": "ba3e7285-0913-4af5-878b-fae3c77780dc",
+      "text": "# See also"
+    },
+    {
+      "type": "markdown",
+      "id": "7055bea1309029f1",
+      "text": "- [[Domain name]]\n- [[DNS zone]]\n- [[DNS root zone]]\n- [[Domain propagation]]\n- [[Domain Name System]]\n- [[Domain Name Tools]]\n"
+    }
+  ]
+}
