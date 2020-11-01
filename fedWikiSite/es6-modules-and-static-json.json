@@ -1,0 +1,248 @@
+{
+  "title": "ES6 modules and static json",
+  "story": [
+    {
+      "type": "markdown",
+      "id": "bed0aecd2aae211f",
+      "text": "Somewhat related to paul90's dat wiki experiments.  Can we reduce server administration in the federation close to zero?\n"
+    },
+    {
+      "type": "markdown",
+      "id": "dd75cd3fabe1e6b9",
+      "text": "The changes to support dat included renaming wiki pages to include the `.json` suffix.\n"
+    },
+    {
+      "type": "markdown",
+      "id": "b4a741d461c060dd",
+      "text": "ES6 modules can be imported from any URL.\n"
+    },
+    {
+      "type": "markdown",
+      "id": "f5a94d54f3ee56cd",
+      "text": "We could remove dependency upon npm for packaging.\n"
+    },
+    {
+      "type": "markdown",
+      "id": "75ebfaf886882e32",
+      "text": "Also interested to think about loading external plugins with SES: https://github.com/Agoric/PlaygroundVat\n"
+    },
+    {
+      "type": "markdown",
+      "id": "301e802ac39cf7a6",
+      "text": "Observable has guidance about how to import modules that adhere to different generations of Javascript module conventions into its pages: https://beta.observablehq.com/@tmcw/requiring-modules-troubleshooting\n\n"
+    },
+    {
+      "type": "markdown",
+      "id": "6a57d76cabc877dd",
+      "text": "[getScript?](/assets/es6/jquery-getscript-experiment.html)"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "ES6 modules and static json",
+        "story": []
+      },
+      "date": 1537446689834
+    },
+    {
+      "item": {
+        "type": "markdown",
+        "id": "bed0aecd2aae211f",
+        "text": "Somewhat related to paul90's dat wiki experiments.  Can we reduce server administration in the federation close to zero?\n"
+      },
+      "id": "bed0aecd2aae211f",
+      "type": "add",
+      "date": 1537446692521
+    },
+    {
+      "type": "edit",
+      "id": "bed0aecd2aae211f",
+      "item": {
+        "type": "markdown",
+        "id": "bed0aecd2aae211f",
+        "text": "Somewhat related to paul90's dat wiki experiments.  Can we reduce server administration in the federation close to zero?\n"
+      },
+      "date": 1537446807100
+    },
+    {
+      "type": "add",
+      "id": "dd75cd3fabe1e6b9",
+      "item": {
+        "type": "markdown",
+        "id": "dd75cd3fabe1e6b9",
+        "text": "The changes to support dat included renaming wiki pages to include the `.json` suffix.\n"
+      },
+      "after": "bed0aecd2aae211f",
+      "date": 1537446817868
+    },
+    {
+      "type": "add",
+      "id": "b4a741d461c060dd",
+      "item": {
+        "type": "markdown",
+        "id": "b4a741d461c060dd",
+        "text": "ES6 modules can be imported from any URL.\n"
+      },
+      "after": "dd75cd3fabe1e6b9",
+      "date": 1537446826341
+    },
+    {
+      "type": "add",
+      "id": "f5a94d54f3ee56cd",
+      "item": {
+        "type": "markdown",
+        "id": "f5a94d54f3ee56cd",
+        "text": "We could remove dependency upon npm for packaging."
+      },
+      "after": "b4a741d461c060dd",
+      "date": 1537446885668
+    },
+    {
+      "type": "edit",
+      "id": "f5a94d54f3ee56cd",
+      "item": {
+        "type": "markdown",
+        "id": "f5a94d54f3ee56cd",
+        "text": "We could remove dependency upon npm for packaging.\n"
+      },
+      "date": 1537987023753
+    },
+    {
+      "type": "add",
+      "id": "75ebfaf886882e32",
+      "item": {
+        "type": "markdown",
+        "id": "75ebfaf886882e32",
+        "text": "Also interested to think about loading external plugins with SES: https://github.com/Agoric/PlaygroundVat"
+      },
+      "after": "f5a94d54f3ee56cd",
+      "date": 1537987073716
+    },
+    {
+      "type": "edit",
+      "id": "75ebfaf886882e32",
+      "item": {
+        "type": "markdown",
+        "id": "75ebfaf886882e32",
+        "text": "Also interested to think about loading external plugins with SES: https://github.com/Agoric/PlaygroundVat\n"
+      },
+      "date": 1538409128833
+    },
+    {
+      "type": "add",
+      "id": "301e802ac39cf7a6",
+      "item": {
+        "type": "markdown",
+        "id": "301e802ac39cf7a6",
+        "text": "Observable has guidance about how to import modules that adhere to different generations of Javascript module conventions into its pages: https://beta.observablehq.com/@tmcw/requiring-modules-troubleshooting\n"
+      },
+      "after": "75ebfaf886882e32",
+      "date": 1538409185619
+    },
+    {
+      "item": {
+        "type": "assets",
+        "id": "d4a01eb50236d094",
+        "text": "es6"
+      },
+      "id": "d4a01eb50236d094",
+      "type": "add",
+      "after": "301e802ac39cf7a6",
+      "date": 1542474022807
+    },
+    {
+      "type": "edit",
+      "id": "d4a01eb50236d094",
+      "item": {
+        "type": "assets",
+        "id": "d4a01eb50236d094",
+        "text": "es6"
+      },
+      "date": 1542474027024
+    },
+    {
+      "item": {
+        "type": "assets",
+        "id": "30a8fe23bf4263eb",
+        "text": ""
+      },
+      "id": "30a8fe23bf4263eb",
+      "type": "add",
+      "after": "d4a01eb50236d094",
+      "date": 1542477711836
+    },
+    {
+      "type": "edit",
+      "id": "30a8fe23bf4263eb",
+      "item": {
+        "type": "assets",
+        "id": "30a8fe23bf4263eb",
+        "text": ""
+      },
+      "date": 1542477717744
+    },
+    {
+      "type": "remove",
+      "id": "30a8fe23bf4263eb",
+      "date": 1542477738883
+    },
+    {
+      "type": "remove",
+      "id": "d4a01eb50236d094",
+      "date": 1542477742248
+    },
+    {
+      "type": "remove",
+      "id": "30a8fe23bf4263eb",
+      "date": 1542477763212
+    },
+    {
+      "type": "edit",
+      "id": "301e802ac39cf7a6",
+      "item": {
+        "type": "markdown",
+        "id": "301e802ac39cf7a6",
+        "text": "Observable has guidance about how to import modules that adhere to different generations of Javascript module conventions into its pages: https://beta.observablehq.com/@tmcw/requiring-modules-troubleshooting\n\n"
+      },
+      "date": 1542478334274
+    },
+    {
+      "type": "add",
+      "id": "6a57d76cabc877dd",
+      "item": {
+        "type": "markdown",
+        "id": "6a57d76cabc877dd",
+        "text": "[getScript?](/assets/es6/jquery-getscript-experiment.html)"
+      },
+      "after": "301e802ac39cf7a6",
+      "date": 1542478384482
+    },
+    {
+      "type": "edit",
+      "id": "6a57d76cabc877dd",
+      "item": {
+        "type": "markdown",
+        "id": "6a57d76cabc877dd",
+        "text": "[getScript?](/assets/es6/jquery-getscript-experiment.html)"
+      },
+      "date": 1542478454968
+    },
+    {
+      "type": "edit",
+      "id": "6a57d76cabc877dd",
+      "item": {
+        "type": "markdown",
+        "id": "6a57d76cabc877dd",
+        "text": "[getScript?](/assets/es6/jquery-getscript-experiment.html)"
+      },
+      "date": 1542478462728
+    },
+    {
+      "type": "fork",
+      "site": "mod3dat-wiki.hashbase.io",
+      "date": 1550075293764
+    }
+  ]
+}
