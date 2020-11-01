@@ -1,0 +1,207 @@
+{
+  "title": "GraalVM & LLVM",
+  "story": [
+    {
+      "type": "markdown",
+      "id": "e2f34fcff9ce2049",
+      "text": "GraalVM provides an implementation of the lli tool to directly execute programs from LLVM bitcode.\n\nIn contrast to static compilation that is normally used for LLVM based languages, LLI first interprets the bitcode and then dynamically compiles the hot parts of the program using the GraalVM compiler. This allows seamless interoperability with the dynamic languages supported by GraalVM.\n"
+    },
+    {
+      "type": "markdown",
+      "id": "3dada04a639fed4d",
+      "text": "- https://www.one-tab.com/page/ttc0BlkjQKOPuY-zP-LzDw"
+    },
+    {
+      "type": "video",
+      "id": "2bdbe84973fd8d84",
+      "text": "YOUTUBE YIGoNVQctOU\nEuroLLVM Developers’ Meeting (2019): J. Kreindl “LLVM IR in GraalVM: Multi-Level, Polyglot Debug...”\n"
+    },
+    {
+      "type": "markdown",
+      "id": "a56d192be8e96271",
+      "text": "LLVM IR in GraalVM: Multi-Level, Polyglot Debugging with Sulong - Jacob Kreindl (Johannes Kepler University Linz)\n\nSlides: http://llvm.org/devmtg/2019-04/slides...\n—\nSulong is an execution engine for LLVM bitcode that has support for debugging programs at the level of source code as well as textual LLVM IR. It is part of GraalVM, a polyglot virtual machine that can also execute programs written in multiple dynamic programming languages such as Ruby and Python. Sulong supports GraalVM's language-agnostic tooling interface to provide a rich debugging experience to developers. This includes source-level debugging of native extensions compiled to LLVM bitcode and the dynamic language programs that use them, together in the same debugger session and front-end. Sulong also enables developers to debug programs at the level of LLVM IR, including stepping through the textual IR and inspecting the symbols it contains.\n\nIn this talk we will describe different ways GraalVM enables users to debug programs that were compiled to LLVM bitcode. We will introduce the general features of GraalVM-based debuggers by demonstrating source-level debugging of a standalone C/C++ application. Building on this we will showcase GraalVM's ability to provide a truly integrated debugging experience for native extensions of dynamic language programs to users. We will further demonstrate Sulong's support for debugging programs at the LLVM-IR level.\n"
+    },
+    {
+      "type": "markdown",
+      "id": "c58602f2211bc339",
+      "text": "# See also\n\n"
+    },
+    {
+      "type": "markdown",
+      "id": "b5155f7f74354ca1",
+      "text": "- Safe and sandboxed execution of native code - [https://medium.com/graalvm/safe-and-sandboxed-execution-of-native-code-f6096b35c360 medium]\n- [[GraalVM]]\n- [[Ahead-of-Time Compilation]]\n- [[Micronaut]]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "GraalVM & LLVM",
+        "story": []
+      },
+      "date": 1563261360107
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "e2f34fcff9ce2049"
+      },
+      "id": "e2f34fcff9ce2049",
+      "type": "add",
+      "date": 1563261361157
+    },
+    {
+      "type": "edit",
+      "id": "e2f34fcff9ce2049",
+      "item": {
+        "type": "markdown",
+        "id": "e2f34fcff9ce2049",
+        "text": "GraalVM provides an implementation of the lli tool to directly execute programs from LLVM bitcode.\n\nIn contrast to static compilation that is normally used for LLVM based languages, LLI first interprets the bitcode and then dynamically compiles the hot parts of the program using the GraalVM compiler. This allows seamless interoperability with the dynamic languages supported by GraalVM."
+      },
+      "date": 1563261391513
+    },
+    {
+      "type": "edit",
+      "id": "e2f34fcff9ce2049",
+      "item": {
+        "type": "markdown",
+        "id": "e2f34fcff9ce2049",
+        "text": "GraalVM provides an implementation of the lli tool to directly execute programs from LLVM bitcode.\n\nIn contrast to static compilation that is normally used for LLVM based languages, LLI first interprets the bitcode and then dynamically compiles the hot parts of the program using the GraalVM compiler. This allows seamless interoperability with the dynamic languages supported by GraalVM.\n"
+      },
+      "date": 1563261427598
+    },
+    {
+      "type": "add",
+      "id": "3dada04a639fed4d",
+      "item": {
+        "type": "markdown",
+        "id": "3dada04a639fed4d",
+        "text": "- https://www.one-tab.com/page/ttc0BlkjQKOPuY-zP-LzDw"
+      },
+      "after": "e2f34fcff9ce2049",
+      "date": 1563261434455
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "2bdbe84973fd8d84"
+      },
+      "id": "2bdbe84973fd8d84",
+      "type": "add",
+      "after": "3dada04a639fed4d",
+      "date": 1563261437901
+    },
+    {
+      "type": "edit",
+      "id": "2bdbe84973fd8d84",
+      "item": {
+        "type": "video",
+        "id": "2bdbe84973fd8d84",
+        "text": "YOUTUBE YIGoNVQctOU\ndfas"
+      },
+      "date": 1563261456473
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "a56d192be8e96271"
+      },
+      "id": "a56d192be8e96271",
+      "type": "add",
+      "after": "2bdbe84973fd8d84",
+      "date": 1563261483181
+    },
+    {
+      "type": "edit",
+      "id": "a56d192be8e96271",
+      "item": {
+        "type": "markdown",
+        "id": "a56d192be8e96271",
+        "text": "LLVM IR in GraalVM: Multi-Level, Polyglot Debugging with Sulong - Jacob Kreindl (Johannes Kepler University Linz)\n\nSlides: http://llvm.org/devmtg/2019-04/slides...\n—\nSulong is an execution engine for LLVM bitcode that has support for debugging programs at the level of source code as well as textual LLVM IR. It is part of GraalVM, a polyglot virtual machine that can also execute programs written in multiple dynamic programming languages such as Ruby and Python. Sulong supports GraalVM's language-agnostic tooling interface to provide a rich debugging experience to developers. This includes source-level debugging of native extensions compiled to LLVM bitcode and the dynamic language programs that use them, together in the same debugger session and front-end. Sulong also enables developers to debug programs at the level of LLVM IR, including stepping through the textual IR and inspecting the symbols it contains.\n\nIn this talk we will describe different ways GraalVM enables users to debug programs that were compiled to LLVM bitcode. We will introduce the general features of GraalVM-based debuggers by demonstrating source-level debugging of a standalone C/C++ application. Building on this we will showcase GraalVM's ability to provide a truly integrated debugging experience for native extensions of dynamic language programs to users. We will further demonstrate Sulong's support for debugging programs at the LLVM-IR level."
+      },
+      "date": 1563261485593
+    },
+    {
+      "type": "edit",
+      "id": "2bdbe84973fd8d84",
+      "item": {
+        "type": "video",
+        "id": "2bdbe84973fd8d84",
+        "text": "YOUTUBE YIGoNVQctOU\n2019 EuroLLVM Developers’ Meeting: J. Kreindl “LLVM IR in GraalVM: Multi-Level, Polyglot Debug...”\n"
+      },
+      "date": 1563261505006
+    },
+    {
+      "type": "edit",
+      "id": "2bdbe84973fd8d84",
+      "item": {
+        "type": "video",
+        "id": "2bdbe84973fd8d84",
+        "text": "YOUTUBE YIGoNVQctOU\nEuroLLVM Developers’ Meeting (2019): J. Kreindl “LLVM IR in GraalVM: Multi-Level, Polyglot Debug...”\n"
+      },
+      "date": 1563261531870
+    },
+    {
+      "type": "edit",
+      "id": "a56d192be8e96271",
+      "item": {
+        "type": "markdown",
+        "id": "a56d192be8e96271",
+        "text": "LLVM IR in GraalVM: Multi-Level, Polyglot Debugging with Sulong - Jacob Kreindl (Johannes Kepler University Linz)\n\nSlides: http://llvm.org/devmtg/2019-04/slides...\n—\nSulong is an execution engine for LLVM bitcode that has support for debugging programs at the level of source code as well as textual LLVM IR. It is part of GraalVM, a polyglot virtual machine that can also execute programs written in multiple dynamic programming languages such as Ruby and Python. Sulong supports GraalVM's language-agnostic tooling interface to provide a rich debugging experience to developers. This includes source-level debugging of native extensions compiled to LLVM bitcode and the dynamic language programs that use them, together in the same debugger session and front-end. Sulong also enables developers to debug programs at the level of LLVM IR, including stepping through the textual IR and inspecting the symbols it contains.\n\nIn this talk we will describe different ways GraalVM enables users to debug programs that were compiled to LLVM bitcode. We will introduce the general features of GraalVM-based debuggers by demonstrating source-level debugging of a standalone C/C++ application. Building on this we will showcase GraalVM's ability to provide a truly integrated debugging experience for native extensions of dynamic language programs to users. We will further demonstrate Sulong's support for debugging programs at the LLVM-IR level.\n"
+      },
+      "date": 1563261539764
+    },
+    {
+      "type": "add",
+      "id": "c58602f2211bc339",
+      "item": {
+        "type": "markdown",
+        "id": "c58602f2211bc339",
+        "text": "- https://medium.com/graalvm/safe-and-sandboxed-execution-of-native-code-f6096b35c360"
+      },
+      "after": "a56d192be8e96271",
+      "date": 1563261543856
+    },
+    {
+      "type": "edit",
+      "id": "c58602f2211bc339",
+      "item": {
+        "type": "markdown",
+        "id": "c58602f2211bc339",
+        "text": "- Safe and sandboxed execution of native code - [https://medium.com/graalvm/safe-and-sandboxed-execution-of-native-code-f6096b35c360 medium]"
+      },
+      "date": 1563261605681
+    },
+    {
+      "type": "edit",
+      "id": "c58602f2211bc339",
+      "item": {
+        "type": "markdown",
+        "id": "c58602f2211bc339",
+        "text": "# See also\n\n"
+      },
+      "date": 1563261612929
+    },
+    {
+      "type": "add",
+      "id": "b5155f7f74354ca1",
+      "item": {
+        "type": "markdown",
+        "id": "b5155f7f74354ca1",
+        "text": "- Safe and sandboxed execution of native code - [https://medium.com/graalvm/safe-and-sandboxed-execution-of-native-code-f6096b35c360 medium]"
+      },
+      "after": "c58602f2211bc339",
+      "date": 1563261614763
+    },
+    {
+      "type": "edit",
+      "id": "b5155f7f74354ca1",
+      "item": {
+        "type": "markdown",
+        "id": "b5155f7f74354ca1",
+        "text": "- Safe and sandboxed execution of native code - [https://medium.com/graalvm/safe-and-sandboxed-execution-of-native-code-f6096b35c360 medium]\n- [[GraalVM]]\n- [[Ahead-of-Time Compilation]]\n- [[Micronaut]]"
+      },
+      "date": 1563261621205
+    }
+  ]
+}
