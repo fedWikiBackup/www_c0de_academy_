@@ -1,0 +1,293 @@
+{
+  "title": "R (programming language)",
+  "journal": [
+    {
+      "type": "remove",
+      "id": "2b678c9e-4d37-4997-957d-3d48ccb88790",
+      "date": 1545393304378,
+      "error": {
+        "type": "error",
+        "msg": "Not Found",
+        "response": "Page not found"
+      }
+    },
+    {
+      "date": 1545393358970,
+      "type": "create",
+      "item": {
+        "story": "",
+        "title": "R (programming language)"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1545393475511
+    },
+    {
+      "type": "edit",
+      "id": "0961d05e-3842-4e9c-99af-22102ae98676",
+      "item": {
+        "type": "markdown",
+        "id": "0961d05e-3842-4e9c-99af-22102ae98676",
+        "text": "__R__ is a [[programming language]] and [[Free software]] software environment for [[statistical computing]] and graphics supported by the R Foundation for Statistical Computing - [https://en.wikipedia.org/wiki/R_(programming_language) wikipedia]"
+      },
+      "date": 1545394418272
+    },
+    {
+      "type": "edit",
+      "id": "976d2615-d8ac-4d10-a1dd-8b32da133a08",
+      "item": {
+        "type": "markdown",
+        "id": "976d2615-d8ac-4d10-a1dd-8b32da133a08",
+        "text": "[[Source code]] for the R software environment is written primarily in [[C (programming language)]], [[Fortran]] and [[Self-hosting]] and is freely available under the [[GNU General Public License]]. \n"
+      },
+      "date": 1545394423573
+    },
+    {
+      "type": "add",
+      "id": "3d63ac100272bff4",
+      "item": {
+        "type": "markdown",
+        "id": "3d63ac100272bff4",
+        "text": "Pre-compiled binary versions are provided for various [[operating system]]s. Although R has a [[command line interface]], there are several [[graphical user interface]]s, such as [[RStudio]], an [[Integrated development environment]]."
+      },
+      "after": "976d2615-d8ac-4d10-a1dd-8b32da133a08",
+      "date": 1545394424741
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "c9a9fb8f-6694-40b7-89a9-dfbdf5db4a19",
+        "text": "- [[R Journal]]"
+      },
+      "after": "4af89cda-5764-489c-adf2-43f8c3d432cf",
+      "id": "c9a9fb8f-6694-40b7-89a9-dfbdf5db4a19",
+      "date": 1545394481876
+    },
+    {
+      "type": "remove",
+      "id": "e02e0940-76ad-4485-ada0-1e0c62bfc292",
+      "date": 1545394485157
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "83e2a300-6a23-4909-ac4f-da43d4bb313f",
+        "text": "# R Journal"
+      },
+      "after": "3d63ac100272bff4",
+      "id": "83e2a300-6a23-4909-ac4f-da43d4bb313f",
+      "date": 1545394816916
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "aa747b8e-ab3a-4fef-8ef1-d898adfb422b",
+        "text": "''[[The R Journal]]'' is the [[open access]], [[Academic journal]] journal of the R project for statistical computing. It features short to medium length articles on the use, and development of R, including packages, programming tips, CRAN news, and foundation news - [https://en.wikipedia.org/wiki/R_(programming_language)#R_Journal wikipedia]"
+      },
+      "after": "83e2a300-6a23-4909-ac4f-da43d4bb313f",
+      "id": "aa747b8e-ab3a-4fef-8ef1-d898adfb422b",
+      "date": 1545394819566
+    },
+    {
+      "type": "remove",
+      "id": "c9a9fb8f-6694-40b7-89a9-dfbdf5db4a19",
+      "date": 1545394824794
+    },
+    {
+      "type": "edit",
+      "id": "aa747b8e-ab3a-4fef-8ef1-d898adfb422b",
+      "item": {
+        "type": "markdown",
+        "id": "aa747b8e-ab3a-4fef-8ef1-d898adfb422b",
+        "text": "[[The R Journal]] is the [[open access]], [[Academic journal]] journal of the R project for statistical computing. It features short to medium length articles on the use, and development of R, including packages, programming tips, CRAN news, and foundation news - [https://en.wikipedia.org/wiki/R_(programming_language)#R_Journal wikipedia]"
+      },
+      "date": 1545394837020
+    }
+  ],
+  "story": [
+    {
+      "type": "markdown",
+      "id": "0961d05e-3842-4e9c-99af-22102ae98676",
+      "text": "__R__ is a [[programming language]] and [[Free software]] software environment for [[statistical computing]] and graphics supported by the R Foundation for Statistical Computing - [https://en.wikipedia.org/wiki/R_(programming_language) wikipedia]"
+    },
+    {
+      "type": "markdown",
+      "id": "210ffcbb-b9e9-49fb-b0c6-c4f3bfde17ff",
+      "text": ""
+    },
+    {
+      "type": "markdown",
+      "id": "0f4e3201-a482-4bc9-9f96-8dfd8705a0d6",
+      "text": ""
+    },
+    {
+      "type": "markdown",
+      "id": "9b19d562-04ea-475c-bd4e-4661276890bf",
+      "text": ""
+    },
+    {
+      "type": "markdown",
+      "id": "ac5246a5-19a1-4c2f-85be-53f1805869ba",
+      "text": ""
+    },
+    {
+      "type": "markdown",
+      "id": "347db3de-afba-4ee8-ba22-ceb047d02d16",
+      "text": ""
+    },
+    {
+      "type": "markdown",
+      "id": "4876c473-7df0-4560-b518-36e07eabd825",
+      "text": ""
+    },
+    {
+      "type": "markdown",
+      "id": "4873bcfa-f755-40d2-a734-15a2d04103ab",
+      "text": ""
+    },
+    {
+      "type": "markdown",
+      "id": "80ce8e8d-34ea-4912-9240-8ed16524d8e0",
+      "text": ""
+    },
+    {
+      "type": "markdown",
+      "id": "081638a3-a3d5-4d36-9e89-92ac09d504a2",
+      "text": ""
+    },
+    {
+      "type": "markdown",
+      "id": "8fe534a2-4186-4198-95ef-6416d7caef99",
+      "text": ""
+    },
+    {
+      "type": "markdown",
+      "id": "dedc71cc-dfcf-49b6-8e31-0ce5944f254c",
+      "text": ""
+    },
+    {
+      "type": "markdown",
+      "id": "f9b7d023-65de-45d9-b905-0675f05fc42f",
+      "text": ""
+    },
+    {
+      "type": "markdown",
+      "id": "2343f5f8-bbc2-46de-8a53-cec71debaee0",
+      "text": ""
+    },
+    {
+      "type": "markdown",
+      "id": "60daaa26-4ac5-4679-bb2c-7c3ed45f47fa",
+      "text": ""
+    },
+    {
+      "type": "markdown",
+      "id": "976d2615-d8ac-4d10-a1dd-8b32da133a08",
+      "text": "[[Source code]] for the R software environment is written primarily in [[C (programming language)]], [[Fortran]] and [[Self-hosting]] and is freely available under the [[GNU General Public License]]. \n"
+    },
+    {
+      "type": "markdown",
+      "id": "3d63ac100272bff4",
+      "text": "Pre-compiled binary versions are provided for various [[operating system]]s. Although R has a [[command line interface]], there are several [[graphical user interface]]s, such as [[RStudio]], an [[Integrated development environment]]."
+    },
+    {
+      "type": "markdown",
+      "id": "83e2a300-6a23-4909-ac4f-da43d4bb313f",
+      "text": "# R Journal"
+    },
+    {
+      "type": "markdown",
+      "id": "aa747b8e-ab3a-4fef-8ef1-d898adfb422b",
+      "text": "[[The R Journal]] is the [[open access]], [[Academic journal]] journal of the R project for statistical computing. It features short to medium length articles on the use, and development of R, including packages, programming tips, CRAN news, and foundation news - [https://en.wikipedia.org/wiki/R_(programming_language)#R_Journal wikipedia]"
+    },
+    {
+      "type": "markdown",
+      "id": "a978c7e7-bf4f-418a-9b66-c3f188d42056",
+      "text": "# Tools\n\nSearch for [[free culture]] images for this page on [https://www.google.com/search?as_st=y&tbm=isch&as_q=R+%28programming+language%29&as_epq=&as_oq=&as_eq=&cr=&as_sitesearch=&safe=images&tbs=sur:fmc&gws_rd=ssl google]"
+    },
+    {
+      "type": "transport",
+      "id": "656a76fc-a46b-4ff8-9772-621eae7a6677",
+      "text": "POST https://rest.livecode.world/imagine"
+    },
+    {
+      "type": "markdown",
+      "id": "9a5580f5-a483-41cd-b2ac-ca3cf03814d4",
+      "text": "# Sections"
+    },
+    {
+      "type": "html",
+      "id": "515d1897-1bef-4ea1-9a8f-96c50ffd2bd5",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='History'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=R (programming language)&action=edit&section=1'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "c107a1e5-78c1-4f19-8712-08728bf016db",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Statistical features'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=R (programming language)&action=edit&section=2'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "40dee674-f4cc-4605-bfe8-bb0544b0fe75",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Programming features'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=R (programming language)&action=edit&section=3'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "7d793374-9cb7-4aa3-aa3c-5f3496ec4239",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Packages'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=R (programming language)&action=edit&section=4'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "96436b44-5e50-4875-bbc2-3988169ad965",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Milestones'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=R (programming language)&action=edit&section=5'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "3e82f0d9-2936-443e-82c0-fa962a90cbd4",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Interfaces'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=R (programming language)&action=edit&section=6'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "a2355aa1-3a77-472e-9bab-1269aee86036",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Implementations'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=R (programming language)&action=edit&section=7'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "34b92142-413e-4017-bacd-dff57956ae50",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='R communities'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=R (programming language)&action=edit&section=8'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "4af89cda-5764-489c-adf2-43f8c3d432cf",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='useR! conferences'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=R (programming language)&action=edit&section=9'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "db4c106d-56d3-4ae1-9ec5-a434f16bdb94",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Comparison with SAS, SPSS, and Stata'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=R (programming language)&action=edit&section=11'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "5aea3ffb-3da3-40ac-8199-81490c40fb05",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Commercial support for R'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=R (programming language)&action=edit&section=12'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "f3c9279e-ec34-4ab3-b5c8-214eaaa7b21f",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Examples'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=R (programming language)&action=edit&section=13'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "markdown",
+      "id": "046cded9-b560-449c-aa46-11817f07cd2c",
+      "text": "# See also"
+    },
+    {
+      "type": "markdown",
+      "id": "408ce77e-01db-41dc-9a16-5f75ee7549c9",
+      "text": "- [[Comparison of numerical analysis software]]\n- [[Comparison of statistical packages]]\n- [[List of numerical analysis software]]\n- [[List of statistical packages]]\n- [[Rmetrics]]\n- [[RStudio]]\n- [[Statcheck]]"
+    }
+  ]
+}
