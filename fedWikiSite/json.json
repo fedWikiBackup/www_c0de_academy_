@@ -1,0 +1,190 @@
+{
+  "title": "JSON",
+  "journal": [
+    {
+      "date": 1551882434705,
+      "type": "create",
+      "item": {
+        "story": "",
+        "title": "JSON"
+      }
+    },
+    {
+      "type": "remove",
+      "id": "340a5646-eb43-4078-aa57-d73d9fa56a49",
+      "date": 1551882421361
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "2aa43288bac991d4",
+        "text": "In [[computing]], __JavaScript Object Notation__ (__JSON__)  is an [[open standard]] [[file format]] that uses [[Human-readable medium]] text to transmit data objects consisting of [[attribute–value pair]]s and [[array data type]]s (or any other [[Serialization ]] value). It is a very common [[data]] format used for [[Asynchronous I/O]] browser–server communication, including as a replacement for [[XML]] in some [[Ajax (programming)]]-style systems - [https://en.wikipedia.org/wiki/JSON wikipedia]",
+        "alias": "3d04cb40-c9ea-4821-a3e0-8b1039e9eb1e"
+      },
+      "id": "2aa43288bac991d4",
+      "date": 1551882425096
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "92faf69e6f273924",
+        "text": "- https://github.com/antonmedv/fx"
+      },
+      "after": "3d04cb40-c9ea-4821-a3e0-8b1039e9eb1e",
+      "id": "92faf69e6f273924",
+      "date": 1551882428654
+    },
+    {
+      "type": "add",
+      "item": {
+        "text": "VIMEO 8692019\nDouglas explains JSON",
+        "id": "10e5d5fee1c18449",
+        "type": "video"
+      },
+      "after": "f2c1a214-c53d-49ed-9ae8-e767512442c6",
+      "id": "10e5d5fee1c18449",
+      "date": 1551882446318
+    },
+    {
+      "type": "fork",
+      "date": 1551882462227
+    },
+    {
+      "type": "add",
+      "item": {
+        "text": "# See also\n\n- [[JSON-LD]]\n- [[JSON Tools]]\n- [[JSON Schema]]\n- [[Where Numbers Live]]\n- [[Limit JSON in the DOM]]",
+        "id": "4455ff22-966e-4a3a-a6f3-73e038429b1d",
+        "type": "markdown"
+      },
+      "after": "007ca405-8261-4884-90d4-e7f6a7911822",
+      "id": "4455ff22-966e-4a3a-a6f3-73e038429b1d",
+      "date": 1551882466705
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "4956c683-a443-4bc8-92b3-00ae4bb62780",
+        "text": "- [[Data not Layout]]\n- [[JSON API Keys]]\n- [[JSON Plugin]]\n- [[JSON Web Token]]\n- [[JSON Statistics]]\n- [[Regular JSON]]\n- [[Edit Item JSON]]\n- [[JSON Minefield]]\n- [[ES6 modules and static json]]\n- [[JSON Pipeline]]"
+      },
+      "after": "4455ff22-966e-4a3a-a6f3-73e038429b1d",
+      "id": "4956c683-a443-4bc8-92b3-00ae4bb62780",
+      "date": 1551882469387
+    },
+    {
+      "type": "edit",
+      "id": "4455ff22-966e-4a3a-a6f3-73e038429b1d",
+      "item": {
+        "text": "- [[JSON-LD]]\n- [[JSON Tools]]\n- [[JSON Schema]]\n- [[Where Numbers Live]]\n- [[Limit JSON in the DOM]]",
+        "id": "4455ff22-966e-4a3a-a6f3-73e038429b1d",
+        "type": "markdown"
+      },
+      "date": 1551882479371
+    }
+  ],
+  "story": [
+    {
+      "type": "markdown",
+      "id": "2aa43288bac991d4",
+      "text": "In [[computing]], __JavaScript Object Notation__ (__JSON__)  is an [[open standard]] [[file format]] that uses [[Human-readable medium]] text to transmit data objects consisting of [[attribute–value pair]]s and [[array data type]]s (or any other [[Serialization ]] value). It is a very common [[data]] format used for [[Asynchronous I/O]] browser–server communication, including as a replacement for [[XML]] in some [[Ajax (programming)]]-style systems - [https://en.wikipedia.org/wiki/JSON wikipedia]",
+      "alias": "3d04cb40-c9ea-4821-a3e0-8b1039e9eb1e"
+    },
+    {
+      "type": "markdown",
+      "id": "3d04cb40-c9ea-4821-a3e0-8b1039e9eb1e",
+      "text": "In [[computing]], __JavaScript Object Notation__ (__JSON__)  is an [[open standard]] [[file format]] that uses [[Human-readable medium]] text to transmit data objects consisting of [[attribute–value pair]]s and [[array data type]]s (or any other [[Serialization ]] value). It is a very common [[data]] format used for [[Asynchronous I/O]] browser–server communication, including as a replacement for [[XML]] in some [[Ajax (programming)]]-style systems - [https://en.wikipedia.org/wiki/JSON wikipedia]"
+    },
+    {
+      "type": "markdown",
+      "id": "92faf69e6f273924",
+      "text": "- https://github.com/antonmedv/fx"
+    },
+    {
+      "type": "markdown",
+      "id": "f2c1a214-c53d-49ed-9ae8-e767512442c6",
+      "text": "JSON is a [[Language-independent specification]] data format. It was derived from [[JavaScript]], but  many [[programming language]]s include code to generate and [[Parsing]] JSON-format data. The official Internet [[media type]] for JSON is <code>application/json</code>. JSON filenames use the extension <code>.json</code>."
+    },
+    {
+      "text": "VIMEO 8692019\nDouglas explains JSON",
+      "id": "10e5d5fee1c18449",
+      "type": "video"
+    },
+    {
+      "type": "markdown",
+      "id": "edf6f2a1-e8cd-4a2c-a273-a38933e05a90",
+      "text": "[[Douglas Crockford]] originally specified the JSON format in the early 2000s; two competing standards,  and ECMA-404, defined it in 2017. The ECMA standard describes only the allowed syntax, whereas the RFC covers some security and interoperability considerations."
+    },
+    {
+      "type": "markdown",
+      "id": "aa2d790f-545b-4461-9399-03ac9f487cc0",
+      "text": "# Sections"
+    },
+    {
+      "type": "html",
+      "id": "5f3a6fc2-b018-4cee-a729-6f4885b805aa",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='History'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=JSON&action=edit&section=1'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "cf58fdc2-47d4-4bb9-a343-8578febaf5c8",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Data types, syntax and example'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=JSON&action=edit&section=2'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "5f0cc04f-e6bf-458c-9eab-c12e64c85d73",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Schema and metadata'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=JSON&action=edit&section=7'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "7985116a-7267-4928-9943-8af0e6d1fa24",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='MIME type'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=JSON&action=edit&section=9'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "609531a1-f86f-46da-a304-6df9ef67bece",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Applications'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=JSON&action=edit&section=10'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "22de6466-88d0-4e23-b4b3-716a6a8637a5",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Security considerations'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=JSON&action=edit&section=13'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "3a84bf0c-fdcd-42f6-866f-0d6589ab0912",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Vulnerabilities in specific JSON parsers'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=JSON&action=edit&section=14'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "b7849021-b197-4464-acd1-9625f8a09234",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Object references'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=JSON&action=edit&section=15'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "html",
+      "id": "9411f749-806f-4fe1-9224-c82646a6d959",
+      "text": "<form action='https://rest.livecode.world/mediawiki/importSection'><input name=section_title size=60 value='Comparison with other formats'>\n<input name=url type=hidden value='https://en.wikipedia.org/w/index.php?title=JSON&action=edit&section=16'>\n<input type=submit value=create></form>"
+    },
+    {
+      "type": "markdown",
+      "id": "007ca405-8261-4884-90d4-e7f6a7911822",
+      "text": "# See also"
+    },
+    {
+      "text": "- [[JSON-LD]]\n- [[JSON Tools]]\n- [[JSON Schema]]\n- [[Where Numbers Live]]\n- [[Limit JSON in the DOM]]",
+      "id": "4455ff22-966e-4a3a-a6f3-73e038429b1d",
+      "type": "markdown"
+    },
+    {
+      "type": "markdown",
+      "id": "4956c683-a443-4bc8-92b3-00ae4bb62780",
+      "text": "- [[Data not Layout]]\n- [[JSON API Keys]]\n- [[JSON Plugin]]\n- [[JSON Web Token]]\n- [[JSON Statistics]]\n- [[Regular JSON]]\n- [[Edit Item JSON]]\n- [[JSON Minefield]]\n- [[ES6 modules and static json]]\n- [[JSON Pipeline]]"
+    },
+    {
+      "type": "markdown",
+      "id": "469bb57b-45b4-4c12-b03b-6ea97199d58f",
+      "text": "- [[JSON streaming]]"
+    }
+  ]
+}
