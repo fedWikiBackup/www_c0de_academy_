@@ -1,0 +1,1510 @@
+{
+  "title": "Research Group Activity",
+  "story": [
+    {
+      "text": "On this page you can find [[research groups]] that are working on topics related to the current [[domain]]:",
+      "id": "9c3e3c907c7d1c84",
+      "type": "paragraph"
+    },
+    {
+      "type": "markdown",
+      "id": "183da8405f512494",
+      "text": "- [[Federation Activity]]\n- [[Recent Activity]]\n- [[Weekly Roster]]\n"
+    },
+    {
+      "type": "markdown",
+      "id": "35715e4c03774204",
+      "text": "- [[Thought Garden Activity]]\n- [[Platform Earth Activity]]\n- [[Outlandish Activity]]"
+    },
+    {
+      "type": "markdown",
+      "id": "8a279f359366cdda",
+      "text": "- [[Fedwiki Activity]]\n- [[Livecode Activity]]\n- [[C0de Activity]]\n- [[Changes to Coding Sites]]\n- [[Changes to Technology Sites]]\n"
+    },
+    {
+      "type": "markdown",
+      "id": "e717fbd1f4b9c50d",
+      "text": "- [[Thought Garden Project Activity]]\n- [[Permanent Web Activity]]\n- [[FEAST Activity]]\n- [[Game Activity]]\n"
+    },
+    {
+      "type": "markdown",
+      "id": "65a81c85b2747522",
+      "text": "# Active Rosters\n"
+    },
+    {
+      "type": "roster",
+      "id": "41a30413bcfe085e",
+      "text": "Thought Garden Sites\n\nROSTER rest.livecode.world/thought",
+      "alias": "837135217f9a7d8d"
+    },
+    {
+      "type": "roster",
+      "id": "70502142602e704d",
+      "text": "Platform Earth Sites\n\nROSTER rest.livecode.world/earth",
+      "alias": "837135217f9a7d8d"
+    },
+    {
+      "type": "roster",
+      "id": "4fbdcb0a97b7b6fb",
+      "text": "Outlandish Sites\n\nROSTER rest.livecode.world/outlandish"
+    },
+    {
+      "type": "roster",
+      "id": "741a0fcdd3ff76b2",
+      "text": "Fedwiki Sites\n\nROSTER rest.livecode.world/roster"
+    },
+    {
+      "type": "roster",
+      "id": "1bea8572d71395ba",
+      "text": "Livecode Sites\n\nROSTER rest.livecode.world/livecode"
+    },
+    {
+      "type": "roster",
+      "id": "fe099fd798f6f20a",
+      "text": "C0de Sites\n\nROSTER rest.livecode.world/c0de",
+      "alias": "1bea8572d71395ba"
+    },
+    {
+      "type": "markdown",
+      "id": "9ebe334eecceb50a",
+      "text": "# Rosters\n"
+    },
+    {
+      "type": "markdown",
+      "id": "b9009cd1a30cd928",
+      "text": "We need to refactor these rosters using tooling so that they can be more easily maintained."
+    },
+    {
+      "type": "roster",
+      "id": "f38dfa955cc6694d",
+      "text": "Technology Sites\n\nREFERENCES c0de.academy/technology-sites\nREFERENCES c0de.academy/coding-sites\nREFERENCES livecode.world/welcome-visitors\nREFERENCES fedwiki.org/fedwiki-sites\nREFERENCES fedwiki.org/foraging-sites",
+      "alias": "1bea8572d71395ba"
+    },
+    {
+      "type": "roster",
+      "id": "3f0a810f929d7200",
+      "text": "Coding Sites\n\nREFERENCES livecode.world/welcome-visitors\nREFERENCES c0de.academy/coding-sites\nREFERENCES c0de.academy/technology-sites\n",
+      "alias": "1bea8572d71395ba"
+    },
+    {
+      "type": "roster",
+      "id": "a140a85431f643fe",
+      "text": "Permanent Web Sites\n\nREFERENCES permanent.wiki/permanent-web-sites",
+      "alias": "837135217f9a7d8d"
+    },
+    {
+      "id": "3b3d630d19daa82e",
+      "type": "roster",
+      "text": "Audio Sites\n\nREFERENCES sound.thought.garden/audio-sites",
+      "alias": "0b851b47592ab49d"
+    },
+    {
+      "type": "roster",
+      "id": "a4a30b7dd7aa66b8",
+      "text": "Voz Sites\n\nREFERENCES hack.platform.earth/voz-sites",
+      "alias": "837135217f9a7d8d"
+    },
+    {
+      "type": "roster",
+      "id": "5197ceb2ccc9874a",
+      "text": "Game Sites\n\nREFERENCES thought.garden/game-sites",
+      "alias": "837135217f9a7d8d"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Research Group Activity",
+        "story": []
+      },
+      "date": 1502196648351
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "e7de52e92a2c5837"
+      },
+      "id": "e7de52e92a2c5837",
+      "type": "add",
+      "date": 1502196649748
+    },
+    {
+      "type": "add",
+      "item": {
+        "text": "[[Research Group Activity]]\nSee [[Changes to this Site]] to see what we are [[Currently Working On]]. Use [[Fedwiki Tools]] to author new content, and keep an eye on:\n\n- [[FEAST Activity]]\n- [[Outlandish Activity]]\n- [[Outlandish Activity]]\n-\n- [[Pamela's Activity]]\n- [[Gavin's Activity]]\n- [[Trevor's Activity]]",
+        "id": "d683fbe54808323f",
+        "type": "markdown"
+      },
+      "after": "e7de52e92a2c5837",
+      "id": "d683fbe54808323f",
+      "date": 1502196653416
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "roster",
+        "id": "7af5bfd8dc60eaef",
+        "text": "FEAST Researchers\n\nREFERENCES wiki.feast.fm/feast-researchers"
+      },
+      "after": "c26d0606e4d534d4",
+      "id": "7af5bfd8dc60eaef",
+      "date": 1502196657889
+    },
+    {
+      "type": "edit",
+      "id": "c26d0606e4d534d4",
+      "item": {
+        "text": "See [[Changes to this Site]] to see what we are [[Currently Working On]]. Use [[Fedwiki Tools]] to author new content, and keep an eye on:\n\n- [[FEAST Activity]]\n- [[Outlandish Activity]]\n- [[Outlandish Activity]]\n-\n- [[Pamela's Activity]]\n- [[Gavin's Activity]]\n- [[Trevor's Activity]]",
+        "id": "c26d0606e4d534d4",
+        "type": "markdown",
+        "alias": "d683fbe54808323f"
+      },
+      "date": 1502196701649
+    },
+    {
+      "type": "edit",
+      "id": "d683fbe54808323f",
+      "item": {
+        "text": "Here we list views of the activity of groups and individual related to the current project. You may want to keep an eye on:\n\n- [[FEAST Activity]]\n- [[Outlandish Activity]]\n- [[Thought Garden Activity]]\n-\n- [[Pamela's Activity]]\n- [[Gavin's Activity]]\n- [[Trevor's Activity]]",
+        "id": "d683fbe54808323f",
+        "type": "markdown"
+      },
+      "date": 1502197158565
+    },
+    {
+      "type": "move",
+      "order": [
+        "e7de52e92a2c5837",
+        "d683fbe54808323f",
+        "7af5bfd8dc60eaef"
+      ],
+      "id": "7af5bfd8dc60eaef",
+      "date": 1502197168602
+    },
+    {
+      "type": "remove",
+      "id": "e7de52e92a2c5837",
+      "date": 1502197175676
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "roster",
+        "id": "837135217f9a7d8d",
+        "text": "Outlandish Researchers\n\nREFERENCES outlandish.academy/outlandish-researchers"
+      },
+      "after": "7af5bfd8dc60eaef",
+      "id": "837135217f9a7d8d",
+      "date": 1502197207992
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "roster",
+        "id": "6da64fb067b419a7",
+        "text": "Thought Garden Sites\n\nREFERENCES thought.garden/thought-garden-sites",
+        "alias": "837135217f9a7d8d"
+      },
+      "after": "837135217f9a7d8d",
+      "id": "6da64fb067b419a7",
+      "date": 1502197220706
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "65a81c85b2747522"
+      },
+      "id": "65a81c85b2747522",
+      "type": "add",
+      "after": "837135217f9a7d8d",
+      "date": 1502197224814
+    },
+    {
+      "type": "move",
+      "order": [
+        "d683fbe54808323f",
+        "65a81c85b2747522",
+        "7af5bfd8dc60eaef",
+        "837135217f9a7d8d",
+        "6da64fb067b419a7"
+      ],
+      "id": "65a81c85b2747522",
+      "date": 1502197226699
+    },
+    {
+      "type": "edit",
+      "id": "65a81c85b2747522",
+      "item": {
+        "type": "markdown",
+        "id": "65a81c85b2747522",
+        "text": "# Rosters"
+      },
+      "date": 1502197238918
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "roster",
+        "id": "be269e6c1bf5ce40",
+        "text": "All Pamela's Sites\n\nREFERENCES pamela.xh2027.org/pamela-mclean"
+      },
+      "after": "837135217f9a7d8d",
+      "id": "be269e6c1bf5ce40",
+      "date": 1502197249868
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "roster",
+        "id": "a1dbf46523731a7d",
+        "text": "Gavin's Sites\n\nREFERENCES david.outlandish.academy/gavins-activity\nfantsuamprep.outlandish.academy",
+        "alias": "837135217f9a7d8d"
+      },
+      "after": "be269e6c1bf5ce40",
+      "id": "a1dbf46523731a7d",
+      "date": 1502197256678
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "roster",
+        "id": "57695a53eff22418",
+        "text": "Trevor's Sites\n\ntrevor.worldcitizen.institute\nthethirdsystem.foundation\ntrevor.outlandish.academy",
+        "alias": "837135217f9a7d8d"
+      },
+      "after": "837135217f9a7d8d",
+      "id": "57695a53eff22418",
+      "date": 1502197270325
+    },
+    {
+      "type": "fork",
+      "site": "david.feast.fm",
+      "date": 1502197394980
+    },
+    {
+      "type": "fork",
+      "site": "david.outlandish.academy",
+      "date": 1502225568739
+    },
+    {
+      "type": "edit",
+      "id": "d683fbe54808323f",
+      "item": {
+        "text": "Here we list views of the activity of groups and individual related to the current project. You may want to keep an eye on:\n\n- [[Changes to Livecode Sites]]\n- [[Changes to Coding Sites]]\n- [[Changes to Technology Sites]]\n-\n- [[FEAST Activity]]\n- [[Outlandish Activity]]\n- [[Thought Garden Activity]]\n-\n- [[Pamela's Activity]]\n- [[Gavin's Activity]]\n- [[Trevor's Activity]]",
+        "id": "d683fbe54808323f",
+        "type": "markdown"
+      },
+      "date": 1502225867496
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "roster",
+        "id": "1bea8572d71395ba",
+        "text": "Livecode Sites\n\nREFERENCES livecode.world/welcome-visitors"
+      },
+      "after": "65a81c85b2747522",
+      "id": "1bea8572d71395ba",
+      "date": 1502225884874
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "roster",
+        "id": "3f0a810f929d7200",
+        "text": "Coding Sites\n\nREFERENCES livecode.world/welcome-visitors\nREFERENCES c0de.academy/coding-sites\nREFERENCES c0de.academy/technology-sites\n",
+        "alias": "1bea8572d71395ba"
+      },
+      "after": "1bea8572d71395ba",
+      "id": "3f0a810f929d7200",
+      "date": 1502225890483
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "roster",
+        "id": "f38dfa955cc6694d",
+        "text": "Technology Sites\n\nREFERENCES c0de.academy/technology-sites\nREFERENCES c0de.academy/coding-sites\nREFERENCES livecode.world/welcome-visitors\nREFERENCES fedwiki.org/fedwiki-sites\nREFERENCES fedwiki.org/foraging-sites",
+        "alias": "1bea8572d71395ba"
+      },
+      "after": "1bea8572d71395ba",
+      "id": "f38dfa955cc6694d",
+      "date": 1502225901057
+    },
+    {
+      "type": "fork",
+      "site": "api.c0de.academy"
+    },
+    {
+      "type": "edit",
+      "id": "d683fbe54808323f",
+      "item": {
+        "text": "- [[Changes to Livecode Sites]]\n- [[Changes to Coding Sites]]\n- [[Changes to Technology Sites]]\n-\n- [[FEAST Activity]]\n- [[Outlandish Activity]]\n- [[Thought Garden Activity]]\n-\n- [[Pamela's Activity]]\n- [[Gavin's Activity]]\n- [[Trevor's Activity]]",
+        "id": "d683fbe54808323f",
+        "type": "markdown"
+      },
+      "date": 1502227200037
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "e1cfe7afd6f565a5"
+      },
+      "id": "e1cfe7afd6f565a5",
+      "type": "add",
+      "after": "6da64fb067b419a7",
+      "date": 1502227202330
+    },
+    {
+      "type": "edit",
+      "id": "e1cfe7afd6f565a5",
+      "item": {
+        "type": "paragraph",
+        "id": "e1cfe7afd6f565a5",
+        "text": "Here we list views of the activity of groups and individual related to the current project. You may want to keep an eye on:"
+      },
+      "date": 1502227204364
+    },
+    {
+      "type": "move",
+      "order": [
+        "e1cfe7afd6f565a5",
+        "d683fbe54808323f",
+        "65a81c85b2747522",
+        "1bea8572d71395ba",
+        "f38dfa955cc6694d",
+        "3f0a810f929d7200",
+        "7af5bfd8dc60eaef",
+        "837135217f9a7d8d",
+        "57695a53eff22418",
+        "be269e6c1bf5ce40",
+        "a1dbf46523731a7d",
+        "6da64fb067b419a7"
+      ],
+      "id": "e1cfe7afd6f565a5",
+      "date": 1502227210017
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "roster",
+        "id": "0b851b47592ab49d",
+        "text": "Thought Garden Projects\n\nREFERENCES outlandish.academy/outlandish-researchers\nREFERENCES wiki.feast.fm/feast-researchers\nREFERENCES thought.garden/thought-garden-sites\n"
+      },
+      "after": "65a81c85b2747522",
+      "id": "0b851b47592ab49d",
+      "date": 1502459343685
+    },
+    {
+      "type": "edit",
+      "id": "d683fbe54808323f",
+      "item": {
+        "text": "- [[Changes to Livecode Sites]]\n- [[Changes to Coding Sites]]\n- [[Changes to Technology Sites]]\n-\n- [[FEAST Activity]]\n- [[Outlandish Activity]]\n- [[Thought Garden Activity]]\n- [[Thought Garden Project Activity]]\n\n-\n- [[Pamela's Activity]]\n- [[Gavin's Activity]]\n- [[Trevor's Activity]]",
+        "id": "d683fbe54808323f",
+        "type": "markdown"
+      },
+      "date": 1502459385477
+    },
+    {
+      "type": "fork",
+      "site": "hosting.permanent.wiki",
+      "date": 1502632371438
+    },
+    {
+      "type": "edit",
+      "id": "d683fbe54808323f",
+      "item": {
+        "text": "- [[Thought Garden Activity]]\n- [[Thought Garden Project Activity]]\n \n- [[Permanent Web Activity]]\n- [[Outlandish Activity]]\n- [[FEAST Activity]]\n\n- [[Changes to Livecode Sites]]\n- [[Changes to Coding Sites]]\n- [[Changes to Technology Sites]]\n-\n-\n- [[Pamela's Activity]]\n- [[Gavin's Activity]]\n- [[Trevor's Activity]]",
+        "id": "d683fbe54808323f",
+        "type": "markdown"
+      },
+      "date": 1502632458352
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "roster",
+        "id": "a140a85431f643fe",
+        "text": "Permanent Web Sites\n\nREFERENCES permanent.wiki/permanent-web-sites",
+        "alias": "837135217f9a7d8d"
+      },
+      "after": "f38dfa955cc6694d",
+      "id": "a140a85431f643fe",
+      "date": 1502633643309
+    },
+    {
+      "type": "move",
+      "order": [
+        "e1cfe7afd6f565a5",
+        "d683fbe54808323f",
+        "65a81c85b2747522",
+        "0b851b47592ab49d",
+        "a140a85431f643fe",
+        "1bea8572d71395ba",
+        "f38dfa955cc6694d",
+        "3f0a810f929d7200",
+        "7af5bfd8dc60eaef",
+        "837135217f9a7d8d",
+        "57695a53eff22418",
+        "be269e6c1bf5ce40",
+        "a1dbf46523731a7d",
+        "6da64fb067b419a7"
+      ],
+      "id": "837135217f9a7d8d",
+      "date": 1502633649563
+    },
+    {
+      "type": "move",
+      "order": [
+        "e1cfe7afd6f565a5",
+        "d683fbe54808323f",
+        "65a81c85b2747522",
+        "0b851b47592ab49d",
+        "a140a85431f643fe",
+        "7af5bfd8dc60eaef",
+        "1bea8572d71395ba",
+        "f38dfa955cc6694d",
+        "3f0a810f929d7200",
+        "837135217f9a7d8d",
+        "57695a53eff22418",
+        "be269e6c1bf5ce40",
+        "a1dbf46523731a7d",
+        "6da64fb067b419a7"
+      ],
+      "id": "7af5bfd8dc60eaef",
+      "date": 1502633654472
+    },
+    {
+      "type": "move",
+      "order": [
+        "e1cfe7afd6f565a5",
+        "d683fbe54808323f",
+        "65a81c85b2747522",
+        "0b851b47592ab49d",
+        "a140a85431f643fe",
+        "7af5bfd8dc60eaef",
+        "837135217f9a7d8d",
+        "1bea8572d71395ba",
+        "f38dfa955cc6694d",
+        "3f0a810f929d7200",
+        "57695a53eff22418",
+        "be269e6c1bf5ce40",
+        "a1dbf46523731a7d",
+        "6da64fb067b419a7"
+      ],
+      "id": "837135217f9a7d8d",
+      "date": 1502633657908
+    },
+    {
+      "type": "move",
+      "order": [
+        "e1cfe7afd6f565a5",
+        "d683fbe54808323f",
+        "65a81c85b2747522",
+        "0b851b47592ab49d",
+        "a140a85431f643fe",
+        "7af5bfd8dc60eaef",
+        "6da64fb067b419a7",
+        "837135217f9a7d8d",
+        "1bea8572d71395ba",
+        "f38dfa955cc6694d",
+        "3f0a810f929d7200",
+        "57695a53eff22418",
+        "be269e6c1bf5ce40",
+        "a1dbf46523731a7d"
+      ],
+      "id": "6da64fb067b419a7",
+      "date": 1502633664373
+    },
+    {
+      "type": "move",
+      "order": [
+        "e1cfe7afd6f565a5",
+        "d683fbe54808323f",
+        "65a81c85b2747522",
+        "0b851b47592ab49d",
+        "6da64fb067b419a7",
+        "a140a85431f643fe",
+        "7af5bfd8dc60eaef",
+        "837135217f9a7d8d",
+        "1bea8572d71395ba",
+        "f38dfa955cc6694d",
+        "3f0a810f929d7200",
+        "57695a53eff22418",
+        "be269e6c1bf5ce40",
+        "a1dbf46523731a7d"
+      ],
+      "id": "6da64fb067b419a7",
+      "date": 1502633668003
+    },
+    {
+      "type": "edit",
+      "id": "0b851b47592ab49d",
+      "item": {
+        "type": "roster",
+        "id": "0b851b47592ab49d",
+        "text": "Thought Garden Projects\n\nREFERENCES outlandish.academy/outlandish-researchers\nREFERENCES wiki.feast.fm/feast-researchers\nREFERENCES thought.garden/thought-garden-sites\nREFERENCES permanent.wiki/permanent-web-sites\n"
+      },
+      "date": 1502633683844
+    },
+    {
+      "type": "fork",
+      "site": "permanent.wiki",
+      "date": 1502635015609
+    },
+    {
+      "type": "fork",
+      "site": "outlandish.academy",
+      "date": 1502635026495
+    },
+    {
+      "type": "fork",
+      "site": "david.outlandish.academy",
+      "date": 1502635048921
+    },
+    {
+      "type": "fork",
+      "site": "video.outlandish.academy",
+      "date": 1502635055995
+    },
+    {
+      "type": "edit",
+      "id": "d683fbe54808323f",
+      "item": {
+        "text": "- [[Thought Garden Activity]]\n- [[Thought Garden Project Activity]]\n \n- [[Permanent Web Activity]]\n- [[Outlandish Activity]]\n- [[FEAST Activity]]\n\n- [[Changes to Livecode Sites]]\n- [[Changes to Coding Sites]]\n- [[Changes to Technology Sites]]\n-\n- [[Pamela's Activity]]\n- [[Gavin's Activity]]\n- [[Trevor's Activity]]",
+        "id": "d683fbe54808323f",
+        "type": "markdown"
+      },
+      "date": 1502635069308
+    },
+    {
+      "type": "edit",
+      "id": "d683fbe54808323f",
+      "item": {
+        "text": "- [[Thought Garden Activity]]\n- [[Thought Garden Project Activity]]\n \n- [[Permanent Web Activity]]\n- [[Outlandish Activity]]\n- [[FEAST Activity]]\n\n- [[Changes to Livecode Sites]]\n- [[Changes to Coding Sites]]\n- [[Changes to Technology Sites]]\n \n- [[Pamela's Activity]]\n- [[Gavin's Activity]]\n- [[Trevor's Activity]]",
+        "id": "d683fbe54808323f",
+        "type": "markdown"
+      },
+      "date": 1502635151645
+    },
+    {
+      "type": "fork",
+      "date": 1502635175751
+    },
+    {
+      "type": "fork",
+      "site": "thought.garden",
+      "date": 1502810176879
+    },
+    {
+      "type": "edit",
+      "id": "d683fbe54808323f",
+      "item": {
+        "text": "- [[Thought Garden Activity]]\n- [[Thought Garden Project Activity]]\n \n- [[Permanent Web Activity]]\n- [[Outlandish Activity]]\n- [[FEAST Activity]]\n\n- [[Changes to Livecode Sites]]\n- [[Changes to Coding Sites]]\n- [[Changes to Technology Sites]]\n \n- [[Nina's Activity]]\n- [[Pamela's Activity]]\n- [[Gavin's Activity]]\n- [[Trevor's Activity]]",
+        "id": "d683fbe54808323f",
+        "type": "markdown"
+      },
+      "date": 1502810294440
+    },
+    {
+      "type": "fork",
+      "site": "david.outlandish.academy",
+      "date": 1502810692667
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "roster",
+        "id": "899e923f161c33c1",
+        "text": "Nina's Sites\n\nnina.outlandish.academy\nnina.kino.fm\nsnack.thought.garden",
+        "alias": "837135217f9a7d8d"
+      },
+      "after": "a1dbf46523731a7d",
+      "id": "899e923f161c33c1",
+      "date": 1502811000355
+    },
+    {
+      "type": "fork",
+      "site": "outlandish.academy",
+      "date": 1503249238195
+    },
+    {
+      "type": "edit",
+      "id": "d683fbe54808323f",
+      "item": {
+        "text": "- [[Thought Garden Activity]]\n- [[Thought Garden Project Activity]]\n \n- [[Permanent Web Activity]]\n- [[Outlandish Activity]]\n- [[FEAST Activity]]\n\n- [[Changes to Livecode Sites]]\n- [[Changes to Coding Sites]]\n- [[Changes to Technology Sites]]\n \n- [[Andrew's Activity]]\n- [[Nina's Activity]]\n- [[Pamela's Activity]]\n- [[Gavin's Activity]]\n- [[Trevor's Activity]]",
+        "id": "d683fbe54808323f",
+        "type": "markdown"
+      },
+      "date": 1503249263274
+    },
+    {
+      "type": "edit",
+      "id": "d683fbe54808323f",
+      "item": {
+        "text": "- [[Thought Garden Activity]]\n- [[Thought Garden Project Activity]]\n \n- [[Permanent Web Activity]]\n- [[Outlandish Activity]]\n- [[FEAST Activity]]\n\n- [[Changes to Livecode Sites]]\n- [[Changes to Coding Sites]]\n- [[Changes to Technology Sites]]\n \n- [[Andrew's Activity]]\n- [[Nina's Activity]]\n- [[Pamela's Activity]]\n- [[Gavin's Activity]]\n- [[Trevor's Activity]]\n- [[David's Activity]]",
+        "id": "d683fbe54808323f",
+        "type": "markdown"
+      },
+      "date": 1504529643074
+    },
+    {
+      "type": "fork",
+      "site": "david.feast.fm",
+      "date": 1509804980937
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "roster",
+        "id": "2d398fa3f4557eda",
+        "text": "ROSTER andreworford.com/andrews-activity",
+        "alias": "837135217f9a7d8d"
+      },
+      "after": "3f0a810f929d7200",
+      "id": "2d398fa3f4557eda",
+      "date": 1509805020212
+    },
+    {
+      "type": "fork",
+      "site": "film.thought.garden",
+      "date": 1514738446854
+    },
+    {
+      "type": "edit",
+      "id": "d683fbe54808323f",
+      "item": {
+        "text": "- [[Thought Garden Activity]]\n- [[Thought Garden Project Activity]]\n",
+        "id": "d683fbe54808323f",
+        "type": "markdown"
+      },
+      "date": 1519566316167
+    },
+    {
+      "type": "add",
+      "id": "c009f6472daf7cbd",
+      "item": {
+        "type": "markdown",
+        "id": "c009f6472daf7cbd",
+        "text": "- [[Permanent Web Activity]]\n- [[Outlandish Activity]]\n- [[FEAST Activity]]\n"
+      },
+      "after": "d683fbe54808323f",
+      "date": 1519566325797
+    },
+    {
+      "type": "add",
+      "id": "94c04219627f96cb",
+      "item": {
+        "type": "markdown",
+        "id": "94c04219627f96cb",
+        "text": "- [[Changes to Livecode Sites]]\n- [[Changes to Coding Sites]]\n- [[Changes to Technology Sites]]\n"
+      },
+      "after": "c009f6472daf7cbd",
+      "date": 1519566329229
+    },
+    {
+      "type": "add",
+      "id": "4ad93d9cb5d84730",
+      "item": {
+        "type": "markdown",
+        "id": "4ad93d9cb5d84730",
+        "text": "- [[Andrew's Activity]]\n- [[Nina's Activity]]\n- [[Pamela's Activity]]\n- [[Gavin's Activity]]\n- [[Trevor's Activity]]\n- [[David's Activity]]"
+      },
+      "after": "94c04219627f96cb",
+      "date": 1519566331548
+    },
+    {
+      "type": "edit",
+      "id": "899e923f161c33c1",
+      "item": {
+        "type": "roster",
+        "id": "899e923f161c33c1",
+        "text": "Nina's Sites\n\nnina.outlandish.academy\nsnack.thought.garden",
+        "alias": "837135217f9a7d8d"
+      },
+      "date": 1519566360350
+    },
+    {
+      "type": "edit",
+      "id": "c009f6472daf7cbd",
+      "item": {
+        "type": "markdown",
+        "id": "c009f6472daf7cbd",
+        "text": "- [[Permanent Web Activity]]\n- [[Outlandish Activity]]\n- [[FEAST Activity]]\n- [[Game Activity]]\n"
+      },
+      "date": 1519566485096
+    },
+    {
+      "type": "edit",
+      "id": "1bea8572d71395ba",
+      "item": {
+        "type": "roster",
+        "id": "1bea8572d71395ba",
+        "text": "Livecode Sites\n\nROSTER rest.livecode.world/livecode"
+      },
+      "date": 1547804196996
+    },
+    {
+      "type": "edit",
+      "id": "65a81c85b2747522",
+      "item": {
+        "type": "markdown",
+        "id": "65a81c85b2747522",
+        "text": "# Rosters\n"
+      },
+      "date": 1547804209862
+    },
+    {
+      "type": "add",
+      "id": "9ebe334eecceb50a",
+      "item": {
+        "type": "markdown",
+        "id": "9ebe334eecceb50a",
+        "text": "# Rosters"
+      },
+      "after": "65a81c85b2747522",
+      "date": 1547804211204
+    },
+    {
+      "type": "edit",
+      "id": "65a81c85b2747522",
+      "item": {
+        "type": "markdown",
+        "id": "65a81c85b2747522",
+        "text": "# Active Rosters\n"
+      },
+      "date": 1547804215467
+    },
+    {
+      "type": "move",
+      "order": [
+        "e1cfe7afd6f565a5",
+        "d683fbe54808323f",
+        "c009f6472daf7cbd",
+        "94c04219627f96cb",
+        "4ad93d9cb5d84730",
+        "65a81c85b2747522",
+        "1bea8572d71395ba",
+        "9ebe334eecceb50a",
+        "0b851b47592ab49d",
+        "6da64fb067b419a7",
+        "a140a85431f643fe",
+        "7af5bfd8dc60eaef",
+        "837135217f9a7d8d",
+        "f38dfa955cc6694d",
+        "3f0a810f929d7200",
+        "2d398fa3f4557eda",
+        "57695a53eff22418",
+        "be269e6c1bf5ce40",
+        "a1dbf46523731a7d",
+        "899e923f161c33c1"
+      ],
+      "id": "1bea8572d71395ba",
+      "date": 1547804220214
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "roster",
+        "id": "41a30413bcfe085e",
+        "text": "Thought Garden Sites\n\nROSTER rest.livecode.world/thought",
+        "alias": "837135217f9a7d8d"
+      },
+      "after": "1bea8572d71395ba",
+      "id": "41a30413bcfe085e",
+      "date": 1547804226077
+    },
+    {
+      "type": "edit",
+      "id": "6da64fb067b419a7",
+      "item": {
+        "type": "roster",
+        "id": "6da64fb067b419a7",
+        "text": "Thought Garden Reference Sites\n\nREFERENCES thought.garden/thought-garden-sites",
+        "alias": "837135217f9a7d8d"
+      },
+      "date": 1547804237542
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "roster",
+        "id": "5197ceb2ccc9874a",
+        "text": "Game Sites\n\nREFERENCES thought.garden/game-sites",
+        "alias": "837135217f9a7d8d"
+      },
+      "after": "6da64fb067b419a7",
+      "id": "5197ceb2ccc9874a",
+      "date": 1547804249657
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "roster",
+        "id": "741a0fcdd3ff76b2",
+        "text": "Fedwiki Sites\n\nROSTER rest.livecode.world/roster"
+      },
+      "after": "65a81c85b2747522",
+      "id": "741a0fcdd3ff76b2",
+      "date": 1547804346082
+    },
+    {
+      "type": "move",
+      "order": [
+        "e1cfe7afd6f565a5",
+        "d683fbe54808323f",
+        "c009f6472daf7cbd",
+        "94c04219627f96cb",
+        "4ad93d9cb5d84730",
+        "65a81c85b2747522",
+        "41a30413bcfe085e",
+        "741a0fcdd3ff76b2",
+        "1bea8572d71395ba",
+        "9ebe334eecceb50a",
+        "0b851b47592ab49d",
+        "6da64fb067b419a7",
+        "5197ceb2ccc9874a",
+        "a140a85431f643fe",
+        "7af5bfd8dc60eaef",
+        "837135217f9a7d8d",
+        "f38dfa955cc6694d",
+        "3f0a810f929d7200",
+        "2d398fa3f4557eda",
+        "57695a53eff22418",
+        "be269e6c1bf5ce40",
+        "a1dbf46523731a7d",
+        "899e923f161c33c1"
+      ],
+      "id": "41a30413bcfe085e",
+      "date": 1547804351700
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "roster",
+        "id": "70502142602e704d",
+        "text": "Platform Earth Sites\n\nROSTER rest.livecode.world/earth",
+        "alias": "837135217f9a7d8d"
+      },
+      "after": "41a30413bcfe085e",
+      "id": "70502142602e704d",
+      "date": 1547804579738
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "roster",
+        "id": "4fbdcb0a97b7b6fb",
+        "text": "Outlandish Sites\n\nROSTER rest.livecode.world/outlandish"
+      },
+      "after": "70502142602e704d",
+      "id": "4fbdcb0a97b7b6fb",
+      "date": 1547804626880
+    },
+    {
+      "type": "move",
+      "order": [
+        "e1cfe7afd6f565a5",
+        "d683fbe54808323f",
+        "c009f6472daf7cbd",
+        "94c04219627f96cb",
+        "4ad93d9cb5d84730",
+        "65a81c85b2747522",
+        "41a30413bcfe085e",
+        "741a0fcdd3ff76b2",
+        "70502142602e704d",
+        "4fbdcb0a97b7b6fb",
+        "1bea8572d71395ba",
+        "9ebe334eecceb50a",
+        "0b851b47592ab49d",
+        "6da64fb067b419a7",
+        "5197ceb2ccc9874a",
+        "a140a85431f643fe",
+        "7af5bfd8dc60eaef",
+        "837135217f9a7d8d",
+        "f38dfa955cc6694d",
+        "3f0a810f929d7200",
+        "2d398fa3f4557eda",
+        "57695a53eff22418",
+        "be269e6c1bf5ce40",
+        "a1dbf46523731a7d",
+        "899e923f161c33c1"
+      ],
+      "id": "741a0fcdd3ff76b2",
+      "date": 1547804629897
+    },
+    {
+      "type": "edit",
+      "id": "0b851b47592ab49d",
+      "item": {
+        "type": "roster",
+        "id": "0b851b47592ab49d",
+        "text": "Thought Garden Researchers\n\nREFERENCES outlandish.academy/outlandish-researchers\n\nFEAST Researchers\n\nREFERENCES wiki.feast.fm/feast-researchers\n\nThought Garden Sites\n\nREFERENCES thought.garden/thought-garden-sites\n\nPermanent Sites\n\nREFERENCES permanent.wiki/permanent-web-sites\n"
+      },
+      "date": 1547805072989
+    },
+    {
+      "type": "edit",
+      "id": "0b851b47592ab49d",
+      "item": {
+        "type": "roster",
+        "id": "0b851b47592ab49d",
+        "text": "Thought Garden Researchers\n\nREFERENCES outlandish.academy/outlandish-researchers\n\nFEAST Researchers\n\nREFERENCES wiki.feast.fm/feast-researchers\n\nThought Garden Sites\n\nREFERENCES thought.garden/thought-garden-sites\n\nPermanent Sites\n\nREFERENCES permanent.wiki/permanent-web-sites"
+      },
+      "date": 1547805078403
+    },
+    {
+      "type": "edit",
+      "id": "0b851b47592ab49d",
+      "item": {
+        "type": "roster",
+        "id": "0b851b47592ab49d",
+        "text": "Thought Garden Sites\n\nROSTER rest.livecode.world/thought\n\nThought Garden Researchers\n\nREFERENCES outlandish.academy/outlandish-researchers\n\nFEAST Researchers\n\nREFERENCES wiki.feast.fm/feast-researchers\n\nPermanent Sites\n\nREFERENCES permanent.wiki/permanent-web-sites"
+      },
+      "date": 1547805113847
+    },
+    {
+      "type": "edit",
+      "id": "94c04219627f96cb",
+      "item": {
+        "type": "markdown",
+        "id": "94c04219627f96cb",
+        "text": "- [[Livecode Activity]]\n- [[Changes to Coding Sites]]\n- [[Changes to Technology Sites]]\n"
+      },
+      "date": 1547805264468
+    },
+    {
+      "type": "edit",
+      "id": "d683fbe54808323f",
+      "item": {
+        "text": "- [[Thought Garden Activity]]\n",
+        "id": "d683fbe54808323f",
+        "type": "markdown"
+      },
+      "date": 1547805293870
+    },
+    {
+      "type": "add",
+      "id": "e717fbd1f4b9c50d",
+      "item": {
+        "type": "markdown",
+        "id": "e717fbd1f4b9c50d",
+        "text": "- [[Thought Garden Project Activity]]\n"
+      },
+      "after": "d683fbe54808323f",
+      "date": 1547805295856
+    },
+    {
+      "type": "remove",
+      "id": "c009f6472daf7cbd",
+      "date": 1547805297719
+    },
+    {
+      "type": "edit",
+      "id": "e717fbd1f4b9c50d",
+      "item": {
+        "type": "markdown",
+        "id": "e717fbd1f4b9c50d",
+        "text": "- [[Thought Garden Project Activity]]\n- [[Permanent Web Activity]]\n- [[Game Activity]]\n"
+      },
+      "date": 1547805310980
+    },
+    {
+      "type": "edit",
+      "id": "d683fbe54808323f",
+      "item": {
+        "text": "- [[Thought Garden Activity]]\n- [[Outlandish Activity]]\n- [[FEAST Activity]]\n",
+        "id": "d683fbe54808323f",
+        "type": "markdown"
+      },
+      "date": 1547805317690
+    },
+    {
+      "type": "edit",
+      "id": "94c04219627f96cb",
+      "item": {
+        "type": "markdown",
+        "id": "94c04219627f96cb",
+        "text": "- [[Changes to Coding Sites]]\n- [[Changes to Technology Sites]]\n"
+      },
+      "date": 1547805321881
+    },
+    {
+      "type": "edit",
+      "id": "d683fbe54808323f",
+      "item": {
+        "text": "- [[Thought Garden Activity]]\n- [[Platform Earth Activity]]\n- [[Outlandish Activity]]\n- [[FEAST Activity]]\n- [[Livecode Activity]]\n",
+        "id": "d683fbe54808323f",
+        "type": "markdown"
+      },
+      "date": 1547805345577
+    },
+    {
+      "type": "edit",
+      "id": "d683fbe54808323f",
+      "item": {
+        "text": "- [[Thought Garden Activity]]\n- [[Platform Earth Activity]]\n- [[Outlandish Activity]]\n- [[Fedwiki Activity]]\n- [[FEAST Activity]]\n- [[Livecode Activity]]\n",
+        "id": "d683fbe54808323f",
+        "type": "markdown"
+      },
+      "date": 1547805464683
+    },
+    {
+      "type": "fork",
+      "site": "thought.garden",
+      "date": 1547898542836
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "roster",
+        "id": "a4a30b7dd7aa66b8",
+        "text": "Voz Sites\n\nREFERENCES hack.platform.earth/voz-sites",
+        "alias": "837135217f9a7d8d"
+      },
+      "after": "9ebe334eecceb50a",
+      "id": "a4a30b7dd7aa66b8",
+      "date": 1547898551090
+    },
+    {
+      "type": "add",
+      "item": {
+        "id": "3b3d630d19daa82e",
+        "type": "roster",
+        "text": "Audio Sites\n\nREFERENCES sound.thought.garden/audio-sites",
+        "alias": "0b851b47592ab49d"
+      },
+      "after": "a140a85431f643fe",
+      "id": "3b3d630d19daa82e",
+      "date": 1547898564177
+    },
+    {
+      "type": "edit",
+      "id": "9ebe334eecceb50a",
+      "item": {
+        "type": "markdown",
+        "id": "9ebe334eecceb50a",
+        "text": "# Rosters\n"
+      },
+      "date": 1547898579887
+    },
+    {
+      "type": "add",
+      "id": "b9009cd1a30cd928",
+      "item": {
+        "type": "markdown",
+        "id": "b9009cd1a30cd928",
+        "text": "We need to refactor these rosters using tooling so that they can be more easily maintained."
+      },
+      "after": "9ebe334eecceb50a",
+      "date": 1547898605623
+    },
+    {
+      "type": "add",
+      "item": {
+        "text": "On this page you can find [[research groups]] that are working on topics related to the current [[domain]]:",
+        "id": "9c3e3c907c7d1c84",
+        "type": "paragraph"
+      },
+      "id": "9c3e3c907c7d1c84",
+      "date": 1547899111866
+    },
+    {
+      "type": "remove",
+      "id": "e1cfe7afd6f565a5",
+      "date": 1547899114071
+    },
+    {
+      "type": "edit",
+      "id": "d683fbe54808323f",
+      "item": {
+        "text": "- [[Thought Garden Activity]]\n- [[Platform Earth Activity]]\n- [[Outlandish Activity]]\n- [[FEAST Activity]]\n",
+        "id": "d683fbe54808323f",
+        "type": "markdown"
+      },
+      "date": 1547899328681
+    },
+    {
+      "type": "add",
+      "id": "8a279f359366cdda",
+      "item": {
+        "type": "markdown",
+        "id": "8a279f359366cdda",
+        "text": "- [[Livecode Activity]]\n"
+      },
+      "after": "d683fbe54808323f",
+      "date": 1547899331078
+    },
+    {
+      "type": "move",
+      "order": [
+        "9c3e3c907c7d1c84",
+        "d683fbe54808323f",
+        "8a279f359366cdda",
+        "94c04219627f96cb",
+        "e717fbd1f4b9c50d",
+        "4ad93d9cb5d84730",
+        "65a81c85b2747522",
+        "41a30413bcfe085e",
+        "741a0fcdd3ff76b2",
+        "70502142602e704d",
+        "4fbdcb0a97b7b6fb",
+        "1bea8572d71395ba",
+        "9ebe334eecceb50a",
+        "b9009cd1a30cd928",
+        "a4a30b7dd7aa66b8",
+        "0b851b47592ab49d",
+        "6da64fb067b419a7",
+        "5197ceb2ccc9874a",
+        "a140a85431f643fe",
+        "3b3d630d19daa82e",
+        "7af5bfd8dc60eaef",
+        "837135217f9a7d8d",
+        "f38dfa955cc6694d",
+        "3f0a810f929d7200",
+        "2d398fa3f4557eda",
+        "57695a53eff22418",
+        "be269e6c1bf5ce40",
+        "a1dbf46523731a7d",
+        "899e923f161c33c1"
+      ],
+      "id": "94c04219627f96cb",
+      "date": 1547899336156
+    },
+    {
+      "type": "remove",
+      "id": "94c04219627f96cb",
+      "date": 1547899340078
+    },
+    {
+      "type": "edit",
+      "id": "8a279f359366cdda",
+      "item": {
+        "type": "markdown",
+        "id": "8a279f359366cdda",
+        "text": "- [[Livecode Activity]]\n- [[Changes to Coding Sites]]\n- [[Changes to Technology Sites]]\n"
+      },
+      "date": 1547899341511
+    },
+    {
+      "type": "edit",
+      "id": "d683fbe54808323f",
+      "item": {
+        "text": "- [[Fedwiki Activity]]\n",
+        "id": "d683fbe54808323f",
+        "type": "markdown"
+      },
+      "date": 1547899370536
+    },
+    {
+      "type": "add",
+      "id": "35715e4c03774204",
+      "item": {
+        "type": "markdown",
+        "id": "35715e4c03774204",
+        "text": "- [[Thought Garden Activity]]\n- [[Platform Earth Activity]]\n- [[Outlandish Activity]]"
+      },
+      "after": "d683fbe54808323f",
+      "date": 1547899374848
+    },
+    {
+      "type": "edit",
+      "id": "e717fbd1f4b9c50d",
+      "item": {
+        "type": "markdown",
+        "id": "e717fbd1f4b9c50d",
+        "text": "- [[Thought Garden Project Activity]]\n- [[Permanent Web Activity]]\n- [[FEAST Activity]]\n- [[Game Activity]]\n"
+      },
+      "date": 1547899387152
+    },
+    {
+      "type": "edit",
+      "id": "d683fbe54808323f",
+      "item": {
+        "text": "- [[Fedwiki Activity]]\n- [[Federation Activity]]\n",
+        "id": "d683fbe54808323f",
+        "type": "markdown"
+      },
+      "date": 1547899404632
+    },
+    {
+      "type": "fork",
+      "site": "future.fedwiki.org"
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "183da8405f512494",
+        "text": "- [[Fedwiki Activity]]\n- [[Recent Activity]]\n- [[Weekly Roster]]\n"
+      },
+      "after": "d683fbe54808323f",
+      "id": "183da8405f512494",
+      "date": 1547899737033
+    },
+    {
+      "type": "remove",
+      "id": "d683fbe54808323f",
+      "date": 1547899747314
+    },
+    {
+      "type": "edit",
+      "id": "183da8405f512494",
+      "item": {
+        "type": "markdown",
+        "id": "183da8405f512494",
+        "text": "- [[Federation Activity]]\n- [[Recent Activity]]\n- [[Weekly Roster]]\n"
+      },
+      "date": 1547899762078
+    },
+    {
+      "type": "edit",
+      "id": "8a279f359366cdda",
+      "item": {
+        "type": "markdown",
+        "id": "8a279f359366cdda",
+        "text": "- [[Fedwiki Activity]]\n- [[Livecode Activity]]\n- [[Changes to Coding Sites]]\n- [[Changes to Technology Sites]]\n"
+      },
+      "date": 1547899764565
+    },
+    {
+      "type": "fork",
+      "site": "thought.garden",
+      "date": 1547903427205
+    },
+    {
+      "type": "remove",
+      "id": "4ad93d9cb5d84730",
+      "date": 1547903434826
+    },
+    {
+      "type": "remove",
+      "id": "0b851b47592ab49d",
+      "date": 1547903442189
+    },
+    {
+      "type": "remove",
+      "id": "6da64fb067b419a7",
+      "date": 1547903446126
+    },
+    {
+      "type": "remove",
+      "id": "7af5bfd8dc60eaef",
+      "date": 1547903450166
+    },
+    {
+      "type": "remove",
+      "id": "837135217f9a7d8d",
+      "date": 1547903454181
+    },
+    {
+      "type": "move",
+      "order": [
+        "9c3e3c907c7d1c84",
+        "183da8405f512494",
+        "35715e4c03774204",
+        "8a279f359366cdda",
+        "e717fbd1f4b9c50d",
+        "65a81c85b2747522",
+        "41a30413bcfe085e",
+        "741a0fcdd3ff76b2",
+        "70502142602e704d",
+        "4fbdcb0a97b7b6fb",
+        "1bea8572d71395ba",
+        "9ebe334eecceb50a",
+        "b9009cd1a30cd928",
+        "f38dfa955cc6694d",
+        "a4a30b7dd7aa66b8",
+        "5197ceb2ccc9874a",
+        "a140a85431f643fe",
+        "3b3d630d19daa82e",
+        "3f0a810f929d7200",
+        "2d398fa3f4557eda",
+        "57695a53eff22418",
+        "be269e6c1bf5ce40",
+        "a1dbf46523731a7d",
+        "899e923f161c33c1"
+      ],
+      "id": "f38dfa955cc6694d",
+      "date": 1547903460474
+    },
+    {
+      "type": "move",
+      "order": [
+        "9c3e3c907c7d1c84",
+        "183da8405f512494",
+        "35715e4c03774204",
+        "8a279f359366cdda",
+        "e717fbd1f4b9c50d",
+        "65a81c85b2747522",
+        "41a30413bcfe085e",
+        "741a0fcdd3ff76b2",
+        "70502142602e704d",
+        "4fbdcb0a97b7b6fb",
+        "1bea8572d71395ba",
+        "9ebe334eecceb50a",
+        "b9009cd1a30cd928",
+        "f38dfa955cc6694d",
+        "3b3d630d19daa82e",
+        "a4a30b7dd7aa66b8",
+        "5197ceb2ccc9874a",
+        "a140a85431f643fe",
+        "3f0a810f929d7200",
+        "2d398fa3f4557eda",
+        "57695a53eff22418",
+        "be269e6c1bf5ce40",
+        "a1dbf46523731a7d",
+        "899e923f161c33c1"
+      ],
+      "id": "3b3d630d19daa82e",
+      "date": 1547903463705
+    },
+    {
+      "type": "move",
+      "order": [
+        "9c3e3c907c7d1c84",
+        "183da8405f512494",
+        "35715e4c03774204",
+        "8a279f359366cdda",
+        "e717fbd1f4b9c50d",
+        "65a81c85b2747522",
+        "41a30413bcfe085e",
+        "741a0fcdd3ff76b2",
+        "70502142602e704d",
+        "4fbdcb0a97b7b6fb",
+        "1bea8572d71395ba",
+        "9ebe334eecceb50a",
+        "b9009cd1a30cd928",
+        "f38dfa955cc6694d",
+        "3f0a810f929d7200",
+        "3b3d630d19daa82e",
+        "a4a30b7dd7aa66b8",
+        "5197ceb2ccc9874a",
+        "a140a85431f643fe",
+        "2d398fa3f4557eda",
+        "57695a53eff22418",
+        "be269e6c1bf5ce40",
+        "a1dbf46523731a7d",
+        "899e923f161c33c1"
+      ],
+      "id": "3f0a810f929d7200",
+      "date": 1547903466043
+    },
+    {
+      "type": "move",
+      "order": [
+        "9c3e3c907c7d1c84",
+        "183da8405f512494",
+        "35715e4c03774204",
+        "8a279f359366cdda",
+        "e717fbd1f4b9c50d",
+        "65a81c85b2747522",
+        "41a30413bcfe085e",
+        "741a0fcdd3ff76b2",
+        "70502142602e704d",
+        "4fbdcb0a97b7b6fb",
+        "1bea8572d71395ba",
+        "9ebe334eecceb50a",
+        "b9009cd1a30cd928",
+        "f38dfa955cc6694d",
+        "3f0a810f929d7200",
+        "a140a85431f643fe",
+        "3b3d630d19daa82e",
+        "a4a30b7dd7aa66b8",
+        "5197ceb2ccc9874a",
+        "2d398fa3f4557eda",
+        "57695a53eff22418",
+        "be269e6c1bf5ce40",
+        "a1dbf46523731a7d",
+        "899e923f161c33c1"
+      ],
+      "id": "a140a85431f643fe",
+      "date": 1547903468983
+    },
+    {
+      "type": "remove",
+      "id": "2d398fa3f4557eda",
+      "date": 1547903476625
+    },
+    {
+      "type": "remove",
+      "id": "57695a53eff22418",
+      "date": 1547903478682
+    },
+    {
+      "type": "remove",
+      "id": "be269e6c1bf5ce40",
+      "date": 1547903481041
+    },
+    {
+      "type": "remove",
+      "id": "a1dbf46523731a7d",
+      "date": 1547903483786
+    },
+    {
+      "type": "remove",
+      "id": "899e923f161c33c1",
+      "date": 1547903485713
+    },
+    {
+      "type": "edit",
+      "id": "8a279f359366cdda",
+      "item": {
+        "type": "markdown",
+        "id": "8a279f359366cdda",
+        "text": "- [[Fedwiki Activity]]\n- [[Livecode Activity]]\n- [[C0de Activity\n- [[Changes to Coding Sites]]\n- [[Changes to Technology Sites]]\n"
+      },
+      "date": 1547903554691
+    },
+    {
+      "type": "edit",
+      "id": "8a279f359366cdda",
+      "item": {
+        "type": "markdown",
+        "id": "8a279f359366cdda",
+        "text": "- [[Fedwiki Activity]]\n- [[Livecode Activity]]\n- [[C0de Activity]]\n- [[Changes to Coding Sites]]\n- [[Changes to Technology Sites]]\n"
+      },
+      "date": 1547903560509
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "roster",
+        "id": "fe099fd798f6f20a",
+        "text": "C0de Sites\n\nROSTER rest.livecode.world/c0de",
+        "alias": "1bea8572d71395ba"
+      },
+      "after": "1bea8572d71395ba",
+      "id": "fe099fd798f6f20a",
+      "date": 1547904076601
+    },
+    {
+      "type": "move",
+      "order": [
+        "9c3e3c907c7d1c84",
+        "183da8405f512494",
+        "35715e4c03774204",
+        "8a279f359366cdda",
+        "e717fbd1f4b9c50d",
+        "65a81c85b2747522",
+        "41a30413bcfe085e",
+        "70502142602e704d",
+        "4fbdcb0a97b7b6fb",
+        "741a0fcdd3ff76b2",
+        "1bea8572d71395ba",
+        "fe099fd798f6f20a",
+        "9ebe334eecceb50a",
+        "b9009cd1a30cd928",
+        "f38dfa955cc6694d",
+        "3f0a810f929d7200",
+        "a140a85431f643fe",
+        "3b3d630d19daa82e",
+        "a4a30b7dd7aa66b8",
+        "5197ceb2ccc9874a"
+      ],
+      "id": "741a0fcdd3ff76b2",
+      "date": 1547904090296
+    }
+  ]
+}
