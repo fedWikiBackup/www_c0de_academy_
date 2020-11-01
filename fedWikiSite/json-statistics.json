@@ -1,0 +1,609 @@
+{
+  "title": "JSON Statistics",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "b7eb51a49c91920f",
+      "text": "We explore data represented in the simple but still quite general JSON format. We count the number of scalar elements, NUMBER, STRING, TRUE, FALSE and NULL and report this in a form that mimics in structure the ARRAY and OBJECT elements encountered."
+    },
+    {
+      "type": "paragraph",
+      "id": "a2ffafb7f8f1140d",
+      "text": "Distributions aid spotting missing data or unexpected elements when translating data formats."
+    },
+    {
+      "type": "paragraph",
+      "id": "d98b0590967b0c2d",
+      "text": "We found a similar analysis useful when inspecting and translating material life cycle data in 2012 as mentioned on slide 13 of our report. [http://c2.com/~ward/svg/formula-chart.pdf pdf]"
+    },
+    {
+      "type": "paragraph",
+      "id": "f43743c6534b7a54",
+      "text": "We choose for our first test case the moderately complicated [[Source Code Control]] data generated and uploaded as if real data.  [http:/plugin/json/source-code-control json]"
+    },
+    {
+      "type": "paragraph",
+      "id": "fff2a132a1a28f7d",
+      "text": "From our first handmade sketches we begin developing a plugin to render the shape and size of any dataset."
+    },
+    {
+      "type": "tally",
+      "id": "c6aa531d4cfc9a3b",
+      "text": "JSON"
+    },
+    {
+      "type": "paragraph",
+      "id": "51fe30ab0db3a4cd",
+      "text": "From counts we can observe that three programs omit the committers field, 141-138=3, the description field is sometimes null but never omitted, 130+11=141, and the average number of committers per program approaches three, 390÷141=2.766"
+    },
+    {
+      "type": "paragraph",
+      "id": "26b39922c83e735f",
+      "text": "A possible representation as json array triples containing type, count, and members of the distribution. We materialize fields to fit this structure."
+    },
+    {
+      "type": "code",
+      "id": "fc541c3e9521afa4",
+      "text": "[\"array\", 1, [\n  [\"object\", 50, [\n    [\"field\", \"project\", [\n      [\"string\", 22]\n    ]],\n    [\"field\", \"manager\", [\n      [\"string\", 22]\n    ]],\n    [\"field\", \"programs\", [\n      [\"array\", 22, [\n        [\"object\", 141, [\n          [\"field\", \"name\", [\n            [\"string\", 141]\n          ]],\n          [\"field\", \"description\", [\n            [\"string\", 130],\n            [\"nil\", 11]\n          ]],\n          [\"field\", \"commiters\", [\n            [\"array\", 141, [\n              [\"string\", 390]\n            ]]\n          ]]\n        ]]\n      ]]\n    ]]\n  ]]\n]]\n"
+    },
+    {
+      "type": "paragraph",
+      "id": "d54f6ba3646911ef",
+      "text": "The essential transformation here has been to replace elements of an ARRAY or field values of an OBJECT with a collection of members representing counts of values distinguished by kind."
+    },
+    {
+      "type": "paragraph",
+      "id": "ae4231025e2b757f",
+      "text": "Kind of scalar types will be their type names."
+    },
+    {
+      "type": "paragraph",
+      "id": "c2317a98e70df015",
+      "text": "Kind of ARRAY will be derived from kind of elements."
+    },
+    {
+      "type": "paragraph",
+      "id": "7bc01f1b1e6a9768",
+      "text": "Kind of OBJECT will be derived from keys combinations."
+    },
+    {
+      "type": "paragraph",
+      "id": "ee177185dd737155",
+      "text": "We're developing a plugin to support this analysis and as a guide for subsequent data transformation."
+    },
+    {
+      "type": "paragraph",
+      "id": "e55a6730c41f0062",
+      "text": "See [[About Tally Plugin]] for github links."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "JSON Statistics",
+        "story": []
+      },
+      "date": 1490097124477
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "b7eb51a49c91920f"
+      },
+      "id": "b7eb51a49c91920f",
+      "type": "add",
+      "date": 1490097126527
+    },
+    {
+      "type": "edit",
+      "id": "b7eb51a49c91920f",
+      "item": {
+        "type": "paragraph",
+        "id": "b7eb51a49c91920f",
+        "text": "We explore data represented in the simple but still quite general JSON format. We count the number of scalar elements, NUMBER, STRING, TRUE, FALSE and NULL and report this in a form that mimics in structure the ARRAY and OBJECT elements encountered."
+      },
+      "date": 1490097654533
+    },
+    {
+      "type": "add",
+      "id": "d98b0590967b0c2d",
+      "item": {
+        "type": "paragraph",
+        "id": "d98b0590967b0c2d",
+        "text": "We found a similar analysis useful when translating environmental data in 2012."
+      },
+      "after": "b7eb51a49c91920f",
+      "date": 1490097774435
+    },
+    {
+      "type": "edit",
+      "id": "d98b0590967b0c2d",
+      "item": {
+        "type": "paragraph",
+        "id": "d98b0590967b0c2d",
+        "text": "We found a similar analysis useful when translating environmental data in 2012 as mentioned on slide 13 of our report. [http://c2.com/~ward/svg/formula-chart.pdf pdf]"
+      },
+      "date": 1490098226149
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "fc541c3e9521afa4"
+      },
+      "id": "fc541c3e9521afa4",
+      "type": "add",
+      "after": "d98b0590967b0c2d",
+      "date": 1490098255039
+    },
+    {
+      "type": "edit",
+      "id": "fc541c3e9521afa4",
+      "item": {
+        "type": "code",
+        "id": "fc541c3e9521afa4",
+        "text": "[\n  [\"array\", 1, [\n    [\"object\", 50, [\n      [\"field\", \"project\", [\n        [\"string\", 22]\n      ]],\n      [\"field\", \"manager\", [\n        [\"string\", 22]\n      ]],\n      [\"field\", \"programs\", [\n        [\"object\", 141, [\n          [\"field\", \"name\", [\n            [\"string\", 141]\n          ]],\n          [\"field\", \"description\", [\n            [\"string\", 130],\n            [\"nil\", 11]\n          ]],\n          [\"field\", \"commiters\", [\n            [\"array\", 141, [\n              [\"string\", 390]\n            ]]\n          ]]\n        ]]\n      ]]\n    ]]\n  ]]\n]"
+      },
+      "date": 1490098259724
+    },
+    {
+      "type": "add",
+      "id": "f43743c6534b7a54",
+      "item": {
+        "type": "paragraph",
+        "id": "f43743c6534b7a54",
+        "text": "We choose for our first test case the moderately complicated data representing [[Source Code Control]] [http:/plugin/json/source-code-control json]"
+      },
+      "after": "d98b0590967b0c2d",
+      "date": 1490098515894
+    },
+    {
+      "type": "edit",
+      "id": "f43743c6534b7a54",
+      "item": {
+        "type": "paragraph",
+        "id": "f43743c6534b7a54",
+        "text": "We choose for our first test case the moderately complicated [[Source Code Control]] data generated and uploaded as if real data.  [http:/plugin/json/source-code-control json]"
+      },
+      "date": 1490098622344
+    },
+    {
+      "type": "add",
+      "id": "fff2a132a1a28f7d",
+      "item": {
+        "type": "paragraph",
+        "id": "fff2a132a1a28f7d",
+        "text": "A handmade sketch of the desired output."
+      },
+      "after": "f43743c6534b7a54",
+      "date": 1490098676296
+    },
+    {
+      "type": "add",
+      "id": "26b39922c83e735f",
+      "item": {
+        "type": "paragraph",
+        "id": "26b39922c83e735f",
+        "text": "A possible representation, itself in json."
+      },
+      "after": "fff2a132a1a28f7d",
+      "date": 1490098703502
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "code",
+        "id": "6d0182ad6168269e",
+        "text": "ARRAY\n  OBJECT*50\n    project: STRING*22\n    manager: STRING*22\n    programs: OBJECT*141\n      name: STRING*141\n      description: STRING*130 NULL*11\n      committers: ARRAY*141\n        STRING*390 "
+      },
+      "after": "f43743c6534b7a54",
+      "id": "6d0182ad6168269e",
+      "date": 1490098718006
+    },
+    {
+      "type": "move",
+      "order": [
+        "b7eb51a49c91920f",
+        "d98b0590967b0c2d",
+        "f43743c6534b7a54",
+        "fff2a132a1a28f7d",
+        "6d0182ad6168269e",
+        "26b39922c83e735f",
+        "fc541c3e9521afa4"
+      ],
+      "id": "fff2a132a1a28f7d",
+      "date": 1490098731750
+    },
+    {
+      "type": "edit",
+      "id": "26b39922c83e735f",
+      "item": {
+        "type": "paragraph",
+        "id": "26b39922c83e735f",
+        "text": "A possible representation, itself in json tripples."
+      },
+      "date": 1490098750046
+    },
+    {
+      "type": "edit",
+      "id": "fc541c3e9521afa4",
+      "item": {
+        "type": "code",
+        "id": "fc541c3e9521afa4",
+        "text": "[\"array\", 1, [\n  [\"object\", 50, [\n    [\"field\", \"project\", [\n      [\"string\", 22]\n    ]],\n    [\"field\", \"manager\", [\n      [\"string\", 22]\n    ]],\n    [\"field\", \"programs\", [\n      [\"object\", 141, [\n        [\"field\", \"name\", [\n          [\"string\", 141]\n        ]],\n        [\"field\", \"description\", [\n          [\"string\", 130],\n          [\"nil\", 11]\n        ]],\n        [\"field\", \"commiters\", [\n          [\"array\", 141, [\n            [\"string\", 390]\n          ]]\n        ]]\n      ]]\n    ]]\n  ]]\n]]\n"
+      },
+      "date": 1490098816725
+    },
+    {
+      "type": "edit",
+      "id": "26b39922c83e735f",
+      "item": {
+        "type": "paragraph",
+        "id": "26b39922c83e735f",
+        "text": "A possible representation, itself in json triples, type, count, and members."
+      },
+      "date": 1490098857158
+    },
+    {
+      "type": "edit",
+      "id": "26b39922c83e735f",
+      "item": {
+        "type": "paragraph",
+        "id": "26b39922c83e735f",
+        "text": "A possible representation as json array triples containing type, count, and members of the distribution."
+      },
+      "date": 1490099031647
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "d54f6ba3646911ef"
+      },
+      "id": "d54f6ba3646911ef",
+      "type": "add",
+      "after": "fc541c3e9521afa4",
+      "date": 1490099394062
+    },
+    {
+      "type": "edit",
+      "id": "d54f6ba3646911ef",
+      "item": {
+        "type": "paragraph",
+        "id": "d54f6ba3646911ef",
+        "text": "The essential transformation here has been to replace elements of an ARRAY or field values of an OBJECT with a collection of members representing counts of values distinguished by kind."
+      },
+      "date": 1490099566694
+    },
+    {
+      "type": "add",
+      "id": "ae4231025e2b757f",
+      "item": {
+        "type": "paragraph",
+        "id": "ae4231025e2b757f",
+        "text": "Kind of scalar types will be their type names."
+      },
+      "after": "d54f6ba3646911ef",
+      "date": 1490099649451
+    },
+    {
+      "type": "add",
+      "id": "c2317a98e70df015",
+      "item": {
+        "type": "paragraph",
+        "id": "c2317a98e70df015",
+        "text": "Kind of ARRAY will be derived from kind of their elements."
+      },
+      "after": "ae4231025e2b757f",
+      "date": 1490099692856
+    },
+    {
+      "type": "edit",
+      "id": "c2317a98e70df015",
+      "item": {
+        "type": "paragraph",
+        "id": "c2317a98e70df015",
+        "text": "Kind of ARRAY will be derived from kind of elements."
+      },
+      "date": 1490099709105
+    },
+    {
+      "type": "add",
+      "id": "7bc01f1b1e6a9768",
+      "item": {
+        "type": "paragraph",
+        "id": "7bc01f1b1e6a9768",
+        "text": "Kind of OBJECT will be derived from keys combinations."
+      },
+      "after": "c2317a98e70df015",
+      "date": 1490099765865
+    },
+    {
+      "type": "edit",
+      "id": "d98b0590967b0c2d",
+      "item": {
+        "type": "paragraph",
+        "id": "d98b0590967b0c2d",
+        "text": "We found a similar analysis useful when translating material life cycle data in 2012 as mentioned on slide 13 of our report. [http://c2.com/~ward/svg/formula-chart.pdf pdf]"
+      },
+      "date": 1490099923993
+    },
+    {
+      "type": "edit",
+      "id": "d98b0590967b0c2d",
+      "item": {
+        "type": "paragraph",
+        "id": "d98b0590967b0c2d",
+        "text": "We found a similar analysis useful when translating life cycle data in 2012 as mentioned on slide 13 of our report. [http://c2.com/~ward/svg/formula-chart.pdf pdf]"
+      },
+      "date": 1490099934236
+    },
+    {
+      "type": "edit",
+      "id": "d98b0590967b0c2d",
+      "item": {
+        "type": "paragraph",
+        "id": "d98b0590967b0c2d",
+        "text": "We found a similar analysis useful when inspecting and translating material life cycle data in 2012 as mentioned on slide 13 of our report. [http://c2.com/~ward/svg/formula-chart.pdf pdf]"
+      },
+      "date": 1490099981900
+    },
+    {
+      "type": "edit",
+      "id": "6d0182ad6168269e",
+      "item": {
+        "type": "code",
+        "id": "6d0182ad6168269e",
+        "text": "ARRAY\n  OBJECT×50\n    project: STRING×22\n    manager: STRING×22\n    programs: OBJECT×141\n      name: STRING×141\n      description: STRING×130 NULL×11\n      committers: ARRAY×141\n        STRING×390 "
+      },
+      "date": 1490100191872
+    },
+    {
+      "type": "add",
+      "id": "a2ffafb7f8f1140d",
+      "item": {
+        "type": "paragraph",
+        "id": "a2ffafb7f8f1140d",
+        "text": "These distributions are useful for spotting missing data or unexpected elements when translating data formats."
+      },
+      "after": "b7eb51a49c91920f",
+      "date": 1490100453013
+    },
+    {
+      "type": "edit",
+      "id": "a2ffafb7f8f1140d",
+      "item": {
+        "type": "paragraph",
+        "id": "a2ffafb7f8f1140d",
+        "text": "Distributions are useful for spotting missing data or unexpected elements when translating data formats."
+      },
+      "date": 1490100477736
+    },
+    {
+      "type": "edit",
+      "id": "a2ffafb7f8f1140d",
+      "item": {
+        "type": "paragraph",
+        "id": "a2ffafb7f8f1140d",
+        "text": "Distributions aid spotting missing data or unexpected elements when translating data formats."
+      },
+      "date": 1490100501159
+    },
+    {
+      "type": "edit",
+      "id": "6d0182ad6168269e",
+      "item": {
+        "type": "code",
+        "id": "6d0182ad6168269e",
+        "text": "ARRAY\n  OBJECT×50\n    project: STRING×22\n    manager: STRING×22\n    programs: OBJECT×141\n      name: STRING×141\n      description: STRING×130 NULL×11\n      committers: ARRAY×138\n        STRING×390 "
+      },
+      "date": 1490100792933
+    },
+    {
+      "type": "add",
+      "id": "51fe30ab0db3a4cd",
+      "item": {
+        "type": "paragraph",
+        "id": "51fe30ab0db3a4cd",
+        "text": "From counts here we observe that three programs do not specify committers, 141-138=3. Similarly the average number of committers "
+      },
+      "after": "26b39922c83e735f",
+      "date": 1490100957467
+    },
+    {
+      "type": "edit",
+      "id": "51fe30ab0db3a4cd",
+      "item": {
+        "type": "paragraph",
+        "id": "51fe30ab0db3a4cd",
+        "text": "From counts here we observe that three programs do not specify committers, 141-138=3. Similarly the average number of committers per program approaches three, 390÷141=2.766"
+      },
+      "date": 1490101113404
+    },
+    {
+      "type": "move",
+      "order": [
+        "b7eb51a49c91920f",
+        "a2ffafb7f8f1140d",
+        "d98b0590967b0c2d",
+        "f43743c6534b7a54",
+        "fff2a132a1a28f7d",
+        "6d0182ad6168269e",
+        "51fe30ab0db3a4cd",
+        "26b39922c83e735f",
+        "fc541c3e9521afa4",
+        "d54f6ba3646911ef",
+        "ae4231025e2b757f",
+        "c2317a98e70df015",
+        "7bc01f1b1e6a9768"
+      ],
+      "id": "26b39922c83e735f",
+      "date": 1490101135067
+    },
+    {
+      "type": "edit",
+      "id": "51fe30ab0db3a4cd",
+      "item": {
+        "type": "paragraph",
+        "id": "51fe30ab0db3a4cd",
+        "text": "From counts here we observe that three programs omit the committers field, 141-138=3. Similarly the average number of committers per program approaches three, 390÷141=2.766"
+      },
+      "date": 1490101206993
+    },
+    {
+      "type": "edit",
+      "id": "51fe30ab0db3a4cd",
+      "item": {
+        "type": "paragraph",
+        "id": "51fe30ab0db3a4cd",
+        "text": "From counts we can observe that three programs omit the committers field, 141-138=3. Similarly the average number of committers per program approaches three, 390÷141=2.766"
+      },
+      "date": 1490101274516
+    },
+    {
+      "type": "edit",
+      "id": "6d0182ad6168269e",
+      "item": {
+        "type": "code",
+        "id": "6d0182ad6168269e",
+        "text": "ARRAY\n  OBJECT×22\n    project: STRING×22\n    manager: STRING×22\n    programs: OBJECT×141\n      name: STRING×141\n      description: STRING×130 NULL×11\n      committers: ARRAY×138\n        STRING×390 "
+      },
+      "date": 1490101397217
+    },
+    {
+      "type": "edit",
+      "id": "6d0182ad6168269e",
+      "item": {
+        "type": "code",
+        "id": "6d0182ad6168269e",
+        "text": "ARRAY\n  OBJECT×22\n    project: STRING×22\n    manager: STRING×22\n    programs: ARRAY×22\n      OBJECT×141\n        name: STRING×141\n        description: STRING×130 NULL×11\n        committers: ARRAY×138\n          STRING×390 "
+      },
+      "date": 1490101632160
+    },
+    {
+      "type": "edit",
+      "id": "6d0182ad6168269e",
+      "item": {
+        "type": "code",
+        "id": "6d0182ad6168269e",
+        "text": "ARRAY×1\n  OBJECT×22\n    project: STRING×22\n    manager: STRING×22\n    programs: ARRAY×22\n      OBJECT×141\n        name: STRING×141\n        description: STRING×130 NULL×11\n        committers: ARRAY×138\n          STRING×390 "
+      },
+      "date": 1490101721358
+    },
+    {
+      "type": "edit",
+      "id": "51fe30ab0db3a4cd",
+      "item": {
+        "type": "paragraph",
+        "id": "51fe30ab0db3a4cd",
+        "text": "From counts we can observe that three programs omit the committers field, 141-138=3, the description field is sometimes null but never omitted, 130+11=141, and the average number of committers per program approaches three, 390÷141=2.766"
+      },
+      "date": 1490101892444
+    },
+    {
+      "type": "edit",
+      "id": "fc541c3e9521afa4",
+      "item": {
+        "type": "code",
+        "id": "fc541c3e9521afa4",
+        "text": "[\"array\", 1, [\n  [\"object\", 50, [\n    [\"field\", \"project\", [\n      [\"string\", 22]\n    ]],\n    [\"field\", \"manager\", [\n      [\"string\", 22]\n    ]],\n    [\"field\", \"programs\", [\n      [\"array\", 22, [\n        [\"object\", 141, [\n          [\"field\", \"name\", [\n            [\"string\", 141]\n          ]],\n          [\"field\", \"description\", [\n            [\"string\", 130],\n            [\"nil\", 11]\n          ]],\n          [\"field\", \"commiters\", [\n            [\"array\", 141, [\n              [\"string\", 390]\n            ]]\n          ]]\n        ]]\n      ]]\n    ]]\n  ]]\n]]\n"
+      },
+      "date": 1490102416557
+    },
+    {
+      "type": "edit",
+      "id": "26b39922c83e735f",
+      "item": {
+        "type": "paragraph",
+        "id": "26b39922c83e735f",
+        "text": "A possible representation as json array triples containing type, count, and members of the distribution. We materialize fields to fit this structure."
+      },
+      "date": 1490102642420
+    },
+    {
+      "type": "add",
+      "id": "ee177185dd737155",
+      "item": {
+        "type": "paragraph",
+        "id": "ee177185dd737155",
+        "text": "We're developing a plugin to support this analysis and as a guide for subsequent data transformation. See [[About Tally Plugin]]"
+      },
+      "after": "7bc01f1b1e6a9768",
+      "date": 1490107896740,
+      "error": {
+        "type": "error",
+        "msg": "Forbidden",
+        "response": "Forbidden"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1490107921160
+    },
+    {
+      "type": "edit",
+      "id": "ee177185dd737155",
+      "item": {
+        "type": "paragraph",
+        "id": "ee177185dd737155",
+        "text": "We're developing a plugin to support this analysis and as a guide for subsequent data transformation."
+      },
+      "date": 1490107934102
+    },
+    {
+      "type": "add",
+      "id": "e55a6730c41f0062",
+      "item": {
+        "type": "paragraph",
+        "id": "e55a6730c41f0062",
+        "text": "See [[About Tally Plugin]]"
+      },
+      "after": "ee177185dd737155",
+      "date": 1490107935774
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "tally",
+        "id": "c6aa531d4cfc9a3b",
+        "text": "JSON"
+      },
+      "after": "fff2a132a1a28f7d",
+      "id": "c6aa531d4cfc9a3b",
+      "date": 1490274983363
+    },
+    {
+      "type": "remove",
+      "id": "6d0182ad6168269e",
+      "date": 1490275016424
+    },
+    {
+      "type": "edit",
+      "id": "fff2a132a1a28f7d",
+      "item": {
+        "type": "paragraph",
+        "id": "fff2a132a1a28f7d",
+        "text": "From our first handmade sketches we begin developing a plugin to render the shape and size of any dataset."
+      },
+      "date": 1490275244793
+    },
+    {
+      "type": "edit",
+      "id": "e55a6730c41f0062",
+      "item": {
+        "type": "paragraph",
+        "id": "e55a6730c41f0062",
+        "text": "See [[About Tally Plugin]] for github links."
+      },
+      "date": 1490275389408
+    },
+    {
+      "type": "fork",
+      "site": "context.asia.wiki.org",
+      "date": 1550075265442
+    },
+    {
+      "type": "fork",
+      "date": 1550075267652
+    }
+  ]
+}
