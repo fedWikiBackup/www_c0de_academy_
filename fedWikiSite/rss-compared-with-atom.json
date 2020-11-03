@@ -57,6 +57,240 @@
         "text": "# See also\n\n- [[Podcasting and RSS]]\n- [[RSS Variants]]\n- [[RSS]]"
       },
       "date": 1604396798680
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "fff2093c3bb867d8"
+      },
+      "id": "fff2093c3bb867d8",
+      "type": "add",
+      "after": "5f12ddb384fefc7a",
+      "date": 1604415851531
+    },
+    {
+      "type": "edit",
+      "id": "fff2093c3bb867d8",
+      "item": {
+        "type": "markdown",
+        "id": "fff2093c3bb867d8",
+        "text": "\nRSS 2.0\tAtom 1.0\nauthor\tauthor*\ncategory\tcategory\nchannel\tfeed\ncopyright\trights\n—\tsubtitle\ndescription*\tsummary and/or content\ngenerator\tgenerator\nguid\tid*\nimage\tlogo\nitem\tentry\nlastBuildDate (in channel)\tupdated*\nlink*\tlink*\nmanagingEditor\tauthor or contributor\npubDate\tpublished (subelement of entry)\ntitle*\ttitle*\nttl\t—"
+      },
+      "date": 1604415860535
+    },
+    {
+      "type": "edit",
+      "id": "fff2093c3bb867d8",
+      "item": {
+        "type": "markdown",
+        "id": "fff2093c3bb867d8",
+        "text": "RSS 2.0|Atom 1.0\nauthor|author*\ncategory|category\nchannel|feed\ncopyright|rights\n—\tsubtitle\ndescription*|summary and/or content\ngenerator|generator\nguid|id*\nimage|logo\nitem|entry\nlastBuildDate (in channel)|updated*\nlink*|link*\nmanagingEditor|author or contributor\npubDate\tpublished (subelement of entry)\ntitle*|title*\nttl|—"
+      },
+      "date": 1604416028817
+    },
+    {
+      "type": "edit",
+      "id": "fff2093c3bb867d8",
+      "item": {
+        "type": "markdown",
+        "id": "fff2093c3bb867d8",
+        "text": "|RSS 2.0|Atom 1.0|\n|author|author*|\n"
+      },
+      "date": 1604416046784
+    },
+    {
+      "type": "add",
+      "id": "98820fcac6c46b65",
+      "item": {
+        "type": "markdown",
+        "id": "98820fcac6c46b65",
+        "text": "category|category\nchannel|feed\ncopyright|rights\n—\tsubtitle\ndescription*|summary and/or content\ngenerator|generator\nguid|id*\nimage|logo\nitem|entry\nlastBuildDate (in channel)|updated*\nlink*|link*\nmanagingEditor|author or contributor\npubDate\tpublished (subelement of entry)\ntitle*|title*\nttl|—"
+      },
+      "after": "fff2093c3bb867d8",
+      "date": 1604416047304
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "b869d50e7c752a9d"
+      },
+      "id": "b869d50e7c752a9d",
+      "type": "add",
+      "after": "98820fcac6c46b65",
+      "date": 1604416079161
+    },
+    {
+      "type": "edit",
+      "id": "b869d50e7c752a9d",
+      "item": {
+        "type": "markdown",
+        "id": "b869d50e7c752a9d",
+        "text": "| Tables        | Are           | Cool  |\n| ------------- |:-------------:| -----:|\n| col 3 is      | right-aligned | $1600 |\n| col 2 is      | centered      |   $12 |\n| zebra stripes | are neat      |    $1 |"
+      },
+      "date": 1604416083899
+    },
+    {
+      "type": "edit",
+      "id": "fff2093c3bb867d8",
+      "item": {
+        "type": "markdown",
+        "id": "fff2093c3bb867d8",
+        "text": "|RSS 2.0|Atom 1.0|\n|------|-------|\n|author|author*|\n"
+      },
+      "date": 1604416122124
+    },
+    {
+      "type": "edit",
+      "id": "fff2093c3bb867d8",
+      "item": {
+        "type": "markdown",
+        "id": "fff2093c3bb867d8",
+        "text": "|RSS 2.0  |  Atom 1.0|\n|---------|----------|\n|author   |author*   |\n"
+      },
+      "date": 1604416170633
+    },
+    {
+      "type": "remove",
+      "id": "98820fcac6c46b65",
+      "date": 1604416179162
+    },
+    {
+      "type": "edit",
+      "id": "fff2093c3bb867d8",
+      "item": {
+        "type": "markdown",
+        "id": "fff2093c3bb867d8",
+        "text": "|RSS 2.0  |  Atom 1.0|\n|---------|----------|\n|author   |author*   |\n|category |category. |\n|channel|feed\n|copyright|rights\n—\tsubtitle\ndescription*|summary and/or content\ngenerator|generator\nguid|id*\nimage|logo\nitem|entry\nlastBuildDate (in channel)|updated*\nlink*|link*\nmanagingEditor|author or contributor\npubDate\tpublished (subelement of entry)\ntitle*|title*\nttl|—"
+      },
+      "date": 1604416201475
+    },
+    {
+      "type": "edit",
+      "id": "fff2093c3bb867d8",
+      "item": {
+        "type": "markdown",
+        "id": "fff2093c3bb867d8",
+        "text": "|RSS 2.0  |  Atom 1.0|\n|---------|----------|\n|author   |author*   |\n|category |category. |\n|channel|feed\n|copyright|rights\n|—\tsubtitle\n|description*|summary and/or content\n|generator|generator\n|guid|id*\n|image|logo\n|item|entry\n|lastBuildDate (in channel)|updated*\n|link*|link*\n|managingEditor|author or contributor\n|pubDate\tpublished (subelement of entry)\n|title*|title*\n|ttl|—"
+      },
+      "date": 1604416241534
+    },
+    {
+      "type": "remove",
+      "id": "b869d50e7c752a9d",
+      "date": 1604416299667
+    },
+    {
+      "id": "fff2093c3bb867d8",
+      "type": "move",
+      "order": [
+        "73c8e875-b947-4754-a713-535a4e3dba59",
+        "d3f9f4aa-b806-4be4-94e3-73b8132f6fba",
+        "15141ca1-0ab3-4e56-969a-fbf87ed153e4",
+        "fff2093c3bb867d8",
+        "e87045de-5e91-4521-9c74-4de822191248",
+        "5f12ddb384fefc7a"
+      ],
+      "date": 1604416308336
+    },
+    {
+      "type": "edit",
+      "id": "fff2093c3bb867d8",
+      "item": {
+        "type": "markdown",
+        "id": "fff2093c3bb867d8",
+        "text": "|RSS 2.0      |  Atom 1.0|\n|-------------|----------|\n|author       |author*   |\n|category     |category. |\n|channel      |feed\n|copyright    |rights\n|—\t      |subtitle\n|description* |summary and/or content\n|generator    |generator\n|guid         |id*\n|image        |logo\n|item         |entry\n|lastBuildDate (in channel)|updated*\n|link*        |link*\n|managingEditor|author or contributor\n|pubDate\tpublished (subelement of entry)\n|title*|title*\n|ttl|—"
+      },
+      "date": 1604416435644
+    },
+    {
+      "type": "edit",
+      "id": "fff2093c3bb867d8",
+      "item": {
+        "type": "markdown",
+        "id": "fff2093c3bb867d8",
+        "text": "|RSS 2.0        |  Atom 1.0\n|---------------|----------\n|author         |author*   \n|category       |category. \n|channel        |feed\n|copyright      |rights\n|—\t        |subtitle\n|description*   |summary and/or content\n|generator      |generator\n|guid           |id*\n|image          |logo\n|item           |entry\n|lastBuildDate (in channel)|updated*\n|link*          |link*\n|managingEditor |author or contributor\n|pubDate.       |published (subelement of entry)\n|title*         |title*\n|ttl            |—"
+      },
+      "date": 1604416532966
+    },
+    {
+      "type": "edit",
+      "id": "fff2093c3bb867d8",
+      "item": {
+        "type": "markdown",
+        "id": "fff2093c3bb867d8",
+        "text": "|RSS 2.0        |  Atom 1.0\n|---------------|----------\n|author         |author*   \n|category       |category. \n|channel        |feed\n|copyright      |rights\n|—\t        |subtitle\n|description*   |summary and/or content\n|generator      |generator\n|guid           |id*\n|image          |logo\n|item           |entry\n|lastBuildDate  |updated*\n|link*          |link*\n|managingEditor |author or contributor\n|pubDate.       |published (subelement of entry)\n|title*         |title*\n|ttl            |—"
+      },
+      "date": 1604416547221
+    },
+    {
+      "type": "edit",
+      "id": "fff2093c3bb867d8",
+      "item": {
+        "type": "markdown",
+        "id": "fff2093c3bb867d8",
+        "text": "|RSS 2.0        |  Atom 1.0\n|---------------|----------\n|author         |author*   \n|category       |category. \n|channel        |feed\n|copyright      |rights\n|—\t        |subtitle\n|description*   |summary and/or content\n|generator      |generator\n|guid           |id*\n|image          |logo\n|item           |entry\n|lastBuildDate  |updated*\n|link*          |link*\n|managingEditor |author or contributor\n|pubDate        |published (subelement of entry)\n|title*         |title*\n|ttl            |—"
+      },
+      "date": 1604416556202
+    },
+    {
+      "type": "edit",
+      "id": "fff2093c3bb867d8",
+      "item": {
+        "type": "markdown",
+        "id": "fff2093c3bb867d8",
+        "text": "|RSS 2.0        |  Atom 1.0\n|---------------|----------\n|author        :|author*   \n|category       |category. \n|channel        |feed\n|copyright      |rights\n|—\t        |subtitle\n|description*   |summary and/or content\n|generator      |generator\n|guid           |id*\n|image          |logo\n|item           |entry\n|lastBuildDate  |updated*\n|link*          |link*\n|managingEditor |author or contributor\n|pubDate        |published (subelement of entry)\n|title*         |title*\n|ttl            |—"
+      },
+      "date": 1604416619464
+    },
+    {
+      "type": "edit",
+      "id": "fff2093c3bb867d8",
+      "item": {
+        "type": "markdown",
+        "id": "fff2093c3bb867d8",
+        "text": "|RSS 2.0        |  Atom 1.0\n|--------------:|----------\n|author         |author*   \n|category       |category. \n|channel        |feed\n|copyright      |rights\n|—\t        |subtitle\n|description*   |summary and/or content\n|generator      |generator\n|guid           |id*\n|image          |logo\n|item           |entry\n|lastBuildDate  |updated*\n|link*          |link*\n|managingEditor |author or contributor\n|pubDate        |published (subelement of entry)\n|title*         |title*\n|ttl            |—"
+      },
+      "date": 1604416651196
+    },
+    {
+      "type": "edit",
+      "id": "fff2093c3bb867d8",
+      "item": {
+        "type": "markdown",
+        "id": "fff2093c3bb867d8",
+        "text": "|RSS 2.0        |  Atom 1.0\n|--------------:|----------:\n|author         |author*   \n|category       |category. \n|channel        |feed\n|copyright      |rights\n|—\t        |subtitle\n|description*   |summary and/or content\n|generator      |generator\n|guid           |id*\n|image          |logo\n|item           |entry\n|lastBuildDate  |updated*\n|link*          |link*\n|managingEditor |author or contributor\n|pubDate        |published (subelement of entry)\n|title*         |title*\n|ttl            |—"
+      },
+      "date": 1604416663984
+    },
+    {
+      "type": "edit",
+      "id": "fff2093c3bb867d8",
+      "item": {
+        "type": "markdown",
+        "id": "fff2093c3bb867d8",
+        "text": "|RSS 2.0        |  Atom 1.0\n|---------------|----------:\n|author         |author*   \n|category       |category. \n|channel        |feed\n|copyright      |rights\n|—\t        |subtitle\n|description*   |summary and/or content\n|generator      |generator\n|guid           |id*\n|image          |logo\n|item           |entry\n|lastBuildDate  |updated*\n|link*          |link*\n|managingEditor |author or contributor\n|pubDate        |published (subelement of entry)\n|title*         |title*\n|ttl            |—"
+      },
+      "date": 1604416687407
+    },
+    {
+      "type": "edit",
+      "id": "fff2093c3bb867d8",
+      "item": {
+        "type": "markdown",
+        "id": "fff2093c3bb867d8",
+        "text": "> |RSS 2.0        |  Atom 1.0\n|---------------|----------:\n|author         |author*   \n|category       |category. \n|channel        |feed\n|copyright      |rights\n|—\t        |subtitle\n|description*   |summary and/or content\n|generator      |generator\n|guid           |id*\n|image          |logo\n|item           |entry\n|lastBuildDate  |updated*\n|link*          |link*\n|managingEditor |author or contributor\n|pubDate        |published (subelement of entry)\n|title*         |title*\n|ttl            |—"
+      },
+      "date": 1604416713929
+    },
+    {
+      "type": "edit",
+      "id": "fff2093c3bb867d8",
+      "item": {
+        "type": "markdown",
+        "id": "fff2093c3bb867d8",
+        "text": "> |RSS 2.0        |  Atom 1.0\n|---------------|----------:\n|author         |author*   \n|category       |category\n|channel        |feed\n|copyright      |rights\n|—\t        |subtitle\n|description*   |summary and/or content\n|generator      |generator\n|guid           |id*\n|image          |logo\n|item           |entry\n|lastBuildDate  |updated*\n|link*          |link*\n|managingEditor |author or contributor\n|pubDate        |published (subelement of entry)\n|title*         |title*\n|ttl            |—"
+      },
+      "date": 1604416729314
     }
   ],
   "story": [
@@ -74,6 +308,11 @@
       "id": "15141ca1-0ab3-4e56-969a-fbf87ed153e4",
       "type": "markdown",
       "text": "The following table shows RSS elements alongside [[Atom (standard)]] elements where they are equivalent."
+    },
+    {
+      "type": "markdown",
+      "id": "fff2093c3bb867d8",
+      "text": "> |RSS 2.0        |  Atom 1.0\n|---------------|----------:\n|author         |author*   \n|category       |category\n|channel        |feed\n|copyright      |rights\n|—\t        |subtitle\n|description*   |summary and/or content\n|generator      |generator\n|guid           |id*\n|image          |logo\n|item           |entry\n|lastBuildDate  |updated*\n|link*          |link*\n|managingEditor |author or contributor\n|pubDate        |published (subelement of entry)\n|title*         |title*\n|ttl            |—"
     },
     {
       "id": "e87045de-5e91-4521-9c74-4de822191248",
