@@ -1,0 +1,154 @@
+{
+  "title": "RSS Variants",
+  "story": [
+    {
+      "id": "21a3aea6-9d0a-4d6b-9c7b-1944677a70a8",
+      "type": "markdown",
+      "text": "There are several different versions of [[RSS]], falling into two major branches (RDF and 2.*) - [https://en.wikipedia.org/wiki/RSS#Variants wikipedia]"
+    },
+    {
+      "id": "a28d50d9-83c6-4299-b187-5d6101d58cc3",
+      "type": "markdown",
+      "text": "# Compatibility proplems\n"
+    },
+    {
+      "type": "markdown",
+      "id": "77964a4d8e03b127",
+      "text": "The most serious compatibility problem is with HTML markup. Userland's RSS reader—generally considered as the reference implementation—did not originally filter out [[HTML]] markup from feeds. As a result, publishers began placing HTML markup into the titles and descriptions of items in their RSS feeds. This behavior has become expected of readers, to the point of becoming a [[de facto]] standard, though there is still some inconsistency in how software handles this markup, particularly in titles. The RSS 2.0 specification was later updated to include examples of entity-encoded HTML; however, all prior plain text usages remain valid."
+    },
+    {
+      "id": "2d698df9-babc-40a0-acb5-7846fc362206",
+      "type": "markdown",
+      "text": "# RSS Versions\n\nThe RDF (or RSS 1.*) branch includes the following versions:\n- RSS 0.90 was the original Netscape RSS version. This RSS was called ''[[Resource Description Framework|RDF]] Site Summary'', but was based on an early working draft of the RDF standard, and was not compatible with the final RDF Recommendation.\n- RSS 1.0 is an open format by the [[RSS-DEV Working Group]], again standing for ''RDF Site Summary''. RSS 1.0 is an RDF format like RSS 0.90, but not fully compatible with it, since 1.0 is based on the final RDF 1.0 Recommendation.\n- RSS 1.1 is also an open format and is intended to update and replace RSS 1.0. The specification is an independent draft not supported or endorsed in any way by the RSS-Dev Working Group or any other organization.\n- RSS 0.91 is the simplified RSS version released by Netscape, and also the version number of the simplified version originally championed by [[Dave Winer]] from Userland Software. The Netscape version was now called ''Rich Site Summary''; this was no longer an RDF format, but was relatively easy to use.\n- RSS 0.92 through 0.94 are expansions of the RSS 0.91 format, which are mostly compatible with each other and with Winer's version of RSS 0.91, but are not compatible with RSS 0.90.\n- RSS 2.0.1 has the internal version number 2.0. RSS 2.0.1 was proclaimed to be \"frozen\", but still updated shortly after release without changing the version number.  RSS now stood for ''Really Simple Syndication''.  The major change in this version is an explicit extension mechanism using XML namespaces."
+    },
+    {
+      "id": "11561ca3-12d1-43c6-bb0e-cb1759e766c5",
+      "type": "markdown",
+      "text": "The extension mechanisms make it possible for each branch to copy innovations in the other. For example, the RSS 2.* branch was the first to support [[RSS enclosure]], making it the current leading choice for podcasting, and  is the format supported for that use by [[iTunes]] and other podcasting software; however, an enclosure extension is now available for the RSS 1.* branch, [http://www.xs4all.nl/~foz/mod_enclosure.html mod_enclosure].  Likewise, the RSS 2.* core specification does not support providing full-text in addition to a synopsis, but the RSS 1.* markup can be (and often is) used as an extension.  There are also several common outside extension packages available, e.g. one  from [[Microsoft]] for use in [[Internet Explorer]] 7."
+    },
+    {
+      "type": "markdown",
+      "id": "db383dd9b7e33f3e",
+      "text": "# See also\n\n- [[Podcasting and RSS]]\n- [[RSS compared with Atom]]\n- [[RSS]]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "RSS Variants",
+        "story": []
+      },
+      "date": 1604396314090
+    },
+    {
+      "id": "21a3aea6-9d0a-4d6b-9c7b-1944677a70a8",
+      "type": "add",
+      "item": {
+        "id": "21a3aea6-9d0a-4d6b-9c7b-1944677a70a8",
+        "type": "markdown",
+        "text": "There are several different versions of RSS, falling into two major branches (RDF and 2.*) - [https://en.wikipedia.org/wiki/RSS#Variants wikipedia]"
+      },
+      "date": 1604396317062
+    },
+    {
+      "type": "edit",
+      "id": "21a3aea6-9d0a-4d6b-9c7b-1944677a70a8",
+      "item": {
+        "id": "21a3aea6-9d0a-4d6b-9c7b-1944677a70a8",
+        "type": "markdown",
+        "text": "There are several different versions of [[RSS]], falling into two major branches (RDF and 2.*) - [https://en.wikipedia.org/wiki/RSS#Variants wikipedia]"
+      },
+      "date": 1604396326565
+    },
+    {
+      "id": "2d698df9-babc-40a0-acb5-7846fc362206",
+      "type": "add",
+      "item": {
+        "id": "2d698df9-babc-40a0-acb5-7846fc362206",
+        "type": "markdown",
+        "text": "The RDF (or RSS 1.*) branch includes the following versions:\n- RSS 0.90 was the original Netscape RSS version. This RSS was called ''[[Resource Description Framework|RDF]] Site Summary'', but was based on an early working draft of the RDF standard, and was not compatible with the final RDF Recommendation.\n- RSS 1.0 is an open format by the [[RSS-DEV Working Group]], again standing for ''RDF Site Summary''. RSS 1.0 is an RDF format like RSS 0.90, but not fully compatible with it, since 1.0 is based on the final RDF 1.0 Recommendation.\n- RSS 1.1 is also an open format and is intended to update and replace RSS 1.0. The specification is an independent draft not supported or endorsed in any way by the RSS-Dev Working Group or any other organization.\n- RSS 0.91 is the simplified RSS version released by Netscape, and also the version number of the simplified version originally championed by [[Dave Winer]] from Userland Software. The Netscape version was now called ''Rich Site Summary''; this was no longer an RDF format, but was relatively easy to use.\n- RSS 0.92 through 0.94 are expansions of the RSS 0.91 format, which are mostly compatible with each other and with Winer's version of RSS 0.91, but are not compatible with RSS 0.90.\n- RSS 2.0.1 has the internal version number 2.0. RSS 2.0.1 was proclaimed to be \"frozen\", but still updated shortly after release without changing the version number.  RSS now stood for ''Really Simple Syndication''.  The major change in this version is an explicit extension mechanism using XML namespaces."
+      },
+      "after": "21a3aea6-9d0a-4d6b-9c7b-1944677a70a8",
+      "date": 1604396337911
+    },
+    {
+      "id": "11561ca3-12d1-43c6-bb0e-cb1759e766c5",
+      "type": "add",
+      "item": {
+        "id": "11561ca3-12d1-43c6-bb0e-cb1759e766c5",
+        "type": "markdown",
+        "text": "The extension mechanisms make it possible for each branch to copy innovations in the other. For example, the RSS 2.* branch was the first to support [[RSS enclosure]], making it the current leading choice for podcasting, and  is the format supported for that use by [[iTunes]] and other podcasting software; however, an enclosure extension is now available for the RSS 1.* branch, [http://www.xs4all.nl/~foz/mod_enclosure.html mod_enclosure].  Likewise, the RSS 2.* core specification does not support providing full-text in addition to a synopsis, but the RSS 1.* markup can be (and often is) used as an extension.  There are also several common outside extension packages available, e.g. one  from [[Microsoft]] for use in [[Internet Explorer]] 7."
+      },
+      "after": "2d698df9-babc-40a0-acb5-7846fc362206",
+      "date": 1604396342825
+    },
+    {
+      "id": "a28d50d9-83c6-4299-b187-5d6101d58cc3",
+      "type": "add",
+      "item": {
+        "id": "a28d50d9-83c6-4299-b187-5d6101d58cc3",
+        "type": "markdown",
+        "text": "The most serious compatibility problem is with HTML markup. Userland's RSS reader—generally considered as the reference implementation—did not originally filter out [[HTML]] markup from feeds. As a result, publishers began placing HTML markup into the titles and descriptions of items in their RSS feeds. This behavior has become expected of readers, to the point of becoming a [[de facto]] standard, though there is still some inconsistency in how software handles this markup, particularly in titles. The RSS 2.0 specification was later updated to include examples of entity-encoded HTML; however, all prior plain text usages remain valid."
+      },
+      "after": "21a3aea6-9d0a-4d6b-9c7b-1944677a70a8",
+      "date": 1604396349541
+    },
+    {
+      "type": "edit",
+      "id": "a28d50d9-83c6-4299-b187-5d6101d58cc3",
+      "item": {
+        "id": "a28d50d9-83c6-4299-b187-5d6101d58cc3",
+        "type": "markdown",
+        "text": "# Compatibility proplems\n"
+      },
+      "date": 1604396369468
+    },
+    {
+      "type": "add",
+      "id": "77964a4d8e03b127",
+      "item": {
+        "type": "markdown",
+        "id": "77964a4d8e03b127",
+        "text": "The most serious compatibility problem is with HTML markup. Userland's RSS reader—generally considered as the reference implementation—did not originally filter out [[HTML]] markup from feeds. As a result, publishers began placing HTML markup into the titles and descriptions of items in their RSS feeds. This behavior has become expected of readers, to the point of becoming a [[de facto]] standard, though there is still some inconsistency in how software handles this markup, particularly in titles. The RSS 2.0 specification was later updated to include examples of entity-encoded HTML; however, all prior plain text usages remain valid."
+      },
+      "after": "a28d50d9-83c6-4299-b187-5d6101d58cc3",
+      "date": 1604396370085
+    },
+    {
+      "type": "edit",
+      "id": "2d698df9-babc-40a0-acb5-7846fc362206",
+      "item": {
+        "id": "2d698df9-babc-40a0-acb5-7846fc362206",
+        "type": "markdown",
+        "text": "# RSS Versions\n\nThe RDF (or RSS 1.*) branch includes the following versions:\n- RSS 0.90 was the original Netscape RSS version. This RSS was called ''[[Resource Description Framework|RDF]] Site Summary'', but was based on an early working draft of the RDF standard, and was not compatible with the final RDF Recommendation.\n- RSS 1.0 is an open format by the [[RSS-DEV Working Group]], again standing for ''RDF Site Summary''. RSS 1.0 is an RDF format like RSS 0.90, but not fully compatible with it, since 1.0 is based on the final RDF 1.0 Recommendation.\n- RSS 1.1 is also an open format and is intended to update and replace RSS 1.0. The specification is an independent draft not supported or endorsed in any way by the RSS-Dev Working Group or any other organization.\n- RSS 0.91 is the simplified RSS version released by Netscape, and also the version number of the simplified version originally championed by [[Dave Winer]] from Userland Software. The Netscape version was now called ''Rich Site Summary''; this was no longer an RDF format, but was relatively easy to use.\n- RSS 0.92 through 0.94 are expansions of the RSS 0.91 format, which are mostly compatible with each other and with Winer's version of RSS 0.91, but are not compatible with RSS 0.90.\n- RSS 2.0.1 has the internal version number 2.0. RSS 2.0.1 was proclaimed to be \"frozen\", but still updated shortly after release without changing the version number.  RSS now stood for ''Really Simple Syndication''.  The major change in this version is an explicit extension mechanism using XML namespaces."
+      },
+      "date": 1604396380934
+    },
+    {
+      "type": "fork",
+      "site": "pod.club",
+      "date": 1604396635593
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "db383dd9b7e33f3e"
+      },
+      "id": "db383dd9b7e33f3e",
+      "type": "add",
+      "after": "11561ca3-12d1-43c6-bb0e-cb1759e766c5",
+      "date": 1604396834296
+    },
+    {
+      "type": "edit",
+      "id": "db383dd9b7e33f3e",
+      "item": {
+        "type": "markdown",
+        "id": "db383dd9b7e33f3e",
+        "text": "# See also\n\n- [[Podcasting and RSS]]\n- [[RSS compared with Atom]]\n- [[RSS]]"
+      },
+      "date": 1604396838687
+    }
+  ]
+}

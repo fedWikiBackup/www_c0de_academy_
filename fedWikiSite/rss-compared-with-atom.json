@@ -1,0 +1,89 @@
+{
+  "title": "RSS compared with Atom",
+  "journal": [
+    {
+      "date": 1604396461284,
+      "item": {
+        "title": "RSS compared with Atom",
+        "story": ""
+      },
+      "type": "create"
+    },
+    {
+      "type": "fork",
+      "date": 1604396682570
+    },
+    {
+      "id": "7ffebb8b-f17e-4680-afd5-18af50e78abd",
+      "type": "remove",
+      "date": 1604396686037
+    },
+    {
+      "type": "remove",
+      "id": "dbafcf11-ac99-4183-9ff9-009138a97669",
+      "date": 1604396731507
+    },
+    {
+      "type": "remove",
+      "id": "97c39878-2307-4c78-bc64-453a4223017b",
+      "date": 1604396734496
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "5f12ddb384fefc7a"
+      },
+      "id": "5f12ddb384fefc7a",
+      "type": "add",
+      "after": "e87045de-5e91-4521-9c74-4de822191248",
+      "date": 1604396762937
+    },
+    {
+      "type": "edit",
+      "id": "5f12ddb384fefc7a",
+      "item": {
+        "type": "markdown",
+        "id": "5f12ddb384fefc7a",
+        "text": "# See also\n\n- [[Podcasting and RSS]]\n- [[RSS Variants]]\n- [[RSS compared with Atom]]"
+      },
+      "date": 1604396776213
+    },
+    {
+      "type": "edit",
+      "id": "5f12ddb384fefc7a",
+      "item": {
+        "type": "markdown",
+        "id": "5f12ddb384fefc7a",
+        "text": "# See also\n\n- [[Podcasting and RSS]]\n- [[RSS Variants]]\n- [[RSS]]"
+      },
+      "date": 1604396798680
+    }
+  ],
+  "story": [
+    {
+      "id": "73c8e875-b947-4754-a713-535a4e3dba59",
+      "type": "markdown",
+      "text": "Both RSS and [[Atom (Web standard)]] are widely supported and are compatible with all major consumer feed readers. RSS gained wider use because of early feed reader support - [https://en.wikipedia.org/wiki/RSS#RSS_compared_with_Atom wikipedia]"
+    },
+    {
+      "id": "d3f9f4aa-b806-4be4-94e3-73b8132f6fba",
+      "type": "markdown",
+      "text": "Technically, Atom has several advantages: less restrictive licensing, [[Internet Assigned Numbers Authority]]-registered [[MIME type]], [[XML namespace]], [[URI]] support, [[RELAX NG]] support."
+    },
+    {
+      "id": "15141ca1-0ab3-4e56-969a-fbf87ed153e4",
+      "type": "markdown",
+      "text": "The following table shows RSS elements alongside [[Atom (standard)]] elements where they are equivalent."
+    },
+    {
+      "id": "e87045de-5e91-4521-9c74-4de822191248",
+      "type": "markdown",
+      "text": "Note: the [[asterisk]] character (*) indicates that an element must be provided (Atom elements \"author\" and \"link\" are only required under certain conditions)."
+    },
+    {
+      "type": "markdown",
+      "id": "5f12ddb384fefc7a",
+      "text": "# See also\n\n- [[Podcasting and RSS]]\n- [[RSS Variants]]\n- [[RSS]]"
+    }
+  ]
+}

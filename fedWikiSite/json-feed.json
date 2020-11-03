@@ -1,0 +1,44 @@
+{
+  "title": "JSON Feed",
+  "journal": [
+    {
+      "date": 1604396337888,
+      "item": {
+        "title": "JSON Feed",
+        "story": ""
+      },
+      "type": "create"
+    },
+    {
+      "type": "fork",
+      "date": 1604396577510
+    }
+  ],
+  "story": [
+    {
+      "id": "619aea1a-fc08-4b4d-95af-70a5d97c4d20",
+      "type": "markdown",
+      "text": "__JSON Feed__ is a [[Web feed]] file format for [[Web syndication]] in [[JSON]] instead of [[XML]] as used by [[RSS]] and [[Atom (Web standard)]] - [https://en.wikipedia.org/wiki/JSON_Feed wikipedia]"
+    },
+    {
+      "id": "5026b49e-e1ef-4f69-b185-113028120e00",
+      "type": "markdown",
+      "text": "A range of software libraries and web frameworks support content syndication via JSON Feed. Supporting clients include [[NetNewsWire]], [[NewsBlur]], and Reeder."
+    },
+    {
+      "id": "58c1f562-5b6b-4b2f-aebc-e472bf111f3b",
+      "type": "markdown",
+      "text": "Notable publishers include [[NPR]]."
+    },
+    {
+      "id": "229bc16f-0f82-45c3-9099-4e408a9cf00e",
+      "type": "markdown",
+      "text": "# See also"
+    },
+    {
+      "id": "b3874e76-6292-432c-8b35-a866010fd195",
+      "type": "markdown",
+      "text": "- [[Comparison of feed aggregators]]"
+    }
+  ]
+}
