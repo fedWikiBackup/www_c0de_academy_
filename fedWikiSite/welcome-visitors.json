@@ -1208,6 +1208,17 @@
       },
       "after": "efc99880afc3772e",
       "date": 1564659021440
+    },
+    {
+      "type": "edit",
+      "id": "79f7792ab090dd89",
+      "item": {
+        "type": "markdown",
+        "id": "79f7792ab090dd89",
+        "text": "# Activity\n  \n- [[Activity]]\n- [[Changes to this Site]]\n- [[Drop in]] to our Fedwiki chat - [https://riot.im/app/#/room/#fedwiki:matrix.org riot.im]\n",
+        "alias": "7f6459b61d485407"
+      },
+      "date": 1604396493225
     }
   ],
   "title": "Welcome Visitors",
@@ -1245,7 +1256,7 @@
     {
       "type": "markdown",
       "id": "79f7792ab090dd89",
-      "text": "# Activity\n\nExplore [[recent changes]] in [[the federation]] over the past few days, by exploring the links below:\n  \n- [[Federation Activity]]\n- [[Drop in]] to our Fedwiki chat - [https://riot.im/app/#/room/#fedwiki:matrix.org riot.im]",
+      "text": "# Activity\n  \n- [[Activity]]\n- [[Changes to this Site]]\n- [[Drop in]] to our Fedwiki chat - [https://riot.im/app/#/room/#fedwiki:matrix.org riot.im]\n",
       "alias": "7f6459b61d485407"
     },
     {
