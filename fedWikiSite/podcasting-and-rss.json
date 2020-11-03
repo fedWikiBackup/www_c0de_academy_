@@ -1,0 +1,54 @@
+{
+  "title": "Podcasting and RSS",
+  "journal": [
+    {
+      "date": 1604396045945,
+      "item": {
+        "title": "Podcasting and RSS",
+        "story": ""
+      },
+      "type": "create"
+    },
+    {
+      "type": "fork",
+      "date": 1604396266545
+    },
+    {
+      "type": "fork",
+      "site": "pod.club",
+      "date": 1604396651069
+    },
+    {
+      "type": "remove",
+      "id": "765a66cc-b4a3-4da7-978b-ea339f1840f1",
+      "date": 1604396809720
+    },
+    {
+      "type": "edit",
+      "id": "d68a18b6-79e5-439e-8226-a8f8b564d729",
+      "item": {
+        "id": "d68a18b6-79e5-439e-8226-a8f8b564d729",
+        "type": "markdown",
+        "text": "# See also\n\n- [[RSS Variants]]\n- [[RSS compared with Atom]]\n- [[RSS]]"
+      },
+      "date": 1604396823940
+    },
+    {
+      "type": "remove",
+      "id": "11114951-4681-4ecf-b2f9-417289eecda3",
+      "date": 1604396828510
+    }
+  ],
+  "story": [
+    {
+      "id": "7d0ae6bb-7348-47e1-a834-d4187caaaa16",
+      "type": "markdown",
+      "text": "[[Podcast ]] are distributed using RSS. To listen to a podcast, a user adds the RSS feed to their podcast client, and the client can then list available episodes and download or stream them for listening or viewing. To be included in a podcast directory the feed must for each episode provide a title, description, artwork, category, language, and explicit rating - [https://en.wikipedia.org/wiki/RSS#Podcasting_and_RSS wikipedia]"
+    },
+    {
+      "id": "d68a18b6-79e5-439e-8226-a8f8b564d729",
+      "type": "markdown",
+      "text": "# See also\n\n- [[RSS Variants]]\n- [[RSS compared with Atom]]\n- [[RSS]]"
+    }
+  ]
+}
