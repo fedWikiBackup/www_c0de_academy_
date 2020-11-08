@@ -8,16 +8,6 @@
     },
     {
       "type": "markdown",
-      "id": "248583e6ef513c7d",
-      "text": "# Activity in the previous 4 weeks"
-    },
-    {
-      "type": "activity",
-      "id": "e9e9f102158e1382",
-      "text": "ROSTER C0de Sites\nCONVERSATION\nSINCE 4 weeks"
-    },
-    {
-      "type": "markdown",
       "id": "d7e05bdc16155217",
       "text": "# Roster"
     },
@@ -25,6 +15,16 @@
       "type": "roster",
       "id": "1bea8572d71395ba",
       "text": "C0de Sites\n\nROSTER rest.livecode.world/c0de"
+    },
+    {
+      "type": "markdown",
+      "id": "248583e6ef513c7d",
+      "text": "# Activity in the previous 4 weeks"
+    },
+    {
+      "type": "activity",
+      "id": "e9e9f102158e1382",
+      "text": "ROSTER C0de Sites\nCONVERSATION\nSINCE 4 weeks"
     },
     {
       "type": "markdown",
@@ -439,6 +439,34 @@
       "type": "remove",
       "id": "741f5cb21287dfbe",
       "date": 1547903907942
+    },
+    {
+      "id": "d7e05bdc16155217",
+      "type": "move",
+      "order": [
+        "2581edca1c3a105d",
+        "d7e05bdc16155217",
+        "248583e6ef513c7d",
+        "e9e9f102158e1382",
+        "1bea8572d71395ba",
+        "f3b00a2567e471da",
+        "33b93ba133b346b1"
+      ],
+      "date": 1604835400998
+    },
+    {
+      "id": "1bea8572d71395ba",
+      "type": "move",
+      "order": [
+        "2581edca1c3a105d",
+        "d7e05bdc16155217",
+        "1bea8572d71395ba",
+        "248583e6ef513c7d",
+        "e9e9f102158e1382",
+        "f3b00a2567e471da",
+        "33b93ba133b346b1"
+      ],
+      "date": 1604835403422
     }
   ]
 }
