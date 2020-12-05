@@ -1076,7 +1076,7 @@
   {
     "slug": "functional-specification",
     "title": "Functional Specification",
-    "date": 1564658953883,
+    "date": 1607164098196,
     "synopsis": "A functional specification describes how a product will work entirely from the user's perspective. It doesn't care how the thing is implemented. It talks about features. It specifies screens, menus, dialogs, and so on - [http://www.joelonsoftware.com/articles/fog0000000035.html joelonsoftware.com]"
   },
   {
@@ -3380,7 +3380,7 @@
   {
     "slug": "welcome-visitors",
     "title": "Welcome Visitors",
-    "date": 1604396493225,
+    "date": 1607163856913,
     "synopsis": "Welcome to a [[Federated Wiki]] site for the [[c0de Academy]], where we write about code and programming."
   },
   {
@@ -3508,5 +3508,11 @@
     "title": "Zotero",
     "date": 1459375178516,
     "synopsis": "Zotero /zoʊˈtɛroʊ/ is free and open-source reference management software to manage bibliographic data and related research materials (such as PDF files). Notable features include web browser integration, online syncing, generation of in-text citations, footnotes and bibliographies, as well as integration with the word processors Microsoft Word, LibreOffice, OpenOffice.org Writer and NeoOffice. It is produced by the Center for History and New Media at George Mason University (GMU) - [https://en.wikipedia.org/wiki/Zotero wikipedia]"
+  },
+  {
+    "slug": "non-goals",
+    "title": "Non Goals",
+    "date": 1607163856913,
+    "synopsis": "__Non-goals__ are things we are just not going to do. When you’re building a product with a team, everybody tends to have their favorite, real or imagined pet features that they just can’t live without. If you do them all, it will take infinite time and cost too much money. You have to start culling features right away, and the best way to do this is with a “nongoals” section of the spec."
   }
 ]
