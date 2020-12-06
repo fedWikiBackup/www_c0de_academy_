@@ -7,34 +7,99 @@
       "text": "rsync is a utility to keep copies of a file on two computer systems. It is commonly found on Unix-like systems and functions as both a file synchronization and file transfer program. The rsync algorithm is a type of delta encoding, and is used to minimize network usage. Zlib may be used for additional compression, and SSH or stunnel can be used for data security - [https://en.wikipedia.org/wiki/Rsync wikipedia]"
     },
     {
-      "type": "paragraph",
+      "type": "markdown",
+      "id": "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
+      "text": "- rsync is released under the GPLv3\n"
+    },
+    {
+      "type": "markdown",
+      "id": "23a685631e43f494",
+      "text": "# Tutorials\n"
+    },
+    {
+      "type": "markdown",
+      "id": "b5ffab759c192fc7",
+      "text": "- How To Use Rsync to Sync on [https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories digitalocean.com]\n- Examples over at [https://www.librebyte.net/en/cli/practical-examples-of-the-rsync-command/ librebyte.net]"
+    },
+    {
+      "type": "markdown",
       "id": "74b235af-f2e8-4670-a468-a45ef76941a9",
+      "text": "# Over ssh"
+    },
+    {
+      "type": "paragraph",
+      "id": "bed7990b564a0ebd",
       "text": "Rsync is typically used to synchronize files and directories between two different systems. For example, if the command rsync local-file user@remote-host:remote-file is run, rsync will use SSH to connect as user to remote-host. Once connected, it will invoke the remote host's rsync and then the two programs will determine what parts of the file need to be transferred over the connection."
     },
     {
-      "type": "paragraph",
+      "type": "markdown",
       "id": "301246a4-b9ce-4728-97c5-772406c9dfdd",
-      "text": "Rsync can also operate in a daemon mode, serving files in the native rsync protocol (using the \"rsync://\" syntax)."
-    },
-    {
-      "type": "paragraph",
-      "id": "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
-      "text": "It is released under the GNU General Public License version 3."
+      "text": "# Daemon mode\nRsync can also operate in a daemon mode, serving files in the native rsync protocol (using the \"rsync://\" syntax).\n\n> Note: this may be interesting for asynchronous uploads from the [[home server]]."
     },
     {
       "type": "markdown",
       "id": "5fdf898743d46ce6",
-      "text": "# Examples"
+      "text": "# Rsync push\n"
     },
     {
-      "type": "paragraph",
-      "id": "509a284e80fbc544",
-      "text": "There is a good list of practical examples to be found here - [http://www.librebyte.net/en/gnulinux/14-practical-examples-of-the-rsync-command/ librebyte.net"
+      "type": "markdown",
+      "id": "c38b725fe6ac4584",
+      "text": "To sync the contents of dir1 to dir2 on the same system, type:\n"
+    },
+    {
+      "type": "code",
+      "id": "6761ca150ec35c3b",
+      "text": "rsync -r dir1/ dir2\n"
+    },
+    {
+      "type": "markdown",
+      "id": "4f530589f3a7f09c",
+      "text": "The -r option means recursive, which is necessary for directory syncing. We could also use the -a flag instead:\n\n\n"
+    },
+    {
+      "type": "code",
+      "id": "9fd5afcdf6451acb",
+      "text": "rsync -a dir1/ dir2"
+    },
+    {
+      "type": "markdown",
+      "id": "eba2fc0415ce4b89",
+      "text": "The -a option is a combination flag. It stands for “archive” and syncs recursively and preserves symbolic links, special and device files, modification times, group, owner, and permissions. It is more commonly used than -r and is usually what you want to use.\n"
+    },
+    {
+      "type": "markdown",
+      "id": "42120f96dccc1659",
+      "text": "> Note: you may have noticed that there is a trailing slash (/) at the end of the first argument in the above commands. Missing that out produces unexpected results - [https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories digitalocean.com]"
+    },
+    {
+      "type": "markdown",
+      "id": "dd02689cc8e97fd6",
+      "text": "# Rsync push to remote"
+    },
+    {
+      "type": "markdown",
+      "id": "1f26c16c41c60a20",
+      "text": "The following code will push a file from your local directory to a remote folder.\n"
+    },
+    {
+      "type": "code",
+      "id": "7421b9b3d29babb6",
+      "text": "rsync -azP ~/dir1 username@remote_host:destination_directory\n"
+    },
+    {
+      "type": "markdown",
+      "id": "1d273ececa31a774",
+      "text": "The -P flag combines the flags --progress and --partial. The first of these gives you a progress bar for the transfers and the second allows you to resume interrupted transfers. The -z flag uses zlib compression, and the -a flag treats modification dates etc and synchs recursively."
+    },
+    {
+      "type": "markdown",
+      "id": "bff8038ccdd9cfd2",
+      "text": "# Rsync pull"
     },
     {
       "type": "paragraph",
       "id": "cd0884a3-baec-49ec-8d8e-21d0f33c3e18",
-      "text": "A command line to mirror [[FreeBSD]] might look like: - [http://www.freebsd.org/doc/en/articles/hubs/mirror-howto.html freebsd.org]"
+      "text": "A command line to mirror of pull [[FreeBSD]] from a remote directory to a local folder might look like: - [http://www.freebsd.org/doc/en/articles/hubs/mirror-howto.html freebsd.org]"
     },
     {
       "type": "code",
@@ -43,13 +108,38 @@
     },
     {
       "type": "paragraph",
-      "id": "b15679b5-a37b-4ff9-b736-06e47e799b75",
-      "text": "The [[Apache HTTP Server]] supports only rsync for updating mirrors - [http://www.apache.org/info/how-to-mirror.html apache.org]"
+      "id": "e8d57b4ccb243aa5",
+      "text": "The -v flag provides a verbose output."
+    },
+    {
+      "type": "markdown",
+      "id": "8622942436b0018c",
+      "text": "# Push certain files\nYou don't usually want to transfer individual files with rsync, it may be better to use a simpler tool like [[scp]] for that. however in case you do:\n"
     },
     {
       "type": "code",
-      "id": "6761ca150ec35c3b",
-      "text": "rsync -avz --delete --safe-links rsync.apache.org::apache-dist /path/to/mirror"
+      "id": "4f5a033873c37291",
+      "text": "rsync -av helios:fich1 :fich2 :fich3 :fich4 /dest/"
+    },
+    {
+      "type": "markdown",
+      "id": "f7b18068a97d2118",
+      "text": "The command above will copy the files: fich1, fich2, fich3 and fich4 from helios to the local DIR /dest."
+    },
+    {
+      "id": "e0d97752-241a-4beb-9d3a-3c193407fc68",
+      "type": "markdown",
+      "text": "# Rsync Research"
+    },
+    {
+      "id": "0295bd32-7c92-40c1-8fca-be5bcec4eddd",
+      "type": "markdown",
+      "text": "- tweekmonster/auto_rsync:... - [https://github.com/tweekmonster/auto_rsync github.com]\n- fswatch rsync macos - Google... - [https://www.google.com/search?q=fswatch+rsync+macos&rlz=1C5CHFA_enGB856GB856&oq=fswatch+rsync+macos&aqs=chrome..69i57j0i22i30i457.8259j0j4&sourceid=chrome&ie=UTF-8 google.com]\n- nonblocking - Explain... - [https://stackoverflow.com/questions/3716738/explain-rsyncs-blocking-io-option stackoverflow.com]\n- powershell - Watch for... - [https://stackoverflow.com/questions/47682702/watch-for-changes-in-local-folder-and-upload-them-to-sftp-server stackoverflow.com]\n- macos - Bash script, watch... - [https://stackoverflow.com/questions/6475252/bash-script-watch-folder-execute-command/11139175#11139175 stackoverflow.com]\n- rsync vs. async... - [http://download.asperasoft.com/download/docs/sync2/3.5.1/admin_win/webhelp/dita/rsync_comparison.html asperasoft.com]\n- macos - Tool that watches... - [https://apple.stackexchange.com/questions/228576/tool-that-watches-files-folders-and-upload-on-change-on-os-x stackexchange.com]\n- macos - How to use fswatch... - [https://stackoverflow.com/questions/34575374/how-to-use-fswatch-and-rsync-to-automatically-sync-directories stackoverflow.com]"
+    },
+    {
+      "type": "paragraph",
+      "id": "b15679b5-a37b-4ff9-b736-06e47e799b75",
+      "text": "The [[Apache HTTP Server]] supports only rsync for updating mirrors - [http://www.apache.org/info/how-to-mirror.html apache.org]"
     },
     {
       "type": "markdown",
@@ -358,6 +448,1354 @@
         "text": "# Examples"
       },
       "date": 1466530560788
+    },
+    {
+      "type": "edit",
+      "id": "74b235af-f2e8-4670-a468-a45ef76941a9",
+      "item": {
+        "type": "paragraph",
+        "id": "74b235af-f2e8-4670-a468-a45ef76941a9",
+        "text": "# Over ssh"
+      },
+      "date": 1607250435174
+    },
+    {
+      "type": "add",
+      "id": "bed7990b564a0ebd",
+      "item": {
+        "type": "paragraph",
+        "id": "bed7990b564a0ebd",
+        "text": "Rsync is typically used to synchronize files and directories between two different systems. For example, if the command rsync local-file user@remote-host:remote-file is run, rsync will use SSH to connect as user to remote-host. Once connected, it will invoke the remote host's rsync and then the two programs will determine what parts of the file need to be transferred over the connection."
+      },
+      "after": "74b235af-f2e8-4670-a468-a45ef76941a9",
+      "date": 1607250435597
+    },
+    {
+      "type": "edit",
+      "id": "74b235af-f2e8-4670-a468-a45ef76941a9",
+      "item": {
+        "type": "markdown",
+        "id": "74b235af-f2e8-4670-a468-a45ef76941a9",
+        "text": "# Over ssh"
+      },
+      "date": 1607250439362
+    },
+    {
+      "id": "b15679b5-a37b-4ff9-b736-06e47e799b75",
+      "type": "move",
+      "order": [
+        "65ef6d6c-146f-4145-97e9-27b5417e76b2",
+        "74b235af-f2e8-4670-a468-a45ef76941a9",
+        "bed7990b564a0ebd",
+        "301246a4-b9ce-4728-97c5-772406c9dfdd",
+        "b15679b5-a37b-4ff9-b736-06e47e799b75",
+        "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
+        "5fdf898743d46ce6",
+        "509a284e80fbc544",
+        "cd0884a3-baec-49ec-8d8e-21d0f33c3e18",
+        "42c258f2f7034a32",
+        "6761ca150ec35c3b",
+        "15207532-7707-4c95-8b0a-929afa3c69bb"
+      ],
+      "date": 1607250450674
+    },
+    {
+      "id": "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
+      "type": "move",
+      "order": [
+        "65ef6d6c-146f-4145-97e9-27b5417e76b2",
+        "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
+        "74b235af-f2e8-4670-a468-a45ef76941a9",
+        "bed7990b564a0ebd",
+        "301246a4-b9ce-4728-97c5-772406c9dfdd",
+        "b15679b5-a37b-4ff9-b736-06e47e799b75",
+        "5fdf898743d46ce6",
+        "509a284e80fbc544",
+        "cd0884a3-baec-49ec-8d8e-21d0f33c3e18",
+        "42c258f2f7034a32",
+        "6761ca150ec35c3b",
+        "15207532-7707-4c95-8b0a-929afa3c69bb"
+      ],
+      "date": 1607250452835
+    },
+    {
+      "id": "6761ca150ec35c3b",
+      "type": "move",
+      "order": [
+        "65ef6d6c-146f-4145-97e9-27b5417e76b2",
+        "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
+        "74b235af-f2e8-4670-a468-a45ef76941a9",
+        "bed7990b564a0ebd",
+        "301246a4-b9ce-4728-97c5-772406c9dfdd",
+        "6761ca150ec35c3b",
+        "b15679b5-a37b-4ff9-b736-06e47e799b75",
+        "5fdf898743d46ce6",
+        "509a284e80fbc544",
+        "cd0884a3-baec-49ec-8d8e-21d0f33c3e18",
+        "42c258f2f7034a32",
+        "15207532-7707-4c95-8b0a-929afa3c69bb"
+      ],
+      "date": 1607250463644
+    },
+    {
+      "id": "5fdf898743d46ce6",
+      "type": "move",
+      "order": [
+        "65ef6d6c-146f-4145-97e9-27b5417e76b2",
+        "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
+        "5fdf898743d46ce6",
+        "74b235af-f2e8-4670-a468-a45ef76941a9",
+        "bed7990b564a0ebd",
+        "301246a4-b9ce-4728-97c5-772406c9dfdd",
+        "6761ca150ec35c3b",
+        "b15679b5-a37b-4ff9-b736-06e47e799b75",
+        "509a284e80fbc544",
+        "cd0884a3-baec-49ec-8d8e-21d0f33c3e18",
+        "42c258f2f7034a32",
+        "15207532-7707-4c95-8b0a-929afa3c69bb"
+      ],
+      "date": 1607250475403
+    },
+    {
+      "id": "509a284e80fbc544",
+      "type": "move",
+      "order": [
+        "65ef6d6c-146f-4145-97e9-27b5417e76b2",
+        "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
+        "5fdf898743d46ce6",
+        "509a284e80fbc544",
+        "74b235af-f2e8-4670-a468-a45ef76941a9",
+        "bed7990b564a0ebd",
+        "301246a4-b9ce-4728-97c5-772406c9dfdd",
+        "6761ca150ec35c3b",
+        "b15679b5-a37b-4ff9-b736-06e47e799b75",
+        "cd0884a3-baec-49ec-8d8e-21d0f33c3e18",
+        "42c258f2f7034a32",
+        "15207532-7707-4c95-8b0a-929afa3c69bb"
+      ],
+      "date": 1607250478052
+    },
+    {
+      "id": "cd0884a3-baec-49ec-8d8e-21d0f33c3e18",
+      "type": "move",
+      "order": [
+        "65ef6d6c-146f-4145-97e9-27b5417e76b2",
+        "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
+        "5fdf898743d46ce6",
+        "509a284e80fbc544",
+        "cd0884a3-baec-49ec-8d8e-21d0f33c3e18",
+        "74b235af-f2e8-4670-a468-a45ef76941a9",
+        "bed7990b564a0ebd",
+        "301246a4-b9ce-4728-97c5-772406c9dfdd",
+        "6761ca150ec35c3b",
+        "b15679b5-a37b-4ff9-b736-06e47e799b75",
+        "42c258f2f7034a32",
+        "15207532-7707-4c95-8b0a-929afa3c69bb"
+      ],
+      "date": 1607250483009
+    },
+    {
+      "id": "42c258f2f7034a32",
+      "type": "move",
+      "order": [
+        "65ef6d6c-146f-4145-97e9-27b5417e76b2",
+        "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
+        "5fdf898743d46ce6",
+        "509a284e80fbc544",
+        "cd0884a3-baec-49ec-8d8e-21d0f33c3e18",
+        "42c258f2f7034a32",
+        "74b235af-f2e8-4670-a468-a45ef76941a9",
+        "bed7990b564a0ebd",
+        "301246a4-b9ce-4728-97c5-772406c9dfdd",
+        "6761ca150ec35c3b",
+        "b15679b5-a37b-4ff9-b736-06e47e799b75",
+        "15207532-7707-4c95-8b0a-929afa3c69bb"
+      ],
+      "date": 1607250485533
+    },
+    {
+      "type": "edit",
+      "id": "509a284e80fbc544",
+      "item": {
+        "type": "paragraph",
+        "id": "509a284e80fbc544",
+        "text": "There is a good list of practical examples to be found here - [http://www.librebyte.net/en/gnulinux/14-practical-examples-of-the-rsync-command/ librebyte.net]"
+      },
+      "date": 1607250492901
+    },
+    {
+      "type": "edit",
+      "id": "5fdf898743d46ce6",
+      "item": {
+        "type": "markdown",
+        "id": "5fdf898743d46ce6",
+        "text": "# Basic usage"
+      },
+      "date": 1607250505423
+    },
+    {
+      "type": "edit",
+      "id": "5fdf898743d46ce6",
+      "item": {
+        "type": "markdown",
+        "id": "5fdf898743d46ce6",
+        "text": "# Rsync pull"
+      },
+      "date": 1607250536570
+    },
+    {
+      "id": "509a284e80fbc544",
+      "type": "move",
+      "order": [
+        "65ef6d6c-146f-4145-97e9-27b5417e76b2",
+        "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
+        "509a284e80fbc544",
+        "5fdf898743d46ce6",
+        "cd0884a3-baec-49ec-8d8e-21d0f33c3e18",
+        "42c258f2f7034a32",
+        "74b235af-f2e8-4670-a468-a45ef76941a9",
+        "bed7990b564a0ebd",
+        "301246a4-b9ce-4728-97c5-772406c9dfdd",
+        "6761ca150ec35c3b",
+        "b15679b5-a37b-4ff9-b736-06e47e799b75",
+        "15207532-7707-4c95-8b0a-929afa3c69bb"
+      ],
+      "date": 1607250541946
+    },
+    {
+      "type": "edit",
+      "id": "cd0884a3-baec-49ec-8d8e-21d0f33c3e18",
+      "item": {
+        "type": "paragraph",
+        "id": "cd0884a3-baec-49ec-8d8e-21d0f33c3e18",
+        "text": "A command line to mirror of pull [[FreeBSD]] from a remote directory to a local folder might look like: - [http://www.freebsd.org/doc/en/articles/hubs/mirror-howto.html freebsd.org]"
+      },
+      "date": 1607250577731
+    },
+    {
+      "id": "5fdf898743d46ce6",
+      "type": "move",
+      "order": [
+        "65ef6d6c-146f-4145-97e9-27b5417e76b2",
+        "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
+        "509a284e80fbc544",
+        "cd0884a3-baec-49ec-8d8e-21d0f33c3e18",
+        "42c258f2f7034a32",
+        "74b235af-f2e8-4670-a468-a45ef76941a9",
+        "bed7990b564a0ebd",
+        "301246a4-b9ce-4728-97c5-772406c9dfdd",
+        "6761ca150ec35c3b",
+        "b15679b5-a37b-4ff9-b736-06e47e799b75",
+        "5fdf898743d46ce6",
+        "15207532-7707-4c95-8b0a-929afa3c69bb"
+      ],
+      "date": 1607250586530
+    },
+    {
+      "id": "5fdf898743d46ce6",
+      "type": "move",
+      "order": [
+        "65ef6d6c-146f-4145-97e9-27b5417e76b2",
+        "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
+        "509a284e80fbc544",
+        "5fdf898743d46ce6",
+        "cd0884a3-baec-49ec-8d8e-21d0f33c3e18",
+        "42c258f2f7034a32",
+        "74b235af-f2e8-4670-a468-a45ef76941a9",
+        "bed7990b564a0ebd",
+        "301246a4-b9ce-4728-97c5-772406c9dfdd",
+        "6761ca150ec35c3b",
+        "b15679b5-a37b-4ff9-b736-06e47e799b75",
+        "15207532-7707-4c95-8b0a-929afa3c69bb"
+      ],
+      "date": 1607250595506
+    },
+    {
+      "type": "edit",
+      "id": "509a284e80fbc544",
+      "item": {
+        "type": "paragraph",
+        "id": "509a284e80fbc544",
+        "text": "There is a good list of practical examples to be found here - [https://www.librebyte.net/en/cli/practical-examples-of-the-rsync-command/ librebyte.net]"
+      },
+      "date": 1607250627815
+    },
+    {
+      "type": "edit",
+      "id": "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
+      "item": {
+        "type": "paragraph",
+        "id": "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
+        "text": "It is released under the GPLv3"
+      },
+      "date": 1607250666483
+    },
+    {
+      "type": "edit",
+      "id": "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
+      "item": {
+        "type": "paragraph",
+        "id": "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
+        "text": "- rsync is released under the GPLv3"
+      },
+      "date": 1607250680407
+    },
+    {
+      "type": "edit",
+      "id": "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
+      "item": {
+        "type": "markdown",
+        "id": "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
+        "text": "- rsync is released under the GPLv3"
+      },
+      "date": 1607250681345
+    },
+    {
+      "type": "edit",
+      "id": "509a284e80fbc544",
+      "item": {
+        "type": "paragraph",
+        "id": "509a284e80fbc544",
+        "text": "- Examples over at [https://www.librebyte.net/en/cli/practical-examples-of-the-rsync-command/ librebyte.net]"
+      },
+      "date": 1607250701020
+    },
+    {
+      "type": "edit",
+      "id": "509a284e80fbc544",
+      "item": {
+        "type": "markdown",
+        "id": "509a284e80fbc544",
+        "text": "- Examples over at [https://www.librebyte.net/en/cli/practical-examples-of-the-rsync-command/ librebyte.net]"
+      },
+      "date": 1607250702063
+    },
+    {
+      "type": "remove",
+      "id": "509a284e80fbc544",
+      "date": 1607250704439
+    },
+    {
+      "type": "edit",
+      "id": "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
+      "item": {
+        "type": "markdown",
+        "id": "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
+        "text": "- rsync is released under the GPLv3\n- Examples over at [https://www.librebyte.net/en/cli/practical-examples-of-the-rsync-command/ librebyte.net]"
+      },
+      "date": 1607250705599
+    },
+    {
+      "type": "edit",
+      "id": "5fdf898743d46ce6",
+      "item": {
+        "type": "markdown",
+        "id": "5fdf898743d46ce6",
+        "text": "# Rsync psuh\n"
+      },
+      "date": 1607250718718
+    },
+    {
+      "type": "add",
+      "id": "bff8038ccdd9cfd2",
+      "item": {
+        "type": "markdown",
+        "id": "bff8038ccdd9cfd2",
+        "text": "# Rsync pull"
+      },
+      "after": "5fdf898743d46ce6",
+      "date": 1607250720078
+    },
+    {
+      "type": "edit",
+      "id": "5fdf898743d46ce6",
+      "item": {
+        "type": "markdown",
+        "id": "5fdf898743d46ce6",
+        "text": "# Rsync push\n"
+      },
+      "date": 1607250724258
+    },
+    {
+      "id": "0295bd32-7c92-40c1-8fca-be5bcec4eddd",
+      "type": "add",
+      "item": {
+        "id": "0295bd32-7c92-40c1-8fca-be5bcec4eddd",
+        "type": "markdown",
+        "text": "- tweekmonster/auto_rsync:... - [https://github.com/tweekmonster/auto_rsync github.com]\n- How To Use Rsync to Sync... - [https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories digitalocean.com]\n- fswatch rsync macos - Google... - [https://www.google.com/search?q=fswatch+rsync+macos&rlz=1C5CHFA_enGB856GB856&oq=fswatch+rsync+macos&aqs=chrome..69i57j0i22i30i457.8259j0j4&sourceid=chrome&ie=UTF-8 google.com]\n- nonblocking - Explain... - [https://stackoverflow.com/questions/3716738/explain-rsyncs-blocking-io-option stackoverflow.com]\n- powershell - Watch for... - [https://stackoverflow.com/questions/47682702/watch-for-changes-in-local-folder-and-upload-them-to-sftp-server stackoverflow.com]\n- macos - Bash script, watch... - [https://stackoverflow.com/questions/6475252/bash-script-watch-folder-execute-command/11139175#11139175 stackoverflow.com]\n- rsync vs. async... - [http://download.asperasoft.com/download/docs/sync2/3.5.1/admin_win/webhelp/dita/rsync_comparison.html asperasoft.com]\n- macos - Tool that watches... - [https://apple.stackexchange.com/questions/228576/tool-that-watches-files-folders-and-upload-on-change-on-os-x stackexchange.com]\n- macos - How to use fswatch... - [https://stackoverflow.com/questions/34575374/how-to-use-fswatch-and-rsync-to-automatically-sync-directories stackoverflow.com]"
+      },
+      "after": "b15679b5-a37b-4ff9-b736-06e47e799b75",
+      "date": 1607250883530
+    },
+    {
+      "id": "e0d97752-241a-4beb-9d3a-3c193407fc68",
+      "type": "add",
+      "item": {
+        "id": "e0d97752-241a-4beb-9d3a-3c193407fc68",
+        "type": "markdown",
+        "text": "# Rsync Research"
+      },
+      "after": "b15679b5-a37b-4ff9-b736-06e47e799b75",
+      "date": 1607250887547
+    },
+    {
+      "type": "edit",
+      "id": "0295bd32-7c92-40c1-8fca-be5bcec4eddd",
+      "item": {
+        "id": "0295bd32-7c92-40c1-8fca-be5bcec4eddd",
+        "type": "markdown",
+        "text": "- fswatch rsync macos - Google... - [https://www.google.com/search?q=fswatch+rsync+macos&rlz=1C5CHFA_enGB856GB856&oq=fswatch+rsync+macos&aqs=chrome..69i57j0i22i30i457.8259j0j4&sourceid=chrome&ie=UTF-8 google.com]\n- nonblocking - Explain... - [https://stackoverflow.com/questions/3716738/explain-rsyncs-blocking-io-option stackoverflow.com]\n- powershell - Watch for... - [https://stackoverflow.com/questions/47682702/watch-for-changes-in-local-folder-and-upload-them-to-sftp-server stackoverflow.com]\n- macos - Bash script, watch... - [https://stackoverflow.com/questions/6475252/bash-script-watch-folder-execute-command/11139175#11139175 stackoverflow.com]\n- rsync vs. async... - [http://download.asperasoft.com/download/docs/sync2/3.5.1/admin_win/webhelp/dita/rsync_comparison.html asperasoft.com]\n- macos - Tool that watches... - [https://apple.stackexchange.com/questions/228576/tool-that-watches-files-folders-and-upload-on-change-on-os-x stackexchange.com]\n- macos - How to use fswatch... - [https://stackoverflow.com/questions/34575374/how-to-use-fswatch-and-rsync-to-automatically-sync-directories stackoverflow.com]"
+      },
+      "date": 1607250951190
+    },
+    {
+      "type": "edit",
+      "id": "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
+      "item": {
+        "type": "markdown",
+        "id": "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
+        "text": "- rsync is released under the GPLv3\n"
+      },
+      "date": 1607250960746
+    },
+    {
+      "type": "add",
+      "id": "23a685631e43f494",
+      "item": {
+        "type": "markdown",
+        "id": "23a685631e43f494",
+        "text": "# Tutorials\n"
+      },
+      "after": "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
+      "date": 1607250974533
+    },
+    {
+      "type": "add",
+      "id": "b5ffab759c192fc7",
+      "item": {
+        "type": "markdown",
+        "id": "b5ffab759c192fc7",
+        "text": "- How To Use Rsync to Sync... - [https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories digitalocean.com]\n- Examples over at [https://www.librebyte.net/en/cli/practical-examples-of-the-rsync-command/ librebyte.net]"
+      },
+      "after": "23a685631e43f494",
+      "date": 1607250989052
+    },
+    {
+      "type": "edit",
+      "id": "b5ffab759c192fc7",
+      "item": {
+        "type": "markdown",
+        "id": "b5ffab759c192fc7",
+        "text": "- How To Use Rsync to Sync on [https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories digitalocean.com]\n- Examples over at [https://www.librebyte.net/en/cli/practical-examples-of-the-rsync-command/ librebyte.net]"
+      },
+      "date": 1607250997176
+    },
+    {
+      "type": "edit",
+      "id": "0295bd32-7c92-40c1-8fca-be5bcec4eddd",
+      "item": {
+        "id": "0295bd32-7c92-40c1-8fca-be5bcec4eddd",
+        "type": "markdown",
+        "text": "- tweekmonster/auto_rsync:... - [https://github.com/tweekmonster/auto_rsync github.com]\n- fswatch rsync macos - Google... - [https://www.google.com/search?q=fswatch+rsync+macos&rlz=1C5CHFA_enGB856GB856&oq=fswatch+rsync+macos&aqs=chrome..69i57j0i22i30i457.8259j0j4&sourceid=chrome&ie=UTF-8 google.com]\n- nonblocking - Explain... - [https://stackoverflow.com/questions/3716738/explain-rsyncs-blocking-io-option stackoverflow.com]\n- powershell - Watch for... - [https://stackoverflow.com/questions/47682702/watch-for-changes-in-local-folder-and-upload-them-to-sftp-server stackoverflow.com]\n- macos - Bash script, watch... - [https://stackoverflow.com/questions/6475252/bash-script-watch-folder-execute-command/11139175#11139175 stackoverflow.com]\n- rsync vs. async... - [http://download.asperasoft.com/download/docs/sync2/3.5.1/admin_win/webhelp/dita/rsync_comparison.html asperasoft.com]\n- macos - Tool that watches... - [https://apple.stackexchange.com/questions/228576/tool-that-watches-files-folders-and-upload-on-change-on-os-x stackexchange.com]\n- macos - How to use fswatch... - [https://stackoverflow.com/questions/34575374/how-to-use-fswatch-and-rsync-to-automatically-sync-directories stackoverflow.com]"
+      },
+      "date": 1607251001804
+    },
+    {
+      "type": "add",
+      "id": "1f26c16c41c60a20",
+      "item": {
+        "type": "markdown",
+        "id": "1f26c16c41c60a20",
+        "text": "The following code will push a file from your local directory to a remote folder"
+      },
+      "after": "5fdf898743d46ce6",
+      "date": 1607251279288
+    },
+    {
+      "id": "b15679b5-a37b-4ff9-b736-06e47e799b75",
+      "type": "move",
+      "order": [
+        "65ef6d6c-146f-4145-97e9-27b5417e76b2",
+        "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
+        "23a685631e43f494",
+        "b5ffab759c192fc7",
+        "5fdf898743d46ce6",
+        "1f26c16c41c60a20",
+        "bff8038ccdd9cfd2",
+        "cd0884a3-baec-49ec-8d8e-21d0f33c3e18",
+        "42c258f2f7034a32",
+        "74b235af-f2e8-4670-a468-a45ef76941a9",
+        "bed7990b564a0ebd",
+        "301246a4-b9ce-4728-97c5-772406c9dfdd",
+        "6761ca150ec35c3b",
+        "e0d97752-241a-4beb-9d3a-3c193407fc68",
+        "0295bd32-7c92-40c1-8fca-be5bcec4eddd",
+        "b15679b5-a37b-4ff9-b736-06e47e799b75",
+        "15207532-7707-4c95-8b0a-929afa3c69bb"
+      ],
+      "date": 1607251286772
+    },
+    {
+      "id": "74b235af-f2e8-4670-a468-a45ef76941a9",
+      "type": "move",
+      "order": [
+        "65ef6d6c-146f-4145-97e9-27b5417e76b2",
+        "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
+        "74b235af-f2e8-4670-a468-a45ef76941a9",
+        "23a685631e43f494",
+        "b5ffab759c192fc7",
+        "5fdf898743d46ce6",
+        "1f26c16c41c60a20",
+        "bff8038ccdd9cfd2",
+        "cd0884a3-baec-49ec-8d8e-21d0f33c3e18",
+        "42c258f2f7034a32",
+        "bed7990b564a0ebd",
+        "301246a4-b9ce-4728-97c5-772406c9dfdd",
+        "6761ca150ec35c3b",
+        "e0d97752-241a-4beb-9d3a-3c193407fc68",
+        "0295bd32-7c92-40c1-8fca-be5bcec4eddd",
+        "b15679b5-a37b-4ff9-b736-06e47e799b75",
+        "15207532-7707-4c95-8b0a-929afa3c69bb"
+      ],
+      "date": 1607251291443
+    },
+    {
+      "id": "bed7990b564a0ebd",
+      "type": "move",
+      "order": [
+        "65ef6d6c-146f-4145-97e9-27b5417e76b2",
+        "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
+        "74b235af-f2e8-4670-a468-a45ef76941a9",
+        "bed7990b564a0ebd",
+        "23a685631e43f494",
+        "b5ffab759c192fc7",
+        "5fdf898743d46ce6",
+        "1f26c16c41c60a20",
+        "bff8038ccdd9cfd2",
+        "cd0884a3-baec-49ec-8d8e-21d0f33c3e18",
+        "42c258f2f7034a32",
+        "301246a4-b9ce-4728-97c5-772406c9dfdd",
+        "6761ca150ec35c3b",
+        "e0d97752-241a-4beb-9d3a-3c193407fc68",
+        "0295bd32-7c92-40c1-8fca-be5bcec4eddd",
+        "b15679b5-a37b-4ff9-b736-06e47e799b75",
+        "15207532-7707-4c95-8b0a-929afa3c69bb"
+      ],
+      "date": 1607251294203
+    },
+    {
+      "id": "23a685631e43f494",
+      "type": "move",
+      "order": [
+        "65ef6d6c-146f-4145-97e9-27b5417e76b2",
+        "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
+        "23a685631e43f494",
+        "74b235af-f2e8-4670-a468-a45ef76941a9",
+        "bed7990b564a0ebd",
+        "b5ffab759c192fc7",
+        "5fdf898743d46ce6",
+        "1f26c16c41c60a20",
+        "bff8038ccdd9cfd2",
+        "cd0884a3-baec-49ec-8d8e-21d0f33c3e18",
+        "42c258f2f7034a32",
+        "301246a4-b9ce-4728-97c5-772406c9dfdd",
+        "6761ca150ec35c3b",
+        "e0d97752-241a-4beb-9d3a-3c193407fc68",
+        "0295bd32-7c92-40c1-8fca-be5bcec4eddd",
+        "b15679b5-a37b-4ff9-b736-06e47e799b75",
+        "15207532-7707-4c95-8b0a-929afa3c69bb"
+      ],
+      "date": 1607251297494
+    },
+    {
+      "id": "b5ffab759c192fc7",
+      "type": "move",
+      "order": [
+        "65ef6d6c-146f-4145-97e9-27b5417e76b2",
+        "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
+        "23a685631e43f494",
+        "b5ffab759c192fc7",
+        "74b235af-f2e8-4670-a468-a45ef76941a9",
+        "bed7990b564a0ebd",
+        "5fdf898743d46ce6",
+        "1f26c16c41c60a20",
+        "bff8038ccdd9cfd2",
+        "cd0884a3-baec-49ec-8d8e-21d0f33c3e18",
+        "42c258f2f7034a32",
+        "301246a4-b9ce-4728-97c5-772406c9dfdd",
+        "6761ca150ec35c3b",
+        "e0d97752-241a-4beb-9d3a-3c193407fc68",
+        "0295bd32-7c92-40c1-8fca-be5bcec4eddd",
+        "b15679b5-a37b-4ff9-b736-06e47e799b75",
+        "15207532-7707-4c95-8b0a-929afa3c69bb"
+      ],
+      "date": 1607251299543
+    },
+    {
+      "type": "edit",
+      "id": "1f26c16c41c60a20",
+      "item": {
+        "type": "markdown",
+        "id": "1f26c16c41c60a20",
+        "text": "The following code will push a file from your local directory to a remote folder.\n"
+      },
+      "date": 1607251366805
+    },
+    {
+      "type": "add",
+      "id": "c38b725fe6ac4584",
+      "item": {
+        "type": "markdown",
+        "id": "c38b725fe6ac4584",
+        "text": "To sync the contents of dir1 to dir2 on the same system, type:\n"
+      },
+      "after": "1f26c16c41c60a20",
+      "date": 1607251372254
+    },
+    {
+      "type": "add",
+      "id": "df1fea1abba5a2e0",
+      "item": {
+        "type": "markdown",
+        "id": "df1fea1abba5a2e0",
+        "text": "rsync -r dir1/ dir2\n"
+      },
+      "after": "c38b725fe6ac4584",
+      "date": 1607251376827
+    },
+    {
+      "type": "add",
+      "id": "4f530589f3a7f09c",
+      "item": {
+        "type": "markdown",
+        "id": "4f530589f3a7f09c",
+        "text": "The -r option means recursive, which is necessary for directory syncing.\n"
+      },
+      "after": "df1fea1abba5a2e0",
+      "date": 1607251383528
+    },
+    {
+      "type": "add",
+      "id": "aa81c5cafb3f9e4e",
+      "item": {
+        "type": "markdown",
+        "id": "aa81c5cafb3f9e4e",
+        "text": "We could also use the -a flag instead:\n\n\n"
+      },
+      "after": "4f530589f3a7f09c",
+      "date": 1607251393008
+    },
+    {
+      "type": "add",
+      "id": "51d8749c9e217bad",
+      "item": {
+        "type": "markdown",
+        "id": "51d8749c9e217bad",
+        "text": "rsync -a dir1/ dir2\n"
+      },
+      "after": "aa81c5cafb3f9e4e",
+      "date": 1607251395193
+    },
+    {
+      "type": "add",
+      "id": "eba2fc0415ce4b89",
+      "item": {
+        "type": "markdown",
+        "id": "eba2fc0415ce4b89",
+        "text": "The -a option is a combination flag. It stands for “archive” and syncs recursively and preserves symbolic links, special and device files, modification times, group, owner, and permissions. It is more commonly used than -r and is usually what you want to use."
+      },
+      "after": "51d8749c9e217bad",
+      "date": 1607251403342
+    },
+    {
+      "id": "6761ca150ec35c3b",
+      "type": "move",
+      "order": [
+        "65ef6d6c-146f-4145-97e9-27b5417e76b2",
+        "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
+        "23a685631e43f494",
+        "b5ffab759c192fc7",
+        "74b235af-f2e8-4670-a468-a45ef76941a9",
+        "bed7990b564a0ebd",
+        "5fdf898743d46ce6",
+        "1f26c16c41c60a20",
+        "6761ca150ec35c3b",
+        "c38b725fe6ac4584",
+        "df1fea1abba5a2e0",
+        "4f530589f3a7f09c",
+        "aa81c5cafb3f9e4e",
+        "51d8749c9e217bad",
+        "eba2fc0415ce4b89",
+        "bff8038ccdd9cfd2",
+        "cd0884a3-baec-49ec-8d8e-21d0f33c3e18",
+        "42c258f2f7034a32",
+        "301246a4-b9ce-4728-97c5-772406c9dfdd",
+        "e0d97752-241a-4beb-9d3a-3c193407fc68",
+        "0295bd32-7c92-40c1-8fca-be5bcec4eddd",
+        "b15679b5-a37b-4ff9-b736-06e47e799b75",
+        "15207532-7707-4c95-8b0a-929afa3c69bb"
+      ],
+      "date": 1607251416129
+    },
+    {
+      "id": "c38b725fe6ac4584",
+      "type": "move",
+      "order": [
+        "65ef6d6c-146f-4145-97e9-27b5417e76b2",
+        "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
+        "23a685631e43f494",
+        "b5ffab759c192fc7",
+        "74b235af-f2e8-4670-a468-a45ef76941a9",
+        "bed7990b564a0ebd",
+        "5fdf898743d46ce6",
+        "1f26c16c41c60a20",
+        "c38b725fe6ac4584",
+        "6761ca150ec35c3b",
+        "df1fea1abba5a2e0",
+        "4f530589f3a7f09c",
+        "aa81c5cafb3f9e4e",
+        "51d8749c9e217bad",
+        "eba2fc0415ce4b89",
+        "bff8038ccdd9cfd2",
+        "cd0884a3-baec-49ec-8d8e-21d0f33c3e18",
+        "42c258f2f7034a32",
+        "301246a4-b9ce-4728-97c5-772406c9dfdd",
+        "e0d97752-241a-4beb-9d3a-3c193407fc68",
+        "0295bd32-7c92-40c1-8fca-be5bcec4eddd",
+        "b15679b5-a37b-4ff9-b736-06e47e799b75",
+        "15207532-7707-4c95-8b0a-929afa3c69bb"
+      ],
+      "date": 1607251424245
+    },
+    {
+      "id": "1f26c16c41c60a20",
+      "type": "move",
+      "order": [
+        "65ef6d6c-146f-4145-97e9-27b5417e76b2",
+        "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
+        "23a685631e43f494",
+        "b5ffab759c192fc7",
+        "74b235af-f2e8-4670-a468-a45ef76941a9",
+        "bed7990b564a0ebd",
+        "5fdf898743d46ce6",
+        "c38b725fe6ac4584",
+        "6761ca150ec35c3b",
+        "df1fea1abba5a2e0",
+        "4f530589f3a7f09c",
+        "aa81c5cafb3f9e4e",
+        "51d8749c9e217bad",
+        "eba2fc0415ce4b89",
+        "1f26c16c41c60a20",
+        "bff8038ccdd9cfd2",
+        "cd0884a3-baec-49ec-8d8e-21d0f33c3e18",
+        "42c258f2f7034a32",
+        "301246a4-b9ce-4728-97c5-772406c9dfdd",
+        "e0d97752-241a-4beb-9d3a-3c193407fc68",
+        "0295bd32-7c92-40c1-8fca-be5bcec4eddd",
+        "b15679b5-a37b-4ff9-b736-06e47e799b75",
+        "15207532-7707-4c95-8b0a-929afa3c69bb"
+      ],
+      "date": 1607251427088
+    },
+    {
+      "type": "remove",
+      "id": "df1fea1abba5a2e0",
+      "date": 1607251434060
+    },
+    {
+      "type": "edit",
+      "id": "6761ca150ec35c3b",
+      "item": {
+        "type": "code",
+        "id": "6761ca150ec35c3b",
+        "text": "rsync -r dir1/ dir2\n"
+      },
+      "date": 1607251436822
+    },
+    {
+      "type": "remove",
+      "id": "aa81c5cafb3f9e4e",
+      "date": 1607251446091
+    },
+    {
+      "type": "edit",
+      "id": "4f530589f3a7f09c",
+      "item": {
+        "type": "markdown",
+        "id": "4f530589f3a7f09c",
+        "text": "The -r option means recursive, which is necessary for directory syncing. We could also use the -a flag instead:\n\n\n"
+      },
+      "date": 1607251448940
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "9fd5afcdf6451acb"
+      },
+      "id": "9fd5afcdf6451acb",
+      "type": "add",
+      "after": "15207532-7707-4c95-8b0a-929afa3c69bb",
+      "date": 1607251451388
+    },
+    {
+      "id": "9fd5afcdf6451acb",
+      "type": "move",
+      "order": [
+        "65ef6d6c-146f-4145-97e9-27b5417e76b2",
+        "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
+        "23a685631e43f494",
+        "b5ffab759c192fc7",
+        "74b235af-f2e8-4670-a468-a45ef76941a9",
+        "bed7990b564a0ebd",
+        "5fdf898743d46ce6",
+        "c38b725fe6ac4584",
+        "6761ca150ec35c3b",
+        "4f530589f3a7f09c",
+        "51d8749c9e217bad",
+        "9fd5afcdf6451acb",
+        "eba2fc0415ce4b89",
+        "1f26c16c41c60a20",
+        "bff8038ccdd9cfd2",
+        "cd0884a3-baec-49ec-8d8e-21d0f33c3e18",
+        "42c258f2f7034a32",
+        "301246a4-b9ce-4728-97c5-772406c9dfdd",
+        "e0d97752-241a-4beb-9d3a-3c193407fc68",
+        "0295bd32-7c92-40c1-8fca-be5bcec4eddd",
+        "b15679b5-a37b-4ff9-b736-06e47e799b75",
+        "15207532-7707-4c95-8b0a-929afa3c69bb"
+      ],
+      "date": 1607251455068
+    },
+    {
+      "type": "remove",
+      "id": "51d8749c9e217bad",
+      "date": 1607251458522
+    },
+    {
+      "type": "edit",
+      "id": "9fd5afcdf6451acb",
+      "item": {
+        "type": "code",
+        "id": "9fd5afcdf6451acb",
+        "text": "rsync -a dir1/ dir2"
+      },
+      "date": 1607251463163
+    },
+    {
+      "type": "add",
+      "id": "dd02689cc8e97fd6",
+      "item": {
+        "type": "markdown",
+        "id": "dd02689cc8e97fd6",
+        "text": "# Rsync push to remote"
+      },
+      "after": "5fdf898743d46ce6",
+      "date": 1607251482982
+    },
+    {
+      "id": "dd02689cc8e97fd6",
+      "type": "move",
+      "order": [
+        "65ef6d6c-146f-4145-97e9-27b5417e76b2",
+        "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
+        "23a685631e43f494",
+        "b5ffab759c192fc7",
+        "74b235af-f2e8-4670-a468-a45ef76941a9",
+        "bed7990b564a0ebd",
+        "5fdf898743d46ce6",
+        "c38b725fe6ac4584",
+        "6761ca150ec35c3b",
+        "4f530589f3a7f09c",
+        "9fd5afcdf6451acb",
+        "eba2fc0415ce4b89",
+        "dd02689cc8e97fd6",
+        "1f26c16c41c60a20",
+        "bff8038ccdd9cfd2",
+        "cd0884a3-baec-49ec-8d8e-21d0f33c3e18",
+        "42c258f2f7034a32",
+        "301246a4-b9ce-4728-97c5-772406c9dfdd",
+        "e0d97752-241a-4beb-9d3a-3c193407fc68",
+        "0295bd32-7c92-40c1-8fca-be5bcec4eddd",
+        "b15679b5-a37b-4ff9-b736-06e47e799b75",
+        "15207532-7707-4c95-8b0a-929afa3c69bb"
+      ],
+      "date": 1607251485941
+    },
+    {
+      "type": "edit",
+      "id": "eba2fc0415ce4b89",
+      "item": {
+        "type": "markdown",
+        "id": "eba2fc0415ce4b89",
+        "text": "The -a option is a combination flag. It stands for “archive” and syncs recursively and preserves symbolic links, special and device files, modification times, group, owner, and permissions. It is more commonly used than -r and is usually what you want to use.\n"
+      },
+      "date": 1607251518076
+    },
+    {
+      "type": "add",
+      "id": "42120f96dccc1659",
+      "item": {
+        "type": "markdown",
+        "id": "42120f96dccc1659",
+        "text": "> Note: you may have noticed that there is a trailing slash (/) at the end of the first argument in the above commands. Missing that out produces unexpected results - [adfs digitalocean.com]"
+      },
+      "after": "eba2fc0415ce4b89",
+      "date": 1607251566824
+    },
+    {
+      "type": "edit",
+      "id": "42120f96dccc1659",
+      "item": {
+        "type": "markdown",
+        "id": "42120f96dccc1659",
+        "text": "> Note: you may have noticed that there is a trailing slash (/) at the end of the first argument in the above commands. Missing that out produces unexpected results - [https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories digitalocean.com]"
+      },
+      "date": 1607251577932
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "7421b9b3d29babb6"
+      },
+      "id": "7421b9b3d29babb6",
+      "type": "add",
+      "after": "15207532-7707-4c95-8b0a-929afa3c69bb",
+      "date": 1607251602702
+    },
+    {
+      "type": "edit",
+      "id": "7421b9b3d29babb6",
+      "item": {
+        "type": "code",
+        "id": "7421b9b3d29babb6",
+        "text": "rsync -a ~/dir1 username@remote_host:destination_directory\n"
+      },
+      "date": 1607251605652
+    },
+    {
+      "id": "7421b9b3d29babb6",
+      "type": "move",
+      "order": [
+        "65ef6d6c-146f-4145-97e9-27b5417e76b2",
+        "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
+        "23a685631e43f494",
+        "b5ffab759c192fc7",
+        "74b235af-f2e8-4670-a468-a45ef76941a9",
+        "bed7990b564a0ebd",
+        "5fdf898743d46ce6",
+        "c38b725fe6ac4584",
+        "6761ca150ec35c3b",
+        "4f530589f3a7f09c",
+        "9fd5afcdf6451acb",
+        "eba2fc0415ce4b89",
+        "42120f96dccc1659",
+        "dd02689cc8e97fd6",
+        "1f26c16c41c60a20",
+        "7421b9b3d29babb6",
+        "bff8038ccdd9cfd2",
+        "cd0884a3-baec-49ec-8d8e-21d0f33c3e18",
+        "42c258f2f7034a32",
+        "301246a4-b9ce-4728-97c5-772406c9dfdd",
+        "e0d97752-241a-4beb-9d3a-3c193407fc68",
+        "0295bd32-7c92-40c1-8fca-be5bcec4eddd",
+        "b15679b5-a37b-4ff9-b736-06e47e799b75",
+        "15207532-7707-4c95-8b0a-929afa3c69bb"
+      ],
+      "date": 1607251614457
+    },
+    {
+      "type": "edit",
+      "id": "7421b9b3d29babb6",
+      "item": {
+        "type": "code",
+        "id": "7421b9b3d29babb6",
+        "text": "rsync -azP ~/dir1 username@remote_host:destination_directory\n"
+      },
+      "date": 1607251683366
+    },
+    {
+      "type": "add",
+      "id": "1d273ececa31a774",
+      "item": {
+        "type": "markdown",
+        "id": "1d273ececa31a774",
+        "text": "The -P flag is very helpful. It combines the flags --progress and --partial. The first of these gives you a progress bar for the transfers and the second allows you to resume interrupted transfers:"
+      },
+      "after": "1f26c16c41c60a20",
+      "date": 1607251716682
+    },
+    {
+      "id": "1d273ececa31a774",
+      "type": "move",
+      "order": [
+        "65ef6d6c-146f-4145-97e9-27b5417e76b2",
+        "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
+        "23a685631e43f494",
+        "b5ffab759c192fc7",
+        "74b235af-f2e8-4670-a468-a45ef76941a9",
+        "bed7990b564a0ebd",
+        "5fdf898743d46ce6",
+        "c38b725fe6ac4584",
+        "6761ca150ec35c3b",
+        "4f530589f3a7f09c",
+        "9fd5afcdf6451acb",
+        "eba2fc0415ce4b89",
+        "42120f96dccc1659",
+        "dd02689cc8e97fd6",
+        "1f26c16c41c60a20",
+        "7421b9b3d29babb6",
+        "bff8038ccdd9cfd2",
+        "1d273ececa31a774",
+        "cd0884a3-baec-49ec-8d8e-21d0f33c3e18",
+        "42c258f2f7034a32",
+        "301246a4-b9ce-4728-97c5-772406c9dfdd",
+        "e0d97752-241a-4beb-9d3a-3c193407fc68",
+        "0295bd32-7c92-40c1-8fca-be5bcec4eddd",
+        "b15679b5-a37b-4ff9-b736-06e47e799b75",
+        "15207532-7707-4c95-8b0a-929afa3c69bb"
+      ],
+      "date": 1607251718660
+    },
+    {
+      "id": "1d273ececa31a774",
+      "type": "move",
+      "order": [
+        "65ef6d6c-146f-4145-97e9-27b5417e76b2",
+        "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
+        "23a685631e43f494",
+        "b5ffab759c192fc7",
+        "74b235af-f2e8-4670-a468-a45ef76941a9",
+        "bed7990b564a0ebd",
+        "5fdf898743d46ce6",
+        "c38b725fe6ac4584",
+        "6761ca150ec35c3b",
+        "4f530589f3a7f09c",
+        "9fd5afcdf6451acb",
+        "eba2fc0415ce4b89",
+        "42120f96dccc1659",
+        "dd02689cc8e97fd6",
+        "1f26c16c41c60a20",
+        "7421b9b3d29babb6",
+        "1d273ececa31a774",
+        "bff8038ccdd9cfd2",
+        "cd0884a3-baec-49ec-8d8e-21d0f33c3e18",
+        "42c258f2f7034a32",
+        "301246a4-b9ce-4728-97c5-772406c9dfdd",
+        "e0d97752-241a-4beb-9d3a-3c193407fc68",
+        "0295bd32-7c92-40c1-8fca-be5bcec4eddd",
+        "b15679b5-a37b-4ff9-b736-06e47e799b75",
+        "15207532-7707-4c95-8b0a-929afa3c69bb"
+      ],
+      "date": 1607251721635
+    },
+    {
+      "type": "edit",
+      "id": "1d273ececa31a774",
+      "item": {
+        "type": "markdown",
+        "id": "1d273ececa31a774",
+        "text": "The -P flag combines the flags --progress and --partial. The first of these gives you a progress bar for the transfers and the second allows you to resume interrupted transfers. The -z flag uses zlib compression, and the -a flag treats modification dates etc and synchs recursively."
+      },
+      "date": 1607251790986
+    },
+    {
+      "type": "add",
+      "id": "8622942436b0018c",
+      "item": {
+        "type": "paragraph",
+        "id": "8622942436b0018c",
+        "text": "# Push certain files"
+      },
+      "after": "301246a4-b9ce-4728-97c5-772406c9dfdd",
+      "date": 1607251883191
+    },
+    {
+      "type": "edit",
+      "id": "8622942436b0018c",
+      "item": {
+        "type": "markdown",
+        "id": "8622942436b0018c",
+        "text": "# Push certain files"
+      },
+      "date": 1607251886207
+    },
+    {
+      "type": "edit",
+      "id": "8622942436b0018c",
+      "item": {
+        "type": "markdown",
+        "id": "8622942436b0018c",
+        "text": "# Push certain files\nYou don't usually want to transfer individual files with rsync, it may be better to use a simpler tool like [[scp]] for that. however in case you do:"
+      },
+      "date": 1607251933304
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "4f5a033873c37291"
+      },
+      "id": "4f5a033873c37291",
+      "type": "add",
+      "after": "15207532-7707-4c95-8b0a-929afa3c69bb",
+      "date": 1607251935289
+    },
+    {
+      "type": "edit",
+      "id": "4f5a033873c37291",
+      "item": {
+        "type": "code",
+        "id": "4f5a033873c37291",
+        "text": "rsync -av helios:fich1 :fich2 :fich3 :fich4 /dest/"
+      },
+      "date": 1607251945504
+    },
+    {
+      "id": "4f5a033873c37291",
+      "type": "move",
+      "order": [
+        "65ef6d6c-146f-4145-97e9-27b5417e76b2",
+        "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
+        "23a685631e43f494",
+        "b5ffab759c192fc7",
+        "74b235af-f2e8-4670-a468-a45ef76941a9",
+        "bed7990b564a0ebd",
+        "5fdf898743d46ce6",
+        "c38b725fe6ac4584",
+        "6761ca150ec35c3b",
+        "4f530589f3a7f09c",
+        "9fd5afcdf6451acb",
+        "eba2fc0415ce4b89",
+        "42120f96dccc1659",
+        "dd02689cc8e97fd6",
+        "1f26c16c41c60a20",
+        "7421b9b3d29babb6",
+        "1d273ececa31a774",
+        "bff8038ccdd9cfd2",
+        "cd0884a3-baec-49ec-8d8e-21d0f33c3e18",
+        "42c258f2f7034a32",
+        "301246a4-b9ce-4728-97c5-772406c9dfdd",
+        "8622942436b0018c",
+        "4f5a033873c37291",
+        "e0d97752-241a-4beb-9d3a-3c193407fc68",
+        "0295bd32-7c92-40c1-8fca-be5bcec4eddd",
+        "b15679b5-a37b-4ff9-b736-06e47e799b75",
+        "15207532-7707-4c95-8b0a-929afa3c69bb"
+      ],
+      "date": 1607251949261
+    },
+    {
+      "type": "edit",
+      "id": "8622942436b0018c",
+      "item": {
+        "type": "markdown",
+        "id": "8622942436b0018c",
+        "text": "# Push certain files\nYou don't usually want to transfer individual files with rsync, it may be better to use a simpler tool like [[scp]] for that. however in case you do:\n"
+      },
+      "date": 1607251952524
+    },
+    {
+      "type": "add",
+      "id": "f7b18068a97d2118",
+      "item": {
+        "type": "markdown",
+        "id": "f7b18068a97d2118",
+        "text": "This command will copy the files: fich1, fich2, fich3 and fich4 from helios to the local DIR /dest."
+      },
+      "after": "8622942436b0018c",
+      "date": 1607251973913
+    },
+    {
+      "id": "f7b18068a97d2118",
+      "type": "move",
+      "order": [
+        "65ef6d6c-146f-4145-97e9-27b5417e76b2",
+        "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
+        "23a685631e43f494",
+        "b5ffab759c192fc7",
+        "74b235af-f2e8-4670-a468-a45ef76941a9",
+        "bed7990b564a0ebd",
+        "5fdf898743d46ce6",
+        "c38b725fe6ac4584",
+        "6761ca150ec35c3b",
+        "4f530589f3a7f09c",
+        "9fd5afcdf6451acb",
+        "eba2fc0415ce4b89",
+        "42120f96dccc1659",
+        "dd02689cc8e97fd6",
+        "1f26c16c41c60a20",
+        "7421b9b3d29babb6",
+        "1d273ececa31a774",
+        "bff8038ccdd9cfd2",
+        "cd0884a3-baec-49ec-8d8e-21d0f33c3e18",
+        "42c258f2f7034a32",
+        "301246a4-b9ce-4728-97c5-772406c9dfdd",
+        "8622942436b0018c",
+        "4f5a033873c37291",
+        "f7b18068a97d2118",
+        "e0d97752-241a-4beb-9d3a-3c193407fc68",
+        "0295bd32-7c92-40c1-8fca-be5bcec4eddd",
+        "b15679b5-a37b-4ff9-b736-06e47e799b75",
+        "15207532-7707-4c95-8b0a-929afa3c69bb"
+      ],
+      "date": 1607251976605
+    },
+    {
+      "type": "edit",
+      "id": "f7b18068a97d2118",
+      "item": {
+        "type": "markdown",
+        "id": "f7b18068a97d2118",
+        "text": "The command above will copy the files: fich1, fich2, fich3 and fich4 from helios to the local DIR /dest."
+      },
+      "date": 1607251985217
+    },
+    {
+      "type": "edit",
+      "id": "301246a4-b9ce-4728-97c5-772406c9dfdd",
+      "item": {
+        "type": "paragraph",
+        "id": "301246a4-b9ce-4728-97c5-772406c9dfdd",
+        "text": "# Daemon mode"
+      },
+      "date": 1607252217840
+    },
+    {
+      "type": "edit",
+      "id": "301246a4-b9ce-4728-97c5-772406c9dfdd",
+      "item": {
+        "type": "markdown",
+        "id": "301246a4-b9ce-4728-97c5-772406c9dfdd",
+        "text": "# Daemon mode"
+      },
+      "date": 1607252219937
+    },
+    {
+      "type": "add",
+      "id": "482edfd673ac6577",
+      "item": {
+        "type": "paragraph",
+        "id": "482edfd673ac6577",
+        "text": "Rsync can also operate in a daemon mode, serving files in the native rsync protocol (using the \"rsync://\" syntax)."
+      },
+      "after": "301246a4-b9ce-4728-97c5-772406c9dfdd",
+      "date": 1607252221041
+    },
+    {
+      "type": "remove",
+      "id": "482edfd673ac6577",
+      "date": 1607252228207
+    },
+    {
+      "type": "edit",
+      "id": "301246a4-b9ce-4728-97c5-772406c9dfdd",
+      "item": {
+        "type": "markdown",
+        "id": "301246a4-b9ce-4728-97c5-772406c9dfdd",
+        "text": "# Daemon mode\n\nRsync can also operate in a daemon mode, serving files in the native rsync protocol (using the \"rsync://\" syntax)."
+      },
+      "date": 1607252235247
+    },
+    {
+      "id": "301246a4-b9ce-4728-97c5-772406c9dfdd",
+      "type": "move",
+      "order": [
+        "65ef6d6c-146f-4145-97e9-27b5417e76b2",
+        "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
+        "23a685631e43f494",
+        "b5ffab759c192fc7",
+        "74b235af-f2e8-4670-a468-a45ef76941a9",
+        "bed7990b564a0ebd",
+        "301246a4-b9ce-4728-97c5-772406c9dfdd",
+        "5fdf898743d46ce6",
+        "c38b725fe6ac4584",
+        "6761ca150ec35c3b",
+        "4f530589f3a7f09c",
+        "9fd5afcdf6451acb",
+        "eba2fc0415ce4b89",
+        "42120f96dccc1659",
+        "dd02689cc8e97fd6",
+        "1f26c16c41c60a20",
+        "7421b9b3d29babb6",
+        "1d273ececa31a774",
+        "bff8038ccdd9cfd2",
+        "cd0884a3-baec-49ec-8d8e-21d0f33c3e18",
+        "42c258f2f7034a32",
+        "8622942436b0018c",
+        "4f5a033873c37291",
+        "f7b18068a97d2118",
+        "e0d97752-241a-4beb-9d3a-3c193407fc68",
+        "0295bd32-7c92-40c1-8fca-be5bcec4eddd",
+        "b15679b5-a37b-4ff9-b736-06e47e799b75",
+        "15207532-7707-4c95-8b0a-929afa3c69bb"
+      ],
+      "date": 1607252242705
+    },
+    {
+      "type": "edit",
+      "id": "301246a4-b9ce-4728-97c5-772406c9dfdd",
+      "item": {
+        "type": "markdown",
+        "id": "301246a4-b9ce-4728-97c5-772406c9dfdd",
+        "text": "# Daemon mode\nRsync can also operate in a daemon mode, serving files in the native rsync protocol (using the \"rsync://\" syntax).\n"
+      },
+      "date": 1607252272243
+    },
+    {
+      "type": "edit",
+      "id": "301246a4-b9ce-4728-97c5-772406c9dfdd",
+      "item": {
+        "type": "markdown",
+        "id": "301246a4-b9ce-4728-97c5-772406c9dfdd",
+        "text": "# Daemon mode\nRsync can also operate in a daemon mode, serving files in the native rsync protocol (using the \"rsync://\" syntax).\n\n> Note: this may be interesting for asynchronous uploads from the [[home server]]."
+      },
+      "date": 1607252300283
+    },
+    {
+      "type": "add",
+      "id": "e8d57b4ccb243aa5",
+      "item": {
+        "type": "paragraph",
+        "id": "e8d57b4ccb243aa5",
+        "text": "The -v flag provides a verbose output."
+      },
+      "after": "cd0884a3-baec-49ec-8d8e-21d0f33c3e18",
+      "date": 1607252350471
+    },
+    {
+      "id": "e8d57b4ccb243aa5",
+      "type": "move",
+      "order": [
+        "65ef6d6c-146f-4145-97e9-27b5417e76b2",
+        "78eb2849-a8e0-413e-b2fd-3baae4df7a86",
+        "23a685631e43f494",
+        "b5ffab759c192fc7",
+        "74b235af-f2e8-4670-a468-a45ef76941a9",
+        "bed7990b564a0ebd",
+        "301246a4-b9ce-4728-97c5-772406c9dfdd",
+        "5fdf898743d46ce6",
+        "c38b725fe6ac4584",
+        "6761ca150ec35c3b",
+        "4f530589f3a7f09c",
+        "9fd5afcdf6451acb",
+        "eba2fc0415ce4b89",
+        "42120f96dccc1659",
+        "dd02689cc8e97fd6",
+        "1f26c16c41c60a20",
+        "7421b9b3d29babb6",
+        "1d273ececa31a774",
+        "bff8038ccdd9cfd2",
+        "cd0884a3-baec-49ec-8d8e-21d0f33c3e18",
+        "42c258f2f7034a32",
+        "e8d57b4ccb243aa5",
+        "8622942436b0018c",
+        "4f5a033873c37291",
+        "f7b18068a97d2118",
+        "e0d97752-241a-4beb-9d3a-3c193407fc68",
+        "0295bd32-7c92-40c1-8fca-be5bcec4eddd",
+        "b15679b5-a37b-4ff9-b736-06e47e799b75",
+        "15207532-7707-4c95-8b0a-929afa3c69bb"
+      ],
+      "date": 1607252352625
     }
   ]
 }
