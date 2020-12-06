@@ -1986,6 +1986,12 @@
     "synopsis": "Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications - [https://nodejs.org/ nodejs.org]"
   },
   {
+    "slug": "non-goals",
+    "title": "Non Goals",
+    "date": 1607163856913,
+    "synopsis": "__Non-goals__ are things we are just not going to do. When you’re building a product with a team, everybody tends to have their favorite, real or imagined pet features that they just can’t live without. If you do them all, it will take infinite time and cost too much money. You have to start culling features right away, and the best way to do this is with a “nongoals” section of the spec."
+  },
+  {
     "slug": "nongoals",
     "title": "Nongoals",
     "date": 1463313145535,
@@ -2690,7 +2696,7 @@
   {
     "slug": "rsync",
     "title": "rsync",
-    "date": 1466530560788,
+    "date": 1607252352625,
     "synopsis": "rsync is a utility to keep copies of a file on two computer systems. It is commonly found on Unix-like systems and functions as both a file synchronization and file transfer program. The rsync algorithm is a type of delta encoding, and is used to minimize network usage. Zlib may be used for additional compression, and SSH or stunnel can be used for data security - [https://en.wikipedia.org/wiki/Rsync wikipedia]"
   },
   {
@@ -3380,7 +3386,7 @@
   {
     "slug": "welcome-visitors",
     "title": "Welcome Visitors",
-    "date": 1607163856913,
+    "date": 1607250852122,
     "synopsis": "Welcome to a [[Federated Wiki]] site for the [[c0de Academy]], where we write about code and programming."
   },
   {
@@ -3508,11 +3514,5 @@
     "title": "Zotero",
     "date": 1459375178516,
     "synopsis": "Zotero /zoʊˈtɛroʊ/ is free and open-source reference management software to manage bibliographic data and related research materials (such as PDF files). Notable features include web browser integration, online syncing, generation of in-text citations, footnotes and bibliographies, as well as integration with the word processors Microsoft Word, LibreOffice, OpenOffice.org Writer and NeoOffice. It is produced by the Center for History and New Media at George Mason University (GMU) - [https://en.wikipedia.org/wiki/Zotero wikipedia]"
-  },
-  {
-    "slug": "non-goals",
-    "title": "Non Goals",
-    "date": 1607163856913,
-    "synopsis": "__Non-goals__ are things we are just not going to do. When you’re building a product with a team, everybody tends to have their favorite, real or imagined pet features that they just can’t live without. If you do them all, it will take infinite time and cost too much money. You have to start culling features right away, and the best way to do this is with a “nongoals” section of the spec."
   }
 ]
