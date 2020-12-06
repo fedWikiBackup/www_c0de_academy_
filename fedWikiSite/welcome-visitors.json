@@ -1251,6 +1251,92 @@
       "id": "589f346f223a5f0e",
       "type": "remove",
       "date": 1607163856913
+    },
+    {
+      "type": "edit",
+      "id": "1a8462bc43762e49",
+      "item": {
+        "type": "markdown",
+        "id": "1a8462bc43762e49",
+        "text": "# Activity\n"
+      },
+      "date": 1607250758410
+    },
+    {
+      "id": "79f7792ab090dd89",
+      "type": "move",
+      "order": [
+        "7b56f22a4b9ee974",
+        "ac5a3caf324ddf17",
+        "efc99880afc3772e",
+        "b36d71b89aa46534",
+        "79f7792ab090dd89",
+        "1a8462bc43762e49",
+        "33b93ba133b346b1",
+        "7f6459b61d485407",
+        "e9e9f102158e1382",
+        "3b0f24cf29300269",
+        "1bea8572d71395ba"
+      ],
+      "date": 1607250770638
+    },
+    {
+      "type": "remove",
+      "id": "1a8462bc43762e49",
+      "date": 1607250773184
+    },
+    {
+      "type": "edit",
+      "id": "79f7792ab090dd89",
+      "item": {
+        "type": "markdown",
+        "id": "79f7792ab090dd89",
+        "text": "# Activity\n  \n- [[Todays Activity]]\n- [[Changes to this Site]]\n- [[Activity]] and the [[Assets Folder]]\n- [[Atopia Activity]] and [[Federation Activity]]\n- [[Drop in]] to our Fedwiki chat - [https://riot.im/app/#/room/#fedwiki:matrix.org riot.im]",
+        "alias": "7f6459b61d485407"
+      },
+      "date": 1607250812731
+    },
+    {
+      "type": "edit",
+      "id": "33b93ba133b346b1",
+      "item": {
+        "type": "markdown",
+        "id": "33b93ba133b346b1",
+        "text": "- [[C0de Activity]]\n- [[Livecode Activity]] and [[Fedwiki Activity]]\n\n"
+      },
+      "date": 1607250827534
+    },
+    {
+      "type": "remove",
+      "id": "33b93ba133b346b1",
+      "date": 1607250834554
+    },
+    {
+      "type": "edit",
+      "id": "79f7792ab090dd89",
+      "item": {
+        "type": "markdown",
+        "id": "79f7792ab090dd89",
+        "text": "# Activity\n  \n- [[C0de Activity]]\n- [[Livecode Activity]] and [[Fedwiki Activity]]\n",
+        "alias": "7f6459b61d485407"
+      },
+      "date": 1607250841470
+    },
+    {
+      "type": "add",
+      "id": "23d8f5a318fb4453",
+      "item": {
+        "type": "markdown",
+        "id": "23d8f5a318fb4453",
+        "text": "- [[Todays Activity]]\n- [[Changes to this Site]]\n- [[Activity]] and the [[Assets Folder]]\n- [[Atopia Activity]] and [[Federation Activity]]\n- [[Drop in]] to our Fedwiki chat - [https://riot.im/app/#/room/#fedwiki:matrix.org riot.im]\n\n"
+      },
+      "after": "79f7792ab090dd89",
+      "date": 1607250841855
+    },
+    {
+      "type": "remove",
+      "id": "b36d71b89aa46534",
+      "date": 1607250852122
     }
   ],
   "title": "Welcome Visitors",
@@ -1272,24 +1358,14 @@
     },
     {
       "type": "markdown",
-      "id": "b36d71b89aa46534",
-      "text": "- [[GraalVM]]\n- [[Object Orientation Revisited]]\n- [[TIOBE index]]\n- [[How standards proliferate]]\n- [[Postman]]\n- [[Gcloud]]\n- [[JSON Web Token]]\n- [[pandoc]]\n- [[HTTP_REFERER]]"
-    },
-    {
-      "type": "markdown",
-      "id": "1a8462bc43762e49",
-      "text": "# View\n"
-    },
-    {
-      "type": "markdown",
-      "id": "33b93ba133b346b1",
-      "text": "- [[C0de Activity]]\n- [[Livecode Activity]]\n- [[Fedwiki Activity]]\n\n"
-    },
-    {
-      "type": "markdown",
       "id": "79f7792ab090dd89",
-      "text": "# Activity\n  \n- [[Activity]]\n- [[Changes to this Site]]\n- [[Drop in]] to our Fedwiki chat - [https://riot.im/app/#/room/#fedwiki:matrix.org riot.im]\n",
+      "text": "# Activity\n  \n- [[C0de Activity]]\n- [[Livecode Activity]] and [[Fedwiki Activity]]\n",
       "alias": "7f6459b61d485407"
+    },
+    {
+      "type": "markdown",
+      "id": "23d8f5a318fb4453",
+      "text": "- [[Todays Activity]]\n- [[Changes to this Site]]\n- [[Activity]] and the [[Assets Folder]]\n- [[Atopia Activity]] and [[Federation Activity]]\n- [[Drop in]] to our Fedwiki chat - [https://riot.im/app/#/room/#fedwiki:matrix.org riot.im]\n\n"
     },
     {
       "type": "markdown",
