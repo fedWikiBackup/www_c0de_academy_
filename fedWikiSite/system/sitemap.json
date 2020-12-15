@@ -2636,7 +2636,7 @@
   {
     "slug": "revealjs",
     "title": "reveal.js",
-    "date": 1459433443764,
+    "date": 1608028827580,
     "synopsis": "A framework for easily creating beautiful presentations using HTML."
   },
   {
@@ -3332,8 +3332,8 @@
   {
     "slug": "web-messaging",
     "title": "Web Messaging",
-    "date": 1548614160955,
-    "synopsis": "This [[HTML5]] technology is built into modern browsers and uses the [[Window.postMessage]] method."
+    "date": 1608029780728,
+    "synopsis": "__Web Messaging__ or __cross-document messaging__, is an [[API]] introduced in the [[WHATWG]] [[HTML5]] draft specification, allowing documents to communicate with one another across different origins, or source domains while rendered in a [[web browser]] - [https://en.wikipedia.org/wiki/Web_Messaging wikipedia]"
   },
   {
     "slug": "web-speech-api",
@@ -3514,5 +3514,23 @@
     "title": "Zotero",
     "date": 1459375178516,
     "synopsis": "Zotero /zoʊˈtɛroʊ/ is free and open-source reference management software to manage bibliographic data and related research materials (such as PDF files). Notable features include web browser integration, online syncing, generation of in-text citations, footnotes and bibliographies, as well as integration with the word processors Microsoft Word, LibreOffice, OpenOffice.org Writer and NeoOffice. It is produced by the Center for History and New Media at George Mason University (GMU) - [https://en.wikipedia.org/wiki/Zotero wikipedia]"
+  },
+  {
+    "slug": "postmessage",
+    "title": "postMessage",
+    "date": 1608029885049,
+    "synopsis": "This [[HTML5]] technology is built into modern browsers and uses the [[Window.postMessage]] method."
+  },
+  {
+    "slug": "frames-can-postmessage",
+    "title": "Frames can postMessage",
+    "date": 1604062743878,
+    "synopsis": "We have released a new version of the Frame plugin (v0.7.0) which allows framed content to interact with the hosting wiki in interesting ways."
+  },
+  {
+    "slug": "postmessage-excursion",
+    "title": "postMessage Excursion",
+    "date": 1605021975483,
+    "synopsis": "We collect here a few javascript libraries which build on top of the postMessage API to enable cross-origin communication. Be begin this journey with experiments to enable wiki integrations via the Frame Plugin. What we found along the way invite other design questions."
   }
 ]
