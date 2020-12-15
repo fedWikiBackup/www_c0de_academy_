@@ -113,6 +113,49 @@
       },
       "after": "9fa6ab9d1153603d",
       "date": 1548614160955
+    },
+    {
+      "type": "add",
+      "id": "81a9d52773ea44a0",
+      "item": {
+        "type": "paragraph",
+        "id": "81a9d52773ea44a0",
+        "text": "- [[postMessage]]"
+      },
+      "after": "7485e73b6efac7e2",
+      "date": 1608029777458
+    },
+    {
+      "type": "edit",
+      "id": "81a9d52773ea44a0",
+      "item": {
+        "type": "markdown",
+        "id": "81a9d52773ea44a0",
+        "text": "- [[postMessage]]"
+      },
+      "date": 1608029779064
+    },
+    {
+      "id": "81a9d52773ea44a0",
+      "type": "move",
+      "order": [
+        "5d16ad3c-eb28-4d6d-ad61-82c7c13ae1ef",
+        "81a9d52773ea44a0",
+        "7485e73b6efac7e2",
+        "24fa8f0d9923f39b",
+        "9fa6ab9d1153603d",
+        "0ed669f70349849c",
+        "3c6fec3a68a22d0b",
+        "e798d139-f2cc-47bf-8ae3-8ebf4e77c984",
+        "09d8c963-6152-4d3d-a41f-043246da406a",
+        "a9755ac5-4807-44cf-95c0-cc03c697ce92",
+        "e715d14f-cc15-4c94-b96f-87485c19b45e",
+        "68171b05-5a96-4ae3-9b15-d87480b6eb90",
+        "478b2c10-4d1b-4ac1-b120-92d593a8a332",
+        "8c4c59b3-d93f-4089-b4b9-0a6f56843f16",
+        "6107db6d-5cfc-4792-9431-c69e68340338"
+      ],
+      "date": 1608029780728
     }
   ],
   "story": [
@@ -120,6 +163,11 @@
       "type": "markdown",
       "id": "5d16ad3c-eb28-4d6d-ad61-82c7c13ae1ef",
       "text": "__Web Messaging__ or __cross-document messaging__, is an [[API]] introduced in the [[WHATWG]] [[HTML5]] draft specification, allowing documents to communicate with one another across different origins, or source domains while rendered in a [[web browser]] - [https://en.wikipedia.org/wiki/Web_Messaging wikipedia]\n"
+    },
+    {
+      "type": "markdown",
+      "id": "81a9d52773ea44a0",
+      "text": "- [[postMessage]]"
     },
     {
       "type": "paragraph",
