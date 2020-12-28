@@ -1050,6 +1050,12 @@
     "synopsis": "In computer hypertext, a fragment identifier is a short string of characters that refers to a resource that is subordinate to another, primary resource. The primary resource is identified by a Uniform Resource Identifier (URI), and the fragment identifier points to the subordinate resource - [https://en.wikipedia.org/wiki/Fragment_identifier wikipedia]"
   },
   {
+    "slug": "frames-can-postmessage",
+    "title": "Frames can postMessage",
+    "date": 1604062743878,
+    "synopsis": "We have released a new version of the Frame plugin (v0.7.0) which allows framed content to interact with the hosting wiki in interesting ways."
+  },
+  {
     "slug": "friendica",
     "title": "Friendica",
     "date": 1433518252642,
@@ -2394,6 +2400,18 @@
     "synopsis": "Postman: Postman is an API(application programming interface) development tool which helps to build, test and modify APIs - [https://www.geeksforgeeks.org/introduction-postman-api-development/ geeksforgeeks.org]"
   },
   {
+    "slug": "postmessage",
+    "title": "postMessage",
+    "date": 1608029885049,
+    "synopsis": "This [[HTML5]] technology is built into modern browsers and uses the [[Window.postMessage]] method."
+  },
+  {
+    "slug": "postmessage-excursion",
+    "title": "postMessage Excursion",
+    "date": 1605021975483,
+    "synopsis": "We collect here a few javascript libraries which build on top of the postMessage API to enable cross-origin communication. Be begin this journey with experiments to enable wiki integrations via the Frame Plugin. What we found along the way invite other design questions."
+  },
+  {
     "slug": "presentations-with-pandoc",
     "title": "Presentations with Pandoc",
     "date": 1459417811126,
@@ -3386,7 +3404,7 @@
   {
     "slug": "welcome-visitors",
     "title": "Welcome Visitors",
-    "date": 1607250852122,
+    "date": 1609172941547,
     "synopsis": "Welcome to a [[Federated Wiki]] site for the [[c0de Academy]], where we write about code and programming."
   },
   {
@@ -3514,23 +3532,5 @@
     "title": "Zotero",
     "date": 1459375178516,
     "synopsis": "Zotero /zoʊˈtɛroʊ/ is free and open-source reference management software to manage bibliographic data and related research materials (such as PDF files). Notable features include web browser integration, online syncing, generation of in-text citations, footnotes and bibliographies, as well as integration with the word processors Microsoft Word, LibreOffice, OpenOffice.org Writer and NeoOffice. It is produced by the Center for History and New Media at George Mason University (GMU) - [https://en.wikipedia.org/wiki/Zotero wikipedia]"
-  },
-  {
-    "slug": "postmessage",
-    "title": "postMessage",
-    "date": 1608029885049,
-    "synopsis": "This [[HTML5]] technology is built into modern browsers and uses the [[Window.postMessage]] method."
-  },
-  {
-    "slug": "frames-can-postmessage",
-    "title": "Frames can postMessage",
-    "date": 1604062743878,
-    "synopsis": "We have released a new version of the Frame plugin (v0.7.0) which allows framed content to interact with the hosting wiki in interesting ways."
-  },
-  {
-    "slug": "postmessage-excursion",
-    "title": "postMessage Excursion",
-    "date": 1605021975483,
-    "synopsis": "We collect here a few javascript libraries which build on top of the postMessage API to enable cross-origin communication. Be begin this journey with experiments to enable wiki integrations via the Frame Plugin. What we found along the way invite other design questions."
   }
 ]
