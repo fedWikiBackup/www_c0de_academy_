@@ -1337,6 +1337,16 @@
       "type": "remove",
       "id": "b36d71b89aa46534",
       "date": 1607250852122
+    },
+    {
+      "type": "edit",
+      "id": "efc99880afc3772e",
+      "item": {
+        "type": "markdown",
+        "id": "efc99880afc3772e",
+        "text": "- [[Functional Specification]]\n- [[State Tree]]\n"
+      },
+      "date": 1609172941547
     }
   ],
   "title": "Welcome Visitors",
@@ -1354,7 +1364,7 @@
     {
       "type": "markdown",
       "id": "efc99880afc3772e",
-      "text": "- [[Functional Specification]]\n"
+      "text": "- [[Functional Specification]]\n- [[State Tree]]\n"
     },
     {
       "type": "markdown",
