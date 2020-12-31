@@ -1,0 +1,118 @@
+{
+  "title": "Slides in Markdown",
+  "story": [
+    {
+      "type": "markdown",
+      "id": "458a0fb54930464a",
+      "text": "We use a number of techniques to author slides:\n\n# Creating slides from wiki\nWiki > reveal.js\n\n"
+    },
+    {
+      "type": "markdown",
+      "id": "04531d960dd435e0",
+      "text": "# Importing slides from authors\n1. Powerpoint -> reveal.js\n1. keynote -> reveal.js\n\n\n"
+    },
+    {
+      "type": "markdown",
+      "id": "ab33b6bd797fe0b3",
+      "text": "# Collaborative slide editing\nWe use [[slides.com]] to polish our slides\n"
+    },
+    {
+      "type": "markdown",
+      "id": "74a12d5c0fc235ff",
+      "text": "# Presenting slide\nWe use [[slides.com]] to present slide-shows remotely.\n"
+    },
+    {
+      "type": "markdown",
+      "id": "4d86c9edb7ef4a5f",
+      "text": "# Importing to wiki\nWe import slides"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Slides in Markdown",
+        "story": []
+      },
+      "date": 1608052223805
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "458a0fb54930464a"
+      },
+      "id": "458a0fb54930464a",
+      "type": "add",
+      "date": 1608052224881
+    },
+    {
+      "type": "edit",
+      "id": "458a0fb54930464a",
+      "item": {
+        "type": "markdown",
+        "id": "458a0fb54930464a",
+        "text": "We use a number of techniques to author slides:\n\n1. Wiki > reveal.js\n1. Powerpoint -> reveal.js\n1. keynote -> reveal.js\n\n\n"
+      },
+      "date": 1608052419038
+    },
+    {
+      "type": "add",
+      "id": "ab33b6bd797fe0b3",
+      "item": {
+        "type": "markdown",
+        "id": "ab33b6bd797fe0b3",
+        "text": "# Collaborative slide editing\nWe use [[slides.com]] to polish our slides\n"
+      },
+      "after": "458a0fb54930464a",
+      "date": 1608052421228
+    },
+    {
+      "type": "add",
+      "id": "74a12d5c0fc235ff",
+      "item": {
+        "type": "markdown",
+        "id": "74a12d5c0fc235ff",
+        "text": "# Presenting slide\nWe use [[slides.com]] to present slide-shows remotely.\n"
+      },
+      "after": "ab33b6bd797fe0b3",
+      "date": 1608052462400
+    },
+    {
+      "type": "add",
+      "id": "4d86c9edb7ef4a5f",
+      "item": {
+        "type": "markdown",
+        "id": "4d86c9edb7ef4a5f",
+        "text": "# Importing to wiki\nWe import slides"
+      },
+      "after": "74a12d5c0fc235ff",
+      "date": 1608052492597
+    },
+    {
+      "type": "edit",
+      "id": "458a0fb54930464a",
+      "item": {
+        "type": "markdown",
+        "id": "458a0fb54930464a",
+        "text": "We use a number of techniques to author slides:\n\n# Creating slides from wiki\nWiki > reveal.js\n\n"
+      },
+      "date": 1608052510602
+    },
+    {
+      "type": "add",
+      "id": "04531d960dd435e0",
+      "item": {
+        "type": "markdown",
+        "id": "04531d960dd435e0",
+        "text": "# Importing slides from authors\n1. Powerpoint -> reveal.js\n1. keynote -> reveal.js\n\n\n"
+      },
+      "after": "458a0fb54930464a",
+      "date": 1608052519056
+    },
+    {
+      "type": "fork",
+      "site": "mediagarden.org",
+      "date": 1609420580752
+    }
+  ]
+}
