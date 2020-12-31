@@ -1,17 +1,5 @@
 {
   "title": "Markdown",
-  "story": [
-    {
-      "type": "paragraph",
-      "id": "eb6f1f95-dc6b-42ab-97e9-38e3c2ef45bd",
-      "text": "Markdown is a lightweight markup language with plain text formatting syntax designed so that it can be converted to HTML and many other formats using a tool by the same name. Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor - [https://en.wikipedia.org/wiki/Markdown wikipedia]"
-    },
-    {
-      "type": "markdown",
-      "id": "2b0b8f9f-9940-4d07-934c-aa2cae3eac85",
-      "text": "# See also\n* [[History]]\n* [[Example]]\n* [[Editors]]\n* [[Implementations]]\n* [[See also]]\n* [[External links]]\n* [[References]]"
-    }
-  ],
   "journal": [
     {
       "type": "create",
@@ -22,59 +10,726 @@
       "date": 1459373415979,
       "source": {
         "pageTitle": "Markdown",
-        "pageSlug": "Markdown",
-        "url": "https://en.wikipedia.org/wiki/Markdown",
-        "date": 1459373415979,
+        "transport": "https://livecode.world/mediawiki/transportAgain",
+        "rev": 711775877,
         "link_dictionary": {
           "wiki_links": {
-            "Editors": {
-              "section_number": 5,
-              "section_level": 2,
-              "dot_number": 3
-            },
-            "See also": {
-              "section_number": 7,
-              "section_level": 2,
-              "dot_number": 5
-            },
-            "References": {
-              "section_number": 9,
-              "section_level": 2,
-              "dot_number": 7
-            },
-            "External links": {
-              "section_number": 8,
-              "section_level": 2,
-              "dot_number": 6
-            },
-            "Implementations": {
-              "section_number": 6,
-              "section_level": 2,
-              "dot_number": 4
-            },
             "History": {
-              "section_number": 1,
               "section_level": 2,
+              "section_number": 1,
               "dot_number": 1
             },
             "Example": {
-              "section_number": 4,
               "section_level": 2,
+              "section_number": 4,
               "dot_number": 2
+            },
+            "References": {
+              "section_level": 2,
+              "section_number": 9,
+              "dot_number": 7
+            },
+            "External links": {
+              "section_level": 2,
+              "section_number": 8,
+              "dot_number": 6
+            },
+            "Implementations": {
+              "section_level": 2,
+              "section_number": 6,
+              "dot_number": 4
+            },
+            "See also": {
+              "section_level": 2,
+              "section_number": 7,
+              "dot_number": 5
+            },
+            "Editors": {
+              "section_level": 2,
+              "section_number": 5,
+              "dot_number": 3
             }
           },
           "default": {
             "transport": "https://livecode.world/mediawiki/importSection"
           }
         },
-        "transport": "https://livecode.world/mediawiki/transportAgain",
-        "rev": 711775877,
-        "repo": "https://github.com/LiveCodeWorld/lib_MediaWiki"
+        "repo": "https://github.com/LiveCodeWorld/lib_MediaWiki",
+        "url": "https://en.wikipedia.org/wiki/Markdown",
+        "pageSlug": "Markdown",
+        "date": 1459373415979
       }
     },
     {
+      "date": 1459373419865,
+      "type": "fork"
+    },
+    {
+      "site": "c0de.academy",
+      "date": 1498910291592,
+      "type": "fork"
+    },
+    {
+      "site": "text.permanent.wiki",
+      "date": 1609419423858,
+      "type": "fork"
+    },
+    {
+      "id": "3220d8203e619353",
+      "type": "add",
+      "item": {
+        "id": "3220d8203e619353",
+        "type": "factory"
+      },
+      "after": "2b0b8f9f-9940-4d07-934c-aa2cae3eac85",
+      "date": 1609419583236
+    },
+    {
+      "id": "3220d8203e619353",
+      "type": "edit",
+      "item": {
+        "type": "reference",
+        "slug": "slides-in-markdown",
+        "site": "mediagarden.org",
+        "text": "We use a number of techniques to author slides:",
+        "title": "Slides in Markdown",
+        "id": "3220d8203e619353"
+      },
+      "date": 1609419585850
+    },
+    {
+      "id": "f4175d53cc66958b",
+      "type": "add",
+      "item": {
+        "id": "f4175d53cc66958b",
+        "type": "factory"
+      },
+      "after": "3220d8203e619353",
+      "date": 1609419586958
+    },
+    {
+      "id": "f4175d53cc66958b",
+      "type": "edit",
+      "item": {
+        "type": "reference",
+        "slug": "markdown-syntax",
+        "site": "makecommoningwork.fed.wiki",
+        "text": "Here are a few examples of markdown syntax we can use when designing our sites. Provided you open a markdown field from the factory, you have several options:",
+        "title": "Markdown Syntax",
+        "id": "f4175d53cc66958b"
+      },
+      "date": 1609419590464
+    },
+    {
+      "date": 1609419602361,
+      "type": "remove",
+      "id": "f4175d53cc66958b"
+    },
+    {
+      "id": "0b33b759ab606074",
+      "type": "add",
+      "item": {
+        "id": "0b33b759ab606074",
+        "type": "factory"
+      },
+      "after": "3220d8203e619353",
+      "date": 1609419603351
+    },
+    {
+      "id": "fcf05e1ecf956132",
+      "type": "add",
+      "item": {
+        "id": "fcf05e1ecf956132",
+        "type": "factory"
+      },
+      "after": "0b33b759ab606074",
+      "date": 1609419604325
+    },
+    {
+      "id": "d93311925924ada7",
+      "type": "add",
+      "item": {
+        "id": "d93311925924ada7",
+        "type": "factory"
+      },
+      "after": "fcf05e1ecf956132",
+      "date": 1609419605366
+    },
+    {
+      "id": "0b33b759ab606074",
+      "type": "edit",
+      "item": {
+        "type": "reference",
+        "slug": "correct-markdown",
+        "site": "found.ward.bay.wiki.org",
+        "text": "Markdown collects a handful of internet news group conventions as a counterpoint to the at one time simple but still unattractive html markup. Wiki markdown borrows some of these in order to render styles appropriate to its narrow anti-paper pages. This much it should do well.",
+        "title": "Correct Markdown",
+        "id": "0b33b759ab606074"
+      },
+      "date": 1609419612220
+    },
+    {
+      "id": "fcf05e1ecf956132",
+      "type": "edit",
+      "item": {
+        "type": "reference",
+        "slug": "markdown-editors-for-the-raspberry-pi",
+        "site": "fedwiki.frankmcpherson.net",
+        "text": "While I can write markdown in any editor, the benefit of most markdown editors is that they do syntax checking and can show a preview of how the content will appear.",
+        "title": "Markdown Editors for the Raspberry Pi",
+        "id": "fcf05e1ecf956132"
+      },
+      "date": 1609419615213
+    },
+    {
+      "id": "d93311925924ada7",
+      "type": "edit",
+      "item": {
+        "type": "reference",
+        "slug": "legal-markdown",
+        "site": "david.outlandish.academy",
+        "text": "Markdown is used in [http://en.wikipedia.org/wiki/Document_automation#In_Legal_Services Document Automation] an example of popular markdown tool is Document Assembly. The way it works is that a document has a markdown wich makes some the elements machine readable. It is pretty simple, not more complex than editing a Wikipedia page. This simplicity is also wt Eris is aiming at with [[Dual Integration]].",
+        "title": "Legal Markdown",
+        "id": "d93311925924ada7"
+      },
+      "date": 1609419618228
+    },
+    {
+      "id": "1ced5471f6965cfb",
+      "type": "add",
+      "item": {
+        "id": "1ced5471f6965cfb",
+        "type": "factory"
+      },
+      "after": "d93311925924ada7",
+      "date": 1609419619371
+    },
+    {
+      "id": "1ced5471f6965cfb",
+      "type": "edit",
+      "item": {
+        "type": "reference",
+        "slug": "markdown-parsing",
+        "site": "c2.don.asia.wiki.org",
+        "text": "parse the wiki also against markdown.",
+        "title": "Markdown Parsing",
+        "id": "1ced5471f6965cfb"
+      },
+      "date": 1609419623305
+    },
+    {
+      "id": "3edac5d3a0d80162",
+      "type": "add",
+      "item": {
+        "id": "3edac5d3a0d80162",
+        "type": "factory"
+      },
+      "after": "1ced5471f6965cfb",
+      "date": 1609419624731
+    },
+    {
+      "id": "3edac5d3a0d80162",
+      "type": "edit",
+      "item": {
+        "type": "reference",
+        "slug": "hackmd",
+        "site": "david.dojo.fed.wiki",
+        "text": "__HackMD__ lets us get everyone on the same page with [[Markdown]]. It enables real-time collaboration on ",
+        "title": "HackMD",
+        "id": "3edac5d3a0d80162"
+      },
+      "date": 1609419638674
+    },
+    {
+      "id": "6725207a196092f7",
+      "type": "add",
+      "item": {
+        "id": "6725207a196092f7",
+        "type": "factory"
+      },
+      "after": "3edac5d3a0d80162",
+      "date": 1609419649667
+    },
+    {
+      "id": "6725207a196092f7",
+      "type": "edit",
+      "item": {
+        "type": "reference",
+        "slug": "markdown",
+        "site": "wiki.randombits.xyz",
+        "text": "A DSL for creating HTML documents that are still readable as plain text.",
+        "title": "markdown",
+        "id": "6725207a196092f7"
+      },
+      "date": 1609419652497
+    },
+    {
+      "date": 1609419687864,
+      "type": "remove",
+      "id": "6725207a196092f7"
+    },
+    {
+      "id": "c61e6628bba71a0f",
+      "type": "add",
+      "item": {
+        "text": "A DSL for creating HTML documents that are still readable as plain text.",
+        "id": "c61e6628bba71a0f",
+        "type": "paragraph"
+      },
+      "after": "eb6f1f95-dc6b-42ab-97e9-38e3c2ef45bd",
+      "date": 1609419706395
+    },
+    {
+      "id": "4b08aacf11359990",
+      "type": "add",
+      "item": {
+        "text": "Github has a variant called Github Flavored Markdown which adds features.",
+        "id": "4b08aacf11359990",
+        "type": "paragraph"
+      },
+      "after": "c61e6628bba71a0f",
+      "date": 1609419709019
+    },
+    {
+      "date": 1609419713950,
+      "type": "remove",
+      "id": "2b0b8f9f-9940-4d07-934c-aa2cae3eac85"
+    },
+    {
+      "id": "b3b8c76b161a652d",
+      "type": "add",
+      "item": {
+        "text": "Restructured text is the most common alternative I see referenced.",
+        "id": "b3b8c76b161a652d",
+        "type": "paragraph"
+      },
+      "after": "4b08aacf11359990",
+      "date": 1609419716370
+    },
+    {
+      "id": "b64b6c54e1a3d2c8",
+      "type": "add",
+      "item": {
+        "text": "GFMD cheatsheet [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet github] [https://gist.github.com/stevenyap/7038119 gist]",
+        "id": "b64b6c54e1a3d2c8",
+        "type": "paragraph"
+      },
+      "after": "4b08aacf11359990",
+      "date": 1609419719256
+    },
+    {
+      "id": "759f3b8c39e5f45b",
+      "type": "add",
+      "item": {
+        "text": "Autolinked references [https://help.github.com/en/articles/autolinked-references-and-urls github]",
+        "id": "759f3b8c39e5f45b",
+        "type": "paragraph"
+      },
+      "after": "b64b6c54e1a3d2c8",
+      "date": 1609419722586
+    },
+    {
+      "id": "7be98825bd5b6370",
+      "type": "add",
+      "item": {
+        "text": "Previewing markdown when developing locally is a common problem.",
+        "id": "7be98825bd5b6370",
+        "type": "paragraph"
+      },
+      "after": "759f3b8c39e5f45b",
+      "date": 1609419726378
+    },
+    {
+      "id": "7fcb44b8ea8e64a4",
+      "type": "add",
+      "item": {
+        "text": "github-markdown-preview: A ruby gem to start a server which allows one to preview markdown file changes automatically. [https://github.com/dmarcotte/github-markdown-preview github]",
+        "id": "7fcb44b8ea8e64a4",
+        "type": "paragraph"
+      },
+      "after": "4b08aacf11359990",
+      "date": 1609419729117
+    },
+    {
+      "id": "c61e6628bba71a0f",
+      "type": "edit",
+      "item": {
+        "text": "Markdown is a:",
+        "id": "c61e6628bba71a0f",
+        "type": "paragraph"
+      },
+      "date": 1609419755888
+    },
+    {
+      "id": "ee6f68e3422c95b3",
+      "type": "add",
+      "item": {
+        "text": "> DSL for creating HTML documents that are still readable as plain text.",
+        "id": "ee6f68e3422c95b3",
+        "type": "paragraph"
+      },
+      "after": "c61e6628bba71a0f",
+      "date": 1609419761211
+    },
+    {
+      "date": 1609419763375,
+      "type": "remove",
+      "id": "c61e6628bba71a0f"
+    },
+    {
+      "id": "ee6f68e3422c95b3",
+      "type": "edit",
+      "item": {
+        "text": "> DSL for creating HTML documents that are still readable as plain text.",
+        "id": "ee6f68e3422c95b3",
+        "type": "markdown"
+      },
+      "date": 1609419765119
+    },
+    {
+      "id": "ee6f68e3422c95b3",
+      "type": "edit",
+      "item": {
+        "text": "Markdown is a:",
+        "id": "ee6f68e3422c95b3",
+        "type": "markdown"
+      },
+      "date": 1609419769411
+    },
+    {
+      "id": "ee6f68e3422c95b3",
+      "type": "edit",
+      "item": {
+        "text": "Markdown is a:\n> DSL for creating HTML documents that are still readable as plain text.",
+        "id": "ee6f68e3422c95b3",
+        "type": "markdown"
+      },
+      "date": 1609419772959
+    },
+    {
+      "id": "4b08aacf11359990",
+      "type": "edit",
+      "item": {
+        "text": "# Github Flavored Markdown ",
+        "id": "4b08aacf11359990",
+        "type": "paragraph"
+      },
+      "date": 1609419786626
+    },
+    {
+      "id": "4b08aacf11359990",
+      "type": "edit",
+      "item": {
+        "text": "# Github Flavored Markdown ",
+        "id": "4b08aacf11359990",
+        "type": "markdown"
+      },
+      "date": 1609419788497
+    },
+    {
+      "id": "c0dd673c50a54e01",
+      "type": "add",
+      "item": {
+        "text": "Github has a variant called Github Flavored Markdown which adds features.",
+        "id": "c0dd673c50a54e01",
+        "type": "paragraph"
+      },
+      "after": "4b08aacf11359990",
+      "date": 1609419789460
+    },
+    {
+      "id": "7fcb44b8ea8e64a4",
+      "type": "edit",
+      "item": {
+        "text": "- github-markdown-preview: A ruby gem to start a server which allows one to preview markdown file changes automatically. [https://github.com/dmarcotte/github-markdown-preview github]",
+        "id": "7fcb44b8ea8e64a4",
+        "type": "paragraph"
+      },
+      "date": 1609419802113
+    },
+    {
+      "id": "7fcb44b8ea8e64a4",
+      "type": "edit",
+      "item": {
+        "text": "- github-markdown-preview: A ruby gem to start a server which allows one to preview markdown file changes automatically. [https://github.com/dmarcotte/github-markdown-preview github]",
+        "id": "7fcb44b8ea8e64a4",
+        "type": "markdown"
+      },
+      "date": 1609419803008
+    },
+    {
+      "id": "b64b6c54e1a3d2c8",
+      "type": "edit",
+      "item": {
+        "text": "- GFMD cheatsheet [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet github] [https://gist.github.com/stevenyap/7038119 gist]",
+        "id": "b64b6c54e1a3d2c8",
+        "type": "paragraph"
+      },
+      "date": 1609419808949
+    },
+    {
+      "id": "759f3b8c39e5f45b",
+      "type": "edit",
+      "item": {
+        "text": "- Autolinked references [https://help.github.com/en/articles/autolinked-references-and-urls github]",
+        "id": "759f3b8c39e5f45b",
+        "type": "paragraph"
+      },
+      "date": 1609419813120
+    },
+    {
+      "date": 1609419830356,
+      "type": "remove",
+      "id": "7be98825bd5b6370"
+    },
+    {
+      "id": "b3b8c76b161a652d",
+      "order": [
+        "eb6f1f95-dc6b-42ab-97e9-38e3c2ef45bd",
+        "b3b8c76b161a652d",
+        "ee6f68e3422c95b3",
+        "4b08aacf11359990",
+        "c0dd673c50a54e01",
+        "7fcb44b8ea8e64a4",
+        "b64b6c54e1a3d2c8",
+        "759f3b8c39e5f45b",
+        "3220d8203e619353",
+        "0b33b759ab606074",
+        "fcf05e1ecf956132",
+        "d93311925924ada7",
+        "1ced5471f6965cfb",
+        "3edac5d3a0d80162"
+      ],
+      "type": "move",
+      "date": 1609419832761
+    },
+    {
+      "id": "b3b8c76b161a652d",
+      "type": "edit",
+      "item": {
+        "text": "Previewing markdown when developing locally is a common problem that many markdown editors (such as [[HackMD]] look to solve.",
+        "id": "b3b8c76b161a652d",
+        "type": "paragraph"
+      },
+      "date": 1609419857856
+    },
+    {
+      "site": "david.dojo.fed.wiki",
+      "date": 1609420550628,
+      "type": "fork"
+    },
+    {
+      "id": "b64b6c54e1a3d2c8",
+      "type": "edit",
+      "item": {
+        "text": "- GFMD cheatsheet [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet github] [https://gist.github.com/stevenyap/7038119 gist]",
+        "id": "b64b6c54e1a3d2c8",
+        "type": "markdown"
+      },
+      "date": 1609420554436
+    },
+    {
+      "id": "b64b6c54e1a3d2c8",
+      "type": "edit",
+      "item": {
+        "text": "- GFMD cheatsheet [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet github] [https://gist.github.com/stevenyap/7038119 gist]",
+        "id": "b64b6c54e1a3d2c8",
+        "type": "markdown"
+      },
+      "date": 1609420554437
+    },
+    {
+      "date": 1609420562071,
+      "type": "remove",
+      "id": "b64b6c54e1a3d2c8"
+    },
+    {
+      "id": "7fcb44b8ea8e64a4",
+      "type": "edit",
+      "item": {
+        "text": "- github-markdown-preview: A ruby gem to start a server which allows one to preview markdown file changes automatically. [https://github.com/dmarcotte/github-markdown-preview github]\n- GFMD cheatsheet [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet github] [https://gist.github.com/stevenyap/7038119 gist]",
+        "id": "7fcb44b8ea8e64a4",
+        "type": "markdown"
+      },
+      "date": 1609420566357
+    },
+    {
+      "id": "759f3b8c39e5f45b",
+      "type": "edit",
+      "item": {
+        "text": "- Autolinked references [https://help.github.com/en/articles/autolinked-references-and-urls github]",
+        "id": "759f3b8c39e5f45b",
+        "type": "markdown"
+      },
+      "date": 1609420571320
+    },
+    {
+      "date": 1609420573322,
+      "type": "remove",
+      "id": "759f3b8c39e5f45b"
+    },
+    {
+      "id": "7fcb44b8ea8e64a4",
+      "type": "edit",
+      "item": {
+        "text": "- github-markdown-preview: A ruby gem to start a server which allows one to preview markdown file changes automatically. [https://github.com/dmarcotte/github-markdown-preview github]\n- GFMD cheatsheet [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet github] [https://gist.github.com/stevenyap/7038119 gist]\n- Autolinked references [https://help.github.com/en/articles/autolinked-references-and-urls github]",
+        "id": "7fcb44b8ea8e64a4",
+        "type": "markdown"
+      },
+      "date": 1609420575356
+    },
+    {
+      "id": "0b33b759ab606074",
+      "order": [
+        "eb6f1f95-dc6b-42ab-97e9-38e3c2ef45bd",
+        "b3b8c76b161a652d",
+        "ee6f68e3422c95b3",
+        "4b08aacf11359990",
+        "c0dd673c50a54e01",
+        "7fcb44b8ea8e64a4",
+        "0b33b759ab606074",
+        "3220d8203e619353",
+        "fcf05e1ecf956132",
+        "d93311925924ada7",
+        "1ced5471f6965cfb",
+        "3edac5d3a0d80162"
+      ],
+      "type": "move",
+      "date": 1609420622707
+    },
+    {
+      "date": 1609420649632,
+      "type": "remove",
+      "id": "1ced5471f6965cfb"
+    },
+    {
+      "id": "3edac5d3a0d80162",
+      "order": [
+        "eb6f1f95-dc6b-42ab-97e9-38e3c2ef45bd",
+        "b3b8c76b161a652d",
+        "ee6f68e3422c95b3",
+        "4b08aacf11359990",
+        "c0dd673c50a54e01",
+        "7fcb44b8ea8e64a4",
+        "0b33b759ab606074",
+        "3edac5d3a0d80162",
+        "3220d8203e619353",
+        "fcf05e1ecf956132",
+        "d93311925924ada7"
+      ],
+      "type": "move",
+      "date": 1609420663881
+    },
+    {
+      "date": 1609420380323,
+      "type": "remove",
+      "id": "d93311925924ada7"
+    },
+    {
+      "date": 1609420380323,
+      "type": "remove",
+      "id": "fcf05e1ecf956132"
+    },
+    {
+      "date": 1609420380324,
+      "type": "remove",
+      "id": "3220d8203e619353"
+    },
+    {
+      "date": 1609420380324,
+      "type": "remove",
+      "id": "3edac5d3a0d80162"
+    },
+    {
+      "date": 1609420380324,
+      "type": "remove",
+      "id": "0b33b759ab606074"
+    },
+    {
+      "type": "add",
+      "id": "f8e6af86-e6b1-4154-8134-f59dd9589d01",
+      "item": {
+        "id": "f8e6af86-e6b1-4154-8134-f59dd9589d01",
+        "type": "factory"
+      },
+      "date": 1609420380324,
+      "after": "7fcb44b8ea8e64a4"
+    },
+    {
+      "id": "f8e6af86-e6b1-4154-8134-f59dd9589d01",
+      "type": "edit",
+      "item": {
+        "type": "markdown",
+        "id": "f8e6af86-e6b1-4154-8134-f59dd9589d01",
+        "text": "# See also"
+      },
+      "date": 1609420380324
+    },
+    {
+      "type": "add",
+      "id": "2678efdb-d85a-492c-8d37-a157fbce8555",
+      "item": {
+        "id": "2678efdb-d85a-492c-8d37-a157fbce8555",
+        "type": "factory"
+      },
+      "date": 1609420380325,
+      "after": "f8e6af86-e6b1-4154-8134-f59dd9589d01"
+    },
+    {
+      "id": "2678efdb-d85a-492c-8d37-a157fbce8555",
+      "type": "edit",
+      "item": {
+        "type": "markdown",
+        "id": "2678efdb-d85a-492c-8d37-a157fbce8555",
+        "text": "- [[Correct Markdown]]\n- [[HackMD]]\n- [[Slides in Markdown]]\n- [[Markdown Editors for the Raspberry Pi]]\n- [[Legal Markdown]]"
+      },
+      "date": 1609420380325
+    },
+    {
       "type": "fork",
-      "date": 1459373419865
+      "date": 1609420675857
+    }
+  ],
+  "story": [
+    {
+      "text": "Markdown is a lightweight markup language with plain text formatting syntax designed so that it can be converted to HTML and many other formats using a tool by the same name. Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor - [https://en.wikipedia.org/wiki/Markdown wikipedia]",
+      "type": "paragraph",
+      "id": "eb6f1f95-dc6b-42ab-97e9-38e3c2ef45bd"
+    },
+    {
+      "text": "Previewing markdown when developing locally is a common problem that many markdown editors (such as [[HackMD]] look to solve.",
+      "type": "paragraph",
+      "id": "b3b8c76b161a652d"
+    },
+    {
+      "text": "Markdown is a:\n> DSL for creating HTML documents that are still readable as plain text.",
+      "type": "markdown",
+      "id": "ee6f68e3422c95b3"
+    },
+    {
+      "text": "# Github Flavored Markdown ",
+      "type": "markdown",
+      "id": "4b08aacf11359990"
+    },
+    {
+      "text": "Github has a variant called Github Flavored Markdown which adds features.",
+      "type": "paragraph",
+      "id": "c0dd673c50a54e01"
+    },
+    {
+      "text": "- github-markdown-preview: A ruby gem to start a server which allows one to preview markdown file changes automatically. [https://github.com/dmarcotte/github-markdown-preview github]\n- GFMD cheatsheet [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet github] [https://gist.github.com/stevenyap/7038119 gist]\n- Autolinked references [https://help.github.com/en/articles/autolinked-references-and-urls github]",
+      "type": "markdown",
+      "id": "7fcb44b8ea8e64a4"
+    },
+    {
+      "id": "f8e6af86-e6b1-4154-8134-f59dd9589d01",
+      "type": "markdown",
+      "text": "# See also"
+    },
+    {
+      "id": "2678efdb-d85a-492c-8d37-a157fbce8555",
+      "type": "markdown",
+      "text": "- [[Correct Markdown]]\n- [[HackMD]]\n- [[Slides in Markdown]]\n- [[Markdown Editors for the Raspberry Pi]]\n- [[Legal Markdown]]"
     }
   ]
 }
