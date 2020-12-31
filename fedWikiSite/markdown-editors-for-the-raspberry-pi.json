@@ -1,0 +1,563 @@
+{
+  "title": "Markdown Editors for the Raspberry Pi",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "8ce8f51109951ce4",
+      "text": "While I can write markdown in any editor, the benefit of most markdown editors is that they do syntax checking and can show a preview of how the content will appear."
+    },
+    {
+      "type": "paragraph",
+      "id": "7375adcc84339f23",
+      "text": "[https://www.typora.io/ Typora] instantly displays formatting as you type but you can toggle to source code mode that displays the markdown markup. Typora has become my favorite writing tool because it's clean, simple, and fast. Now that the Raspberry Pi 4 is a more capable desktop, I hope the developers of Typora will release an ARM64 version. "
+    },
+    {
+      "type": "paragraph",
+      "id": "3ab433a043825116",
+      "text": "Meanwhile I have searched for alternatives that will run on the [[Raspberry Pi 4]] and unfortunately there are not many options. "
+    },
+    {
+      "type": "paragraph",
+      "id": "eef8de4952aedf28",
+      "text": "What I have settled on is [https://code.visualstudio.com/ Visual Studio Code], which is an Electron-based open source IDE developed by Microsoft. VS Code has built in support for markdown that you activate by creating a file with an .md extension. I found a VS Code extension that will display a preview of the markdown source, the result is you can have one pane display the source and another pane displaying a preview of the format and the preview is updated as you type. "
+    },
+    {
+      "type": "paragraph",
+      "id": "cec817be46a01152",
+      "text": "Microsoft provides VS Code for free and the Linux ARM64 version is available for download from their [https://code.visualstudio.com/docs/?dv=linuxarm64_deb site]."
+    },
+    {
+      "type": "paragraph",
+      "id": "8e00a8803e0be8bd",
+      "text": "Previously, Microsoft did not release a build of VS Code for ARM64 that is needed to run on the Raspberry Pi, but [https://code.headmelted.com/ Jay Rodgers] is building and maintaining an ARM version called Code OSS and I found instructions for installing it on the Raspberry Pi. [https://www.makeuseof.com/tag/raspberry-pi-code-oss/ page]. Now that Microsoft is providing ARM64 releases of VS Code I do not know how long this community version will be maintained."
+    },
+    {
+      "type": "paragraph",
+      "id": "a8d2fea9363b0e40",
+      "text": "Right now all the builds of Code OSS are for Raspbian Stretch and the most current release of it does not run on Raspbian Buster, which is what I am running on the Pi 4. Fortunately, there is an older version that does run and the instructions I linked to above provides the installation for that version.  The instructions include a step to prevent Code OSS from being updated so that the old version doesn't get overwritten the next time you do an apt upgrade. "
+    },
+    {
+      "type": "markdown",
+      "id": "9e4cce7cafbd93d2",
+      "text": ">**Update:** As of 1/13/2020 this issue I describe above has been fixed by the maintainer and I have removed the upgrade hold and upgraded to the current version."
+    },
+    {
+      "type": "paragraph",
+      "id": "3fb186f61abb2292",
+      "text": "An advantage of installing VS Code is that it can be used for writing for a wide variety of programming languages and there is a large library of extensions. Again, given that the [[Raspberry Pi 4]] is much more usable as a desktop computer, I would not be surprised to see Microsoft directly releasing an ARM build. "
+    },
+    {
+      "type": "paragraph",
+      "id": "f0ac5d4589a06080",
+      "text": "If have discovered a feature of VS Code that has me considering switching to it as my main markdown writing tool. VS Code integrates with source code versioning tools like Git and Github and that simplifies commits and pushes to repositories."
+    },
+    {
+      "type": "paragraph",
+      "id": "7f3bf92df30f5d23",
+      "text": "I am storing drafts of my essays in a private repository in Github and I cloned that repository to a folder on the Raspberry Pi, which created a new folder called ~/Projects/EssayDrafts with a current copy of my draft essays."
+    },
+    {
+      "type": "paragraph",
+      "id": "7a0532bfc0eb6259",
+      "text": "I start VS Code and click File, Add Folder To Workspace and select the essays folder above. VS Code found the .git file that contains the repository metadata and so when I click the Source Control tool after saving a change, the change is recognized to be committed by clicking the check icon. To push the committed changes to the repository click the \"...\" icon and then click Push, after which I am prompted for my Github ID and password."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Markdown Editors for the Raspberry Pi",
+        "story": []
+      },
+      "date": 1574914832707
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "8ce8f51109951ce4",
+        "text": "While I can write markdown in any editor, the benefit of most markdown editors is that they do syntax checking and can show a preview of how the content will appear."
+      },
+      "id": "8ce8f51109951ce4",
+      "date": 1574914838714
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "7375adcc84339f23"
+      },
+      "id": "7375adcc84339f23",
+      "type": "add",
+      "after": "8ce8f51109951ce4",
+      "date": 1574914906054
+    },
+    {
+      "type": "edit",
+      "id": "7375adcc84339f23",
+      "item": {
+        "type": "paragraph",
+        "id": "7375adcc84339f23",
+        "text": "Typora instantly displays formatting as you type but you can toggle to source code mode that displays the markdown markup. Typora has become my favorite writing tool because it's clean, simply, and fast. Now that the Raspberry Pi 4 is a more capable desktop, I hope the developers of Typora will release a ARM64 version. "
+      },
+      "date": 1574915059217
+    },
+    {
+      "type": "add",
+      "id": "3ab433a043825116",
+      "item": {
+        "type": "paragraph",
+        "id": "3ab433a043825116",
+        "text": "Meanwhile I have searched for alternatives that will run on the [[Raspberry Pi 4]] and unfortunately there are not many options. "
+      },
+      "after": "7375adcc84339f23",
+      "date": 1574915098680
+    },
+    {
+      "type": "add",
+      "id": "eef8de4952aedf28",
+      "item": {
+        "type": "paragraph",
+        "id": "eef8de4952aedf28",
+        "text": "What I have settled on is VS Code"
+      },
+      "after": "3ab433a043825116",
+      "date": 1574915115561
+    },
+    {
+      "type": "edit",
+      "id": "eef8de4952aedf28",
+      "item": {
+        "type": "paragraph",
+        "id": "eef8de4952aedf28",
+        "text": "What I have settled on is Visual Studio Code, which is an Electron-based open source IDE developed by Microsoft."
+      },
+      "date": 1574915156948
+    },
+    {
+      "type": "edit",
+      "id": "eef8de4952aedf28",
+      "item": {
+        "type": "paragraph",
+        "id": "eef8de4952aedf28",
+        "text": "What I have settled on is Visual Studio Code, which is an Electron-based open source IDE developed by Microsoft. VS Code has built in support for markdown that you activate by creating a file with an .md extension. I found an VS Code extension that will display a preview of the markdown source, the result is you can have one pane display the source and another pane displaying a preview of the format and the preview is updated as you type. "
+      },
+      "date": 1574915301570
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "8e00a8803e0be8bd"
+      },
+      "id": "8e00a8803e0be8bd",
+      "type": "add",
+      "after": "eef8de4952aedf28",
+      "date": 1574915319471
+    },
+    {
+      "type": "edit",
+      "id": "8e00a8803e0be8bd",
+      "item": {
+        "type": "paragraph",
+        "id": "8e00a8803e0be8bd",
+        "text": "Microsoft does not release a build of VS Code for ARM64 that is needed to run on the Raspberry Pi, but fortunately "
+      },
+      "date": 1574915368411
+    },
+    {
+      "type": "edit",
+      "id": "8e00a8803e0be8bd",
+      "item": {
+        "type": "paragraph",
+        "id": "8e00a8803e0be8bd",
+        "text": "Microsoft does not release a build of VS Code for ARM64 that is needed to run on the Raspberry Pi, but fortunately Jay "
+      },
+      "date": 1574915410842
+    },
+    {
+      "type": "edit",
+      "id": "8e00a8803e0be8bd",
+      "item": {
+        "type": "paragraph",
+        "id": "8e00a8803e0be8bd",
+        "text": "Microsoft does not release a build of VS Code for ARM64 that is needed to run on the Raspberry Pi, but fortunately Jay Rodgers is building and maintaining an ARM version and I found instructions for installing it on the Raspberry Pi. "
+      },
+      "date": 1574915445269
+    },
+    {
+      "type": "edit",
+      "id": "8e00a8803e0be8bd",
+      "item": {
+        "type": "paragraph",
+        "id": "8e00a8803e0be8bd",
+        "text": "Microsoft does not release a build of VS Code for ARM64 that is needed to run on the Raspberry Pi, but fortunately [https://code.headmelted.com/ Jay Rodgers] is building and maintaining an ARM version and I found instructions for installing it on the Raspberry Pi. "
+      },
+      "date": 1574915490166
+    },
+    {
+      "type": "edit",
+      "id": "8e00a8803e0be8bd",
+      "item": {
+        "type": "paragraph",
+        "id": "8e00a8803e0be8bd",
+        "text": "Microsoft does not release a build of VS Code for ARM64 that is needed to run on the Raspberry Pi, but fortunately [https://code.headmelted.com/ Jay Rodgers] is building and maintaining an ARM version and I found instructions for installing it on the Raspberry Pi. [https://www.makeuseof.com/tag/raspberry-pi-code-oss/ page]"
+      },
+      "date": 1574915507167
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "a8d2fea9363b0e40"
+      },
+      "id": "a8d2fea9363b0e40",
+      "type": "add",
+      "after": "8e00a8803e0be8bd",
+      "date": 1574915520594
+    },
+    {
+      "type": "edit",
+      "id": "a8d2fea9363b0e40",
+      "item": {
+        "type": "paragraph",
+        "id": "a8d2fea9363b0e40",
+        "text": "Right now all the buil"
+      },
+      "date": 1574915539901
+    },
+    {
+      "type": "edit",
+      "id": "8e00a8803e0be8bd",
+      "item": {
+        "type": "paragraph",
+        "id": "8e00a8803e0be8bd",
+        "text": "Microsoft does not release a build of VS Code for ARM64 that is needed to run on the Raspberry Pi, but fortunately [https://code.headmelted.com/ Jay Rodgers] is building and maintaining an ARM version called Code OSS and I found instructions for installing it on the Raspberry Pi. [https://www.makeuseof.com/tag/raspberry-pi-code-oss/ page]"
+      },
+      "date": 1574915585270
+    },
+    {
+      "type": "edit",
+      "id": "a8d2fea9363b0e40",
+      "item": {
+        "type": "paragraph",
+        "id": "a8d2fea9363b0e40",
+        "text": "Right now all the builds of COde OSS are for Debian Stretch and the most current release of it does not run on Debian "
+      },
+      "date": 1574915629297
+    },
+    {
+      "type": "edit",
+      "id": "a8d2fea9363b0e40",
+      "item": {
+        "type": "paragraph",
+        "id": "a8d2fea9363b0e40",
+        "text": "Right now all the builds of Code OSS are for Raspbian Stretch and the most current release of it does not run on Raspbian Buster, which is what I am running on the Pi 4. Fortunately, there is an older version that does run and the instructions I linked to above provides the installation for that version.  "
+      },
+      "date": 1574915698945
+    },
+    {
+      "type": "edit",
+      "id": "a8d2fea9363b0e40",
+      "item": {
+        "type": "paragraph",
+        "id": "a8d2fea9363b0e40",
+        "text": "Right now all the builds of Code OSS are for Raspbian Stretch and the most current release of it does not run on Raspbian Buster, which is what I am running on the Pi 4. Fortunately, there is an older version that does run and the instructions I linked to above provides the installation for that version.  The instructions include a step to prevent Code OSS from being updated so that the old version doesn't get overwritten the next time you do an apt upgrade."
+      },
+      "date": 1574915760753
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "3fb186f61abb2292"
+      },
+      "id": "3fb186f61abb2292",
+      "type": "add",
+      "after": "a8d2fea9363b0e40",
+      "date": 1574915784634
+    },
+    {
+      "type": "edit",
+      "id": "3fb186f61abb2292",
+      "item": {
+        "type": "paragraph",
+        "id": "3fb186f61abb2292",
+        "text": "An advantage of installing VS Code is that it can be used for writing for a wide variety of programming languages and there is a large library of extensions. Again, given that the [[Raspberry Pi 4]] is much more usable as a desktop computer, I would not be surprised to see Microsoft directly releasing an ARM build. "
+      },
+      "date": 1574915931295
+    },
+    {
+      "type": "edit",
+      "id": "7375adcc84339f23",
+      "item": {
+        "type": "paragraph",
+        "id": "7375adcc84339f23",
+        "text": "[https://www.typora.io/ Typora] instantly displays formatting as you type but you can toggle to source code mode that displays the markdown markup. Typora has become my favorite writing tool because it's clean, simply, and fast. Now that the Raspberry Pi 4 is a more capable desktop, I hope the developers of Typora will release a ARM64 version. "
+      },
+      "date": 1574915997073
+    },
+    {
+      "type": "edit",
+      "id": "7375adcc84339f23",
+      "item": {
+        "type": "paragraph",
+        "id": "7375adcc84339f23",
+        "text": "[https://www.typora.io/ Typora] instantly displays formatting as you type but you can toggle to source code mode that displays the markdown markup. Typora has become my favorite writing tool because it's clean, simple, and fast. Now that the Raspberry Pi 4 is a more capable desktop, I hope the developers of Typora will release a ARM64 version. "
+      },
+      "date": 1574916024297
+    },
+    {
+      "type": "edit",
+      "id": "7375adcc84339f23",
+      "item": {
+        "type": "paragraph",
+        "id": "7375adcc84339f23",
+        "text": "[https://www.typora.io/ Typora] instantly displays formatting as you type but you can toggle to source code mode that displays the markdown markup. Typora has become my favorite writing tool because it's clean, simple, and fast. Now that the Raspberry Pi 4 is a more capable desktop, I hope the developers of Typora will release an ARM64 version. "
+      },
+      "date": 1574916041792
+    },
+    {
+      "type": "edit",
+      "id": "eef8de4952aedf28",
+      "item": {
+        "type": "paragraph",
+        "id": "eef8de4952aedf28",
+        "text": "What I have settled on is [https://code.visualstudio.com/ Visual Studio Code], which is an Electron-based open source IDE developed by Microsoft. VS Code has built in support for markdown that you activate by creating a file with an .md extension. I found an VS Code extension that will display a preview of the markdown source, the result is you can have one pane display the source and another pane displaying a preview of the format and the preview is updated as you type. "
+      },
+      "date": 1574916083510
+    },
+    {
+      "type": "edit",
+      "id": "eef8de4952aedf28",
+      "item": {
+        "type": "paragraph",
+        "id": "eef8de4952aedf28",
+        "text": "What I have settled on is [https://code.visualstudio.com/ Visual Studio Code], which is an Electron-based open source IDE developed by Microsoft. VS Code has built in support for markdown that you activate by creating a file with an .md extension. I found a VS Code extension that will display a preview of the markdown source, the result is you can have one pane display the source and another pane displaying a preview of the format and the preview is updated as you type. "
+      },
+      "date": 1574916107070
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "f0ac5d4589a06080"
+      },
+      "id": "f0ac5d4589a06080",
+      "type": "add",
+      "after": "3fb186f61abb2292",
+      "date": 1575324123514
+    },
+    {
+      "type": "edit",
+      "id": "f0ac5d4589a06080",
+      "item": {
+        "type": "paragraph",
+        "id": "f0ac5d4589a06080",
+        "text": "If have discovered a feature of VS Code that has me considering switching to it as my main markdown writing tool. VS Code "
+      },
+      "date": 1575324191405
+    },
+    {
+      "type": "edit",
+      "id": "f0ac5d4589a06080",
+      "item": {
+        "type": "paragraph",
+        "id": "f0ac5d4589a06080",
+        "text": "If have discovered a feature of VS Code that has me considering switching to it as my main markdown writing tool. VS Code integrates with source code versioning tools like Git and Github and that simplifies commits and pushes to "
+      },
+      "date": 1575324262110
+    },
+    {
+      "type": "edit",
+      "id": "f0ac5d4589a06080",
+      "item": {
+        "type": "paragraph",
+        "id": "f0ac5d4589a06080",
+        "text": "If have discovered a feature of VS Code that has me considering switching to it as my main markdown writing tool. VS Code integrates with source code versioning tools like Git and Github and that simplifies commits and pushes to repositories."
+      },
+      "date": 1575324311503
+    },
+    {
+      "type": "add",
+      "id": "7f3bf92df30f5d23",
+      "item": {
+        "type": "paragraph",
+        "id": "7f3bf92df30f5d23",
+        "text": "I am storing drafts of my essays in a private repository in Github and I cloned that repository to a folder on the Raspberry Pi. Next, I added "
+      },
+      "after": "f0ac5d4589a06080",
+      "date": 1575324403694
+    },
+    {
+      "type": "edit",
+      "id": "7f3bf92df30f5d23",
+      "item": {
+        "type": "paragraph",
+        "id": "7f3bf92df30f5d23",
+        "text": "I am storing drafts of my essays in a private repository in Github and I cloned that repository to a folder on the Raspberry Pi, which created a new folder called ~/Projects/EssayDrafts with a current copy of my draft essays."
+      },
+      "date": 1575324544456
+    },
+    {
+      "type": "add",
+      "id": "7a0532bfc0eb6259",
+      "item": {
+        "type": "paragraph",
+        "id": "7a0532bfc0eb6259",
+        "text": "I start VS Code and click File, "
+      },
+      "after": "7f3bf92df30f5d23",
+      "date": 1575324576610
+    },
+    {
+      "type": "edit",
+      "id": "7a0532bfc0eb6259",
+      "item": {
+        "type": "paragraph",
+        "id": "7a0532bfc0eb6259",
+        "text": "I start VS Code and click File, Add Folder To Workspace and select the essays folder above. VS Code found the .git file "
+      },
+      "date": 1575324623322
+    },
+    {
+      "type": "edit",
+      "id": "7a0532bfc0eb6259",
+      "item": {
+        "type": "paragraph",
+        "id": "7a0532bfc0eb6259",
+        "text": "I start VS Code and click File, Add Folder To Workspace and select the essays folder above. VS Code found the .git file that contains the repository metadata and so when I click the "
+      },
+      "date": 1575324675883
+    },
+    {
+      "type": "edit",
+      "id": "7a0532bfc0eb6259",
+      "item": {
+        "type": "paragraph",
+        "id": "7a0532bfc0eb6259",
+        "text": "I start VS Code and click File, Add Folder To Workspace and select the essays folder above. VS Code found the .git file that contains the repository metadata and so when I click the Source Control tool after saving a change, the change is recognized to be committed by clicking the check. "
+      },
+      "date": 1575324775111
+    },
+    {
+      "type": "edit",
+      "id": "7a0532bfc0eb6259",
+      "item": {
+        "type": "paragraph",
+        "id": "7a0532bfc0eb6259",
+        "text": "I start VS Code and click File, Add Folder To Workspace and select the essays folder above. VS Code found the .git file that contains the repository metadata and so when I click the Source Control tool after saving a change, the change is recognized to be committed by clicking the check icon. "
+      },
+      "date": 1575324809119
+    },
+    {
+      "type": "edit",
+      "id": "7a0532bfc0eb6259",
+      "item": {
+        "type": "paragraph",
+        "id": "7a0532bfc0eb6259",
+        "text": "I start VS Code and click File, Add Folder To Workspace and select the essays folder above. VS Code found the .git file that contains the repository metadata and so when I click the Source Control tool after saving a change, the change is recognized to be committed by clicking the check icon. To push the committed changes to the repository click the \"...\" icon and then click Push, after which I am prompted for my Github ID and password."
+      },
+      "date": 1575324902188
+    },
+    {
+      "type": "edit",
+      "id": "a8d2fea9363b0e40",
+      "item": {
+        "type": "paragraph",
+        "id": "a8d2fea9363b0e40",
+        "text": "Right now all the builds of Code OSS are for Raspbian Stretch and the most current release of it does not run on Raspbian Buster, which is what I am running on the Pi 4. Fortunately, there is an older version that does run and the instructions I linked to above provides the installation for that version.  The instructions include a step to prevent Code OSS from being updated so that the old version doesn't get overwritten the next time you do an apt upgrade. **Update:** As of 1/13/2020 this issue has been fixed by the maintainer and I have removed the upgrade hold and upgraded to the current version."
+      },
+      "date": 1578926338704
+    },
+    {
+      "type": "edit",
+      "id": "a8d2fea9363b0e40",
+      "item": {
+        "type": "paragraph",
+        "id": "a8d2fea9363b0e40",
+        "text": "Right now all the builds of Code OSS are for Raspbian Stretch and the most current release of it does not run on Raspbian Buster, which is what I am running on the Pi 4. Fortunately, there is an older version that does run and the instructions I linked to above provides the installation for that version.  The instructions include a step to prevent Code OSS from being updated so that the old version doesn't get overwritten the next time you do an apt upgrade. "
+      },
+      "date": 1578926352640
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "9e4cce7cafbd93d2"
+      },
+      "id": "9e4cce7cafbd93d2",
+      "type": "add",
+      "after": "7a0532bfc0eb6259",
+      "date": 1578926356111
+    },
+    {
+      "type": "edit",
+      "id": "9e4cce7cafbd93d2",
+      "item": {
+        "type": "markdown",
+        "id": "9e4cce7cafbd93d2",
+        "text": "**Update:** As of 1/13/2020 this issue has been fixed by the maintainer and I have removed the upgrade hold and upgraded to the current version."
+      },
+      "date": 1578926359609
+    },
+    {
+      "type": "move",
+      "order": [
+        "8ce8f51109951ce4",
+        "7375adcc84339f23",
+        "3ab433a043825116",
+        "eef8de4952aedf28",
+        "8e00a8803e0be8bd",
+        "a8d2fea9363b0e40",
+        "9e4cce7cafbd93d2",
+        "3fb186f61abb2292",
+        "f0ac5d4589a06080",
+        "7f3bf92df30f5d23",
+        "7a0532bfc0eb6259"
+      ],
+      "id": "9e4cce7cafbd93d2",
+      "date": 1578926364901
+    },
+    {
+      "type": "edit",
+      "id": "9e4cce7cafbd93d2",
+      "item": {
+        "type": "markdown",
+        "id": "9e4cce7cafbd93d2",
+        "text": ">**Update:** As of 1/13/2020 this issue I describe above has been fixed by the maintainer and I have removed the upgrade hold and upgraded to the current version."
+      },
+      "date": 1578926387911
+    },
+    {
+      "type": "edit",
+      "id": "8e00a8803e0be8bd",
+      "item": {
+        "type": "paragraph",
+        "id": "8e00a8803e0be8bd",
+        "text": "Previously, Microsoft did not release a build of VS Code for ARM64 that is needed to run on the Raspberry Pi, but https://code.headmelted.com/ Jay Rodgers] is building and maintaining an ARM version called Code OSS and I found instructions for installing it on the Raspberry Pi. [https://www.makeuseof.com/tag/raspberry-pi-code-oss/ page]. Now that Microsoft is providing ARM64 releases of VS Code I do not know how long this community version will be maintained."
+      },
+      "date": 1603208957103
+    },
+    {
+      "type": "edit",
+      "id": "8e00a8803e0be8bd",
+      "item": {
+        "type": "paragraph",
+        "id": "8e00a8803e0be8bd",
+        "text": "Previously, Microsoft did not release a build of VS Code for ARM64 that is needed to run on the Raspberry Pi, but [https://code.headmelted.com/ Jay Rodgers] is building and maintaining an ARM version called Code OSS and I found instructions for installing it on the Raspberry Pi. [https://www.makeuseof.com/tag/raspberry-pi-code-oss/ page]. Now that Microsoft is providing ARM64 releases of VS Code I do not know how long this community version will be maintained."
+      },
+      "date": 1603208970083
+    },
+    {
+      "type": "add",
+      "id": "cec817be46a01152",
+      "item": {
+        "type": "paragraph",
+        "id": "cec817be46a01152",
+        "text": "Microsoft provides VS Code for free and the Linux ARM64 version is available for download from their [https://code.visualstudio.com/docs/?dv=linuxarm64_deb site]."
+      },
+      "after": "eef8de4952aedf28",
+      "date": 1603209059417
+    },
+    {
+      "type": "fork",
+      "site": "fedwiki.frankmcpherson.net",
+      "date": 1609420628400
+    }
+  ]
+}
